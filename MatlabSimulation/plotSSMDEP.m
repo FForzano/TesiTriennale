@@ -2,7 +2,7 @@ function plotSSMDEP()
     theta = pi;
     np = [0:0.1:10];
     r = [0 0.01 0.1 0.2 0.5];
-    N = 50;
+    N = 30;
 
     n_th = 1E-3;
     p0=0.5; p1=0.5;

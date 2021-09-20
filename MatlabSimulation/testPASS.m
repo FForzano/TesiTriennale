@@ -6,7 +6,7 @@ n_th = 0.2;
 p0=0.5; p1=0.5;
 k=1;
 
-N = 20;
+N = 10;
 
 Xi = setNoisyPASS(mu,r,theta,k,n_th);
 

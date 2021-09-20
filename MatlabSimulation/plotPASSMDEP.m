@@ -1,6 +1,6 @@
 function plotPASSMDEP()
     theta = pi;
-    mu = [0:0.01:1];
+    mu = [0:0.1:1];
 %     r = [0 0.01 0.1 0.2 0.5];
     r = [0 0.01];
     n_th = 0.2;
