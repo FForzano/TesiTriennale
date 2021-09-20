@@ -15,8 +15,8 @@
 
 % Ref and bibliography
 \usepackage{hyperref}
-\usepackage{biblatex}
-\addbibresource[]{./bibliography.bib}
+\usepackage[backend=biber, style=numeric]{biblatex}
+\addbibresource{./bibliography.bib}
 % Image
 %\usepackage{graphicx}
 \usepackage{subcaption}
@@ -33,8 +33,13 @@
 % Main document file
 \begin{document}
 
+    \frontmatter
     \input{Frame/Frontespizio}
     \tableofcontents
+
+    \mainmatter
     \input{Frame/Chapter1}
 
+    \nocite{*}
+    \printbibliography[heading=bibintoc]
 \end{document}

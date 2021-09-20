@@ -1,5 +1,6 @@
 #! /bin/bash
 
-pdflatex Tesi.tex
-pdflatex Tesi-frn.tex
-pdflatex Tesi.tex
+pdflatex Tesi
+pdflatex Tesi-frn
+biber Tesi
+pdflatex Tesi

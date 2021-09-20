@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.22)  19 SEP 2021 22:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.22)  20 SEP 2021 18:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Tesi-frn.tex
+**Tesi-frn
 (./Tesi-frn.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18>
@@ -230,7 +230,7 @@ Here is how much of TeX's memory you used:
  20146 multiletter control sequences out of 15000+600000
  407395 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,14n,74p,215b,250s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,14n,74p,211b,250s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmbx9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm

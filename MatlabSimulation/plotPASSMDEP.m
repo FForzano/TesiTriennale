@@ -1,13 +1,13 @@
 function plotPASSMDEP()
     theta = pi;
-    mu = [0:0.1:1];
-    np = [0:0.1:4];
-    r = [0 0.01 0.1 0.2 0.5];
+%    mu = [0:0.1:1];
+    np = [0:0.4:4];
+    r = [0 0.01 0.1]; %0.2 0.5];
 %    r = [0 0.01];
     n_th = 1E-2;
     p0=0.5; p1=0.5;
     N = 30;
-    errMax = 1E-6;
+    errMax = 1E-3;
     
     % plot configuration
     colors = ['r','r','m','m','g','g','b','b','y','y'];

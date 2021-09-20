@@ -7,7 +7,7 @@
         Like every phisics theory, quantum mechanics is builded from few 
         essential postulates.
         In this section are briefly introduced the six Dirac-Von Newman 
-        postulates of Quantum Mechanics.
+        postulates of Quantum Mechanics \cite{quantumMec_Dirac}\cite{quantumMec_Neumann}.
         
         \subsection{First Postulate}
         \begin{postulate}[State Representation]
@@ -47,21 +47,46 @@
             The probability to get the measurement $\lambda_i$ from the observable 
             $\mathcal{M}$ in the system in state $\ket{\psi}$ is:
             \begin{equation*}
-                \mathbb{P}(\lambda_i)=\braket{\psi}{\lambda_i}\braket{\lambda_i}{\psi}
+                %\mathbb{P}(\lambda_i)=\braket{\psi}{\lambda_i}\braket{\lambda_i}{\psi}
+                \mathbb{P}(\lambda_i)=\bra{\psi}\mathcal{P}_i\ket{\psi}
             \end{equation*}
             where $\bra{\psi}$ is the correspondent vector of $\ket{\psi}$ in the 
-            dual space of $\Hilbert$ and $\ket{\lambda_i}$ is the eigenvector correspontent
-            to the eigenvalue $\lambda_i$.\\
-            Equivalently, it is possible to write:
-            \begin{equation*}
-                \mathbb{P}(\lambda_i)=\bra{\psi}\mathcal{P_i}\ket{\psi}
-            \end{equation*}
-            where $\mathcal{P_i}$ is the projection operator corresponding to $\lambda_i$.
+            dual space of $\Hilbert$ and where $\mathcal{P}_i$ is the projection operator
+            of $\lambda_i$ in the correspondent space.
             \label{post:3}
         \end{postulate}
 
         \subsection{Fourth Postulate}
         \begin{postulate}[Wavefunction Collapse]
-
+            The state after measurement of $\lambda_i$ is $\mathcal{P}_i\ket{\psi}$ (with the
+            necessary normalization):
+            \begin{equation*}
+                \ket{\psi'}=\frac{\mathcal{P}_i\ket{\psi}}{\bra{\psi}\mathcal{P}_i\ket{\psi}}.
+            \end{equation*}
             \label{post:4}
+        \end{postulate}
+
+        \subsection{Fifth Postulate}
+        \begin{postulate}[Time Evolution]
+            The time evolution of an isolated quantum system is given by an unitary operator
+            $\mathcal{U}$:
+            \begin{equation*}
+                \ket{\psi(t)}=\mathcal{U}(t_0,t)\ket{\psi(t_0)}.
+            \end{equation*}
+            \label{post:5}
+        \end{postulate}
+        \begin{observation*}[Time dependent Shrodinger Equation]
+            From postulate \ref{post:5}, is possible to found the time dependent Shrodinger Equation:
+            \begin{equation*}
+                i\hbar\derivative{\ket{\psi(t)}}{t}=H(t)\ket{\psi(t)}
+            \end{equation*}
+            where $H(t)$ is the Hemiltonian matrix.
+        \end{observation*}
+
+        \subsection{Sixth Postulate}
+        \begin{postulate}[Composite System]
+            The state space of a system composite from $\Hilbert_1$ and $\Hilbert_2$ is given by
+            \begin{equation*}
+                \Hilbert=\Hilbert_1\otimes\Hilbert_2.
+            \end{equation*}
         \end{postulate}

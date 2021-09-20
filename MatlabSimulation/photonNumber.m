@@ -62,6 +62,6 @@ function np = photonNumber(mu, Xi, N)
         Xi.type = 'nPASSnotNormalized';
         Xi_aux = Xi;
         Xi_aux.k = Xi.k +1;
-        np = trace(FockRepresentation(Xi,N))/trace(FockRepresentation(Xi_aux,N))-1;
+        np = trace(FockRepresentation(Xi_aux,N))/trace(FockRepresentation(Xi,N))-1;
     end
 end
