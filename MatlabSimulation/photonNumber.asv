@@ -43,7 +43,7 @@
 % 
 % end
 
-function np = photonNumber(mu, Xi, N)
+function np = photonNumber(mu, Xi)
     
     if(strcmp(Xi.type,'nPACS'))
         
@@ -58,10 +58,10 @@ function np = photonNumber(mu, Xi, N)
         np = abs(mu)^2 + sinh(r)^2;
         return;
         
-    elseif(strcmp(Xi.type,'nPASS'))
-        Xi.type = 'nPASSnotNormalized';
+    elseif(strcmp(system,'nPASS'))
+        Xi.type = 'nPASS_notNormalized';
         Xi_aux = Xi;
         Xi_aux.k = Xi.k +1;
-        np = trace(FockRepresentation(Xi,N))/trace(FockRepresentation(Xi_aux,N))-1;
+        np = trace(FockRepresentation(Xi))/trace(FockRepresentation(Xi_aux))-1;
     end
 end

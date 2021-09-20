@@ -22,13 +22,14 @@ function plotkMDEP_BPSK(N,p0,p1,n_th)
         end
         
         for np = [k:10]
-            mu_b = np2mu(np/2,n_th,[k],0,5,delta,'nPACS');
-            mu_o = np2mu(np,n_th,[k],0,5,delta,'nPACS');
+            Xi1_OOK = setNoisyPACS(0,k,n_th);
+            Xi1_BPSK = setNoisyPACS(0,k,n_th);
+            
+            Xi1_OOK.mu = np2mu(np/2,Xi1_OOK,0,5,delta);
+            Xi1_BPSK.mu = np2mu(np,Xi1_BPSK,0,5,delta);
             
             Xi0_OOK = setNoisyPACS(0,0,n_th);
-            Xi0_BPSK = setNoisyPACS(-mu_b,k,n_th);
-            Xi1_OOK = setNoisyPACS(mu_o,k,n_th);
-            Xi1_BPSK = setNoisyPACS(mu_b,k,n_th);
+            Xi0_BPSK = setNoisyPACS(-Xi1_BPSK.mu,k,n_th);
             
             Pe_OOK(np+1) = MDEP(p0,Xi0_OOK,p1,Xi1_OOK,N);
             Pe_BPSK(np+1) = MDEP(p0,Xi0_BPSK,p1,Xi1_BPSK,N);

@@ -6,7 +6,7 @@ function plotNoiseEffect(N,p0,p1)
     index = 1;
     k=2;
     
-    mu = np2mu(np_zero,1E-8,[k],0,5,delta,'nPACS');
+    mu = np2mu(np_zero,setNoisyPACS(0,k,0),0,5,delta);
     
     for i = n_th
         Xi0 = setNoisyPACS(0,0,i);

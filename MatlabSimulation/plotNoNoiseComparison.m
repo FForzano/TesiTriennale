@@ -24,7 +24,7 @@ function plotNoNoiseComparison(N,p0,p1,n_th)
         end
         
         for np = [k:0.02:10]
-            mu = np2mu(np,n_th,[k],0,5,delta,'nPACS');
+            mu = np2mu(np,setNoisyPACS(0,k,n_th),0,5,delta,'nPACS');
             Xi0 = setNoisyPACS(-mu,k,n_th);
             Xi1 = setNoisyPACS(mu,k,n_th);
             

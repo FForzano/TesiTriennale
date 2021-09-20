@@ -22,7 +22,7 @@ function plotSSMDEP()
             if(current_np/2 < np_min)
                 Pe(i) = NaN;
             else
-                current_mu = np2mu(current_np/2,n_th,[current_r],0,5,maxErr,'nSS');
+                current_mu = np2mu(current_np/2,setNoisySS(0,current_r,theta,n_th),0,5,maxErr);
                 Xi0 = setNoisySS(-current_mu,current_r,theta,n_th);
                 Xi1 = setNoisySS(current_mu,current_r,theta,n_th);
 
