@@ -1,0 +1,40 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+\documentclass[%
+    %corpo=11pt,  
+    twoside, 
+    a4paper,
+    titlepage
+    ]{book}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{csquotes}
+\usepackage{frontespizio}
+
+% Ref and bibliography
+\usepackage{hyperref}
+\usepackage{biblatex}
+\addbibresource[]{./bibliography.bib}
+% Image
+%\usepackage{graphicx}
+\usepackage{subcaption}
+\graphicspath{{./Pictures}}
+% Specific language
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{ntheorem}
+\usepackage{physics}
+\newtheorem{postulate}{Postulate}
+\newtheorem*{observation*}{\textbf{Observation}}
+\newcommand{\Hilbert}{\mathcal{H}}
+
+% Main document file
+\begin{document}
+
+    \input{Frame/Frontespizio}
+    \tableofcontents
+    \input{Frame/Chapter1}
+
+\end{document}

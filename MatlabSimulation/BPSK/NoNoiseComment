@@ -1,0 +1,7 @@
+Si osserva una iniziale congruenza tra i grafici, in assenza di rumore, elaborati
+come approssimazione (lim per n_th->0) e quelli con formula esatta.
+Si osserva inoltre che esiste un numero di fotoni nel sistema oltre il quale 
+l'approssimazione non funziona più. Tale numero dipende dalla dimensione N scelta.
+
+Purtroppo non sono in grado, senza stravolgere il programma, di procedere con N molto
+più grandi.

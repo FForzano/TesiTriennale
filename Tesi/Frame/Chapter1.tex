@@ -1,0 +1,67 @@
+\chapter{Quantum Mechanics Abstract}
+    In this chapter, a bief overview of quantum mechanics postulates and
+    of the notation used in this thesis is given. The target of that is 
+    to explain to the reader the essential concept [...]
+
+    \section{Postulates}
+        Like every phisics theory, quantum mechanics is builded from few 
+        essential postulates.
+        In this section are briefly introduced the six Dirac-Von Newman 
+        postulates of Quantum Mechanics.
+        
+        \subsection{First Postulate}
+        \begin{postulate}[State Representation]
+            The state of an isolated quantum system is represented by a complex unitary 
+            vector in an Hilbert space:
+            \begin{equation*}
+                \ket{\psi} \in \Hilbert
+            \end{equation*}
+            The space of possible states of the system is called state space and is a
+            separable complex Hilbert space.
+            \label{post:1}
+        \end{postulate}
+        \begin{observation*}
+            Differently to the classical physics, in quantum mechanics the concept
+            of state of system is introduced. In classical mechanics a system is 
+            described by his observables, like position or four-wheeled.
+        \end{observation*}
+        
+        \subsection{Second Postulate}
+        \begin{postulate}[Observables]
+            Every observables of the system is represented by an Hermitian operator
+            acting on the state space:
+            \begin{equation*}
+                \mathcal{M}:\Hilbert\to\Hilbert
+            \end{equation*}
+            The outcomes of the measurement can only be one of the eigenvalue of the 
+            operator $\mathcal{M}$.
+            \label{post:2}
+        \end{postulate}
+        \begin{observation*}
+            The possible outcomes of the measurement are real number because $\mathcal{M}$
+            is self-andjoint. 
+        \end{observation*}
+
+        \subsection{Third Postulate}
+        \begin{postulate}[Born's Rule]
+            The probability to get the measurement $\lambda_i$ from the observable 
+            $\mathcal{M}$ in the system in state $\ket{\psi}$ is:
+            \begin{equation*}
+                \mathbb{P}(\lambda_i)=\braket{\psi}{\lambda_i}\braket{\lambda_i}{\psi}
+            \end{equation*}
+            where $\bra{\psi}$ is the correspondent vector of $\ket{\psi}$ in the 
+            dual space of $\Hilbert$ and $\ket{\lambda_i}$ is the eigenvector correspontent
+            to the eigenvalue $\lambda_i$.\\
+            Equivalently, it is possible to write:
+            \begin{equation*}
+                \mathbb{P}(\lambda_i)=\bra{\psi}\mathcal{P_i}\ket{\psi}
+            \end{equation*}
+            where $\mathcal{P_i}$ is the projection operator corresponding to $\lambda_i$.
+            \label{post:3}
+        \end{postulate}
+
+        \subsection{Fourth Postulate}
+        \begin{postulate}[Wavefunction Collapse]
+
+            \label{post:4}
+        \end{postulate}

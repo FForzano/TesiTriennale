@@ -1,0 +1,9 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'risultati.blg'
+[69] biber:340> INFO - === mer set 15, 2021, 10:54:35
+[83] Biber.pm:415> INFO - Reading 'risultati.bcf'
+[154] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[159] Utils.pm:395> WARN - The file 'risultati.bcf' does not contain any citations!
+[167] bbl.pm:654> INFO - Writing 'risultati.bbl' with encoding 'UTF-8'
+[167] bbl.pm:757> INFO - Output to risultati.bbl
+[168] Biber.pm:128> INFO - WARNINGS: 1

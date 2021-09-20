@@ -1,0 +1,7 @@
+Possiamo osservare che:
+ - In un sistema BPSK parrebbe essere invertita la tendenza (al crescere del numero di fotoni aggiunti calano le prestazioni);
+   avremmo potuto aspettarci questo risultato consultando i grafici in fig.3, da cui è evidente come la configurazioni 
+   BPSK (mu e -mu) non sia una condizione di ottimo.
+ - La parte di grafico considerevole è quella per np < soglia; la soglia dipende da N (numero di approssimazione).
+ - La soglia coincide con il punto di rottura nel grafico di confronto tra formula approssimata e non
+ - le curve di prestazioni, nei limiti dell'approssimazione, si presentano come monotone decrescenti,
