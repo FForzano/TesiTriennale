@@ -21,8 +21,8 @@ function plotkMDEP(N,p0,p1,n_th)
         for np = [k:10]
             Xi0 = setNoisyPACS(0,0,n_th);
             
-            Xi1 = setNoisyPACS(0,k,n_th);
-            Xi1.mu = np2mu(np,Xi1,0,5,delta);
+            umu = np2mu(np,setNoisyPACS(0,k,n_th),0,5,delta);
+            Xi1 = setNoisyPACS(mu,k,n_th);
             
             Pe(np+1) = MDEP(p0,Xi0,p1,Xi1,N);
         end
