@@ -41,16 +41,11 @@ function Xi_out = FockRepresentation(Xi, N)
         return;
         
     elseif(strcmp(Xi.type,'nPASSnotNormalized'))
-
+    % Only diagonal compute for np elboration
         parfor n = [0:N-1]
             line = zeros(1,N);
-            for m = [0:N-1]
-                if n==m
-                    line(m+1) = FRNoisyPASS(Xi,n,m);
-                else
-                    line(m+1) = 0;
-                end
-            end
+            line(n+1) = FRNoisyPASS(Xi,n,n);
+
             Xi_out(n+1,:) = line;
         end
         
