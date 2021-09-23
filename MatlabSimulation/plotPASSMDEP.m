@@ -1,12 +1,13 @@
 function plotPASSMDEP()
     theta = pi;
-%    mu = [0:0.1:1];
-    np = [0:0.4:4];
-    r = [0 0.01 0.1]; %0.2 0.5];
-%    r = [0 0.01];
+    mu_start = 0;
+    mu_delta = 0.1;
+    np_max = 10;
+    %r = [0 0.01 0.1 0.2 0.5];
+    r=0.01;
     n_th = 1E-2;
     p0=0.5; p1=0.5;
-    N = 30;
+    N = 50;
     errMax = 1E-3;
     
     % plot configuration
@@ -20,35 +21,59 @@ function plotPASSMDEP()
         for k = [0 1]
             Pe = [];
             i=1;
-%             for current_mu = mu
-%                 Xi0 = setNoisyPASS(-current_mu,current_r,theta,k,n_th);
-%                 Xi1 = setNoisyPASS(current_mu,current_r,theta,k,n_th);
-% 
-%                 Pe(i) = MDEP(p0,Xi0,p1,Xi1,N);
-% 
-%                 i = i+1;
-%             end
-            for current_np = np
-                mu = np2mu(current_np/2,setNoisyPASS(0,current_r,theta,k,n_th),0,5,errMax, N);
-                Xi0 = setNoisyPASS(-mu,current_r,theta,k,n_th);
-                Xi1 = setNoisyPASS(mu,current_r,theta,k,n_th);
+            
+            np=[];
+            current_mu = mu_start;
+            np(i) = photonNumber(current_mu,setNoisyPASS(current_mu,current_r,theta,k,n_th),N)*2;
+            while np(i) <= np_max
+                Xi0 = setNoisyPASS(-current_mu,current_r,theta,k,n_th);
+                Xi1 = setNoisyPASS(current_mu,current_r,theta,k,n_th);
 
                 Pe(i) = MDEP(p0,Xi0,p1,Xi1,N);
 
                 i = i+1;
+                
+                current_mu = current_mu + mu_delta;
+                np(i) = photonNumber(current_mu,setNoisyPASS(current_mu,current_r,theta,k,n_th),N)*2;
             end
+            np(end)=[];
+
+% 
+%             i=1;
+%             np_PACS=[];
+%             PePACS=[];
+%             current_mu=0;
+%             np_PACS(i) = photonNumber(current_mu,setNoisyPACS(current_mu,k,n_th),N)*2;
+%             while np_PACS(i) <= np_max
+%                 
+%                 Xi0_PACS = setNoisyPACS(-current_mu,k,n_th);
+%                 Xi1_PACS = setNoisyPACS(current_mu,k,n_th);
+% 
+%                 PePACS(i) = MDEP(p0,Xi0_PACS,p1,Xi1_PACS,N);
+% 
+%                 i = i+1;
+%                 
+%                 current_mu = current_mu + 0.1;
+%                 np_PACS(i) = photonNumber(current_mu,setNoisyPACS(current_mu,k,n_th),N)*2;
+%             end
+%             np_PACS(end)=[];
             
             current_line = line(plot_number);
             current_color = colors(plot_number);
             plot(np,Pe,strcat(current_line,current_color));
             plot_number = plot_number+1;
+            
+%             current_line = line(plot_number);
+%             current_color = colors(plot_number);
+%             plot(np_PACS,PePACS,strcat(current_line,current_color));
+%             plot_number = plot_number+1;
 
         end
     end
     
     
     
-    xlabel('mu')
+    xlabel('np')
     ylabel('Pe')
     set(gca, 'YScale', 'log')
     legend('r = 0 & k = 0',...
@@ -61,4 +86,8 @@ function plotPASSMDEP()
         'r = 0.2 & k = 1',...
         'r = 0.5 & k = 0',...
         'r = 0.5 & k = 1')
+%     legend('PASS & k = 0',...
+%         'PACS & k = 0',...
+%         'PASS & k = 1',...
+%         'PACS & k = 1')
 end
