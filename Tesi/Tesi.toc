@@ -5,20 +5,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Postulates}{1}{section.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}First Postulate}{1}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}First postulate}{1}{subsection.1.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.2}Second Postulate}{1}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.2}Second postulate}{1}{subsection.1.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.3}Third Postulate}{2}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.3}Third postulate}{2}{subsection.1.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.4}Fourth Postulate}{2}{subsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.1.4}Fourth postulate}{2}{subsection.1.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.5}Fifth Postulate}{2}{subsection.1.1.5}%
+\contentsline {subsection}{\numberline {1.1.5}Fifth postulate}{2}{subsection.1.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.6}Sixth Postulate}{2}{subsection.1.1.6}%
+\contentsline {subsection}{\numberline {1.1.6}Sixth postulate}{2}{subsection.1.1.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}Combining Systems}{2}{section.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}Density Operator}{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.1}Density operator}{3}{subsection.1.2.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.3}Quantized Electromagnetic Field}{3}{section.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.1}Classical electromagnetic field}{3}{subsection.1.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.2}Quantized electromagnetic field}{4}{subsection.1.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{5}{chapter*.2}%

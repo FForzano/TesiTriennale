@@ -1,102 +1,16 @@
 \chapter{Quantum Mechanics Abstract}
-    In this chapter, a bief overview of quantum mechanics postulates and
-    of the notation used in this thesis is given. The target of that is 
-    to explain to the reader the essential concept [...]
+    In this chapter, a bief overview of quantum mechanics postulates,
+    of the notation and of the essential concept used in this thesis is given. 
+    The target of that is to explain to the reader the essential concept, in 
+    order to give him the possibility to understand the obtained result.
 
-    \section{Postulates}
-        Like every phisics theory, quantum mechanics is builded from few 
-        essential postulates.
-        In this section are briefly introduced the six Dirac-Von Newman 
-        postulates of Quantum Mechanics \cite{quantumMec_Dirac}\cite{quantumMec_Neumann}.
-        
-        \subsection{First Postulate}
-        \begin{postulate}[State Representation]
-            The state of an isolated quantum system is represented by a complex unitary 
-            vector in an Hilbert space:
-            \begin{equation*}
-                \ket{\psi} \in \Hilbert
-            \end{equation*}
-            The space of possible states of the system is called state space and it is a
-            separable complex Hilbert space.
-            \label{post:1}
-        \end{postulate}
-        \begin{observation*}
-            Differently from the classical physics, in quantum mechanics the concept
-            of state of system is introduced. In classical mechanics a system is 
-            described by his observables, like position or four-wheeled.
-        \end{observation*}
-        
-        \subsection{Second Postulate}
-        \begin{postulate}[Observables]
-            Every observables of the system is represented by an Hermitian operator
-            acting on the state space:
-            \begin{equation*}
-                \mathcal{M}:\Hilbert\to\Hilbert
-            \end{equation*}
-            The outcomes of the measurement can only be one of the eigenvalue of the 
-            operator $\mathcal{M}$.
-            \label{post:2}
-        \end{postulate}
-        \begin{observation*}
-            The possible outcomes of the measurement are real number because $\mathcal{M}$
-            is self-andjoint. 
-        \end{observation*}
-
-        \subsection{Third Postulate}
-        \begin{postulate}[Born's Rule]
-            The probability to get the measurement $\lambda_i$ from the observable 
-            $\mathcal{M}$ in the system in state $\ket{\psi}$ is:
-            \begin{equation*}
-                %\mathbb{P}(\lambda_i)=\braket{\psi}{\lambda_i}\braket{\lambda_i}{\psi}
-                \mathbb{P}(\lambda_i)=\bra{\psi}\mathcal{P}_i\ket{\psi}
-            \end{equation*}
-            where $\bra{\psi}$ is the correspondent vector of $\ket{\psi}$ in the 
-            dual space of $\Hilbert$ and where $\mathcal{P}_i$ is the projection operator
-            of $\lambda_i$ in the correspondent space.
-            \label{post:3}
-        \end{postulate}
-
-        \subsection{Fourth Postulate}
-        \begin{postulate}[Wavefunction Collapse]
-            The state after measurement of $\lambda_i$ is $\mathcal{P}_i\ket{\psi}$ (with the
-            necessary normalization):
-            \begin{equation*}
-                \ket{\psi'}=\frac{\mathcal{P}_i\ket{\psi}}{\bra{\psi}\mathcal{P}_i\ket{\psi}}.
-            \end{equation*}
-            \label{post:4}
-        \end{postulate}
-
-        \subsection{Fifth Postulate}
-        \begin{postulate}[Time Evolution]
-            The time evolution of an isolated quantum system is given by an unitary operator
-            $\mathcal{U}$:
-            \begin{equation*}
-                \ket{\psi(t)}=\mathcal{U}(t_0,t)\ket{\psi(t_0)}.
-            \end{equation*}
-            \label{post:5}
-        \end{postulate}
-        \begin{observation*}[Time dependent Shrodinger Equation]
-            From postulate \ref{post:5}, is possible to found the time dependent Shrodinger Equation:
-            \begin{equation*}
-                i\hbar\partialderivative{}{t}\ket{\psi(t)}=H(t)\ket{\psi(t)}
-            \end{equation*}
-            where $H(t)$ is the Hemiltonian matrix.
-        \end{observation*}
-
-        \subsection{Sixth Postulate}
-        \begin{postulate}[Composite System]
-            The state space of a system composite from $\Hilbert_1$ and $\Hilbert_2$ is given by
-            \begin{equation*}
-                \Hilbert=\Hilbert_1\otimes\Hilbert_2.
-            \end{equation*}
-            \label{post:6}
-        \end{postulate}
+    \input{SectionCH1/Postulates.tex}
 
     \section{Combining Systems}
     The last postulate \ref{post:6} has very important consequences for composite system. It is possible
     to descrive two tipe of combined systems:
 
-        \begin{definition}[Product States]
+        \begin{definition}[Product states]
             A state $\ket{\psi}\in\Hilbert$ with $\Hilbert=\Hilbert_1\otimes\Hilbert_2$ is a
             pure state if exists $\ket{\psi_1}\in\Hilbert_1$ and $\ket{\psi_2}\in\Hilbert_2$
             such that:
@@ -108,14 +22,14 @@
         A product state represent two states which do not interact; an operation on one of 
         them don't perturb the other.
 
-        \begin{definition}[Entengled States]
+        \begin{definition}[Entengled states]
             A system that is not in a product state (\ref{def:1}), is an entengled state. 
             \label{def:2}
         \end{definition}
         When a system is in an entengled state is not possible to charaterize the two subsystems
         with the states vector, as the state vector of the composite system is known.
 
-        \subsection{Density Operator}
+        \subsection{Density operator}
             For a more general treatment, the following representation of states is given:
             \begin{definition}
                 The state of quantum system is described by a linear operator, called density
@@ -141,11 +55,79 @@
                 \label{post:5.1}
             \end{equation}
 
-        \section{Quantized Electromagnetic Field}
-            Electromagnetic field is the main means of communication for contemporary
-            application. It is important therefor, to give a quantum representation.
-            \par In a volume $\mathcal{V}\in\mathbb{R}^3$ classical magnetic field is 
+    \section{Quantized Electromagnetic Field}
+        Electromagnetic field is the main means of communication for contemporary
+        application. It is important therefor, to give a quantum representation.
+        In this section the representation of quantized electromagnetic field is 
+        initially given, so some relevant states of this are briefly charaterized.
+                
+        \subsection{Classical electromagnetic field}
+            In a volume $\mathcal{V}\in\mathbb{R}^3$ classical magnetic field is 
             determinated from Maxwell's equations as a superposition of the cavity modes
             \begin{equation}
                 \mathbf{e}(\mathbf{r},t)=\sum_n p_n (t)\mathbf{u}_n (\mathbf{r})
+                \label{eq:CEF.1}
             \end{equation}
+            where
+            \begin{equation*}
+                \mathbf{u}_n (\mathbf{r})=\mathbf{u}_{n0}\ exp^{i\mathbf{k}_n \cdot \mathbf{r}}
+            \end{equation*}
+            and $\mathbf{u}_{n0}$ is determinated by the initial condition.
+            Magnetic field is determinated by:
+            \begin{equation}
+                \mathbf{h}(\mathbf{r},t)=\sum_n q_n (t)\nabla\times\mathbf{u}_n (\mathbf{r})
+                \label{eq:CEF.2}
+            \end{equation}
+            and
+            \begin{equation}
+                p_n (t)=\derivative{q_n (t)}{t} .
+                \label{eq:CEF.3}
+            \end{equation}
+            The Hemiltonian associated to the n-th mode is given by
+            \begin{equation}
+                H_n=\frac{1}{2}[p_n^2(t)+\omega_n^2q_n^2(t)]
+                \label{eq:CEF.4}
+            \end{equation}
+            or, equivalently, it is possible to define the complex variable $a_n(t)$ as
+            \begin{equation}
+                a_n(t)=\frac{\omega_nq_n(t)+ip_n(t)}{\sqrt{2\hbar\omega_n}}
+                \label{eq:CEF.5}
+            \end{equation}
+            and, using \ref{eq:CEF.5} in \ref{eq:CEF.4}
+            \begin{equation}
+                H_n=\hbar\omega_n\absolutevalue{a_n(t)}^2.
+                \label{eq_CEF.6}
+            \end{equation}
+
+        \subsection{Quantized electromagnetic field}
+            The quantization of electromagnetic field is obtained replacing the two quantities 
+            $p_n(t)$ and $q_n(t)$ with the Hermitian operators 
+            $\mathbf{P}_n(t),\ \mathbf{Q}_n(t):\Hilbert_n\to\Hilbert_n$ and by imposing the following
+            commutation condition:
+            \begin{equation}
+                \commutator{\mathbf{Q}_n}{\mathbf{P}_m}=i\hbar\delta_{n,m}\mathbf{I}
+            \end{equation}
+            \begin{equation}
+                \commutator{\mathbf{Q}_n}{\mathbf{Q}_m}=0
+            \end{equation}
+            \begin{equation}
+                \commutator{\mathbf{P}_n}{\mathbf{P}_m}=0.
+            \end{equation}
+            Defining the annihilation operator $\mathbf{A}_n$ as
+            \begin{equation}
+                \mathbf{A}_n(t)=\frac{\omega_n\mathbf{Q}_n(t)+i\mathbf{P}_n(t)}{\sqrt{2\hbar\omega_n}}
+                \label{eq:QEF.1}
+            \end{equation}
+            and the adjoint of $\mathbf{A}_n$, the creation operator $\mathbf{A}_n^\dagger$ as
+            \begin{equation}
+                \mathbf{A}_n(t)=\frac{\omega_n\mathbf{Q}_n(t)-i\mathbf{P}_n(t)}{\sqrt{2\hbar\omega_n}}
+                \label{eq:QEF.2}
+            \end{equation}
+            it is possible to describe the Hemiltonian of system as
+            \begin{equation}
+                H_n=\hbar\omega_n\mathbf{A}_n^\dagger\mathbf{A}_n.
+                \label{eq:QEF.3}
+            \end{equation}
+
+            It is possible to charaterize some type of quantum states of the quantum electromagnetic 
+            field; in the following section the states studied are briefly described.
