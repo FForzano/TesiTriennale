@@ -1,0 +1,101 @@
+\section{Quantized Electromagnetic Field}
+    Electromagnetic field is the main means of communication for contemporary
+    application. It is important therefor, to give a quantum representation.
+    In this section the representation of quantized electromagnetic field is 
+    initially given, so the Fock representation of a state is introduced.
+            
+    \subsection{Classical electromagnetic field}
+        In a volume $\mathcal{V}\in\mathbb{R}^3$ classical electromagnetic field is 
+        determinated from Maxwell's equations as a superposition of the cavity modes
+        (\cite{tesiGuerrini} quoting \cite{quantumRad_Louissel,quantumOptic_Mandel}).
+        Electric field is given by the well-known expression:
+        \begin{equation}
+            \mathbf{e}(\mathbf{r},t)=\sum_n p_n (t)\mathbf{u}_n (\mathbf{r})
+            \label{eq:CEF.1}
+        \end{equation}
+        where
+        \begin{equation*}
+            \mathbf{u}_n (\mathbf{r})=\mathbf{u}_{n0}\ e^{i\mathbf{k}_n \cdot \mathbf{r}}
+        \end{equation*}
+        and $\mathbf{u}_{n0}$ is determinated by the initial condition.
+        The corresponding magnetic field is determinated by:
+        \begin{equation}
+            \mathbf{h}(\mathbf{r},t)=\sum_n q_n (t)\nabla\times\mathbf{u}_n (\mathbf{r})
+            \label{eq:CEF.2}
+        \end{equation}
+        and
+        \begin{equation}
+            p_n (t)=\derivative{q_n (t)}{t} .
+            \label{eq:CEF.3}
+        \end{equation}
+        The Hemiltonian associated to the n-th mode is given by
+        \begin{equation}
+            H_n=\frac{1}{2}[p_n^2(t)+\omega_n^2q_n^2(t)].
+            \label{eq:CEF.4}
+        \end{equation}
+        Equivalently, it is possible to define the complex variable $a_n(t)$ as
+        \begin{equation}
+            a_n(t)=\frac{\omega_nq_n(t)+ip_n(t)}{\sqrt{2\hbar\omega_n}}
+            \label{eq:CEF.5}
+        \end{equation}
+        and, using \ref{eq:CEF.5} in \ref{eq:CEF.4}, it is possible to obtain the following
+        expression of the Hemiltonian:
+        \begin{equation}
+            H_n=\hbar\omega_n\absolutevalue{a_n(t)}^2.
+            \label{eq_CEF.6}
+        \end{equation}
+
+    \subsection{Quantized electromagnetic field}
+        The quantization of electromagnetic field is obtained replacing the two quantities 
+        $p_n(t)$ and $q_n(t)$ with the Hermitian operators 
+        $\mathbf{P}_n(t),\ \mathbf{Q}_n(t):\Hilbert_n\to\Hilbert_n$ and by imposing the following
+        commutation conditions (\cite{tesiGuerrini} quoting \cite{quantumRad_Louissel,quantumOptic_Mandel}):
+        \begin{equation}
+            \commutator{\mathbf{Q}_n}{\mathbf{P}_m}=i\hbar\delta_{n,m}\mathbf{I}
+        \end{equation}
+        \begin{equation}
+            \commutator{\mathbf{Q}_n}{\mathbf{Q}_m}=0
+        \end{equation}
+        \begin{equation}
+            \commutator{\mathbf{P}_n}{\mathbf{P}_m}=0.
+        \end{equation}
+        Defining the annihilation operator $\mathbf{A}_n$ as
+        \begin{equation}
+            \mathbf{A}_n(t)=\frac{\omega_n\mathbf{Q}_n(t)+i\mathbf{P}_n(t)}{\sqrt{2\hbar\omega_n}}
+            \label{eq:QEF.1}
+        \end{equation} 
+        and the adjoint of $\mathbf{A}_n$, the creation operator $\mathbf{A}_n^\dagger$ as
+        \begin{equation}
+            \mathbf{A}_n(t)=\frac{\omega_n\mathbf{Q}_n(t)-i\mathbf{P}_n(t)}{\sqrt{2\hbar\omega_n}}
+            \label{eq:QEF.2}
+        \end{equation}
+        it is possible to describe the Hemiltonian of the system as
+        \begin{equation}
+            H_n=\hbar\omega_n\mathbf{A}_n^\dagger\mathbf{A}_n.
+            \label{eq:QEF.3}
+        \end{equation}
+
+    \subsection{Fock states}
+        In a single mode cavity, it is possible to define the number operator $\mathbf{N}$ as
+        \begin{equation}
+            \mathbf{N}=\mathbf{A}^\dagger \mathbf{A}.
+        \end{equation}
+        Single mode Fock states are the eigenvector of $N$, i.e the solution of equation:
+        \begin{equation}
+            \mathbf{N}\ket{n}=n\ket{n}.
+        \end{equation}
+        The Fock state $\ket{n}$ represent the quantum state with exactly n photons.
+        It is important to evidence that the set of all Fock states forms an orthonormal basis
+        of the Hilbert space $\Hilbert$, so every state $\Xi$ can be expressed as
+        \begin{equation}
+            \mathbf{\Xi} = \sum_{n,m} c_{n,m}\ket{n}\bra{m}
+            \label{eq:QEF.4}
+        \end{equation}
+        with
+        \begin{equation*}
+            c_{n,m}=\bra{n}\mathbf{\Xi}\ket{m}.
+        \end{equation*}
+
+        Using the representation in Fock basis, it is possible to charaterize some type of quantum 
+        states of the quantum electromagnetic field. In the following section the states studied 
+        are briefly described.

@@ -44,6 +44,83 @@
       \field{year}{1981}
       \field{dateera}{ce}
     \endentry
+    \entry{tesiGuerrini}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=5a602e59e73136bde5d746c0f169cd3c}{%
+           family={Guerrini},
+           familyi={G\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{5a602e59e73136bde5d746c0f169cd3c}
+      \strng{fullhash}{5a602e59e73136bde5d746c0f169cd3c}
+      \strng{bibnamehash}{5a602e59e73136bde5d746c0f169cd3c}
+      \strng{authorbibnamehash}{5a602e59e73136bde5d746c0f169cd3c}
+      \strng{authornamehash}{5a602e59e73136bde5d746c0f169cd3c}
+      \strng{authorfullhash}{5a602e59e73136bde5d746c0f169cd3c}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Quantum Communications: State Characterization and System Design}
+      \field{year}{2021}
+      \field{dateera}{ce}
+    \endentry
+    \entry{quantumRad_Louissel}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ae3eb0e35481ca01d38f6c5f18f36c7e}{%
+           family={Louisell},
+           familyi={L\bibinitperiod},
+           given={W.\bibnamedelimi H.},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {New York: Wiley}%
+      }
+      \strng{namehash}{ae3eb0e35481ca01d38f6c5f18f36c7e}
+      \strng{fullhash}{ae3eb0e35481ca01d38f6c5f18f36c7e}
+      \strng{bibnamehash}{ae3eb0e35481ca01d38f6c5f18f36c7e}
+      \strng{authorbibnamehash}{ae3eb0e35481ca01d38f6c5f18f36c7e}
+      \strng{authornamehash}{ae3eb0e35481ca01d38f6c5f18f36c7e}
+      \strng{authorfullhash}{ae3eb0e35481ca01d38f6c5f18f36c7e}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Quantum Statistical Properties of Radiation.}
+      \field{year}{1973}
+      \field{dateera}{ce}
+    \endentry
+    \entry{quantumOptic_Mandel}{book}{}
+      \name{author}{2}{}{%
+        {{hash=22fe84f5b5a6b10219c209020101d793}{%
+           family={Mandel},
+           familyi={M\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=961da00c0de46b3e7dcc94eacd84a7e4}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {New York: Cambridge University Press}%
+      }
+      \strng{namehash}{2394cf4d4fca850c30dbb3f85cb70de3}
+      \strng{fullhash}{2394cf4d4fca850c30dbb3f85cb70de3}
+      \strng{bibnamehash}{2394cf4d4fca850c30dbb3f85cb70de3}
+      \strng{authorbibnamehash}{2394cf4d4fca850c30dbb3f85cb70de3}
+      \strng{authornamehash}{2394cf4d4fca850c30dbb3f85cb70de3}
+      \strng{authorfullhash}{2394cf4d4fca850c30dbb3f85cb70de3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Optical Coherence and Quantum Optics.}
+      \field{year}{1995}
+      \field{dateera}{ce}
+    \endentry
     \entry{quantumMec_Neumann}{book}{}
       \name{author}{1}{}{%
         {{hash=c85a5107a217748c8f7abdf163ea7566}{%
@@ -68,6 +145,33 @@
       \field{title}{Mathematical foundations of quantum mechanics.}
       \field{year}{1995}
       \field{dateera}{ce}
+    \endentry
+    \entry{Wigner}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0f65f64e6050b36184863dbf3ec857c1}{%
+           family={Wigner},
+           familyi={W\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{0f65f64e6050b36184863dbf3ec857c1}
+      \strng{fullhash}{0f65f64e6050b36184863dbf3ec857c1}
+      \strng{bibnamehash}{0f65f64e6050b36184863dbf3ec857c1}
+      \strng{authorbibnamehash}{0f65f64e6050b36184863dbf3ec857c1}
+      \strng{authornamehash}{0f65f64e6050b36184863dbf3ec857c1}
+      \strng{authorfullhash}{0f65f64e6050b36184863dbf3ec857c1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys.Rev.}
+      \field{number}{5}
+      \field{title}{On the quantum correction for thermodynamic equilibrium}
+      \field{volume}{40}
+      \field{year}{1932}
+      \field{dateera}{ce}
+      \field{pages}{749}
+      \range{pages}{1}
     \endentry
   \enddatalist
 \endrefsection

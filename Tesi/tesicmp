@@ -4,3 +4,4 @@ pdflatex Tesi
 pdflatex Tesi-frn
 biber Tesi
 pdflatex Tesi
+pdflatex Tesi

@@ -1,0 +1,48 @@
+\section{Combining Systems}
+The last postulate \ref{post:6} has very important consequences for composite system. It is possible
+to describe two tipes of combined systems:
+
+    \begin{definition}[Product states]
+        A state $\ket{\psi}\in\Hilbert$ with $\Hilbert=\Hilbert_1\otimes\Hilbert_2$ is a
+        pure state if exists $\ket{\psi_1}\in\Hilbert_1$ and $\ket{\psi_2}\in\Hilbert_2$
+        such that:
+        \begin{equation*}
+            \ket{\psi}=\ket{\psi_1}\otimes\ket{\psi_2}.
+        \end{equation*}
+        \label{def:1}
+    \end{definition}
+    A product state represents two states which do not interact; an operation on one of 
+    them does not perturb the other.
+
+    \begin{definition}[Entengled states]
+        A system that is not in a product state (\ref{def:1}), is in an entengled state. 
+        \label{def:2}
+    \end{definition}
+    When a system is in an entengled state it is not possible to characterize the two subsystems
+    with the states vector, although the state vector of the composite system is known.
+
+    \subsection{Density operator}
+        For a more general treatment, the following representation of states is given:
+        \begin{definition}
+            The state of quantum system is described by a linear operator, called density
+            operator such that:
+            \begin{equation*}
+                \Xi:\Hilbert\to\Hilbert;\ \Xi^\dagger=\Xi;\ tr\{\Xi\}=1.
+            \end{equation*}
+            \label{def:3}
+        \end{definition}
+        According to the definition \ref{def:3}, the postulates \ref{post:3}, \ref{post:4},
+        \ref{post:5} can be reformulate as following.
+        \begin{equation}
+            \mathbb{P}(\lambda_i)=tr\{\Xi\mathcal{P}_i\}
+            \label{post:3.1}
+        \end{equation}
+        \begin{equation}
+            \Xi'=\frac{\mathcal{P}_i\Xi\mathcal{P}_i^\dagger}
+            {tr\{\mathcal{P}_i\Xi\mathcal{P}_i^\dagger\}}
+            \label{post:4.1}
+        \end{equation}
+        \begin{equation}
+            \Xi(t)=\mathcal{U}\Xi(t_0)\mathcal{U}^\dagger
+            \label{post:5.1}
+        \end{equation}
