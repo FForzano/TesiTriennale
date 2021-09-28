@@ -121,9 +121,71 @@
 
 
     \paragraph{Squeezed states}\mbox{} \\
-    A squeezed state is a 
+    A squeezed state with amplitude $\mu$ and squeezing parameter $\zeta$, is a defined as \cite{}
+    \begin{equation}
+        \ket{\mu,\zeta}=\pmb{D}_\mu\pmb{S}_\zeta\ket{0}
+    \end{equation}
+    where $\pmb{S}_\zeta$ is the squeezing operator, defined as
+    \begin{equation}
+        \pmb{S}_\zeta=\exp{\frac{1}{2}\left(\zeta\left(\pmb{A}^\dagger\right)^2+
+        \zeta^*\pmb{A}^2\right)}.
+    \end{equation}
+    It can be proven that a squeezed state is a Gaussian state with $\check{\pmb{\mu}}=[\mu\ \mu^*]^T$
+    and
+    \begin{equation*}
+        \check{\pmb{C}}_0=\frac{1}{2}
+        \begin{bmatrix}
+            \cosh(2r) && \sinh(2r)e^{-i\phi}\\
+            \sinh(2r)e^{-i\phi} && \cosh(2r)
+        \end{bmatrix}
+    \end{equation*}
+    with $\zeta=re^{i\phi}$.
+    The Wigner W-function of a squeezed state, unlike that of a coherent state, has not a 
+    circular symmetry.
 
     \paragraph{Noisy squeezed states}\mbox{} \\
+    The representation of a noisy squeezed state $\pmb{\Xi}_{th}(\mu,\zeta)$ is obtained,
+    similary to a noisy coherent state, as:
+    \begin{equation}
+        \pmb{\Xi}_{th}(\mu,\zeta)=\pmb{D}_\mu\pmb{S}_\zeta\pmb{\Xi}_{th}
+        \pmb{S}_\zeta^\dagger\pmb{D}_\mu^\dagger.
+    \end{equation}
+    The Gaussian Wigner function is obtained with $\check{\pmb{\mu}}=[\mu\ \mu^*]^T$ and
+    \begin{equation*}
+        \check{\pmb{C}}_0=\left(\bar{n}+\frac{1}{2}\right)
+        \begin{bmatrix}
+            \cosh(2r) && \sinh(2r)e^{-i\phi}\\
+            \sinh(2r)e^{-i\phi} && \cosh(2r)
+        \end{bmatrix}.
+    \end{equation*}
+    The Fock representation is given by \cite{MarMar_1993}
+    \begin{equation}\begin{split}
+        \bra{n}\pmb{\Xi}_{th}(\mu,\zeta)\ket{m}=\frac{\pi Q(0)}{(n!m!)^{1/2}}
+        \sum_{k=0}^{min(n,m)} k! \binom{n}{k}\binom{m}{k} \tilde{A}^k\left(\frac{1}{2}
+        \tilde{B}\right)^{(n-k)/2}\\ \left(\frac{1}{2}\tilde{B}^*\right)^{(m-k)/2}
+        H_{n-k}((2\tilde{B})^{-1/2}\tilde{C}) H_{m-k}((2\tilde{B}^*)^{-1/2}\tilde{C}^*) 
+        \label{FR_NSS}
+    \end{split}\end{equation}
+    where $H_n$ is the Hermite polynomial with parameter $n$,
+    \begin{equation*}
+        Q(0)=\frac{1}{\pi}[(1+A)^2-\absolutevalue{B}^2]^{-1/2}\exp{-\frac{(1+A)\absolutevalue{C}^2
+        +\frac{1}{2}[B(C^*)^2+B^*C^2]}{(1+A)^2-\absolutevalue{B}^2}},
+    \end{equation*} 
+    \begin{equation*}
+        \tilde{A}=\frac{A(1+A)-\absolutevalue{B}^2}{(1+A)^2-\absolutevalue{B}^2},
+    \end{equation*}
+    \begin{equation*}
+        \tilde{B}=\frac{B}{(1+A)^2-\absolutevalue{B}^2},
+    \end{equation*}
+    \begin{equation*}
+        \tilde{C}=\frac{(1+A)C+BC^*}{(1+A)^2-\absolutevalue{B}^2};
+    \end{equation*}
+    and
+    \begin{equation*}
+        A=\bar{n}+(2\bar{n}+1)(\sinh(r))^2,\ 
+        B=-(2\bar{n}+1)e^{i\phi}\sinh(r)\cosh(r),\ 
+        C=\alpha.
+    \end{equation*}
 
     \subsection{Non-Gaussian states}
 

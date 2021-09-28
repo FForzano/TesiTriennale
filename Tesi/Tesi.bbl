@@ -460,6 +460,37 @@
       \field{year}{2013}
       \field{dateera}{ce}
     \endentry
+    \entry{MarMar_1993}{article}{}
+      \name{author}{2}{}{%
+        {{hash=da7a7682d97f3323a6ef1979d9e9dadf}{%
+           family={Marian},
+           familyi={M\bibinitperiod},
+           given={Paulina},
+           giveni={P\bibinitperiod}}}%
+        {{hash=09bb9514a40aa0d2c05c0a2bc6967897}{%
+           family={Marian},
+           familyi={M\bibinitperiod},
+           given={Tudor\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4633bd6a11fedd0012f5f433d4be4fcc}
+      \strng{fullhash}{4633bd6a11fedd0012f5f433d4be4fcc}
+      \strng{bibnamehash}{4633bd6a11fedd0012f5f433d4be4fcc}
+      \strng{authorbibnamehash}{4633bd6a11fedd0012f5f433d4be4fcc}
+      \strng{authornamehash}{4633bd6a11fedd0012f5f433d4be4fcc}
+      \strng{authorfullhash}{4633bd6a11fedd0012f5f433d4be4fcc}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phu. Rev. A}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Squeezed states with thermal noise. I. Photon number statistics}
+      \field{volume}{47}
+      \field{year}{1993}
+      \field{dateera}{ce}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
