@@ -33,4 +33,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4.1}Phase-space description}{5}{subsection.1.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{7}{chapter*.2}%
+\contentsline {subsection}{\numberline {1.4.2}Gaussian states}{6}{subsection.1.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Coherent states}{6}{section*.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Noisy coherent states}{7}{section*.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Squeezed states}{7}{section*.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Noisy squeezed states}{7}{section*.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.3}Non-Gaussian states}{7}{subsection.1.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Photon added coherent states}{7}{section*.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Photon added squeezed states}{7}{section*.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{9}{chapter*.8}%

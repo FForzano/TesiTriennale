@@ -1,15 +1,20 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'Tesi.blg'
-[75] biber:340> INFO - === lun set 27, 2021, 12:26:05
-[90] Biber.pm:415> INFO - Reading 'Tesi.bcf'
-[162] Biber.pm:952> INFO - Found 6 citekeys in bib section 0
-[177] Biber.pm:4340> INFO - Processing section 0
-[187] Biber.pm:4531> INFO - Looking for bibtex format file './bibliography.bib' for section 0
-[188] bibtex.pm:1689> INFO - LaTeX decoding ...
-[194] bibtex.pm:1494> INFO - Found BibTeX data source './bibliography.bib'
-[248] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[249] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[249] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[249] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[255] bbl.pm:654> INFO - Writing 'Tesi.bbl' with encoding 'UTF-8'
-[259] bbl.pm:757> INFO - Output to Tesi.bbl
+[77] biber:340> INFO - === mar set 28, 2021, 17:58:51
+[92] Biber.pm:415> INFO - Reading 'Tesi.bcf'
+[189] Biber.pm:952> INFO - Found 15 citekeys in bib section 0
+[204] Biber.pm:4340> INFO - Processing section 0
+[216] Biber.pm:4531> INFO - Looking for bibtex format file './bibliography.bib' for section 0
+[218] bibtex.pm:1689> INFO - LaTeX decoding ...
+[232] bibtex.pm:1494> INFO - Found BibTeX data source './bibliography.bib'
+[278] Utils.pm:395> WARN - legacy month field 'Jun.' in entry 'Gaussian1' is not an integer - this will probably not sort properly.
+[293] Utils.pm:395> WARN - legacy month field 'May' in entry 'Gaussian3' is not an integer - this will probably not sort properly.
+[304] Utils.pm:395> WARN - legacy month field 'Jun.' in entry 'CohSt_Glauber' is not an integer - this will probably not sort properly.
+[309] Utils.pm:395> WARN - legacy month field 'Sep.' in entry 'CohSt_Glauber2' is not an integer - this will probably not sort properly.
+[335] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[335] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[335] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[336] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[345] bbl.pm:654> INFO - Writing 'Tesi.bbl' with encoding 'UTF-8'
+[354] bbl.pm:757> INFO - Output to Tesi.bbl
+[354] Biber.pm:128> INFO - WARNINGS: 4

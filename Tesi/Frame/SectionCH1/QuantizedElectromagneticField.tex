@@ -10,17 +10,17 @@
         (\cite{tesiGuerrini} quoting \cite{quantumRad_Louissel,quantumOptic_Mandel}).
         Electric field is given by the well-known expression:
         \begin{equation}
-            \mathbf{e}(\mathbf{r},t)=\sum_n p_n (t)\mathbf{u}_n (\mathbf{r})
+            \pmb{e}(\pmb{r},t)=\sum_n p_n (t)\pmb{u}_n (\pmb{r})
             \label{eq:CEF.1}
         \end{equation}
         where
         \begin{equation*}
-            \mathbf{u}_n (\mathbf{r})=\mathbf{u}_{n0}\ e^{i\mathbf{k}_n \cdot \mathbf{r}}
+            \pmb{u}_n (\pmb{r})=\pmb{u}_{n0}\ e^{i\pmb{k}_n \cdot \pmb{r}}
         \end{equation*}
-        and $\mathbf{u}_{n0}$ is determinated by the initial condition.
+        and $\pmb{u}_{n0}$ is determinated by the initial condition.
         The corresponding magnetic field is determinated by:
         \begin{equation}
-            \mathbf{h}(\mathbf{r},t)=\sum_n q_n (t)\nabla\times\mathbf{u}_n (\mathbf{r})
+            \pmb{h}(\pmb{r},t)=\sum_n q_n (t)\nabla\times\pmb{u}_n (\pmb{r})
             \label{eq:CEF.2}
         \end{equation}
         and
@@ -48,52 +48,52 @@
     \subsection{Quantized electromagnetic field}
         The quantization of electromagnetic field is obtained replacing the two quantities 
         $p_n(t)$ and $q_n(t)$ with the Hermitian operators 
-        $\mathbf{P}_n(t),\ \mathbf{Q}_n(t):\Hilbert_n\to\Hilbert_n$ and by imposing the following
+        $\pmb{P}_n(t),\ \pmb{Q}_n(t):\Hilbert_n\to\Hilbert_n$ and by imposing the following
         commutation conditions (\cite{tesiGuerrini} quoting \cite{quantumRad_Louissel,quantumOptic_Mandel}):
         \begin{equation}
-            \commutator{\mathbf{Q}_n}{\mathbf{P}_m}=i\hbar\delta_{n,m}\mathbf{I}
+            \commutator{\pmb{Q}_n}{\pmb{P}_m}=i\hbar\delta_{n,m}\pmb{I}
         \end{equation}
         \begin{equation}
-            \commutator{\mathbf{Q}_n}{\mathbf{Q}_m}=0
+            \commutator{\pmb{Q}_n}{\pmb{Q}_m}=0
         \end{equation}
         \begin{equation}
-            \commutator{\mathbf{P}_n}{\mathbf{P}_m}=0.
+            \commutator{\pmb{P}_n}{\pmb{P}_m}=0.
         \end{equation}
-        Defining the annihilation operator $\mathbf{A}_n$ as
+        Defining the annihilation operator $\pmb{A}_n$ as
         \begin{equation}
-            \mathbf{A}_n(t)=\frac{\omega_n\mathbf{Q}_n(t)+i\mathbf{P}_n(t)}{\sqrt{2\hbar\omega_n}}
+            \pmb{A}_n(t)=\frac{\omega_n\pmb{Q}_n(t)+i\pmb{P}_n(t)}{\sqrt{2\hbar\omega_n}}
             \label{eq:QEF.1}
         \end{equation} 
-        and the adjoint of $\mathbf{A}_n$, the creation operator $\mathbf{A}_n^\dagger$ as
+        and the adjoint of $\pmb{A}_n$, the creation operator $\pmb{A}_n^\dagger$ as
         \begin{equation}
-            \mathbf{A}_n(t)=\frac{\omega_n\mathbf{Q}_n(t)-i\mathbf{P}_n(t)}{\sqrt{2\hbar\omega_n}}
+            \pmb{A}_n(t)=\frac{\omega_n\pmb{Q}_n(t)-i\pmb{P}_n(t)}{\sqrt{2\hbar\omega_n}}
             \label{eq:QEF.2}
         \end{equation}
         it is possible to describe the Hemiltonian of the system as
         \begin{equation}
-            H_n=\hbar\omega_n\mathbf{A}_n^\dagger\mathbf{A}_n.
+            H_n=\hbar\omega_n\pmb{A}_n^\dagger\pmb{A}_n.
             \label{eq:QEF.3}
         \end{equation}
 
     \subsection{Fock states}
-        In a single mode cavity, it is possible to define the number operator $\mathbf{N}$ as
+        In a single mode cavity, it is possible to define the number operator $\pmb{N}$ as
         \begin{equation}
-            \mathbf{N}=\mathbf{A}^\dagger \mathbf{A}.
+            \pmb{N}=\pmb{A}^\dagger \pmb{A}.
         \end{equation}
         Single mode Fock states are the eigenvector of $N$, i.e the solution of equation:
         \begin{equation}
-            \mathbf{N}\ket{n}=n\ket{n}.
+            \pmb{N}\ket{n}=n\ket{n}.
         \end{equation}
         The Fock state $\ket{n}$ represent the quantum state with exactly n photons.
         It is important to evidence that the set of all Fock states forms an orthonormal basis
         of the Hilbert space $\Hilbert$, so every state $\Xi$ can be expressed as
         \begin{equation}
-            \mathbf{\Xi} = \sum_{n,m} c_{n,m}\ket{n}\bra{m}
+            \pmb{\Xi} = \sum_{n,m} c_{n,m}\ket{n}\bra{m}
             \label{eq:QEF.4}
         \end{equation}
         with
         \begin{equation*}
-            c_{n,m}=\bra{n}\mathbf{\Xi}\ket{m}.
+            c_{n,m}=\bra{n}\pmb{\Xi}\ket{m}.
         \end{equation*}
 
         Using the representation in Fock basis, it is possible to charaterize some type of quantum 

@@ -18,7 +18,7 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global}
+  \datalist[entry]{none/global//global/global}
     \entry{quantumMec_Dirac}{book}{}
       \name{author}{1}{}{%
         {{hash=81a54cc24a20dffceb9c538a6df77483}{%
@@ -36,15 +36,40 @@
       \strng{authorbibnamehash}{81a54cc24a20dffceb9c538a6df77483}
       \strng{authornamehash}{81a54cc24a20dffceb9c538a6df77483}
       \strng{authorfullhash}{81a54cc24a20dffceb9c538a6df77483}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The Principles of Quantum Mechanics.}
       \field{year}{1981}
       \field{dateera}{ce}
     \endentry
-    \entry{tesiGuerrini}{unpublished}{}
+    \entry{quantumMec_Neumann}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c85a5107a217748c8f7abdf163ea7566}{%
+           family={Neumann},
+           familyi={N\bibinitperiod},
+           given={J.\bibnamedelimi Von},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{c85a5107a217748c8f7abdf163ea7566}
+      \strng{fullhash}{c85a5107a217748c8f7abdf163ea7566}
+      \strng{bibnamehash}{c85a5107a217748c8f7abdf163ea7566}
+      \strng{authorbibnamehash}{c85a5107a217748c8f7abdf163ea7566}
+      \strng{authornamehash}{c85a5107a217748c8f7abdf163ea7566}
+      \strng{authorfullhash}{c85a5107a217748c8f7abdf163ea7566}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mathematical foundations of quantum mechanics.}
+      \field{year}{1995}
+      \field{dateera}{ce}
+    \endentry
+    \entry{tesiGuerrini}{thesis}{}
       \name{author}{1}{}{%
         {{hash=5a602e59e73136bde5d746c0f169cd3c}{%
            family={Guerrini},
@@ -58,8 +83,8 @@
       \strng{authorbibnamehash}{5a602e59e73136bde5d746c0f169cd3c}
       \strng{authornamehash}{5a602e59e73136bde5d746c0f169cd3c}
       \strng{authorfullhash}{5a602e59e73136bde5d746c0f169cd3c}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Quantum Communications: State Characterization and System Design}
@@ -83,8 +108,8 @@
       \strng{authorbibnamehash}{ae3eb0e35481ca01d38f6c5f18f36c7e}
       \strng{authornamehash}{ae3eb0e35481ca01d38f6c5f18f36c7e}
       \strng{authorfullhash}{ae3eb0e35481ca01d38f6c5f18f36c7e}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Quantum Statistical Properties of Radiation.}
@@ -113,36 +138,11 @@
       \strng{authorbibnamehash}{2394cf4d4fca850c30dbb3f85cb70de3}
       \strng{authornamehash}{2394cf4d4fca850c30dbb3f85cb70de3}
       \strng{authorfullhash}{2394cf4d4fca850c30dbb3f85cb70de3}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Optical Coherence and Quantum Optics.}
-      \field{year}{1995}
-      \field{dateera}{ce}
-    \endentry
-    \entry{quantumMec_Neumann}{book}{}
-      \name{author}{1}{}{%
-        {{hash=c85a5107a217748c8f7abdf163ea7566}{%
-           family={Neumann},
-           familyi={N\bibinitperiod},
-           given={J.\bibnamedelimi Von},
-           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Princeton University Press}%
-      }
-      \strng{namehash}{c85a5107a217748c8f7abdf163ea7566}
-      \strng{fullhash}{c85a5107a217748c8f7abdf163ea7566}
-      \strng{bibnamehash}{c85a5107a217748c8f7abdf163ea7566}
-      \strng{authorbibnamehash}{c85a5107a217748c8f7abdf163ea7566}
-      \strng{authornamehash}{c85a5107a217748c8f7abdf163ea7566}
-      \strng{authorfullhash}{c85a5107a217748c8f7abdf163ea7566}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Mathematical foundations of quantum mechanics.}
       \field{year}{1995}
       \field{dateera}{ce}
     \endentry
@@ -160,8 +160,8 @@
       \strng{authorbibnamehash}{0f65f64e6050b36184863dbf3ec857c1}
       \strng{authornamehash}{0f65f64e6050b36184863dbf3ec857c1}
       \strng{authorfullhash}{0f65f64e6050b36184863dbf3ec857c1}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Phys.Rev.}
@@ -172,6 +172,293 @@
       \field{dateera}{ce}
       \field{pages}{749}
       \range{pages}{1}
+    \endentry
+    \entry{Gaussian1}{article}{}
+      \name{author}{2}{}{%
+        {{hash=5e23951ca14a6f03b78eae6a07350ea8}{%
+           family={Braunstein},
+           familyi={B\bibinitperiod},
+           given={S.\bibnamedelimi L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=fc251875169724effc2a6e2f2f6ccd6f}{%
+           family={Loock},
+           familyi={L\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{b4140c03ea089dabf4e27257a5f147ad}
+      \strng{fullhash}{b4140c03ea089dabf4e27257a5f147ad}
+      \strng{bibnamehash}{b4140c03ea089dabf4e27257a5f147ad}
+      \strng{authorbibnamehash}{b4140c03ea089dabf4e27257a5f147ad}
+      \strng{authornamehash}{b4140c03ea089dabf4e27257a5f147ad}
+      \strng{authorfullhash}{b4140c03ea089dabf4e27257a5f147ad}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Rev. Mod. Phys.}
+      \field{month}{6}
+      \field{title}{Quantum information with continuous variables}
+      \field{volume}{77}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \field{pages}{513\bibrangedash 577}
+      \range{pages}{65}
+    \endentry
+    \entry{Gaussian2}{book}{}
+      \name{author}{2}{}{%
+        {{hash=04b14c04d1cfcb1236adcd006999167d}{%
+           family={A.\bibnamedelimi Ferraro},
+           familyi={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={S.\bibnamedelimi Olivares},
+           giveni={S\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=2bc8594400eb90db0f0e5a9951514ec0}{%
+           family={Paris},
+           familyi={P\bibinitperiod},
+           given={M.\bibnamedelimi G.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Napoli, Italy: Biliopolis}%
+      }
+      \strng{namehash}{bf79420054c17f493d0ce9080a8e12a5}
+      \strng{fullhash}{bf79420054c17f493d0ce9080a8e12a5}
+      \strng{bibnamehash}{bf79420054c17f493d0ce9080a8e12a5}
+      \strng{authorbibnamehash}{bf79420054c17f493d0ce9080a8e12a5}
+      \strng{authornamehash}{bf79420054c17f493d0ce9080a8e12a5}
+      \strng{authorfullhash}{bf79420054c17f493d0ce9080a8e12a5}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Gaussian States in Continuous Variable Quantum Information}
+      \field{year}{2005}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Gaussian3}{article}{}
+      \name{author}{7}{}{%
+        {{hash=c249fdef025f2eadec7dc43ab2fe823e}{%
+           family={Weedbrook},
+           familyi={W\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8dd30761d58acb7bd9c2351286889371}{%
+           family={Pirandola},
+           familyi={P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=98028822b43e89418178defb1b670c4c}{%
+           family={Garcı́a-Patrón},
+           familyi={G\bibinithyphendelim P\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=bc93eee7a6336f139a2796e35ea043df}{%
+           family={Cerf},
+           familyi={C\bibinitperiod},
+           given={N.\bibnamedelimi J.},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=7c535ab546d77a47539779701fe4a49f}{%
+           family={Ralph},
+           familyi={R\bibinitperiod},
+           given={T.\bibnamedelimi C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=404bb9284f1d48c895422031feb305aa}{%
+           family={H.Shapiro},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e6326ee35fdec69f1c1ef364c98e6216}{%
+           family={Lloyd},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{4956a46816949b5e83d8df7648a120a0}
+      \strng{fullhash}{2acfd156f0e1e9a18dca645db1570a07}
+      \strng{bibnamehash}{4956a46816949b5e83d8df7648a120a0}
+      \strng{authorbibnamehash}{4956a46816949b5e83d8df7648a120a0}
+      \strng{authornamehash}{4956a46816949b5e83d8df7648a120a0}
+      \strng{authorfullhash}{2acfd156f0e1e9a18dca645db1570a07}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Rev. Mod. Phys.}
+      \field{month}{5}
+      \field{title}{Gaussian quantum information}
+      \field{volume}{84}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{pages}{621\bibrangedash 669}
+      \range{pages}{49}
+    \endentry
+    \entry{Gaussian4}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e399afa0de0af465b457f0853200befa}{%
+           family={G.\bibnamedelimi Adesso},
+           familyi={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={S.\bibnamedelimi Ragy},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=c9593fd8c6a06654b982dfabbc460407}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={A.\bibnamedelimi R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{19a1ce7a5b4e5c616ae2044dc87bbabb}
+      \strng{fullhash}{19a1ce7a5b4e5c616ae2044dc87bbabb}
+      \strng{bibnamehash}{19a1ce7a5b4e5c616ae2044dc87bbabb}
+      \strng{authorbibnamehash}{19a1ce7a5b4e5c616ae2044dc87bbabb}
+      \strng{authornamehash}{19a1ce7a5b4e5c616ae2044dc87bbabb}
+      \strng{authorfullhash}{19a1ce7a5b4e5c616ae2044dc87bbabb}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Open Syst. Inf. Dyn.}
+      \field{title}{Continuous variable quantum information: Gaussian states and beyond}
+      \field{volume}{21}
+      \field{year}{2014}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Gaussian5}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8b06e3a2ef82a2cdd1a84eefe11c4454}{%
+           family={Serafini},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Boca Raton, FL: CRC Press}%
+      }
+      \strng{namehash}{8b06e3a2ef82a2cdd1a84eefe11c4454}
+      \strng{fullhash}{8b06e3a2ef82a2cdd1a84eefe11c4454}
+      \strng{bibnamehash}{8b06e3a2ef82a2cdd1a84eefe11c4454}
+      \strng{authorbibnamehash}{8b06e3a2ef82a2cdd1a84eefe11c4454}
+      \strng{authornamehash}{8b06e3a2ef82a2cdd1a84eefe11c4454}
+      \strng{authorfullhash}{8b06e3a2ef82a2cdd1a84eefe11c4454}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Quantum Continuous Variables: A Primer of Theoretical Methods.}
+      \field{year}{2017}
+      \field{dateera}{ce}
+    \endentry
+    \entry{CohSt_Glauber}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e22979b1efed4a68e189d33bfe87bcf6}{%
+           family={Glauber},
+           familyi={G\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{e22979b1efed4a68e189d33bfe87bcf6}
+      \strng{fullhash}{e22979b1efed4a68e189d33bfe87bcf6}
+      \strng{bibnamehash}{e22979b1efed4a68e189d33bfe87bcf6}
+      \strng{authorbibnamehash}{e22979b1efed4a68e189d33bfe87bcf6}
+      \strng{authornamehash}{e22979b1efed4a68e189d33bfe87bcf6}
+      \strng{authorfullhash}{e22979b1efed4a68e189d33bfe87bcf6}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev.}
+      \field{month}{6}
+      \field{title}{The quantum theory of optical coherence}
+      \field{volume}{130}
+      \field{year}{1963}
+      \field{dateera}{ce}
+      \field{pages}{2529\bibrangedash 2539}
+      \range{pages}{11}
+    \endentry
+    \entry{CohSt_Glauber2}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e22979b1efed4a68e189d33bfe87bcf6}{%
+           family={Glauber},
+           familyi={G\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{e22979b1efed4a68e189d33bfe87bcf6}
+      \strng{fullhash}{e22979b1efed4a68e189d33bfe87bcf6}
+      \strng{bibnamehash}{e22979b1efed4a68e189d33bfe87bcf6}
+      \strng{authorbibnamehash}{e22979b1efed4a68e189d33bfe87bcf6}
+      \strng{authornamehash}{e22979b1efed4a68e189d33bfe87bcf6}
+      \strng{authorfullhash}{e22979b1efed4a68e189d33bfe87bcf6}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev.}
+      \field{month}{9}
+      \field{title}{Coherent and incoherent states of the radiation field}
+      \field{volume}{131}
+      \field{year}{1963}
+      \field{dateera}{ce}
+      \field{pages}{2766\bibrangedash 2788}
+      \range{pages}{23}
+    \endentry
+    \entry{QuantumNoise}{book}{}
+      \name{author}{2}{}{%
+        {{hash=75c694bd409e025e7e08c106891ff87c}{%
+           family={Gardiner},
+           familyi={G\bibinitperiod},
+           given={C.\bibnamedelimi W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=0d147340235c2166e4699ddc95c9fbe5}{%
+           family={Zoller},
+           familyi={Z\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Berlin: Springer-Verlag}%
+      }
+      \strng{namehash}{8afa45aaf4eb06dd2edfeed95a3e122d}
+      \strng{fullhash}{8afa45aaf4eb06dd2edfeed95a3e122d}
+      \strng{bibnamehash}{8afa45aaf4eb06dd2edfeed95a3e122d}
+      \strng{authorbibnamehash}{8afa45aaf4eb06dd2edfeed95a3e122d}
+      \strng{authornamehash}{8afa45aaf4eb06dd2edfeed95a3e122d}
+      \strng{authorfullhash}{8afa45aaf4eb06dd2edfeed95a3e122d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3rd}
+      \field{title}{Quantum noise}
+      \field{year}{2004}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Dowling}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c76d8d194b76664317ea56268db8a826}{%
+           family={Dowling},
+           familyi={D\bibinitperiod},
+           given={J.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Boca Raton, FL: CRC Press}%
+      }
+      \strng{namehash}{c76d8d194b76664317ea56268db8a826}
+      \strng{fullhash}{c76d8d194b76664317ea56268db8a826}
+      \strng{bibnamehash}{c76d8d194b76664317ea56268db8a826}
+      \strng{authorbibnamehash}{c76d8d194b76664317ea56268db8a826}
+      \strng{authornamehash}{c76d8d194b76664317ea56268db8a826}
+      \strng{authorfullhash}{c76d8d194b76664317ea56268db8a826}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Schrödinger’s Killer App: Race to Build the World’s First Quantum Computer}
+      \field{year}{2013}
+      \field{dateera}{ce}
     \endentry
   \enddatalist
 \endrefsection
