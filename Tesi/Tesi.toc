@@ -47,4 +47,14 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Photon added states}{8}{section*.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{11}{chapter*.7}%
+\contentsline {chapter}{\numberline {2}Quantum Communication}{11}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Quantum Modulation}{11}{section.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}OOK modulation}{12}{subsection.2.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.2}BPSK modulation}{12}{subsection.2.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Quantum Discriminator}{12}{section.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{13}{chapter*.8}%
