@@ -2375,6 +2375,8 @@
     <bcf:citekey order="17">PACSDisc</bcf:citekey>
     <bcf:citekey order="17">tesiGuerrini</bcf:citekey>
     <bcf:citekey order="18">tesiGuerrini</bcf:citekey>
+    <bcf:citekey order="19">helstrom3</bcf:citekey>
+    <bcf:citekey order="19">helstrom4</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

@@ -33,11 +33,37 @@
     \begin{equation}
         \mathbb{P}\{H_j|H_k\}=tr\{\pmb{\Xi}_k\pmb{\Pi}_j\}.
     \end{equation}
-    The error probability in the discrimination process, if $p_0$ and $p_1$ are respectively 
-    the probabilty of symbols $0$ and $1$, is so given by
+    The distribution error probability (DEP) in the discrimination process, if $p_0$ and $p_1$ are 
+    respectively the probabilty of symbols $0$ and $1$, is so given by
     \begin{equation}
         P_e=1-\left(p_0 tr\{\pmb{\Xi}_0\pmb{\Pi}_0\}+p_1 tr\{\pmb{\Xi}_0\pmb{\Pi}_0\}\right).
     \end{equation}
 
     \subsection{Optimal discriminator}
-    
+    The issue of finding the optimal POVM that minimize was exhaustively discuss  by Helstrom in 
+    \cite{helstrom3,helstrom4}. The minimum distribution error probability (MDEP), for a binary 
+    communication system, is given by the well-known Helstrom bound
+    \begin{equation}
+        \breve{P}_e = \frac{1}{2} \left(1-\norm{p_1 \pmb{\Xi}_1 - p_0 \pmb{\Xi}_0}_1 \right),
+        \label{eq:HelstromBound}
+    \end{equation}
+    where $p_0,\ p_1$ are the probability that the states $\pmb{\Xi}_0,\ \pmb{\Xi}_1$ are trasmitted
+    and the operator $\norm{\cdot}_1$ represents the trace norm. 
+    The MDEP \ref{eq:HelstromBound} is obtained with the following POVM:
+    \begin{equation}
+        \breve{\pmb{\Pi}}_0 = \sum_{\substack{i \\ \lambda_i<0}} \ket{\lambda_i}\bra{\lambda_i},
+    \end{equation}
+    \begin{equation*}
+        \breve{\pmb{\Pi}}_1 = 1-\breve{\pmb{\Pi}}_0 = 
+        \sum_{\substack{i \\ \lambda_i \geq 0}} \ket{\lambda_i}\bra{\lambda_i};
+    \end{equation*}
+    where $\ket{\lambda_i}$ is the eigenvector of $p_1 \pmb{\Xi}_1 - p_0 \pmb{\Xi}_0$ associated to 
+    the eigenvalue $\lambda_i$.
+    For pure states, i.e $\pmb{\Xi}_0 = \ket{\psi_0}\bra{\psi_0}$ and $\pmb{\Xi}_1 = \ket{\psi_1}
+    \bra{\psi_1}$, the equation \ref{eq:HelstromBound} begin
+    \begin{equation}
+        \breve{P}_e = \frac{1}{2} \left(1- \sqrt{1-4 p_0 p_1 \absolutevalue{\braket{\psi_0}{\psi_1}}^2}
+        \right).
+    \end{equation}
+    It is possible to observe that, for pure states, the MDEP is equal to $0$ if $\braket{\psi_0}{\psi_1}$,
+    that is $\ket{\psi_0}$ and $\ket{\psi_1}$ are orthogonal states.

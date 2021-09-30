@@ -718,6 +718,58 @@
       \field{year}{2020}
       \field{dateera}{ce}
     \endentry
+    \entry{helstrom3}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8d4d46edb0aa19f621df00b8504ed367}{%
+           family={Helstrom},
+           familyi={H\bibinitperiod},
+           given={C.\bibnamedelimi W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press, New York}%
+      }
+      \strng{namehash}{8d4d46edb0aa19f621df00b8504ed367}
+      \strng{fullhash}{8d4d46edb0aa19f621df00b8504ed367}
+      \strng{bibnamehash}{8d4d46edb0aa19f621df00b8504ed367}
+      \strng{authorbibnamehash}{8d4d46edb0aa19f621df00b8504ed367}
+      \strng{authornamehash}{8d4d46edb0aa19f621df00b8504ed367}
+      \strng{authorfullhash}{8d4d46edb0aa19f621df00b8504ed367}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Quantum Detection and Estimation Theory}
+      \field{year}{1976}
+      \field{dateera}{ce}
+    \endentry
+    \entry{helstrom4}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8d4d46edb0aa19f621df00b8504ed367}{%
+           family={Helstrom},
+           familyi={H\bibinitperiod},
+           given={C.\bibnamedelimi W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {North-Holland, Amsterdam}%
+      }
+      \strng{namehash}{8d4d46edb0aa19f621df00b8504ed367}
+      \strng{fullhash}{8d4d46edb0aa19f621df00b8504ed367}
+      \strng{bibnamehash}{8d4d46edb0aa19f621df00b8504ed367}
+      \strng{authorbibnamehash}{8d4d46edb0aa19f621df00b8504ed367}
+      \strng{authornamehash}{8d4d46edb0aa19f621df00b8504ed367}
+      \strng{authorfullhash}{8d4d46edb0aa19f621df00b8504ed367}
+      \field{extraname}{4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Probabilistic and Statistical Aspects of Quantum Theory}
+      \field{year}{1979}
+      \field{dateera}{ce}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
