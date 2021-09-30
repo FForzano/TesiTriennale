@@ -10,17 +10,46 @@
         \label{fig:2.1}
     \end{figure}
     It is possible to think about the quantum trasmitter as in figure \ref{fig:2.1}. The bit source
-    emits a bit sequence, the serial-parallel converter parallelize a group of $l$-bit (where, if $L$
-    is the number of quantum states, $l=\log_2(L)$) and sends them to the quantum modulator; this last
-    associate to every group of bit, one quantum state. The operation of quantum state creation, 
-    in real cases, is affected by noise.
+    emits a bit sequence $a[n]$, the serial-parallel converter parallelize a group of $l$-bit (where,
+    if $L$ is the number of quantum states, $l=\log_2(L)$) and sends them to the quantum modulator;
+    this last associate to every group of bit, one quantum state. The operation of quantum state 
+    creation, in real cases, is affected by noise.
 
     The sequence of operation is very closer to a classical trasmitter, the main difference is that
     the modulator map the bits into quantum states instead of classical modulation. It is, therefor, 
     possible to achieve the equivalent of classical modulation, that it is called quantum modulation,
-    with several states and assess the impact on performance.
-    In this thesis only the binary will be considered and assessed, in the OOK and BPSK configuration.
+    with several states and then, assess the impact on performance.
+    In this thesis only the binary cases will be considered and assessed, in the OOK and BPSK 
+    configuration.
     
     \subsection{OOK modulation}
+        The OOK (on-off keying) is the most simple possible configuration for a communication system.
+        The quantum implementation of that is realized associating the low-energy state to the 
+        ground state $\ket{0}$ and the high-energy state to another state. It is important to
+        consider that the physical realization of these states are not free-noise; this issue will be
+        considered using noisy states \ref{eq:2.1.1}.
+        \begin{equation}
+            \pmb{\Xi}_0 = \pmb{\Xi}_{th}
+            \label{eq:2.1.1}
+        \end{equation}
+        \begin{equation*}
+            \pmb{\Xi}_1 = \pmb{\Xi}_{th}(\mu)
+        \end{equation*}
+        In the equation \ref{eq:2.1.1}, the high-energy state is associated to a coherent state. This 
+        configuration has been widely analyzed in \cite{helstrom1,helstrom2,coherentComm1,coherentComm2,
+        coherentComm3,coherentComm4} but this is not the only possible way. The use of PACS states 
+        $\pmb{\Xi}_{th}^{(k)}(\mu)$ is analyzed in \cite{PACSDisc,tesiGuerrini}; the use of PASS are briefly
+        assessed in the following chapter of this thesis.
 
     \subsection{BPSK modulation}
+        BPSK quantum systems are implemented using two states with opposite amplitude, like
+        \begin{equation}
+            \pmb{\Xi}_0 = \pmb{\Xi}_{th}(-\mu)
+            \label{eq:2.1.2}
+        \end{equation}
+        \begin{equation*}
+            \pmb{\Xi}_1 = \pmb{\Xi}_{th}(\mu).
+        \end{equation*}
+        The use of a BPSK solution, in  a quantum system, is not said that improves the performance
+        of the system. The effect depends on which are the used states. In the next chapter some 
+        configuration are assessed.

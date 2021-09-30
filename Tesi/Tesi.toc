@@ -57,4 +57,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Quantum Discriminator}{12}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{13}{chapter*.8}%
+\contentsline {subsection}{\numberline {2.2.1}Binary quantum state discrimination}{12}{subsection.2.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Optimal discriminator}{13}{subsection.2.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{15}{chapter*.9}%

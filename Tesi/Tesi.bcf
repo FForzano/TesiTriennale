@@ -2366,6 +2366,15 @@
     <bcf:citekey order="12">Dowling</bcf:citekey>
     <bcf:citekey order="13">tesiGuerrini</bcf:citekey>
     <bcf:citekey order="15">MarMar_1993</bcf:citekey>
+    <bcf:citekey order="16">helstrom1</bcf:citekey>
+    <bcf:citekey order="16">helstrom2</bcf:citekey>
+    <bcf:citekey order="16">coherentComm1</bcf:citekey>
+    <bcf:citekey order="16">coherentComm2</bcf:citekey>
+    <bcf:citekey order="16">coherentComm3</bcf:citekey>
+    <bcf:citekey order="16">coherentComm4</bcf:citekey>
+    <bcf:citekey order="17">PACSDisc</bcf:citekey>
+    <bcf:citekey order="17">tesiGuerrini</bcf:citekey>
+    <bcf:citekey order="18">tesiGuerrini</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

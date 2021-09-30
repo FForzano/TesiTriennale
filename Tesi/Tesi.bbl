@@ -491,6 +491,233 @@
       \field{year}{1993}
       \field{dateera}{ce}
     \endentry
+    \entry{helstrom1}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8d4d46edb0aa19f621df00b8504ed367}{%
+           family={Helstrom},
+           familyi={H\bibinitperiod},
+           given={C.\bibnamedelimi W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{8d4d46edb0aa19f621df00b8504ed367}
+      \strng{fullhash}{8d4d46edb0aa19f621df00b8504ed367}
+      \strng{bibnamehash}{8d4d46edb0aa19f621df00b8504ed367}
+      \strng{authorbibnamehash}{8d4d46edb0aa19f621df00b8504ed367}
+      \strng{authornamehash}{8d4d46edb0aa19f621df00b8504ed367}
+      \strng{authorfullhash}{8d4d46edb0aa19f621df00b8504ed367}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Inf. Control}
+      \field{number}{3}
+      \field{title}{Detection theory and quantum mechanics}
+      \field{volume}{10}
+      \field{year}{1967}
+      \field{dateera}{ce}
+      \field{pages}{254\bibrangedash 291}
+      \range{pages}{38}
+    \endentry
+    \entry{helstrom2}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8d4d46edb0aa19f621df00b8504ed367}{%
+           family={Helstrom},
+           familyi={H\bibinitperiod},
+           given={C.\bibnamedelimi W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{8d4d46edb0aa19f621df00b8504ed367}
+      \strng{fullhash}{8d4d46edb0aa19f621df00b8504ed367}
+      \strng{bibnamehash}{8d4d46edb0aa19f621df00b8504ed367}
+      \strng{authorbibnamehash}{8d4d46edb0aa19f621df00b8504ed367}
+      \strng{authornamehash}{8d4d46edb0aa19f621df00b8504ed367}
+      \strng{authorfullhash}{8d4d46edb0aa19f621df00b8504ed367}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Int. J. Theor. Phys.}
+      \field{month}{5}
+      \field{number}{1}
+      \field{title}{Fundamental limitations on the detectability of electromagnetic signals}
+      \field{volume}{1}
+      \field{year}{1968}
+      \field{pages}{37\bibrangedash 50}
+      \range{pages}{14}
+    \endentry
+    \entry{coherentComm1}{article}{}
+      \name{author}{1}{}{%
+        {{hash=373eebd089b1f40f576bbd932f02576d}{%
+           family={Yoshitani},
+           familyi={Y\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{373eebd089b1f40f576bbd932f02576d}
+      \strng{fullhash}{373eebd089b1f40f576bbd932f02576d}
+      \strng{bibnamehash}{373eebd089b1f40f576bbd932f02576d}
+      \strng{authorbibnamehash}{373eebd089b1f40f576bbd932f02576d}
+      \strng{authornamehash}{373eebd089b1f40f576bbd932f02576d}
+      \strng{authorfullhash}{373eebd089b1f40f576bbd932f02576d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J. Stat. Phys.}
+      \field{month}{12}
+      \field{number}{4}
+      \field{title}{On the detectabillity limit of coherent optical signals inthermal radiation}
+      \field{volume}{2}
+      \field{year}{1970}
+      \field{pages}{347\bibrangedash 378}
+      \range{pages}{32}
+    \endentry
+    \entry{coherentComm2}{article}{}
+      \name{author}{2}{}{%
+        {{hash=532605c84e22386a6c729ee236a12c33}{%
+           family={Takeoka},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7a868fdf92ac756c345fcfe8eb62899e}{%
+           family={Sasaki},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f6d90abc852b69ad504885899660b1c2}
+      \strng{fullhash}{f6d90abc852b69ad504885899660b1c2}
+      \strng{bibnamehash}{f6d90abc852b69ad504885899660b1c2}
+      \strng{authorbibnamehash}{f6d90abc852b69ad504885899660b1c2}
+      \strng{authornamehash}{f6d90abc852b69ad504885899660b1c2}
+      \strng{authorfullhash}{f6d90abc852b69ad504885899660b1c2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. A}
+      \field{month}{8}
+      \field{number}{022320}
+      \field{subtitle}{Gaussian-operation limit and simple non-Gaussian near-optimalreceivers}
+      \field{title}{Discrimination of the binary coherentsignal}
+      \field{volume}{78}
+      \field{year}{2008}
+    \endentry
+    \entry{coherentComm3}{article}{}
+      \name{author}{2}{}{%
+        {{hash=810905836bd1aef832e7e5bbb26ea0c5}{%
+           family={Pozza},
+           familyi={P\bibinitperiod},
+           given={N.\bibnamedelimi Dalla},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=6b397aee2667af22d34239da5e3ebba3}{%
+           family={Pierobon},
+           familyi={P\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{d98065f9fd9a36bc2853aa84b99b35d6}
+      \strng{fullhash}{d98065f9fd9a36bc2853aa84b99b35d6}
+      \strng{bibnamehash}{d98065f9fd9a36bc2853aa84b99b35d6}
+      \strng{authorbibnamehash}{d98065f9fd9a36bc2853aa84b99b35d6}
+      \strng{authornamehash}{d98065f9fd9a36bc2853aa84b99b35d6}
+      \strng{authorfullhash}{d98065f9fd9a36bc2853aa84b99b35d6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. A}
+      \field{month}{4}
+      \field{number}{042334}
+      \field{title}{Optimality of square-root measurements in quantum state discrimination}
+      \field{volume}{91}
+      \field{year}{2015}
+    \endentry
+    \entry{coherentComm4}{article}{}
+      \name{author}{4}{}{%
+        {{hash=faf0a603b8025113dff62aaba7c064b1}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=38e8ff4c80350640f046288e1e06461d}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=24ab4db50b06a5f1a6e0308359cddad3}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b38036b6e6b8c861950d9c913039d1e5}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f3ea9a04c90eded5d76ff470a42af86}
+      \strng{fullhash}{eb1725d9e46fc8837e565592b8744881}
+      \strng{bibnamehash}{2f3ea9a04c90eded5d76ff470a42af86}
+      \strng{authorbibnamehash}{2f3ea9a04c90eded5d76ff470a42af86}
+      \strng{authornamehash}{2f3ea9a04c90eded5d76ff470a42af86}
+      \strng{authorfullhash}{eb1725d9e46fc8837e565592b8744881}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Commun. Lett.}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{“Kennedy receiver using threshold detection and optimized displacement under thermal noise}
+      \field{volume}{24}
+      \field{year}{2020}
+      \field{pages}{1313\bibrangedash 1317}
+      \range{pages}{5}
+    \endentry
+    \entry{PACSDisc}{article}{}
+      \name{author}{4}{}{%
+        {{hash=5a602e59e73136bde5d746c0f169cd3c}{%
+           family={Guerrini},
+           familyi={G\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=349b8a97a87f6171f4f2858fac00c941}{%
+           family={Win},
+           familyi={W\bibinitperiod},
+           given={Moe\bibnamedelima Z.},
+           giveni={M\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=1972f4e6ce5cba30f77ca14996db7caf}{%
+           family={Chiani},
+           familyi={C\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2941b8b6aa48e79c779b85be733cdd05}{%
+           family={Conti},
+           familyi={C\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{23e0d75b8031611bc1153256a57b2d01}
+      \strng{fullhash}{744bf61d7870941e651fe72b7f3be011}
+      \strng{bibnamehash}{23e0d75b8031611bc1153256a57b2d01}
+      \strng{authorbibnamehash}{23e0d75b8031611bc1153256a57b2d01}
+      \strng{authornamehash}{23e0d75b8031611bc1153256a57b2d01}
+      \strng{authorfullhash}{744bf61d7870941e651fe72b7f3be011}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE journal}
+      \field{month}{8}
+      \field{number}{2}
+      \field{title}{Quantum Discrimination of Noisy Photon-Added Coherent States}
+      \field{volume}{1}
+      \field{year}{2020}
+      \field{dateera}{ce}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

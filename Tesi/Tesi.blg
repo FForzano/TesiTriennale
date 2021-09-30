@@ -1,21 +1,27 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'Tesi.blg'
-[88] biber:340> INFO - === mar set 28, 2021, 20:51:42
-[103] Biber.pm:415> INFO - Reading 'Tesi.bcf'
-[173] Biber.pm:952> INFO - Found 16 citekeys in bib section 0
-[189] Biber.pm:4340> INFO - Processing section 0
-[201] Biber.pm:4531> INFO - Looking for bibtex format file './bibliography.bib' for section 0
-[202] bibtex.pm:1689> INFO - LaTeX decoding ...
-[217] bibtex.pm:1494> INFO - Found BibTeX data source './bibliography.bib'
-[268] Utils.pm:395> WARN - legacy month field 'Jun.' in entry 'Gaussian1' is not an integer - this will probably not sort properly.
-[286] Utils.pm:395> WARN - legacy month field 'May' in entry 'Gaussian3' is not an integer - this will probably not sort properly.
-[299] Utils.pm:395> WARN - legacy month field 'Jun.' in entry 'CohSt_Glauber' is not an integer - this will probably not sort properly.
-[303] Utils.pm:395> WARN - legacy month field 'Sep.' in entry 'CohSt_Glauber2' is not an integer - this will probably not sort properly.
-[316] Utils.pm:395> WARN - legacy month field 'May' in entry 'MarMar_1993' is not an integer - this will probably not sort properly.
-[336] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[336] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[336] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[336] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[349] bbl.pm:654> INFO - Writing 'Tesi.bbl' with encoding 'UTF-8'
-[359] bbl.pm:757> INFO - Output to Tesi.bbl
-[359] Biber.pm:128> INFO - WARNINGS: 5
+[67] biber:340> INFO - === gio set 30, 2021, 15:57:05
+[81] Biber.pm:415> INFO - Reading 'Tesi.bcf'
+[154] Biber.pm:952> INFO - Found 23 citekeys in bib section 0
+[169] Biber.pm:4340> INFO - Processing section 0
+[182] Biber.pm:4531> INFO - Looking for bibtex format file './bibliography.bib' for section 0
+[184] bibtex.pm:1689> INFO - LaTeX decoding ...
+[209] bibtex.pm:1494> INFO - Found BibTeX data source './bibliography.bib'
+[258] Utils.pm:395> WARN - legacy month field 'Jun.' in entry 'Gaussian1' is not an integer - this will probably not sort properly.
+[277] Utils.pm:395> WARN - legacy month field 'May' in entry 'Gaussian3' is not an integer - this will probably not sort properly.
+[289] Utils.pm:395> WARN - legacy month field 'Jun.' in entry 'CohSt_Glauber' is not an integer - this will probably not sort properly.
+[295] Utils.pm:395> WARN - legacy month field 'Sep.' in entry 'CohSt_Glauber2' is not an integer - this will probably not sort properly.
+[317] Utils.pm:395> WARN - legacy month field 'May' in entry 'MarMar_1993' is not an integer - this will probably not sort properly.
+[330] Utils.pm:395> WARN - legacy month field 'May' in entry 'helstrom2' is not an integer - this will probably not sort properly.
+[334] Utils.pm:395> WARN - legacy month field 'Dec.' in entry 'coherentComm1' is not an integer - this will probably not sort properly.
+[339] Utils.pm:395> WARN - legacy month field 'Aug.' in entry 'coherentComm2' is not an integer - this will probably not sort properly.
+[346] Utils.pm:395> WARN - legacy month field 'Apr.' in entry 'coherentComm3' is not an integer - this will probably not sort properly.
+[354] Utils.pm:395> WARN - legacy month field 'Jun.' in entry 'coherentComm4' is not an integer - this will probably not sort properly.
+[364] Utils.pm:395> WARN - legacy month field 'Aug.' in entry 'PACSDisc' is not an integer - this will probably not sort properly.
+[392] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[392] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[392] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[392] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[405] bbl.pm:654> INFO - Writing 'Tesi.bbl' with encoding 'UTF-8'
+[421] bbl.pm:757> INFO - Output to Tesi.bbl
+[422] Biber.pm:128> INFO - WARNINGS: 11
