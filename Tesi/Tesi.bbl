@@ -460,6 +460,60 @@
       \field{year}{2013}
       \field{dateera}{ce}
     \endentry
+    \entry{YuenRadField}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9dcf6356be19070d4768fd45dee8b52f}{%
+           family={Yuen},
+           familyi={Y\bibinitperiod},
+           given={H.\bibnamedelimi P.},
+           giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{9dcf6356be19070d4768fd45dee8b52f}
+      \strng{fullhash}{9dcf6356be19070d4768fd45dee8b52f}
+      \strng{bibnamehash}{9dcf6356be19070d4768fd45dee8b52f}
+      \strng{authorbibnamehash}{9dcf6356be19070d4768fd45dee8b52f}
+      \strng{authornamehash}{9dcf6356be19070d4768fd45dee8b52f}
+      \strng{authorfullhash}{9dcf6356be19070d4768fd45dee8b52f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. A}
+      \field{month}{6}
+      \field{title}{Two-photon coherent states of the radiation field}
+      \field{volume}{13}
+      \field{year}{1976}
+      \field{dateera}{ce}
+      \field{pages}{2226\bibrangedash 2243}
+      \range{pages}{18}
+    \endentry
+    \entry{QMnoiseInterf}{article}{}
+      \name{author}{1}{}{%
+        {{hash=42b42c98b2d2efd981691c3e4642940c}{%
+           family={Caves},
+           familyi={C\bibinitperiod},
+           given={C.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{42b42c98b2d2efd981691c3e4642940c}
+      \strng{fullhash}{42b42c98b2d2efd981691c3e4642940c}
+      \strng{bibnamehash}{42b42c98b2d2efd981691c3e4642940c}
+      \strng{authorbibnamehash}{42b42c98b2d2efd981691c3e4642940c}
+      \strng{authornamehash}{42b42c98b2d2efd981691c3e4642940c}
+      \strng{authorfullhash}{42b42c98b2d2efd981691c3e4642940c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{month}{4}
+      \field{title}{Quantum-mechanical noise in an interferometer}
+      \field{volume}{23}
+      \field{year}{1981}
+      \field{dateera}{ce}
+      \field{pages}{1693\bibrangedash 1708}
+      \range{pages}{16}
+    \endentry
     \entry{MarMar_1993}{article}{}
       \name{author}{2}{}{%
         {{hash=da7a7682d97f3323a6ef1979d9e9dadf}{%
@@ -736,8 +790,8 @@
       \strng{authornamehash}{8d4d46edb0aa19f621df00b8504ed367}
       \strng{authorfullhash}{8d4d46edb0aa19f621df00b8504ed367}
       \field{extraname}{3}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Quantum Detection and Estimation Theory}
@@ -762,8 +816,8 @@
       \strng{authornamehash}{8d4d46edb0aa19f621df00b8504ed367}
       \strng{authorfullhash}{8d4d46edb0aa19f621df00b8504ed367}
       \field{extraname}{4}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Probabilistic and Statistical Aspects of Quantum Theory}
