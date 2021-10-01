@@ -31,8 +31,8 @@ function plotkMDEP(N,p0,p1,n_th)
         plot([0:10],Pe,strcat('-',symbols(k+1)));
     end
     
-        xlabel('n_p')
-        ylabel('Pe')
+        xlabel('$n_p$','Interpreter','Latex')
+        ylabel('$P_e$','Interpreter','Latex')
         set(gca, 'YScale', 'log')
         legend('k = 0', 'k = 1', 'k = 2', 'k = 3')
 end

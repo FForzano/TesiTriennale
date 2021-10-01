@@ -3,11 +3,11 @@ function plotPASSMDEP()
     mu_start = 0;
     mu_delta = 0.1;
     np_max = 10;
-    %r = [0 0.01 0.1 0.2 0.5];
-    r=0.01;
+    r = [0 0.01 0.1 0.2 0.5];
+    %r=0.01;
     n_th = 1E-2;
     p0=0.5; p1=0.5;
-    N = 50;
+    N = 30;
     errMax = 1E-3;
     
     % plot configuration
@@ -27,6 +27,7 @@ function plotPASSMDEP()
             np(i) = photonNumber(current_mu,setNoisyPASS(current_mu,current_r,theta,k,n_th),N)*2;
             while np(i) <= np_max
                 Xi0 = setNoisyPASS(-current_mu,current_r,theta,k,n_th);
+                %Xi0 = setNoisyPASS(0,0,theta,0,n_th);
                 Xi1 = setNoisyPASS(current_mu,current_r,theta,k,n_th);
 
                 Pe(i) = MDEP(p0,Xi0,p1,Xi1,N);
@@ -73,8 +74,8 @@ function plotPASSMDEP()
     
     
     
-    xlabel('np')
-    ylabel('Pe')
+    xlabel('$\bar{E}$','Interpreter','Latex')
+    ylabel('$P_e$','Interpreter','Latex')
     set(gca, 'YScale', 'log')
     legend('r = 0 & k = 0',...
         'r = 0 & k = 1',...

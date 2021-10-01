@@ -38,8 +38,8 @@ function plotNoNoiseComparison(N,p0,p1,n_th)
         plot([0:0.02:9.02],Pe_noNoisy,strcat(colors(k+2),'-',symbols(k+1)));
     end
     
-        xlabel('np')
-        ylabel('Pe')
+        xlabel('$n_p$','Interpreter','Latex')
+        ylabel('$P_e$','Interpreter','Latex')
         set(gca, 'YScale', 'log')
         legend('no noise formula (k=2)','noise formula (K=2)', ...
             'no noise formula (k=1)','noise formula (K=1)', ...
