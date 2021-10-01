@@ -1,12 +1,12 @@
 function plotNoiseEffect(N,p0,p1)
     Pe = [];
     n_th = [0:0.01:0.5];
-    np_zero = 2.26;
+    np_zero = 1.52;
     delta = 1E-08;
     index = 1;
-    k=2;
+    k=1;
     
-    mu = np2mu(np_zero,setNoisyPACS(0,k,0),0,5,delta);
+    mu = np2mu(np_zero,setNoisyPACS(0,k,0),0,5,delta,N);
     
     for i = n_th
         Xi0 = setNoisyPACS(0,0,i);
@@ -18,8 +18,8 @@ function plotNoiseEffect(N,p0,p1)
     
     figure;
     plot(n_th,Pe)
-    %set(gca, 'YScale', 'log')
+    set(gca, 'YScale', 'log')
     %set(gca, 'XScale', 'log')
-    xlabel('n_t_h')
-    ylabel('Pe')
+    xlabel('$\bar{n}$','Interpreter','Latex')
+    ylabel('$P_e$','Interpreter','Latex')
 end

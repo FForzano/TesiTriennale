@@ -61,6 +61,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}Optimal discriminator}{13}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Communication with Photon Added States}{15}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Discrimination of Photon Added States}{15}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{17}{chapter*.9}%
+\contentsline {section}{\numberline {3.1}PACS Discrimination}{15}{section.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}Quantum OOK PACS system}{15}{subsection.3.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}Quantum BPSK PACS system}{16}{subsection.3.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{19}{chapter*.13}%

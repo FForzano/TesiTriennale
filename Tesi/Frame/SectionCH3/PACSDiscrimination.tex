@@ -1,0 +1,126 @@
+\section{PACS Discrimination}
+    The effect of the use of PACS in an OOK communication system was extensivly discuss in
+    \cite{PACSDisc}. In this section the most important result will be reported and a BPSK
+    system will be tested.
+
+    \subsection{Quantum OOK PACS system}
+    The use of PACS in an OOK system can significatly improves the performance. The MDEP, with
+    thermal noise, is given by the Helstrom bound \ref{eq:HelstromBound}, where, for an OOK PACS
+    system,
+    \begin{equation}
+        \pmb{\Xi}_0 =  \pmb{\Xi}_{th} = \pmb{\Xi}_{th}^{(0)}(0)
+    \end{equation}
+    \begin{equation*}
+        \pmb{\Xi}_1 =  \pmb{\Xi}_{th}^{(k)}(\mu).
+    \end{equation*}
+    It is useful, for evaluate the performance of the system, to introduce the mean number
+    of photon $n_p$ in a quantum state $\pmb{\Xi}$, that is given by:
+    \begin{equation}
+        n_p = tr\{\pmb{\Xi}\pmb{A}^\dagger\pmb{A}\}.
+        \label{eq:genericnp}
+    \end{equation}
+    For a photon added coherent state, the equation \ref{eq:genericnp} begin \cite{PACSDisc}:
+    \begin{equation}
+        n_p(\mu,\bar{n}) = \frac{N_{k+1}(\mu,\bar{n})}{N_k(\mu,\bar{n})}-1,
+        \label{eq:np}
+    \end{equation}
+    where
+    \begin{equation}
+        N_k(\mu,\bar{n}) = (\pmb{A}^\dagger)^k \pmb{\Xi}_{th}(\mu) \pmb{A}^k.
+    \end{equation}
+    It is possible to observe that the minimum of $n_p$ is given by:
+    \begin{equation}
+        n_p(0,\bar{n}) = (k+1)(\bar{n}+1)-1.
+    \end{equation}
+
+    \begin{figure}[ht]
+        \begin{center}
+            \includegraphics[width=0.75\textwidth]{fig3.1.pdf}
+            \caption{MDEP for PACS QOOK with: $k=0,1,2,3$; $\bar{n}=10^{-2}$; $p_0=p_1=1/2$}
+            \label{fig:3.1}
+        \end{center}
+    \end{figure}
+    The MDEP of a quantum OOK system with PACS in function of $n_p$, is represented in the figure
+    \ref{fig:3.1}, where in the x-axis there are the mean number of photon $n_p$ in the state 
+    $\pmb{\Xi}_1$ (which corresponds to the mean number of photon in the system) and in the 
+    y-axes there are the MDEP ($P_e$). The simulation was obtained for equiprobable symbols and 
+    mean number of thermal photons $\bar{n}=10^{-2}$.  
+    The argument of the trace norm $\norm{\cdot}_1$ in the Helstrom bound 
+    \ref{eq:HelstromBound}, is an operator in an infinite dimensional Hilbert space; for the 
+    simulation, it was been approximate in $N=30$ dimension.
+    It is possible to observe that the photon addition improves significatly the performance in term
+    of error probability.
+
+    \subsection{Quantum BPSK PACS system}
+    It can be interesting to assess the effect of photon addition in a quantum BPSK system.
+    The constellation is given, for a PACS BPSK, by:
+    \begin{equation}
+        \pmb{\Xi}_0 =  \pmb{\Xi}_{th} = \pmb{\Xi}_{th}^{(k)}(-\mu)
+    \end{equation}
+    \begin{equation*}
+        \pmb{\Xi}_1 =  \pmb{\Xi}_{th}^{(k)}(\mu).
+    \end{equation*}
+    %
+    In absence of noise ($\bar{n}=0$), the MDEP is given by formula \ref{eq:HelstromBPure} where
+    \begin{equation}
+        \begin{split}
+            &\ket{\psi_0}=\ket{-\mu^{(k)}},\\
+            &\ket{\psi_1}=\ket{\mu^{(k)}}.
+        \end{split}
+    \end{equation}
+    %
+    The inner product is given, in closed form, by \cite{PACSDisc}:
+    \begin{equation}
+        \braket{-\mu^{(k)}}{\mu^{(k)}} = \frac{L_k(\absolutevalue{\mu}^2)}{L_k(\absolutevalue{-\mu}^2)}
+        e^{-2\absolutevalue{\mu}^2},
+    \end{equation}
+    where $L_k(x)$ is the Laguerre polynomial of parameter $k$, evaluate in $x$.
+    \begin{figure}
+        \caption{MDEP of quantum BPSK in absence of noise, $N=30$.}
+        \begin{subfigure}{0.49\textwidth}
+            \includegraphics[width=\linewidth]{fig3.2a.pdf}
+            \caption{$k=1$}
+        \end{subfigure}
+        %\hspace*{fill}
+        \begin{subfigure}{0.49\textwidth}
+            \includegraphics[width=\linewidth]{fig3.2b.pdf}
+            \caption{$k=2$}
+        \end{subfigure}
+        \label{fig:3.2}
+    \end{figure}
+    In figure \ref{fig:3.2} the MDEP in absence of noise, for QBPSK with PACS, is plotted for
+    $k=1$ and for $k=2$, in function of $n_p$, with $N=30$. It can be notice that exist $k$ zeros
+    in the MDEP plot, where $k$ is the number of photon addition.
+    The existence of this zeros is not really useful for the design of a quantum communication
+    system because their selectivity factors is too high for a phisically implementation. It is, 
+    nevertheless, possible to use that for evaluate the effect of the thermal noise.
+    \begin{figure}
+        \caption{Thermal noise effect, in corrispondence of MDEP zeros ($N=40$).}
+        \begin{subfigure}{0.49\textwidth}
+            \includegraphics[width=\linewidth]{fig3.3a.pdf}
+            \caption{$k=1$ \& $\mu = 0.54$}
+        \end{subfigure}
+        %\hspace*{fill}
+        \begin{subfigure}{0.49\textwidth}
+            \includegraphics[width=\linewidth]{fig3.3b.pdf}
+            \caption{$k=2$ \& $\mu = 1.58$}
+        \end{subfigure}
+        \label{fig:3.3}
+    \end{figure}
+    In figure \ref{fig:3.3}, the sluggish performance because of thermal noise is clear. The plot
+    show the trend of MDEP, for zeros value of $\mu$, in function of $\bar{n}$; the used approximation
+    is $N=30$. The MDEP in presence of noise is given using the expression \ref{eq:HelstromBound}.
+
+    \begin{figure}
+        \caption{BPSK and OOK comparison. \\$N=45$, $\bar{n}=10^{-2}$, $p_0=p_1=1/2$}
+        \includegraphics[width=1\textwidth]{fig3.4.pdf}
+        \label{fig:3.4}
+    \end{figure}
+    The comparison between a quantum OOK system and a quantum BPSK system is given in figure 
+    \ref{fig:3.4}, in function of the mean energy of the system $\bar{E}$, that is equal to
+    $n_p$ for the OOK system and the sum of the $n_p$ for each state for the BPSK system.
+    The plots are given with $\bar{n}= 10^{-2}$, $N=45$ and equiprobable symbols.
+    The obtained result is really intresting: the quantum BPSK has a sluggish performance because
+    of the photon addition process. At an equal level of energy $\bar{E}$, for PACS systems, it is
+    possible to find an OOK configuration that maximize the performance.
+    
