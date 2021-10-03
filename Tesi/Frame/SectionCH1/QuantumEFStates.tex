@@ -1,13 +1,14 @@
 \section{QEF States}
-    In this section, some quantum states of electromagnetic field useful for quantum 
-    communication are characterized. It is firstly given a brief introduction to another one
-    tool for the description of quantum systems, then some Gaussian and non-Gaussian states 
+    This section characterizes some quantum states of electromagnetic field. These states are
+    helpful for the development of quantum communication and, in a more general way, of quantum
+    networks. It is firstly given a brief introduction to another one tool involved in the 
+    description of quantum systems. Secondly, some Gaussian and non-Gaussian states 
     are characterized.
 
     \subsection{Phase-space description}
-        As seen before, in \ref{eq:QEF.4}, quantum system can be completely
+        As seen before in \ref{eq:QEF.4}, a quantum system can be completely
         described by a density operator $\pmb{\Xi}$ defined in an infinite-dimensional Hilbert space
-        $\Hilbert$ and this operator can be expressed by the Fock representation (\ref{def:3}).
+        $\Hilbert$, and this operator can be expressed by the Fock representation (\ref{def:3}).
         Sometimes, however, it is convenient to give another representation of state $\pmb{\Xi}$ by
         means of a complex function introduced by Wigner \cite{Wigner}: the quasi-probability 
         distribution. In this thesis, this representation will be introduced and it will be used to
@@ -61,7 +62,8 @@
         \begin{equation}
             \pmb{A}\ket{\mu}=\mu\ket{\mu}.
         \end{equation}
-        It is possible to obtain a coherent state of parameter $\mu$, from the ground state as
+        It is possible to obtain a coherent state of parameter $\mu$, appliying the displacement
+        operator to the ground state:
         \begin{equation}
             \ket{\mu}=\pmb{D}_\mu\ket{0}.
         \end{equation}
@@ -84,7 +86,7 @@
     \paragraph{Noisy coherent states}\mbox{} \\
         \label{par:cohState}
         It is possible to characterize the state of a noisy armonic oscillator introducing
-        the thermal state, i.e the state of a electromagnetic cavity system.
+        the thermal state, i.e the state of an electromagnetic cavity in thermal equilibrium.
         The Fock representation of the thermal state $\pmb{\Xi}_{th}$ is given by \cite{tesiGuerrini}
         \begin{equation}
             \pmb{\Xi}_{th}=(1-v)\sum_{n=0}^{\infty}v^n\ket{n}\bra{n}
@@ -144,17 +146,17 @@
         \end{bmatrix}
     \end{equation*}
     with $\zeta=re^{i\phi}$.
-    The Wigner W-function of a squeezed state, unlike that of a coherent state, has not a 
+    The Wigner W-function of a squeezed state, differently from the one of a coherent state, has not a 
     circular symmetry.
 
     \paragraph{Noisy squeezed states}\mbox{} \\
     The representation of a noisy squeezed state $\pmb{\Xi}_{th}(\mu,\zeta)$ is obtained,
-    similary to a noisy coherent state, as:
+    similarly to a noisy coherent state, as:
     \begin{equation}
         \pmb{\Xi}_{th}(\mu,\zeta)=\pmb{D}_\mu\pmb{S}_\zeta\pmb{\Xi}_{th}
         \pmb{S}_\zeta^\dagger\pmb{D}_\mu^\dagger.
     \end{equation}
-    The Gaussian Wigner function is obtained with $\check{\pmb{\mu}}=[\mu\ \mu^*]^T$ and
+    The Gaussian Wigner W-function is obtained with $\check{\pmb{\mu}}=[\mu\ \mu^*]^T$ and
     \begin{equation*}
         \check{\pmb{C}}_0=\left(\bar{n}+\frac{1}{2}\right)
         \begin{bmatrix}
@@ -192,8 +194,8 @@
     \end{equation*}
 
     \subsection{Non-Gaussian states}
-    A state that does not meet the definition \ref{def:Gaussian} is a non-Gaussian state.
-    An important class of non-Gaussian states, useful for communications are the photon 
+    A state that does not fulfill the definition \ref{def:Gaussian} is a non-Gaussian state.
+    An important and useful for communications class of non-Gaussian states, are the photon 
     added states, examined in this thesis.
 
     \paragraph{Photon added states}\mbox{} \\
@@ -204,9 +206,10 @@
             \pmb{\Xi}^{(1)}=\frac{\pmb{A}^\dagger\pmb{\Xi}\pmb{A}}
             {tr\{\pmb{A}^\dagger\pmb{\Xi}\pmb{A}\}}.
         \end{equation}
-        The name \emph{photon addition}, despite can be thought, does not mean that the mean photon number
-        of the photon added state is one more then the non-photon added state.
-        In general, its mean number of photon could be the same, more or less then the starting state.
+        The name \emph{photon addition} could lead to believe that the mean photon number of the 
+        photon added state is icreased by one compared to the previous non photon added state.
+        However, that is incorrect.
+        In general, its mean number of photons could be the same, more or less than the starting state.
         Only if $\pmb{\Xi}=\ket{n}\bra{n}$, i.e $\pmb{\Xi}$ is the density operator corresponding to
         the Fock state $\ket{n}$, the result of the photon addition is a state with one more photon.
 

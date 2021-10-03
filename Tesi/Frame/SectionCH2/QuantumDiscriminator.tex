@@ -1,8 +1,8 @@
 \section{Quantum Discriminator}
-    The problem of quantum state discrimination (QSD) are one of the most important
-    aspect of quantum communication. As in classical communication, the ability to 
-    distinguish between two or more states, in presence of noise, can be decisive for improve
-    the performance of the communication system. Unlike the classical situation however,
+    The problem of quantum state discrimination (QSD) is one of the most important
+    aspects of quantum communication. As in classical communication, the ability to 
+    distinguish between two or more states in presence of noise can be decisive in order to determine
+    the performance of the communication system. However, differently from the classical situation,
     the discrimination can be done using a custom-designed quantum discriminator, overcoming
     the classical physics limits.
 
@@ -15,34 +15,34 @@
         \end{center}
     \end{figure}
     The problem of discrimination between two quantum states is realized, as every measurement
-    process \ref{post:2}, using an operator or with a set of operators.
-    If the state of system is unknown, as shown in figure \ref{fig:2.2}, there are two hypotheses
-    about the state $\pmb{\Xi}$ (the problem is generalises easly for $M$ different states),
+    process \ref{post:2}, using an operator or a set of operators.
+    If the state of the system is unknown, as shown in figure \ref{fig:2.2}, there are two hypotheses
+    about the state $\pmb{\Xi}$ (the problem is easly generalizable for $M$ different states),
     given by:
     \begin{equation}\begin{split}
         H_0 : \pmb{\Xi}=\pmb{\Xi}_0\\
         H_1 : \pmb{\Xi}=\pmb{\Xi}_1
         \label{eq:binHyp}
     \end{split}\end{equation}
-    It is necessary a set of two positive-definites operator (POVM):
+    It is necessary a set of two positive-definites operator (POVM)
     \begin{equation}
         \mathcal{P}=\{\pmb{\Pi}_0,\pmb{\Pi}_1\}
     \end{equation}
-    for the discrimination process and the probability that the hypothesis $H_j$ is choosen
-    if $H_k$ is the right choose, is given by \cite{tesiGuerrini}:
+    for the discrimination process, and the probability that the hypothesis $H_j$ is choosen
+    if $H_k$ is the right choose is given by \cite{tesiGuerrini}:
     \begin{equation}
         \mathbb{P}\{H_j|H_k\}=tr\{\pmb{\Xi}_k\pmb{\Pi}_j\}.
     \end{equation}
     The distribution error probability (DEP) in the discrimination process, if $p_0$ and $p_1$ are 
     respectively the probabilty of symbols $0$ and $1$, is so given by
     \begin{equation}
-        P_e=1-\left(p_0 tr\{\pmb{\Xi}_0\pmb{\Pi}_0\}+p_1 tr\{\pmb{\Xi}_0\pmb{\Pi}_0\}\right).
+        P_e=1-\left(p_0 tr\{\pmb{\Xi}_0\pmb{\Pi}_0\}+p_1 tr\{\pmb{\Xi}_1\pmb{\Pi}_1\}\right).
     \end{equation}
 
     \subsection{Optimal discriminator}
-    The issue of finding the optimal POVM that minimize was exhaustively discuss  by Helstrom in 
-    \cite{helstrom3,helstrom4}. The minimum distribution error probability (MDEP), for a binary 
-    communication system, is given by the well-known Helstrom bound
+    The issue of finding the optimal POVM that minimizes the DEP was exhaustively discuss  by Helstrom in 
+    \cite{helstrom3,helstrom4}. The minimum distribution error probability (MDEP) for a binary 
+    communication system is given by the well-known Helstrom bound
     \begin{equation}
         \breve{P}_e = \frac{1}{2} \left(1-\norm{p_1 \pmb{\Xi}_1 - p_0 \pmb{\Xi}_0}_1 \right),
         \label{eq:HelstromBound}

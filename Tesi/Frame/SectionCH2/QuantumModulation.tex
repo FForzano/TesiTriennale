@@ -1,25 +1,25 @@
 \section{Quantum Modulation}
     As in a classical system, it is possible to define the concept of modulation for a 
-    quantum communication system. The trasmitted information, will be associated to a 
-    quantum state of the electromagnetic field, so it can be trasmitted on the communication 
+    quantum communication system. The transmitted information will be associated to a 
+    quantum state of the electromagnetic field, so it can be transmitted on the communication 
     channel.
 
     \begin{figure}[ht]
         \includegraphics[width=1\textwidth]{fig2.1.pdf}
-        \caption{Block diagram of a quantum trasmitter.}
+        \caption{Block diagram of a quantum transmitter.}
         \label{fig:2.1}
     \end{figure}
-    It is possible to think about the quantum trasmitter as in figure \ref{fig:2.1}. The bit source
-    emits a bit sequence $a[n]$, the serial-parallel converter parallelize a group of $l$-bit (where,
-    if $L$ is the number of quantum states, $l=\log_2(L)$) and sends them to the quantum modulator;
-    this last associate to every group of bit, one quantum state. The operation of quantum state 
+    It is possible to think about the quantum transmitter as in figure \ref{fig:2.1}. The bit source
+    emits a bit sequence $a[n]$, the serial-parallel converter parallelizes a group of $l$-bit (where
+    if $L$ is the number of quantum states, $l=\log_2(L)$) and sends them to the quantum modulator.
+    This latter associates one quantum state to every group of bit. The operation of quantum state 
     creation, in real cases, is affected by noise.
 
-    The sequence of operation is very closer to a classical trasmitter, the main difference is that
-    the modulator map the bits into quantum states instead of classical modulation. It is, therefor, 
-    possible to achieve the equivalent of classical modulation, that it is called quantum modulation,
-    with several states and then, assess the impact on performance.
-    In this thesis only the binary cases will be considered and assessed, in the OOK and BPSK 
+    The sequence of operations is very close to a classical transmitter: the main difference is that
+    the modulator maps the bits into quantum states instead of classical modulation. Therefore, it is 
+    possible to achieve the quantum equivalent of classical modulation, with several states. After 
+    that, the impact on performance can be tested.
+    This thesis only considers and assesses the binary cases, in the OOK and BPSK 
     configuration.
     
     \subsection{OOK modulation}
@@ -50,6 +50,6 @@
         \begin{equation*}
             \pmb{\Xi}_1 = \pmb{\Xi}_{th}(\mu).
         \end{equation*}
-        The use of a BPSK solution, in  a quantum system, is not said that improves the performance
-        of the system. The effect depends on which are the used states. In the next chapter some 
+        There is no guarantee that the use of a BPSK solution in  a quantum system will 
+        improve its performance. The effect depends on which are the used states. In the next chapter some 
         configuration are assessed.

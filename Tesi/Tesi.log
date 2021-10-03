@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.22)  2 OCT 2021 14:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.22)  3 OCT 2021 19:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -685,7 +685,7 @@ Overfull \hbox (3.05305pt too wide) in paragraph at lines 8--12
  []
 
 [3] [4]) (./Frame/SectionCH1/QuantumEFStates.tex
-Overfull \hbox (5.10858pt too wide) in paragraph at lines 30--32
+Overfull \hbox (5.10858pt too wide) in paragraph at lines 31--33
 []\T1/cmr/m/it/10 The s-order quasi-probability
  []
 
@@ -736,14 +736,14 @@ pdfTeX warning: pdflatex (file ./Pictures/fig3.2b.pdf): PDF inclusion: found PDF
 File: ./Pictures/fig3.2b.pdf Graphic file (type pdf)
 <use ./Pictures/fig3.2b.pdf>
 Package pdftex.def Info: ./Pictures/fig3.2b.pdf  used on input line 85.
-(pdftex.def)             Requested size: 169.0519pt x 134.91113pt.
+(pdftex.def)             Requested size: 158.70232pt x 126.65176pt.
 
 
 pdfTeX warning: pdflatex (file ./Pictures/fig3.3a.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <./Pictures/fig3.3a.pdf, id=548, 403.2365pt x 330.23375pt>
 File: ./Pictures/fig3.3a.pdf Graphic file (type pdf)
 <use ./Pictures/fig3.3a.pdf>
-Package pdftex.def Info: ./Pictures/fig3.3a.pdf  used on input line 100.
+Package pdftex.def Info: ./Pictures/fig3.3a.pdf  used on input line 99.
 (pdftex.def)             Requested size: 169.0519pt x 138.44527pt.
 
 
@@ -751,7 +751,7 @@ pdfTeX warning: pdflatex (file ./Pictures/fig3.3b.pdf): PDF inclusion: found PDF
 <./Pictures/fig3.3b.pdf, id=549, 417.3994pt x 323.99042pt>
 File: ./Pictures/fig3.3b.pdf Graphic file (type pdf)
 <use ./Pictures/fig3.3b.pdf>
-Package pdftex.def Info: ./Pictures/fig3.3b.pdf  used on input line 105.
+Package pdftex.def Info: ./Pictures/fig3.3b.pdf  used on input line 104.
 (pdftex.def)             Requested size: 169.0519pt x 131.22034pt.
 
 
@@ -764,7 +764,7 @@ Package pdftex.def Info: ./Pictures/fig3.4.pdf  used on input line 115.
 [17 <./Pictures/fig3.2a.pdf> <./Pictures/fig3.2b.pdf> <./Pictures/fig3.3a.pdf> <./Pictures/fig3.3b.pdf>]) (./Frame/SectionCH3/PASSDiscrimination.tex
 
 pdfTeX warning: pdflatex (file ./Pictures/fig3.5.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Pictures/fig3.5.pdf, id=576, 418.87491pt x 312.84879pt>
+<./Pictures/fig3.5.pdf, id=577, 418.87491pt x 312.84879pt>
 File: ./Pictures/fig3.5.pdf Graphic file (type pdf)
 <use ./Pictures/fig3.5.pdf>
 Package pdftex.def Info: ./Pictures/fig3.5.pdf  used on input line 20.
@@ -811,13 +811,13 @@ Package logreq Info: Writing requests to 'Tesi.run.xml'.
 Here is how much of TeX's memory you used:
  20520 strings out of 479014
  340991 string characters out of 5859133
- 1102820 words of memory out of 5000000
+ 1102821 words of memory out of 5000000
  37495 multiletter control sequences out of 15000+600000
  422822 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,18n,89p,792b,1752s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsl1000.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on Tesi.pdf (28 pages, 719960 bytes).
+Output written on Tesi.pdf (28 pages, 720258 bytes).
 PDF statistics:
  751 PDF objects out of 1000 (max. 8388607)
  655 compressed objects within 7 object streams
