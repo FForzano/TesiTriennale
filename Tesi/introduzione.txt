@@ -1,0 +1,17 @@
+La meccanica quantistica sta aprendo le porte a nuovi modi di comunicare ed elaborare le 
+informazioni. La capacità di comprendere a fondo l'essenza della materia potrà portare, 
+in un futuro molto prossimo, a realizzare e progettare tecnologie di prossima generazione
+con prestazioni notevolmente migliori, in grado di [...].
+Le comunicazioni in tutto ciò rivestiranno un ruolo chiave, studiare ed ottimizzare un sistema
+di comunicazione efficiente e affidabile risulterà essenziale.
+
+Con questo obiettivo in questa tesi verranno presentati innanzitutto i principi cardine della
+meccanica quantistica (capitolo 2), seguiti da una breve rassegna di alcuni strumenti utili ai fini di 
+caratterizzare un sistema di comunicazione basato sull'utilizzo di stati quantistici.
+Il terzo capitolo riguarderà una rapida presentazione delle modalità comunicazione quantistiche (quantum modulation)
+e degli aspetti chiave nel riconoscimento dell'informazione (Quantum state discrimination). In questo contesto 
+verrà presentato il discriminatore ottimo per binary systems; ovvero quello che minimizza la distribution error
+probability (DEP) nel riconoscimento del simbolo trasmesso. 
+Verrà infine analizzato il comportamento di quest'ultimo in presenza di non-Gaussian states di tipo photon
+added coherent states (PACSs) e photon added squeezed states (PASSs), col fine di ricercare la configurazione
+ottima di parametri che minimizzi la probabilità d'errore.
