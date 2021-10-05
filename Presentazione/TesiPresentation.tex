@@ -3,6 +3,10 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 
+\usepackage{physics}
+
+\newcommand{\Hilbert}{\mathcal{H}}
+
 %\usetheme[titlepagelogo=Pictures/logo.png,
 %          language=english,
 %          bullet=square,
@@ -14,17 +18,31 @@
 
 \usetheme{Ferrara}
 
-\author[Federico Forzano]{\emph{Author:}\hspace{11.3mm}\ Federico Forzano\\
-                        \emph{Supervisor:}\hspace{5.7mm}\ Chiar.mo~Prof.~Andrea Conti\\
-                        \emph{Co-Supervisor:}\ Dott.~Ing.~Stefano Guerrini}
-%\rel{Chiar.mo~Prof.\ ~Andrea Conti}
-\title{\textbf{On the Design of Quantum Communication Systems with non-Gaussian States}}
+\author[Federico Forzano]{
+                        {\scriptsize Supervisor:}\hspace{60mm}{\scriptsize Candidate:}\\
+                        Chiar.mo~Prof.~Andrea Conti \hspace{25mm} Federico Forzano\\
+                        {\scriptsize Co-Supervisor:}\\
+                        Dott.~Ing.~Stefano Guerrini
+                        }
 
-\date{Academic Year 2020-2021}
+\title{On the Design of Quantum Communication Systems with non-Gaussian States}
+
+\date{}
 
 \begin{document}
         
+    % Capitolo 1: Quantum Mechanics Abstract
     \input{Frame/TitleFrame.tex}
-    \input{Frame/Frame1.tex}
+    \input{Frame/Postulates.tex}
+    \input{Frame/QuantizedElectromagneticField.tex}
+    \input{Frame/FockStates.tex}
+    \input{Frame/ElectromagneticFieldStates.tex}
+
+    % Capitolo 2: Quantum Communication
+    \input{Frame/QuantumModulation.tex}
+    \input{Frame/QuantumDiscriminator.tex}
+
+    % Capitolo 3: Discrimination of Photon Added States
+    \input{Frame/PACSEvaluation}
 
 \end{document}
