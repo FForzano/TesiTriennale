@@ -1,7 +1,7 @@
 function plotkMDEP_BPSK(N,p0,p1,n_th)
     
     symbols = ['o' 's' '^' 'd'];
-    colors = ['r','g','b','y'];
+    colors = ['r','g','b','m'];
     
     delta = 1E-10;
     figure;

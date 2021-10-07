@@ -11,7 +11,7 @@ function plotPASSMDEP()
     errMax = 1E-3;
     
     % plot configuration
-    colors = ['r','r','m','m','g','g','b','b','y','y'];
+    colors = ['r','r','m','m','g','g','b','b','c','c'];
     line = ["--" '-' "--" '-' "--" '-' "--" '-' "--" '-'];
     plot_number = 1;
     
@@ -26,7 +26,7 @@ function plotPASSMDEP()
             current_mu = mu_start;
             np(i) = photonNumber(current_mu,setNoisyPASS(current_mu,current_r,theta,k,n_th),N)*2;
             while np(i) <= np_max
-                Xi0 = setNoisyPASS(-current_mu,current_r,theta,k,n_th);
+                Xi0 = setNoisyPASS(0,0,0,0,n_th);
                 %Xi0 = setNoisyPASS(0,0,theta,0,n_th);
                 Xi1 = setNoisyPASS(current_mu,current_r,theta,k,n_th);
 
@@ -61,7 +61,7 @@ function plotPASSMDEP()
             
             current_line = line(plot_number);
             current_color = colors(plot_number);
-            plot(np,Pe,strcat(current_line,current_color));
+            plot(np,Pe,strcat(current_line,current_color),'LineWidth',1);
             plot_number = plot_number+1;
             
 %             current_line = line(plot_number);

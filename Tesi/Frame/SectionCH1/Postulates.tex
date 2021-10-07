@@ -7,7 +7,7 @@
     \subsection{First postulate}
     \begin{postulate}[State Representation]
         The state of an isolated quantum system is represented by a complex unitary 
-        vector in an Hilbert space:
+        vector $\ket{\psi}$ in an Hilbert space $\Hilbert$:
         \begin{equation*}
             \ket{\psi} \in \Hilbert
         \end{equation*}
@@ -23,7 +23,7 @@
     
     \subsection{Second postulate}
     \begin{postulate}[Observables]
-        Every observables of the system is represented by an Hermitian operator
+        Every observables of the system is represented by an Hermitian operator $\mathcal{M}$
         acting on the state space:
         \begin{equation*}
             \mathcal{M}:\Hilbert\to\Hilbert
@@ -53,7 +53,7 @@
 
     \subsection{Fourth postulate}
     \begin{postulate}[Wavefunction Collapse]
-        The state after measurement of $\lambda_i$ is $\mathcal{P}_i\ket{\psi}$ (with the
+        The state $\ket{\psi'}$ after measurement of $\lambda_i$ is $\mathcal{P}_i\ket{\psi}$ (with the
         necessary normalization):
         \begin{equation*}
             \ket{\psi'}=\frac{\mathcal{P}_i\ket{\psi}}{\bra{\psi}\mathcal{P}_i\ket{\psi}}.
@@ -80,7 +80,7 @@
 
     \subsection{Sixth postulate}
     \begin{postulate}[Composite System]
-        The state space of a system composed of $\Hilbert_1$ and $\Hilbert_2$ is given by
+        The state space $\Hilbert$ of a system composed of $\Hilbert_1$ and $\Hilbert_2$ is given by
         \begin{equation*}
             \Hilbert=\Hilbert_1\otimes\Hilbert_2.
         \end{equation*}

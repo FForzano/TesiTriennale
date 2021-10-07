@@ -1,1 +1,11 @@
 \babel@toc {english}{}
+\beamer@sectionintoc {1}{Motivation}{2}{0}{1}
+\beamer@sectionintoc {2}{Quantum Communication System}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{Quantum modulator}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Quantum receiver}{8}{0}{2}
+\beamer@sectionintoc {3}{Performance Analysys}{12}{0}{3}
+\beamer@subsectionintoc {3}{1}{PACS system performance}{12}{0}{3}
+\beamer@subsectionintoc {3}{2}{Noise effect}{13}{0}{3}
+\beamer@subsectionintoc {3}{3}{Squeezed state system performance}{14}{0}{3}
+\beamer@subsectionintoc {3}{4}{PASS system performance}{15}{0}{3}
+\beamer@sectionintoc {4}{Conclusion}{16}{0}{4}
