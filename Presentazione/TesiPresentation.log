@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.22)  6 OCT 2021 19:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.22)  7 OCT 2021 10:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/TesiPresentation.tex
-(/home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/TesiPresentation.tex
+**/media/federico/WesternDigital/Università/TesiLaurea/Presentazione/TesiPresentation.tex
+(/media/federico/WesternDigital/Università/TesiLaurea/Presentazione/TesiPresentation.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2021/03/19 v3.62 A class for typesetting presentations
@@ -638,7 +638,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\\' on input line 26.
 
-(/home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/TesiPresentation.aux)
+(/media/federico/WesternDigital/Università/TesiLaurea/Presentazione/TesiPresentation.aux)
 \openout1 = `TesiPresentation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
@@ -726,7 +726,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 32.
 LaTeX Info: Redefining \pageref on input line 32.
 LaTeX Info: Redefining \nameref on input line 32.
- (/home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/TesiPresentation.out) (/home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/TesiPresentation.out)
+ (/media/federico/WesternDigital/Università/TesiLaurea/Presentazione/TesiPresentation.out) (/media/federico/WesternDigital/Università/TesiLaurea/Presentazione/TesiPresentation.out)
 \@outlinefile=\write5
 \openout5 = `TesiPresentation.out'.
 
@@ -795,12 +795,12 @@ Dictionary: translator-months-dictionary, Language: English
 Dictionary: translator-numbers-dictionary, Language: English 
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (/home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/TesiPresentation.nav) (/home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/Frame/TitleFrame.tex [1
+) (/media/federico/WesternDigital/Università/TesiLaurea/Presentazione/TesiPresentation.nav) (/media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Frame/TitleFrame.tex [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </home/federico/texmf/tex/latex/Ferrara/images/background.pdf> </home/federico/texmf/tex/latex/Ferrara/images/unife_logo.pdf
 
 pdfTeX warning: pdflatex (file /home/federico/texmf/tex/latex/Ferrara/images/unife_logo.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]) (/home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/Frame/Postulates.tex
+>]) (/media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Frame/Postulates.tex
 LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -821,56 +821,65 @@ pdfTeX warning: pdflatex (file /home/federico/texmf/tex/latex/Ferrara/images/bac
 
 ] [4
 
-]) (/home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/Frame/QuantizedElectromagneticField.tex [5
+] [5
 
-]) (/home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/Frame/FockStates.tex [6
+]) (/media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Frame/QuantizedElectromagneticField.tex [6
 
-] [7
+]) (/media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Frame/FockStates.tex [7
 
-]) (/home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/Frame/WignerFunction.tex [8
+] [8
 
-]) (/home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/Frame/ElectromagneticFieldStates.tex [9
+]) (/media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Frame/WignerFunction.tex [9
 
-]) (/home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/Frame/QuantumModulation.tex
+] [10
 
-pdfTeX warning: pdflatex (file /home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig2.1.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/fig2.1.pdf, id=86, 480.46503pt x 214.14001pt>
+]) (/media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Frame/ElectromagneticFieldStates.tex
+Overfull \hbox (32.83853pt too wide) detected at line 36
+[]
+ []
+
+[11
+
+]) (/media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Frame/QuantumModulation.tex
+
+pdfTeX warning: pdflatex (file /media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig2.1.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Pictures/fig2.1.pdf, id=100, 480.46503pt x 214.14001pt>
 File: Pictures/fig2.1.pdf Graphic file (type pdf)
 <use Pictures/fig2.1.pdf>
 Package pdftex.def Info: Pictures/fig2.1.pdf  used on input line 22.
 (pdftex.def)             Requested size: 261.19826pt x 116.41808pt.
-[10
-
- </home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig2.1.pdf>]
-File: Pictures/fig2.1.pdf Graphic file (type pdf)
-<use Pictures/fig2.1.pdf>
-Package pdftex.def Info: Pictures/fig2.1.pdf  used on input line 22.
-(pdftex.def)             Requested size: 261.19826pt x 116.41808pt.
- [11
-
-]) (/home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/Frame/QuantumDiscriminator.tex
-
-pdfTeX warning: pdflatex (file /home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig2.2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/fig2.2.pdf, id=128, 380.45135pt x 257.56226pt>
-File: Pictures/fig2.2.pdf Graphic file (type pdf)
-<use Pictures/fig2.2.pdf>
-Package pdftex.def Info: Pictures/fig2.2.pdf  used on input line 10.
-(pdftex.def)             Requested size: 184.3758pt x 124.82321pt.
 [12
 
- </home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig2.2.pdf>]
+ </media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig2.1.pdf>]
+File: Pictures/fig2.1.pdf Graphic file (type pdf)
+<use Pictures/fig2.1.pdf>
+Package pdftex.def Info: Pictures/fig2.1.pdf  used on input line 22.
+(pdftex.def)             Requested size: 261.19826pt x 116.41808pt.
+ [13
+
+]) (/media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Frame/QuantumDiscriminator.tex
+
+pdfTeX warning: pdflatex (file /media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig2.2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Pictures/fig2.2.pdf, id=143, 380.45135pt x 257.56226pt>
 File: Pictures/fig2.2.pdf Graphic file (type pdf)
 <use Pictures/fig2.2.pdf>
 Package pdftex.def Info: Pictures/fig2.2.pdf  used on input line 10.
 (pdftex.def)             Requested size: 184.3758pt x 124.82321pt.
- [13
+[14
 
-] [14
+ </media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig2.2.pdf>]
+File: Pictures/fig2.2.pdf Graphic file (type pdf)
+<use Pictures/fig2.2.pdf>
+Package pdftex.def Info: Pictures/fig2.2.pdf  used on input line 10.
+(pdftex.def)             Requested size: 184.3758pt x 124.82321pt.
+ [15
 
-] [15
+] [16
 
-]) (/home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/Frame/PACSEvaluation.tex
-<Pictures/fig3.4.pdf, id=190, 608.21228pt x 325.97786pt>
+] [17
+
+]) (/media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Frame/PACSEvaluation.tex
+<Pictures/fig3.4.pdf, id=204, 608.21228pt x 325.97786pt>
 File: Pictures/fig3.4.pdf Graphic file (type pdf)
 <use Pictures/fig3.4.pdf>
 Package pdftex.def Info: Pictures/fig3.4.pdf  used on input line 20.
@@ -879,55 +888,55 @@ Package pdftex.def Info: Pictures/fig3.4.pdf  used on input line 20.
 Overfull \vbox (5.7707pt too high) detected at line 20
  []
 
-[16
+[18
 
- </home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig3.4.pdf>]) (/home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/Frame/NoiseEffect.tex
+ </media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig3.4.pdf>]) (/media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Frame/NoiseEffect.tex
 
-pdfTeX warning: pdflatex (file /home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig3.2a.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/fig3.2a.pdf, id=213, 379.79893pt x 296.68842pt>
+pdfTeX warning: pdflatex (file /media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig3.2a.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Pictures/fig3.2a.pdf, id=224, 379.79893pt x 296.68842pt>
 File: Pictures/fig3.2a.pdf Graphic file (type pdf)
 <use Pictures/fig3.2a.pdf>
 Package pdftex.def Info: Pictures/fig3.2a.pdf  used on input line 20.
 (pdftex.def)             Requested size: 153.64493pt x 120.02232pt.
 
 
-pdfTeX warning: pdflatex (file /home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig3.3a.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/fig3.3a.pdf, id=214, 382.35847pt x 294.73112pt>
+pdfTeX warning: pdflatex (file /media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig3.3a.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Pictures/fig3.3a.pdf, id=225, 382.35847pt x 294.73112pt>
 File: Pictures/fig3.3a.pdf Graphic file (type pdf)
 <use Pictures/fig3.3a.pdf>
 Package pdftex.def Info: Pictures/fig3.3a.pdf  used on input line 20.
 (pdftex.def)             Requested size: 153.64493pt x 118.43451pt.
-[17
+[19
 
- </home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig3.2a.pdf> </home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig3.3a.pdf>]) (/home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/Frame/SSEvaluation.tex
+ </media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig3.2a.pdf> </media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig3.3a.pdf>]) (/media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Frame/SSEvaluation.tex
 
-pdfTeX warning: pdflatex (file /home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig3.5.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/fig3.5.pdf, id=225, 418.87491pt x 312.84879pt>
+pdfTeX warning: pdflatex (file /media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig3.5.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Pictures/fig3.5.pdf, id=237, 418.87491pt x 312.84879pt>
 File: Pictures/fig3.5.pdf Graphic file (type pdf)
 <use Pictures/fig3.5.pdf>
 Package pdftex.def Info: Pictures/fig3.5.pdf  used on input line 10.
 (pdftex.def)             Requested size: 205.88364pt x 153.77461pt.
-[18
+[20
 
- </home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig3.5.pdf>]) (/home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/Frame/PASSEvaluation.tex
+ </media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig3.5.pdf>]) (/media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Frame/PASSEvaluation.tex
 
-pdfTeX warning: pdflatex (file /home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig3.6.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/fig3.6.pdf, id=233, 368.83797pt x 292.77379pt>
+pdfTeX warning: pdflatex (file /media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig3.6.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Pictures/fig3.6.pdf, id=245, 368.83797pt x 292.77379pt>
 File: Pictures/fig3.6.pdf Graphic file (type pdf)
 <use Pictures/fig3.6.pdf>
 Package pdftex.def Info: Pictures/fig3.6.pdf  used on input line 25.
 (pdftex.def)             Requested size: 153.64493pt x 121.95898pt.
 
 
-pdfTeX warning: pdflatex (file /home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig3.7.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/fig3.7.pdf, id=234, 384.89796pt x 299.12755pt>
+pdfTeX warning: pdflatex (file /media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig3.7.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Pictures/fig3.7.pdf, id=246, 384.89796pt x 299.12755pt>
 File: Pictures/fig3.7.pdf Graphic file (type pdf)
 <use Pictures/fig3.7.pdf>
 Package pdftex.def Info: Pictures/fig3.7.pdf  used on input line 25.
 (pdftex.def)             Requested size: 153.64493pt x 119.40698pt.
-[19
+[21
 
- </home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig3.6.pdf> </home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig3.7.pdf>])
+ </media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig3.6.pdf> </media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig3.7.pdf>])
 \tf@nav=\write6
 \openout6 = `TesiPresentation.nav'.
 
@@ -937,23 +946,23 @@ Package pdftex.def Info: Pictures/fig3.7.pdf  used on input line 25.
 \tf@snm=\write8
 \openout8 = `TesiPresentation.snm'.
 
- (/home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/TesiPresentation.aux)
+ (/media/federico/WesternDigital/Università/TesiLaurea/Presentazione/TesiPresentation.aux)
 Package rerunfilecheck Info: File `TesiPresentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22234 strings out of 479014
- 405800 string characters out of 5859133
+ 22248 strings out of 479014
+ 405708 string characters out of 5859133
  741972 words of memory out of 5000000
- 39128 multiletter control sequences out of 15000+600000
- 419394 words of font info for 65 fonts, out of 8000000 for 9000
+ 39137 multiletter control sequences out of 15000+600000
+ 420221 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 131i,25n,132p,522b,646s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss1728.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss2074.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb>
-Output written on /home/federico/Devices/WesternDigital/Università/TesiLaurea/Presentazione/TesiPresentation.pdf (19 pages, 491758 bytes).
+ 131i,25n,132p,515b,651s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsi1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss1728.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss2074.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb>
+Output written on /media/federico/WesternDigital/Università/TesiLaurea/Presentazione/TesiPresentation.pdf (21 pages, 514562 bytes).
 PDF statistics:
- 321 PDF objects out of 1000 (max. 8388607)
- 236 compressed objects within 3 object streams
- 39 named destinations out of 1000 (max. 500000)
+ 336 PDF objects out of 1000 (max. 8388607)
+ 248 compressed objects within 3 object streams
+ 43 named destinations out of 1000 (max. 500000)
  103 words of extra memory for PDF output out of 10000 (max. 10000000)
 
