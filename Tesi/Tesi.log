@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.22)  5 OCT 2021 21:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.22)  6 OCT 2021 11:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -645,7 +645,7 @@ Package biblatex Info: Reference segment=0 on input line 38.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (./Frame/Frontespizio.tex
-<Tesi-frn.pdf, id=136, 597.50829pt x 845.0471pt>
+<Tesi-frn.pdf, id=140, 597.50829pt x 845.0471pt>
 File: Tesi-frn.pdf Graphic file (type pdf)
 <use Tesi-frn.pdf>
 Package pdftex.def Info: Tesi-frn.pdf  used on input line 3.
@@ -657,11 +657,11 @@ Package pdftex.def Info: Tesi-frn.pdf  used on input line 3.
  <./Tesi-frn.pdf{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}>]) [2
 
 ] (./Tesi.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
@@ -670,65 +670,65 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  [3] [4
 
-] (./Frame/Chapter1.tex
+] (./Frame/Introduction.tex
 Chapter 1.
+) (./Frame/Chapter1.tex [1
+
+] [2
+
+]
+Chapter 2.
 (./Frame/SectionCH1/Postulates.tex
 Package hyperref Info: bookmark level for unknown postulate defaults to 0 on input line 8.
 Package hyperref Info: bookmark level for unknown observation* defaults to 0 on input line 19.
- [1
-
-]) (./Frame/SectionCH1/CombiningSystems.tex
+ [3]) (./Frame/SectionCH1/CombiningSystems.tex
 Package hyperref Info: bookmark level for unknown definition defaults to 0 on input line 5.
- [2]) (./Frame/SectionCH1/QuantizedElectromagneticField.tex
+ [4]) (./Frame/SectionCH1/QuantizedElectromagneticField.tex
 Overfull \hbox (3.05305pt too wide) in paragraph at lines 8--12
 \T1/cmr/m/n/10 In a vol-ume $\OMS/cmsy/m/n/10 V 2 \U/msb/m/n/10 R[]$ \T1/cmr/m/n/10 clas-si-cal elec-tro-mag-netic field is de-ter-mi-nated from Maxwell's
  []
 
-[3] [4]) (./Frame/SectionCH1/QuantumEFStates.tex
-
-LaTeX Warning: Reference `eq:QEF.4' on page 5 undefined on input line 9.
-
-
+[5] [6]) (./Frame/SectionCH1/QuantumEFStates.tex
 Overfull \hbox (5.10858pt too wide) in paragraph at lines 31--33
 []\T1/cmr/m/it/10 The s-order quasi-probability
  []
 
-[5] [6] [7] [8])) (./Frame/Chapter2.tex [9] [10
+[7] [8] [9] [10])) (./Frame/Chapter2.tex [11] [12
 
 ]
-Chapter 2.
+Chapter 3.
 (./Frame/SectionCH2/QuantumModulation.tex
 
 pdfTeX warning: pdflatex (file ./Pictures/fig2.1.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Pictures/fig2.1.pdf, id=386, 480.46503pt x 214.14001pt>
+<./Pictures/fig2.1.pdf, id=401, 480.46503pt x 214.14001pt>
 File: ./Pictures/fig2.1.pdf Graphic file (type pdf)
 <use ./Pictures/fig2.1.pdf>
 Package pdftex.def Info: ./Pictures/fig2.1.pdf  used on input line 8.
 (pdftex.def)             Requested size: 345.0pt x 153.77225pt.
-[11 <./Pictures/fig2.1.pdf>]) (./Frame/SectionCH2/QuantumDiscriminator.tex
+[13 <./Pictures/fig2.1.pdf>]) (./Frame/SectionCH2/QuantumDiscriminator.tex
 
 pdfTeX warning: pdflatex (file ./Pictures/fig2.2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Pictures/fig2.2.pdf, id=434, 380.45135pt x 257.56226pt>
+<./Pictures/fig2.2.pdf, id=450, 380.45135pt x 257.56226pt>
 File: ./Pictures/fig2.2.pdf Graphic file (type pdf)
 <use ./Pictures/fig2.2.pdf>
 Package pdftex.def Info: ./Pictures/fig2.2.pdf  used on input line 12.
 (pdftex.def)             Requested size: 258.75pt x 175.17537pt.
-[12] [13 <./Pictures/fig2.2.pdf>])) (./Frame/Chapter3.tex [14]
-Chapter 3.
-(./Frame/SectionCH3/PACSDiscrimination.tex [15
+[14] [15 <./Pictures/fig2.2.pdf>])) (./Frame/Chapter3.tex [16]
+Chapter 4.
+(./Frame/SectionCH3/PACSDiscrimination.tex [17
 
 ]
 
 pdfTeX warning: pdflatex (file ./Pictures/fig3.1.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Pictures/fig3.1.pdf, id=527, 398.02704pt x 326.7708pt>
+<./Pictures/fig3.1.pdf, id=542, 398.02704pt x 326.7708pt>
 File: ./Pictures/fig3.1.pdf Graphic file (type pdf)
 <use ./Pictures/fig3.1.pdf>
 Package pdftex.def Info: ./Pictures/fig3.1.pdf  used on input line 38.
 (pdftex.def)             Requested size: 258.75pt x 212.43839pt.
-[16 <./Pictures/fig3.1.pdf>]
+[18 <./Pictures/fig3.1.pdf>]
 
 pdfTeX warning: pdflatex (file ./Pictures/fig3.2a.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Pictures/fig3.2a.pdf, id=543, 413.42456pt x 327.96527pt>
+<./Pictures/fig3.2a.pdf, id=559, 413.42456pt x 327.96527pt>
 File: ./Pictures/fig3.2a.pdf Graphic file (type pdf)
 <use ./Pictures/fig3.2a.pdf>
 Package pdftex.def Info: ./Pictures/fig3.2a.pdf  used on input line 80.
@@ -736,7 +736,7 @@ Package pdftex.def Info: ./Pictures/fig3.2a.pdf  used on input line 80.
 
 
 pdfTeX warning: pdflatex (file ./Pictures/fig3.2b.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Pictures/fig3.2b.pdf, id=544, 403.48744pt x 322.00299pt>
+<./Pictures/fig3.2b.pdf, id=560, 403.48744pt x 322.00299pt>
 File: ./Pictures/fig3.2b.pdf Graphic file (type pdf)
 <use ./Pictures/fig3.2b.pdf>
 Package pdftex.def Info: ./Pictures/fig3.2b.pdf  used on input line 85.
@@ -744,7 +744,7 @@ Package pdftex.def Info: ./Pictures/fig3.2b.pdf  used on input line 85.
 
 
 pdfTeX warning: pdflatex (file ./Pictures/fig3.3a.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Pictures/fig3.3a.pdf, id=546, 403.2365pt x 330.23375pt>
+<./Pictures/fig3.3a.pdf, id=562, 403.2365pt x 330.23375pt>
 File: ./Pictures/fig3.3a.pdf Graphic file (type pdf)
 <use ./Pictures/fig3.3a.pdf>
 Package pdftex.def Info: ./Pictures/fig3.3a.pdf  used on input line 99.
@@ -752,7 +752,7 @@ Package pdftex.def Info: ./Pictures/fig3.3a.pdf  used on input line 99.
 
 
 pdfTeX warning: pdflatex (file ./Pictures/fig3.3b.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Pictures/fig3.3b.pdf, id=547, 417.3994pt x 323.99042pt>
+<./Pictures/fig3.3b.pdf, id=563, 417.3994pt x 323.99042pt>
 File: ./Pictures/fig3.3b.pdf Graphic file (type pdf)
 <use ./Pictures/fig3.3b.pdf>
 Package pdftex.def Info: ./Pictures/fig3.3b.pdf  used on input line 104.
@@ -760,36 +760,36 @@ Package pdftex.def Info: ./Pictures/fig3.3b.pdf  used on input line 104.
 
 
 pdfTeX warning: pdflatex (file ./Pictures/fig3.4.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Pictures/fig3.4.pdf, id=550, 608.21228pt x 325.97786pt>
+<./Pictures/fig3.4.pdf, id=566, 608.21228pt x 325.97786pt>
 File: ./Pictures/fig3.4.pdf Graphic file (type pdf)
 <use ./Pictures/fig3.4.pdf>
 Package pdftex.def Info: ./Pictures/fig3.4.pdf  used on input line 115.
 (pdftex.def)             Requested size: 345.0pt x 184.909pt.
-[17 <./Pictures/fig3.2a.pdf> <./Pictures/fig3.2b.pdf> <./Pictures/fig3.3a.pdf> <./Pictures/fig3.3b.pdf>]) (./Frame/SectionCH3/PASSDiscrimination.tex
+[19 <./Pictures/fig3.2a.pdf> <./Pictures/fig3.2b.pdf> <./Pictures/fig3.3a.pdf> <./Pictures/fig3.3b.pdf>]) (./Frame/SectionCH3/PASSDiscrimination.tex
 
 pdfTeX warning: pdflatex (file ./Pictures/fig3.5.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Pictures/fig3.5.pdf, id=575, 418.87491pt x 312.84879pt>
+<./Pictures/fig3.5.pdf, id=590, 418.87491pt x 312.84879pt>
 File: ./Pictures/fig3.5.pdf Graphic file (type pdf)
 <use ./Pictures/fig3.5.pdf>
 Package pdftex.def Info: ./Pictures/fig3.5.pdf  used on input line 20.
 (pdftex.def)             Requested size: 258.75pt x 193.26729pt.
-[18 <./Pictures/fig3.4.pdf>]
+[20 <./Pictures/fig3.4.pdf>]
 
 pdfTeX warning: pdflatex (file ./Pictures/fig3.6.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Pictures/fig3.6.pdf, id=588, 415.41196pt x 325.97786pt>
+<./Pictures/fig3.6.pdf, id=603, 415.41196pt x 325.97786pt>
 File: ./Pictures/fig3.6.pdf Graphic file (type pdf)
 <use ./Pictures/fig3.6.pdf>
 Package pdftex.def Info: ./Pictures/fig3.6.pdf  used on input line 63.
 (pdftex.def)             Requested size: 258.75pt x 203.04427pt.
-[19 <./Pictures/fig3.5.pdf>]
+[21 <./Pictures/fig3.5.pdf>]
 
 pdfTeX warning: pdflatex (file ./Pictures/fig3.7.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Pictures/fig3.7.pdf, id=601, 399.51256pt x 323.99042pt>
+<./Pictures/fig3.7.pdf, id=617, 399.51256pt x 323.99042pt>
 File: ./Pictures/fig3.7.pdf Graphic file (type pdf)
 <use ./Pictures/fig3.7.pdf>
 Package pdftex.def Info: ./Pictures/fig3.7.pdf  used on input line 86.
 (pdftex.def)             Requested size: 258.75pt x 209.83983pt.
-)) [20 <./Pictures/fig3.6.pdf>] [21 <./Pictures/fig3.7.pdf>] [22
+)) [22 <./Pictures/fig3.6.pdf>] [23 <./Pictures/fig3.7.pdf>] [24
 
 ]
 Overfull \hbox (3.16486pt too wide) in paragraph at lines 51--51
@@ -801,36 +801,30 @@ Overfull \hbox (2.39786pt too wide) in paragraph at lines 51--51
 []\T1/cmr/m/n/10 A. Ser-afini. \T1/cmr/m/it/10 Quan-tum Con-tin-u-ous Vari-ables: A Primer of The-o-ret-i-cal Meth-
  []
 
-[23]
+[25]
 \tf@thm=\write7
 \openout7 = `Tesi.thm'.
 
- [24] (./Tesi.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+ [26] (./Tesi.aux)
 Package rerunfilecheck Info: File `Tesi.out' has not changed.
-(rerunfilecheck)             Checksum: 9A31EF6F446CF0D21A57B75E69D84B91;5346.
+(rerunfilecheck)             Checksum: 77272ED8E735973A6CBD4B7664613264;5450.
 Package logreq Info: Writing requests to 'Tesi.run.xml'.
 \openout1 = `Tesi.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20519 strings out of 479014
- 340976 string characters out of 5859133
- 1104778 words of memory out of 5000000
- 37495 multiletter control sequences out of 15000+600000
+ 20528 strings out of 479014
+ 341105 string characters out of 5859133
+ 1102823 words of memory out of 5000000
+ 37497 multiletter control sequences out of 15000+600000
  422822 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,18n,89p,792b,1752s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsl1000.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on Tesi.pdf (28 pages, 722029 bytes).
+Output written on Tesi.pdf (30 pages, 725863 bytes).
 PDF statistics:
- 749 PDF objects out of 1000 (max. 8388607)
- 653 compressed objects within 7 object streams
- 179 named destinations out of 1000 (max. 500000)
- 325 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 766 PDF objects out of 1000 (max. 8388607)
+ 668 compressed objects within 7 object streams
+ 183 named destinations out of 1000 (max. 500000)
+ 333 words of extra memory for PDF output out of 10000 (max. 10000000)
 
