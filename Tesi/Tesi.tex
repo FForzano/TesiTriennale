@@ -34,13 +34,20 @@
 \newtheorem{definition}{\textbf{Definition}}
 \newcommand{\Hilbert}{\mathcal{H}}
 
+\usepackage{pgfplots}
+% and optionally (as of Pgfplots 1.3):
+\pgfplotsset{compat=newest}
+\pgfplotsset{plot coordinates/math parser=false}
+\newlength\figureheight
+\newlength\figurewidth
+
 % Main document file
 \begin{document}
 
     \frontmatter
     \input{Frame/Frontespizio}
     \tableofcontents
-
+    
     \mainmatter
     \input{Frame/Introduction}
     \input{Frame/Chapter1}

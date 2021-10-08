@@ -25,8 +25,8 @@ function plotkMDEP_BPSK(N,p0,p1,n_th)
             Xi1_OOK = setNoisyPACS(0,k,n_th);
             Xi1_BPSK = setNoisyPACS(0,k,n_th);
             
-            Xi1_OOK.mu = np2mu(np/2,Xi1_OOK,0,5,delta,N);
-            Xi1_BPSK.mu = np2mu(np,Xi1_BPSK,0,5,delta,N);
+            Xi1_OOK.mu = np2mu(np,Xi1_OOK,0,5,delta,N);
+            Xi1_BPSK.mu = np2mu(np/2,Xi1_BPSK,0,5,delta,N);
             
             Xi0_OOK = setNoisyPACS(0,0,n_th);
             Xi0_BPSK = setNoisyPACS(-Xi1_BPSK.mu,k,n_th);

@@ -15,7 +15,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Continuos-Variables Quantum Systems}{5}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Hilbert space}{6}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1}Hilbert space}{5}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}Phase space}{6}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
@@ -27,48 +27,52 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.2}Squeezed state}{8}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Noisy squeezed states}{8}{section*.4}%
+\contentsline {paragraph}{Noisy squeezed states}{9}{section*.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Non-Gaussian States}{9}{section.2.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.1}Photon added states}{9}{subsection.2.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Noisy photon added coherent states}{10}{section*.5}%
+\contentsline {paragraph}{Photon added coherent states}{10}{section*.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Noisy photon added squeezed states}{10}{section*.7}%
+\contentsline {paragraph}{Photon added squeezed states}{11}{section*.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.2}Photon subtracted states}{10}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.2}Photon subtracted states}{11}{subsection.2.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Quantum Communication Systems}{11}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Quantum Communication Systems}{13}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Quantum Modulation}{11}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Quantum Communication System}{13}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}OOK modulation}{12}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Quantum Modulation}{14}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}BPSK modulation}{12}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2.1}OOK modulation}{14}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Quantum Discriminator}{12}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.2}BPSK modulation}{15}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Binary quantum state discrimination}{13}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.3}Quantum Discriminator}{15}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Optimal discriminator}{14}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3.1}Binary quantum state discrimination}{15}{subsection.3.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Discrimination of Photon Added States}{15}{chapter.4}%
+\contentsline {subsection}{\numberline {3.3.2}Optimal discriminator}{16}{subsection.3.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}PACS Discrimination}{15}{section.4.1}%
+\contentsline {chapter}{\numberline {4}Performance Analysis}{17}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Quantum OOK PACS system}{15}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.1}PACS Discrimination}{17}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Quantum BPSK PACS system}{16}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.1}Quantum OOK PACS system}{17}{subsection.4.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}PASS Discrimination}{18}{section.4.2}%
+\contentsline {subsection}{\numberline {4.1.2}Quantum BPSK PACS system}{18}{subsection.4.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Squeezed states discrimination}{18}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.2}PASS Discrimination}{21}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}PASS discrimination}{19}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.1}Squeezed states discrimination}{21}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{OOK PASS system}{19}{section*.15}%
+\contentsline {subsection}{\numberline {4.2.2}PASS discrimination}{21}{subsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{BPSK PASS system}{20}{section*.17}%
+\contentsline {paragraph}{OOK PASS system}{22}{section*.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusion}{23}{chapter.5}%
+\contentsline {paragraph}{BPSK PASS system}{22}{section*.18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Conclusion}{25}{chapter.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{27}{chapter*.20}%

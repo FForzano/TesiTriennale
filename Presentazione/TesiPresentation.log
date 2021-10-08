@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.22)  7 OCT 2021 21:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.22)  8 OCT 2021 18:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -874,12 +874,16 @@ Package pdftex.def Info: Pictures/fig2.2.pdf  used on input line 10.
 ] [11
 
 ]) (/media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Frame/PACSEvaluation.tex
-<Pictures/fig3.4.pdf, id=245, 600.34285pt x 304.45746pt>
+<Pictures/fig3.4.pdf, id=245, 538.83308pt x 317.57648pt>
 File: Pictures/fig3.4.pdf Graphic file (type pdf)
 <use Pictures/fig3.4.pdf>
 Package pdftex.def Info: Pictures/fig3.4.pdf  used on input line 20.
-(pdftex.def)             Requested size: 307.28987pt x 155.84265pt.
- [12
+(pdftex.def)             Requested size: 276.559pt x 162.99886pt.
+
+Overfull \vbox (4.06998pt too high) detected at line 20
+ []
+
+[12
 
  </media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Pictures/fig3.4.pdf>]) (/media/federico/WesternDigital/Università/TesiLaurea/Presentazione/Frame/NoiseEffect.tex
 <Pictures/fig3.2a.pdf, id=266, 380.85286pt x 299.94058pt>
@@ -948,7 +952,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  131i,23n,132p,515b,652s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss1728.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss2074.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb>
-Output written on /media/federico/WesternDigital/Università/TesiLaurea/Presentazione/TesiPresentation.pdf (16 pages, 531765 bytes).
+Output written on /media/federico/WesternDigital/Università/TesiLaurea/Presentazione/TesiPresentation.pdf (16 pages, 533302 bytes).
 PDF statistics:
  387 PDF objects out of 1000 (max. 8388607)
  297 compressed objects within 3 object streams

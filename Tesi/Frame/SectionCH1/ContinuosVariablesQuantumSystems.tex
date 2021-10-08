@@ -6,6 +6,31 @@
     section presents the key aspects for the representation of this systems.
             
     \subsection{Hilbert space}
+        Let consider a single-mode bosonic continuous-variable system, corresponding to a single
+        mode radiation of electromagnetic field, i.e. a single mode quantum harmonic oscillator.
+        Its space of states is an infinite dimensional Hilbert space $\Hilbert$, and corresponding
+        to a pair of bosonic field operators $\{ \pmb{A},\pmb{A}^{\dagger}\}$ called annihilation
+        and creation operators \cite{ContinuousVar}.
+        The space of state $\Hilbert$ is infinite dimensional because it is spanned by a countable
+        basis $\{\ket{n}\}_{n=0}^\infty$ called Fock basis. This basis is composed by the
+        eigenstates of the number operator $\pmb{N}$ defined as
+        \begin{equation}
+            \pmb{N}=\pmb{A}^\dagger \pmb{A},
+        \end{equation}
+        i.e. 
+        \begin{equation*}
+            \pmb{N}\ket{n}=n\ket{n}.
+        \end{equation*}
+
+        The action over this states of the bosonic operators is determinated by \cite{ContinuousVar}
+        \begin{equation}
+            \pmb{A}\ket{0}=0;\ \ \pmb{A}\ket{n}=\sqrt{n}\ket{n-1}\ \ (for\ n \geq 1),
+        \end{equation}
+        and
+        \begin{equation*}
+            \pmb{A}^\dagger\ket{n}=\sqrt{n+1}\ket{n+1}\ \ (for\ n \geq 0).
+        \end{equation*}
+        
         
     \subsection{Phase space}
         As seen before in \ref{TheDensOp}, a quantum system can be completely
