@@ -1,0 +1,41 @@
+\section{Continuos-Variables Quantum Systems}
+    A quantum system is called a continuous-variable system
+    when it has an infinite-dimensional Hilbert space described
+    by observables with continuous eigenspectra \cite{ContinuousVar}.
+    Continuous-variables systems play a very important role in communications. this
+    section presents the key aspects for the representation of this systems.
+            
+    \subsection{Hilbert space}
+        
+    \subsection{Phase space}
+        As seen before in \ref{TheDensOp}, a quantum system can be completely
+        described by a density operator $\pmb{\Xi}$ defined in an infinite-dimensional Hilbert space
+        $\Hilbert$, and this operator can be expressed by the Fock representation. %(\ref{}).
+        Sometimes, however, it is convenient to give another representation of state $\pmb{\Xi}$ by
+        means of a complex function introduced by Wigner \cite{Wigner}: the quasi-probability 
+        distribution. In this thesis, this representation will be introduced and it will be used to
+        classify the possible states.
+
+        \begin{definition}[Quantum characteristic function]
+            The s-order characteristic function $\mathcal{\chi}(\xi,s)$, with $\xi,s\in\mathbb{C}$,
+            associated to the quantum state $\pmb{\Xi}$ is defined as:
+            \begin{equation}
+                \mathcal{\chi}(\xi,s)=\exp{\frac{s}{2}\absolutevalue{\xi}^2}
+                tr\{\pmb{\Xi}\pmb{D}_\xi\}
+            \end{equation}
+            where $\pmb{D}_\xi$ is  the displacement operator of parameter $\xi$, defined as:
+            \begin{equation}
+                \pmb{D}_\xi=\exp{\xi\pmb{A}^\dagger-\xi^*\pmb{A}}.
+            \end{equation}
+        \end{definition}
+        \begin{definition}[Quasi-probability distribution]
+            The s-order quasi-probability distribution $W(\alpha,s)$, with $s\in\mathbb{C}$,
+            associated to the quantum state $\mathbf{\Xi}$ is given by:
+            \begin{equation*}
+                W(\alpha,s)=\frac{1}{\pi^2}\int_{\mathbb{R}^2} 
+                \mathcal{\chi}(\xi,s)e^{\alpha\xi^*-\alpha^*\xi}d\xi^2.
+            \end{equation*}
+
+        \end{definition}
+        The quasi-probability distribution, for $s=0$ ($W(\alpha)=W(\alpha,0)$) is called 
+        Wigner W-function.

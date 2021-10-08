@@ -1,0 +1,174 @@
+\section{Gaussian States}
+    \label{def:Gaussian}
+    Gaussian quantum states are an important class of quantum states of continuous-variables systems.
+    They are defined as (\cite{tesiGuerrini} quoting \cite{Gaussian1,Gaussian2,Gaussian3,Gaussian4,Gaussian5}):
+    \begin{definition}[Gaussian state]
+        A quantum state $\pmb{\Xi_G}$ is a Gaussian state if its Wigner W-function $W_G(\alpha)$
+        is Gaussian, i.e
+        \begin{equation}
+            W_G(\alpha)=\frac{1}{\pi\sqrt{det\check{\pmb{C}_0}}}\exp{
+                -\frac{1}{2}(\check{\pmb{\alpha}}-\check{\pmb{\mu}})^H
+                \check{\pmb{C}_0}^{-1}(\check{\pmb{\alpha}}-\check{\pmb{\mu}})}.
+        \end{equation}
+        where $\check{\pmb{\mu}} $ is the augmented displacement vector, and $\check{\pmb{C}}_0$ 
+        is the augmented covariance matrix. 
+    \end{definition}
+    
+    We remark that if $\pmb{\mu} \in \mathbb{R}^2$ is the 
+    displacement vector and $\pmb{C}_0$ is the covariance matrix, the augmented displacement vector
+    and covariance matrix are given by the following transformation:
+    \begin{equation}
+        \begin{split}
+            \check{\pmb{\mu}} &= \frac{1}{\sqrt{2}} \pmb{J} \pmb{\mu}\\
+            \check{\pmb{C}}_0 &= \frac{1}{2} \pmb{J} \pmb{C}_0 \pmb{J}^H
+        \end{split}
+    \end{equation}
+    where
+    \begin{equation*}
+        \pmb{J} = 
+        \begin{bmatrix}
+            1 & i\\
+            1 & -i
+        \end{bmatrix}.
+    \end{equation*}
+    %
+    Two important types of Gaussian states will be analyzed now: the coherent state and the
+    squeezed state. For each one of this states is presented the noisy version too.
+
+    \subsection{Coherent state}
+        A coherent state is the state of a quantum armonic oscillator of amplitude $\mu$.
+        It is defined (\cite{tesiGuerrini} seen \cite{CohSt_Glauber,CohSt_Glauber2}) as the eigenvector $\ket{\mu}$ of $\pmb{A}$ 
+        associated to the eigenvalue $\mu$; i.e
+        \begin{equation}
+            \pmb{A}\ket{\mu}=\mu\ket{\mu}.
+        \end{equation}
+        It is possible to obtain a coherent state of parameter $\mu$, appliying the displacement
+        operator to the ground state:
+        \begin{equation}
+            \ket{\mu}=\pmb{D}_\mu\ket{0}.
+        \end{equation}
+        As mentioned before, it is possible to characterize a state with the Fock representation
+        and, equivalently, with the Wigner W-function. The last one is given, for a coherent state,
+        by \cite{QuantumNoise}:
+        \begin{equation}
+            W(\alpha)=\frac{2}{\pi}\exp{-2\absolutevalue{\alpha-\mu}^2}.
+        \end{equation}
+        It is easy to proof that $W(\alpha)$ is gaussian, with $\check{\pmb{\mu}}=[\mu\ \mu^*]^T$ and
+        \begin{equation*}
+            \check{\pmb{C}}_0=\frac{1}{2}\pmb{I}.
+        \end{equation*} 
+        The Fock representation is given by \cite{Dowling}:
+        \begin{equation}
+            \ket{\mu}=e^{-\frac{\absolutevalue{\mu}}{2}^2}\sum_{n=0}^{\infty}
+            \frac{\mu^n}{\sqrt{n}}\ket{n}.
+        \end{equation}
+
+        \paragraph{Noisy coherent states}\mbox{} \\
+        \label{par:NoisycohState}
+        It is possible to characterize the state of a noisy armonic oscillator introducing
+        the thermal state, i.e the state of an electromagnetic cavity in thermal equilibrium.
+        The Fock representation of the thermal state $\pmb{\Xi}_{th}$ is given by \cite{tesiGuerrini}
+        \begin{equation}
+            \pmb{\Xi}_{th}=(1-v)\sum_{n=0}^{\infty}v^n\ket{n}\bra{n}
+        \end{equation}
+        where
+        \begin{equation*}
+            v=\frac{\bar{n}}{\bar{n}+1}
+        \end{equation*}
+        and $\bar{n}$ is the well-known Plank distribution
+        \begin{equation*}
+            \bar{n}=\left(\exp{\frac{\hbar\omega}{k_B T}}-1\right)^{-1}.
+        \end{equation*}
+
+        A noisy coherent states $\pmb{\Xi}_{th}(\mu)$ of parameter $\mu$ can be obtained by 
+        appling the displacement operator $\pmb{D}_\mu$ to the thermal state $\pmb{\Xi}_{th}$,
+        as follow:
+        \begin{equation}
+            \pmb{\Xi}_{th}(\mu)=\pmb{D}_\mu^\dagger \pmb{\Xi}_{th} \pmb{D}_\mu.
+        \end{equation}
+        The Wigner W-function is given by \cite{QuantumNoise}
+        \begin{equation}
+            W_{th}(\alpha)=\frac{1}{\pi(\bar{n}+\frac{1}{2})}\exp{-\frac{\absolutevalue{\alpha-\mu}^2}
+            {\bar{n}+\frac{1}{2}}}
+            \label{WignerNCS}
+        \end{equation}
+        and it can be proved that it is a Gaussian function with $\check{\pmb{\mu}}=[\mu\ \mu^*]^T$
+        and
+        \begin{equation*}
+            \check{\pmb{C}}_0=\left(\bar{n}+\frac{1}{2}\right)\pmb{I}.
+        \end{equation*}
+        The Fock representation is given by
+        \begin{equation}
+            \bra{n}\pmb{\Xi}_{th}(\mu)\ket{m}=(1-v)e^{-(1-v)\absolutevalue{\mu}^2}\sqrt{\frac{n!}{m!}}
+            v^n[(1-v)\mu^*]^{m-n}L_n^{m-n}\left(\frac{-(1-v)^2\absolutevalue{\mu}^2}{v}\right)
+            \label{eq:FRCS}
+        \end{equation}
+
+    \subsection{Squeezed state}
+        \label{squeezedStates}
+        A squeezed state with amplitude $\mu$ and squeezing parameter $\zeta$, is a defined as 
+        \cite{tesiGuerrini,YuenRadField,QMnoiseInterf}
+        \begin{equation}
+            \ket{\mu,\zeta}=\pmb{D}_\mu\pmb{S}_\zeta\ket{0}
+        \end{equation}
+        where $\pmb{S}_\zeta$ is the squeezing operator, defined as
+        \begin{equation}
+            \pmb{S}_\zeta=\exp{\frac{1}{2}\left(\zeta\left(\pmb{A}^\dagger\right)^2+
+            \zeta^*\pmb{A}^2\right)}.
+        \end{equation}
+        It can be proven that a squeezed state is a Gaussian state with $\check{\pmb{\mu}}=[\mu\ \mu^*]^T$
+        and
+        \begin{equation*}
+            \check{\pmb{C}}_0=\frac{1}{2}
+            \begin{bmatrix}
+                \cosh(2r) && \sinh(2r)e^{-i\phi}\\
+                \sinh(2r)e^{-i\phi} && \cosh(2r)
+            \end{bmatrix}
+        \end{equation*}
+        with $\zeta=re^{i\phi}$.
+        The Wigner W-function of a squeezed state, differently from the one of a coherent state, has not a 
+        circular symmetry.
+
+        \paragraph{Noisy squeezed states}\mbox{} \\
+        The representation of a noisy squeezed state $\pmb{\Xi}_{th}(\mu,\zeta)$ is obtained,
+        similarly to a noisy coherent state, as:
+        \begin{equation}
+            \pmb{\Xi}_{th}(\mu,\zeta)=\pmb{D}_\mu\pmb{S}_\zeta\pmb{\Xi}_{th}
+            \pmb{S}_\zeta^\dagger\pmb{D}_\mu^\dagger.
+        \end{equation}
+        The Gaussian Wigner W-function is obtained with $\check{\pmb{\mu}}=[\mu\ \mu^*]^T$ and
+        \begin{equation*}
+            \check{\pmb{C}}_0=\left(\bar{n}+\frac{1}{2}\right)
+            \begin{bmatrix}
+                \cosh(2r) && \sinh(2r)e^{-i\phi}\\
+                \sinh(2r)e^{-i\phi} && \cosh(2r)
+            \end{bmatrix}.
+        \end{equation*}
+        The Fock representation is given by \cite{MarMar_1993}
+        \begin{equation}\begin{split}
+            \bra{n}\pmb{\Xi}_{th}(\mu,\zeta)\ket{m}=\frac{\pi Q(0)}{(n!m!)^{1/2}}
+            \sum_{k=0}^{min(n,m)} k! \binom{n}{k}\binom{m}{k} \tilde{A}^k\left(\frac{1}{2}
+            \tilde{B}\right)^{(n-k)/2}\\ \left(\frac{1}{2}\tilde{B}^*\right)^{(m-k)/2}
+            H_{n-k}((2\tilde{B})^{-1/2}\tilde{C}) H_{m-k}((2\tilde{B}^*)^{-1/2}\tilde{C}^*) 
+            \label{FR_NSS}
+        \end{split}\end{equation}
+        where $H_n$ is the Hermite polynomial with parameter $n$,
+        \begin{equation*}
+            Q(0)=\frac{1}{\pi}[(1+A)^2-\absolutevalue{B}^2]^{-1/2}\exp{-\frac{(1+A)\absolutevalue{C}^2
+            +\frac{1}{2}[B(C^*)^2+B^*C^2]}{(1+A)^2-\absolutevalue{B}^2}},
+        \end{equation*} 
+        \begin{equation*}
+            \tilde{A}=\frac{A(1+A)-\absolutevalue{B}^2}{(1+A)^2-\absolutevalue{B}^2},
+        \end{equation*}
+        \begin{equation*}
+            \tilde{B}=\frac{B}{(1+A)^2-\absolutevalue{B}^2},
+        \end{equation*}
+        \begin{equation*}
+            \tilde{C}=\frac{(1+A)C+BC^*}{(1+A)^2-\absolutevalue{B}^2};
+        \end{equation*}
+        and
+        \begin{equation*}
+            A=\bar{n}+(2\bar{n}+1)(\sinh(r))^2,\ 
+            B=-(2\bar{n}+1)e^{i\phi}\sinh(r)\cosh(r),\ 
+            C=\mu.
+        \end{equation*}

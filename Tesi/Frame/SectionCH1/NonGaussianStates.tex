@@ -1,0 +1,92 @@
+\section{Non-Gaussian States}
+    A state that does not fulfill the definition \ref{def:Gaussian} is a non-Gaussian state.
+    An important and useful for communications class of non-Gaussian states, are the photon 
+    added states, examined in this thesis. Lastly will be mentioned another type of non-Gaussian
+    state: the photon subtracted state.
+    
+    \subsection{Photon added states}
+        \label{PAS}
+        The photon added state $\pmb{\Xi}^{(1)}$, obtained from the quantum state $\pmb{\Xi}$,
+        is given by:
+        \begin{equation}
+            \pmb{\Xi}^{(1)}=\frac{\pmb{A}^\dagger\pmb{\Xi}\pmb{A}}
+            {tr\{\pmb{A}^\dagger\pmb{\Xi}\pmb{A}\}}.
+        \end{equation}
+        The name \emph{photon addition} could lead to believe that the mean photon number of the 
+        photon added state is icreased by one compared to the previous non photon added state.
+        However, that is incorrect.
+        In general, its mean number of photons could be the same, more or less than the starting state.
+        Only if $\pmb{\Xi}=\ket{n}\bra{n}$, i.e $\pmb{\Xi}$ is the density operator corresponding to
+        the Fock state $\ket{n}$, the result of the photon addition is a state with one more photon.
+
+        Logically, the photon added state $\pmb{\Xi}^{(k)}$ (with $k$ photon addition) is given by
+        \begin{equation}
+            \pmb{\Xi}^{(k)}=\frac{(\pmb{A}^\dagger)^k\pmb{\Xi}\pmb{A}^k}
+            {tr\{(\pmb{A}^\dagger)^k\pmb{\Xi}\pmb{A}^k\}}.
+        \end{equation}
+        The Fock representation of a photon added state, can be obteined as:
+        \begin{equation}
+            \pmb{\Xi}^{(k)}=\frac{\tilde{\pmb{\Xi}}^{(k)}}{tr\{\tilde{\pmb{\Xi}}^{(k)}\}}
+        \end{equation}
+        and
+        \begin{equation*}
+            \bra{n}\tilde{\pmb{\Xi}}^{(k)}\ket{m}=
+            \begin{cases}
+                \sqrt{\frac{n!m!}{(n-k)!(m-k)!}}\bra{n-k}\pmb{\Xi}\ket{m-k}\ if\ n,m \geq k\\
+                0\ otherwise.
+            \end{cases}
+        \end{equation*}
+        The Wigner W-function of a photon added state is not Gaussian (\ref{def:Gaussian}).
+
+        \paragraph{Noisy photon added coherent states}\mbox{}\\
+        If $\pmb{\Xi}$ is a noisy coherent state of amplitude $\mu$ $(\pmb{\Xi}=\pmb{\Xi}_{th}(\mu))$,
+        the photon added state $\pmb{\Xi}_{th}^{(k)}(\mu)$ is called noisy photon added coherent state
+        (noisy PACS).
+        The Fock representation can be given in closed form by \cite{PACSDisc}
+        \begin{equation}
+            \bra{n}\pmb{\Xi}_{th}^{(k)}(\mu)\ket{m}=
+            \begin{cases}
+                c_{n,m}^{(k)}\ \ for\ both\ n,m \geq k\\
+                0\ \ otherwise
+            \end{cases}
+        \end{equation}
+        where
+        \begin{equation*}
+            c_{n,m}^{(k)}=\frac{(1-v)^{k+1}e^{-(1-v)\absolutevalue{\mu}^2}}{v^k}
+            \sqrt{n!}{m!}\binom{m}{k} v^n \left[\left(1-v\right)\mu^*\right]^{m-n}
+            \frac{L^{m-n}_{n-k} \left( \frac{-(1-v)\absolutevalue{\mu}^2}{v} \right)}
+            {L_k \left( -\absolutevalue{\mu}^2 (1-v) \right)}.
+        \end{equation*}
+        The Wigner W-function is given by:
+        \begin{equation}
+            W(\alpha)=\frac{(-1)^k}{(2\bar{n}+1)^k}\frac{L_k \left( 
+                \frac{\absolutevalue{2\alpha(\bar{n}+1)-\mu}^2}{(2\bar{n}+1)(\bar{n}+1)} \right)}
+                {L_k} \left(-\frac{\absolutevalue{\mu}^2}{\bar{n}+1} \right) W_{th}(\alpha)
+        \end{equation}
+        where $W_{th}(\alpha)$ is the Wigner W-function of a noisy coherent state \ref{WignerNCS}.
+        %
+        \begin{figure}[tbp]
+            \begin{center}
+            \begin{subfigure}{0.5\textwidth}
+                
+                \caption{Noisy coherent state}
+            \end{subfigure}
+            \begin{subfigure}{0.5\textwidth}
+                
+                \caption{noisy PACS}
+            \end{subfigure}
+            \caption{Comparison between Noisy coherent state and noisy PACS Wigner W-function\\
+            $\bar{n}=10^{-2}$ and $k=2$.}
+            \label{fig:WignerPACS}
+            \end{center}
+        \end{figure}
+        In figure \ref{fig:WignerPACS} are plotted the Wigner W-function of a noisy coherent
+        state and a noisy PACS, for $\bar{n}=10^{-2}$ and $k=2$. It is evident that the Wigner 
+        W-function of the photon added state is not Gaussian.
+        
+        \paragraph{Noisy photon added squeezed states}\mbox{}\\
+        if $\pmb{\Xi}$ is a noisy squeezed state with amplitude $\mu$ and squeezing factor 
+        $\zeta$ $(\pmb{\Xi}=\pmb{\Xi}_{th}(\mu,\zeta))$, the photon added state $\pmb{\Xi}_{th}^{(k)}
+        (\mu,\zeta)$ is called noisy photon added squeezed state (PASS).
+
+    \subsection{Photon subtracted states}

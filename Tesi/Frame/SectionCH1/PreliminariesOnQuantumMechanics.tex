@@ -1,10 +1,17 @@
-\section{Postulates}
+\section{Preliminaries on quantum mechanics}
+    For understand the important results about the communication with continuos
+    states, it is essential to give a brief introduction about the main aspects 
+    of quantum mechanics theory.
+    This theory is based on a solid mathematic framework presented in this section.
+    It is impossible to discuss about quantum mechanics without its mathematical 
+    formalism.
+    
+    \subsection{Postulates}
     Like every phisics theory, quantum mechanics is builded from few 
     essential postulates.
     In this section are briefly introduced the six Dirac-Von Newman 
     postulates of Quantum Mechanics \cite{quantumMec_Dirac,quantumMec_Neumann}.
-    
-    \subsection{First postulate}
+
     \begin{postulate}[State Representation]
         The state of an isolated quantum system is represented by a complex unitary 
         vector $\ket{\psi}$ in an Hilbert space $\Hilbert$:
@@ -21,7 +28,6 @@
         described by his observables, like position or four-wheeled.
     \end{observation*}
     
-    \subsection{Second postulate}
     \begin{postulate}[Observables]
         Every observables of the system is represented by an Hermitian operator $\mathcal{M}$
         acting on the state space:
@@ -37,7 +43,6 @@
         is self-andjoint. 
     \end{observation*}
 
-    \subsection{Third postulate}
     \begin{postulate}[Born's Rule]
         The probability to get the measurement $\lambda_i$ from the observable 
         $\mathcal{M}$ in the system in state $\ket{\psi}$ is:
@@ -51,7 +56,6 @@
         \label{post:3}
     \end{postulate}
 
-    \subsection{Fourth postulate}
     \begin{postulate}[Wavefunction Collapse]
         The state $\ket{\psi'}$ after measurement of $\lambda_i$ is $\mathcal{P}_i\ket{\psi}$ (with the
         necessary normalization):
@@ -61,9 +65,8 @@
         \label{post:4}
     \end{postulate}
 
-    \subsection{Fifth postulate}
     \begin{postulate}[Time Evolution]
-        The time evolution of an isolated quantum system is given by an unitary operator
+        The time evolution $\ket{\psi(t)}$ of an isolated quantum system is given by an unitary operator
         $\mathcal{U}$:
         \begin{equation*}
             \ket{\psi(t)}=\mathcal{U}(t_0,t)\ket{\psi(t_0)}.
@@ -75,10 +78,10 @@
         \begin{equation*}
             i\hbar\partialderivative{}{t}\ket{\psi(t)}=H(t)\ket{\psi(t)}
         \end{equation*}
-        where $H(t)$ is the Hemiltonian matrix.
+        where $H(t)$ is the Hemiltonian matrix, $\hbar$ is the reduxed Planck's constant and $i=\sqrt{-1}$
+        is the immaginary unit.
     \end{observation*}
 
-    \subsection{Sixth postulate}
     \begin{postulate}[Composite System]
         The state space $\Hilbert$ of a system composed of $\Hilbert_1$ and $\Hilbert_2$ is given by
         \begin{equation*}
@@ -86,3 +89,53 @@
         \end{equation*}
         \label{post:6}
     \end{postulate}
+
+    \subsection{The density operator}
+    \label{TheDensOp}
+    The last postulate \ref{post:6} has very important consequences for composite system. It is possible
+    to describe two tipes of combined systems:
+
+    \begin{definition}[Product states]
+        A state $\ket{\psi}\in\Hilbert$ with $\Hilbert=\Hilbert_1\otimes\Hilbert_2$ is a
+        pure state if exists $\ket{\psi_1}\in\Hilbert_1$ and $\ket{\psi_2}\in\Hilbert_2$
+        such that:
+        \begin{equation*}
+            \ket{\psi}=\ket{\psi_1}\otimes\ket{\psi_2}.
+        \end{equation*}
+        \label{def:1}
+    \end{definition}
+    A product state represents two systems which do not interact; an operation on one of 
+    them does not perturb the other.
+
+    \begin{definition}[Entengled states]
+        A system that is not in a product state (\ref{def:1}), is in an entengled state. 
+        \label{def:2}
+    \end{definition}
+    When a system is in an entengled state it is not possible to characterize the two subsystems
+    with the states vector, although the state vector of the composite system is known.
+
+    \paragraph{Density operator}\mbox{}\\
+        For a more general treatment, the following representation of states is given:
+        \begin{definition}
+            The state of quantum system is described by a linear operator $\pmb{\Xi}$, called density
+            operator such that:
+            \begin{equation*}
+                \pmb{\Xi}:\Hilbert\to\Hilbert;\ \pmb{\Xi}^\dagger=\pmb{\Xi};\ tr\{\pmb{\Xi}\}=1.
+            \end{equation*}
+            \label{def:3}
+        \end{definition}
+        According to the definition \ref{def:3}, the postulates \ref{post:3}, \ref{post:4},
+        \ref{post:5} can be reformulate as following.
+        \begin{equation}
+            \mathbb{P}(\lambda_i)=tr\{\pmb{\Xi}\mathcal{P}_i\}
+            \label{post:3.1}
+        \end{equation}
+        \begin{equation}
+            \pmb{\Xi}'=\frac{\mathcal{P}_i\pmb{\Xi}\mathcal{P}_i^\dagger}
+            {tr\{\mathcal{P}_i\pmb{\Xi}\mathcal{P}_i^\dagger\}}
+            \label{post:4.1}
+        \end{equation}
+        \begin{equation}
+            \pmb{\Xi}(t)=\mathcal{U}\pmb{\Xi}(t_0)\mathcal{U}^\dagger
+            \label{post:5.1}
+        \end{equation}
