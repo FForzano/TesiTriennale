@@ -1,5 +1,7 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
+\babel@toc {italian}{}
+\babel@toc {english}{}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
@@ -11,7 +13,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.2}The density operator}{4}{subsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Density operator}{5}{section*.2}%
+\contentsline {paragraph}{Density operator}{5}{section*.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Continuos-Variables Quantum Systems}{5}{section.2.2}%
 \defcounter {refsection}{0}\relax 
@@ -23,19 +25,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.1}Coherent state}{7}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Noisy coherent states}{7}{section*.3}%
+\contentsline {paragraph}{Noisy coherent states}{7}{section*.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.2}Squeezed state}{8}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Noisy squeezed states}{9}{section*.4}%
+\contentsline {paragraph}{Noisy squeezed states}{9}{section*.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Non-Gaussian States}{9}{section.2.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.1}Photon added states}{9}{subsection.2.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Photon added coherent states}{10}{section*.5}%
+\contentsline {paragraph}{Photon added coherent states}{10}{section*.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Photon added squeezed states}{11}{section*.7}%
+\contentsline {paragraph}{Photon added squeezed states}{11}{section*.9}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.2}Photon subtracted states}{11}{subsection.2.4.2}%
 \defcounter {refsection}{0}\relax 
@@ -67,12 +69,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.1}Squeezed states discrimination}{21}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}PASS discrimination}{21}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.2}PASS discrimination}{22}{subsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{OOK PASS system}{22}{section*.16}%
+\contentsline {paragraph}{OOK PASS system}{22}{section*.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{BPSK PASS system}{22}{section*.18}%
+\contentsline {paragraph}{BPSK PASS system}{23}{section*.20}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Conclusion}{25}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{27}{chapter*.20}%
+\contentsline {chapter}{Bibliography}{27}{chapter*.22}%

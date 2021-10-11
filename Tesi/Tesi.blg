@@ -1,30 +1,30 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'Tesi.blg'
-[70] biber:340> INFO - === ven ott  8, 2021, 17:30:52
-[85] Biber.pm:415> INFO - Reading 'Tesi.bcf'
-[153] Biber.pm:952> INFO - Found 26 citekeys in bib section 0
-[167] Biber.pm:4340> INFO - Processing section 0
-[177] Biber.pm:4531> INFO - Looking for bibtex format file './bibliography.bib' for section 0
-[178] bibtex.pm:1689> INFO - LaTeX decoding ...
-[204] bibtex.pm:1494> INFO - Found BibTeX data source './bibliography.bib'
-[243] Utils.pm:395> WARN - legacy month field 'Apr.-Jun.' in entry 'ContinuousVar' is not an integer - this will probably not sort properly.
-[253] Utils.pm:395> WARN - legacy month field 'Jun.' in entry 'Gaussian1' is not an integer - this will probably not sort properly.
-[268] Utils.pm:395> WARN - legacy month field 'May' in entry 'Gaussian3' is not an integer - this will probably not sort properly.
-[278] Utils.pm:395> WARN - legacy month field 'Jun.' in entry 'CohSt_Glauber' is not an integer - this will probably not sort properly.
+[68] biber:340> INFO - === lun ott 11, 2021, 12:52:50
+[82] Biber.pm:415> INFO - Reading 'Tesi.bcf'
+[152] Biber.pm:952> INFO - Found 26 citekeys in bib section 0
+[165] Biber.pm:4340> INFO - Processing section 0
+[175] Biber.pm:4531> INFO - Looking for bibtex format file './bibliography.bib' for section 0
+[177] bibtex.pm:1689> INFO - LaTeX decoding ...
+[203] bibtex.pm:1494> INFO - Found BibTeX data source './bibliography.bib'
+[241] Utils.pm:395> WARN - legacy month field 'Apr.-Jun.' in entry 'ContinuousVar' is not an integer - this will probably not sort properly.
+[252] Utils.pm:395> WARN - legacy month field 'Jun.' in entry 'Gaussian1' is not an integer - this will probably not sort properly.
+[267] Utils.pm:395> WARN - legacy month field 'May' in entry 'Gaussian3' is not an integer - this will probably not sort properly.
+[277] Utils.pm:395> WARN - legacy month field 'Jun.' in entry 'CohSt_Glauber' is not an integer - this will probably not sort properly.
 [281] Utils.pm:395> WARN - legacy month field 'Sep.' in entry 'CohSt_Glauber2' is not an integer - this will probably not sort properly.
-[292] Utils.pm:395> WARN - legacy month field 'Jun.' in entry 'YuenRadField' is not an integer - this will probably not sort properly.
-[296] Utils.pm:395> WARN - legacy month field 'Apr.' in entry 'QMnoiseInterf' is not an integer - this will probably not sort properly.
+[291] Utils.pm:395> WARN - legacy month field 'Jun.' in entry 'YuenRadField' is not an integer - this will probably not sort properly.
+[295] Utils.pm:395> WARN - legacy month field 'Apr.' in entry 'QMnoiseInterf' is not an integer - this will probably not sort properly.
 [300] Utils.pm:395> WARN - legacy month field 'May' in entry 'MarMar_1993' is not an integer - this will probably not sort properly.
-[308] Utils.pm:395> WARN - legacy month field 'Aug.' in entry 'PACSDisc' is not an integer - this will probably not sort properly.
-[315] Utils.pm:395> WARN - legacy month field 'May' in entry 'helstrom2' is not an integer - this will probably not sort properly.
-[318] Utils.pm:395> WARN - legacy month field 'Dec.' in entry 'coherentComm1' is not an integer - this will probably not sort properly.
-[323] Utils.pm:395> WARN - legacy month field 'Aug.' in entry 'coherentComm2' is not an integer - this will probably not sort properly.
-[327] Utils.pm:395> WARN - legacy month field 'Apr.' in entry 'coherentComm3' is not an integer - this will probably not sort properly.
-[334] Utils.pm:395> WARN - legacy month field 'Jun.' in entry 'coherentComm4' is not an integer - this will probably not sort properly.
-[365] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[365] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[365] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[365] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[390] bbl.pm:654> INFO - Writing 'Tesi.bbl' with encoding 'UTF-8'
-[406] bbl.pm:757> INFO - Output to Tesi.bbl
-[406] Biber.pm:128> INFO - WARNINGS: 14
+[307] Utils.pm:395> WARN - legacy month field 'Aug.' in entry 'PACSDisc' is not an integer - this will probably not sort properly.
+[314] Utils.pm:395> WARN - legacy month field 'May' in entry 'helstrom2' is not an integer - this will probably not sort properly.
+[317] Utils.pm:395> WARN - legacy month field 'Dec.' in entry 'coherentComm1' is not an integer - this will probably not sort properly.
+[322] Utils.pm:395> WARN - legacy month field 'Aug.' in entry 'coherentComm2' is not an integer - this will probably not sort properly.
+[326] Utils.pm:395> WARN - legacy month field 'Apr.' in entry 'coherentComm3' is not an integer - this will probably not sort properly.
+[333] Utils.pm:395> WARN - legacy month field 'Jun.' in entry 'coherentComm4' is not an integer - this will probably not sort properly.
+[361] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[361] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[361] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[361] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[375] bbl.pm:654> INFO - Writing 'Tesi.bbl' with encoding 'UTF-8'
+[392] bbl.pm:757> INFO - Output to Tesi.bbl
+[392] Biber.pm:128> INFO - WARNINGS: 14

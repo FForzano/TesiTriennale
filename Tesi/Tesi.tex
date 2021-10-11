@@ -9,7 +9,7 @@
 
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[english]{babel}
+\usepackage[italian, main=english]{babel}
 \usepackage{csquotes}
 \usepackage{frontespizio}
 
@@ -45,15 +45,18 @@
 \begin{document}
 
     \frontmatter
-    \input{Frame/Frontespizio}
+    \input{Frame/Frontespizio.tex}
+    \input{Frame/Sommario.tex}
+    \input{Frame/Abstract.tex}
     \tableofcontents
     
+    
     \mainmatter
-    \input{Frame/Introduction}
-    \input{Frame/Chapter1}
-    \input{Frame/Chapter2}
-    \input{Frame/Chapter3}
-    \input{Frame/Conclusion}
+    \input{Frame/Introduction.tex}
+    \input{Frame/Chapter1.tex}
+    \input{Frame/Chapter2.tex}
+    \input{Frame/Chapter3.tex}
+    \input{Frame/Conclusion.tex}
 
     \printbibliography[heading=bibintoc]
 \end{document}
