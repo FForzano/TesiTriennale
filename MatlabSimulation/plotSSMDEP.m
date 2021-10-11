@@ -1,8 +1,8 @@
 function plotSSMDEP()
     theta = pi;
-    np = [0:0.1:6];
+    np = [0:0.1:4];
     r = [0 0.01 0.1 0.2 0.5];
-    N = 30;
+    N = 50;
 
     n_th = 0;
     p0=0.5; p1=0.5;
@@ -19,10 +19,10 @@ function plotSSMDEP()
         np_min = (sinh(current_r))^2;
         
         for current_np = np
-            if(current_np/2 < np_min)
+            if(current_np < np_min)
                 Pe(i) = NaN;
             else
-                current_mu = np2mu(current_np/2,setNoisySS(0,current_r,theta,n_th),0,5,maxErr,N);
+                current_mu = np2mu(current_np,setNoisySS(0,current_r,theta,n_th),0,5,maxErr,N);
                 Xi0 = setNoisySS(-current_mu,current_r,theta,n_th);
                 Xi1 = setNoisySS(current_mu,current_r,theta,n_th);
 

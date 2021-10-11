@@ -21,7 +21,7 @@ function plotkMDEP_BPSK(N,p0,p1,n_th)
             end
         end
         
-        for np = [k:10]
+        for np = [k:20]
             Xi1_OOK = setNoisyPACS(0,k,n_th);
             Xi1_BPSK = setNoisyPACS(0,k,n_th);
             
@@ -40,8 +40,8 @@ function plotkMDEP_BPSK(N,p0,p1,n_th)
             Pe_BPSK(2*j) = NaN;
         end
         
-        plot([0:10],Pe_OOK,strcat(colors(k+1),'--',symbols(k+1)));
-        plot([0:10],Pe_BPSK,strcat(colors(k+1),'-',symbols(k+1)));
+        plot([0:0.5:10],Pe_OOK,strcat(colors(k+1),'--',symbols(k+1)));
+        plot([0:0.5:10],Pe_BPSK,strcat(colors(k+1),'-',symbols(k+1)));
     end
     
         xlabel('$\bar{E}$','Interpreter','Latex')
