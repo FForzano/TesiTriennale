@@ -14,10 +14,7 @@
 
     \begin{postulate}[State Representation]
         The state of an isolated quantum system is represented by a complex unitary 
-        vector $\ket{\psi}$ in an Hilbert space $\Hilbert$:
-        \begin{equation*}
-            \ket{\psi} \in \Hilbert
-        \end{equation*}
+        vector $\ket{\psi}$ in an Hilbert space $\Hilbert$.
         The space of possible states of the system is called state space and it is a
         separable complex Hilbert space.
         \label{post:1}
@@ -29,56 +26,53 @@
     \end{observation*}
     
     \begin{postulate}[Observables]
-        Every observables of the system is represented by an Hermitian operator $\mathcal{M}$
-        acting on the state space:
-        \begin{equation*}
-            \mathcal{M}:\Hilbert\to\Hilbert
-        \end{equation*}
+        Every observables of the system is represented by an Hermitian operator 
+        $\Operator{M}:\Hilbert\to\Hilbert$ acting on the state space.
         The outcomes of the measurement can only be one of the eigenvalue of the 
-        operator $\mathcal{M}$.
+        operator $\Operator{M}$.
         \label{post:2}
     \end{postulate}
     \begin{observation*}
-        The possible outcomes of the measurement are real number because $\mathcal{M}$
+        The possible outcomes of the measurement are real number because $\Operator{M}$
         is self-andjoint. 
     \end{observation*}
 
     \begin{postulate}[Born's Rule]
         The probability to get the measurement $\lambda_i$ from the observable 
-        $\mathcal{M}$ in the system in state $\ket{\psi}$ is:
+        $\Operator{M}$ in the system in state $\ket{\psi}$ is:
         \begin{equation*}
             %\mathbb{P}(\lambda_i)=\braket{\psi}{\lambda_i}\braket{\lambda_i}{\psi}
-            \mathbb{P}(\lambda_i)=\bra{\psi}\mathcal{P}_i\ket{\psi}
+            \mathbb{P}(\lambda_i)=\bra{\psi}\Operator{P}_i\ket{\psi}
         \end{equation*}
         where $\bra{\psi}$ is the correspondent vector of $\ket{\psi}$ in the 
-        dual space of $\Hilbert$ and where $\mathcal{P}_i$ is the projection operator
+        dual space of $\Hilbert$ and where $\Operator{P}_i$ is the projection operator
         of $\lambda_i$ in the correspondent space.
         \label{post:3}
     \end{postulate}
 
     \begin{postulate}[Wavefunction Collapse]
-        The state $\ket{\psi'}$ after measurement of $\lambda_i$ is $\mathcal{P}_i\ket{\psi}$ (with the
+        The state $\ket{\psi'}$ after measurement of $\lambda_i$ is $\Operator{P}_i\ket{\psi}$ (with the
         necessary normalization):
         \begin{equation*}
-            \ket{\psi'}=\frac{\mathcal{P}_i\ket{\psi}}{\bra{\psi}\mathcal{P}_i\ket{\psi}}.
+            \ket{\psi'}=\frac{\Operator{P}_i\ket{\psi}}{\bra{\psi}\Operator{P}_i\ket{\psi}}.
         \end{equation*}
         \label{post:4}
     \end{postulate}
 
     \begin{postulate}[Time Evolution]
         The time evolution $\ket{\psi(t)}$ of an isolated quantum system is given by an unitary operator
-        $\mathcal{U}$:
+        $\Operator{U}$:
         \begin{equation*}
-            \ket{\psi(t)}=\mathcal{U}(t_0,t)\ket{\psi(t_0)}.
+            \ket{\psi(t)}=\Operator{U}(t_0,t)\ket{\psi(t_0)}.
         \end{equation*}
         \label{post:5}
     \end{postulate}
     \begin{observation*}[Time dependent Shrodinger Equation]
         From postulate \ref{post:5}, it is possible to obtain the time dependent Shrodinger Equation:
         \begin{equation*}
-            i\hbar\partialderivative{}{t}\ket{\psi(t)}=H(t)\ket{\psi(t)}
+            i\hbar\partialderivative{}{t}\ket{\psi(t)}=\Operator{H}(t)\ket{\psi(t)}
         \end{equation*}
-        where $H(t)$ is the Hemiltonian matrix, $\hbar$ is the reduxed Planck's constant and $i=\sqrt{-1}$
+        where $\Operator{H}(t)$ is the Hamiltonian matrix, $\hbar$ is the reduced Planck's constant and $i=\sqrt{-1}$
         is the immaginary unit.
     \end{observation*}
 
@@ -117,25 +111,28 @@
     \paragraph{Density operator}\mbox{}\\
         For a more general treatment, the following representation of states is given:
         \begin{definition}
-            The state of quantum system is described by a linear operator $\pmb{\Xi}$, called density
-            operator such that:
-            \begin{equation*}
-                \pmb{\Xi}:\Hilbert\to\Hilbert;\ \pmb{\Xi}^\dagger=\pmb{\Xi};\ tr\{\pmb{\Xi}\}=1.
-            \end{equation*}
+            The state of quantum system is described by a linear operator $\Operator{\varXi}:\Hilbert\to\Hilbert$, 
+            called density operator such that 
+            $\Operator{\varXi}^\dagger=\Operator{\varXi}$ and $\tr{\Operator{\varXi}}=1$.
             \label{def:3}
         \end{definition}
         According to the definition \ref{def:3}, the postulates \ref{post:3}, \ref{post:4},
-        \ref{post:5} can be reformulate as following.
+        \ref{post:5} can be reformulate as following.\par
+        The probability to get the measurement $\lambda_i$ from the observable 
+        $\Operator{M}$ in the system in state $\Operator{\varXi}$ is:
         \begin{equation}
-            \mathbb{P}(\lambda_i)=tr\{\pmb{\Xi}\mathcal{P}_i\}
+            \mathbb{P}(\lambda_i)=\tr{\Operator{\varXi}\Operator{P}_i}.
             \label{post:3.1}
         \end{equation}
+        The state $\Operator{\varXi'}$ after measurement of $\lambda_i$ is give by:
         \begin{equation}
-            \pmb{\Xi}'=\frac{\mathcal{P}_i\pmb{\Xi}\mathcal{P}_i^\dagger}
-            {tr\{\mathcal{P}_i\pmb{\Xi}\mathcal{P}_i^\dagger\}}
+            \Operator{\varXi'}=\frac{\Operator{P}_i\Operator{\varXi}\Operator{P}_i^\dagger}
+            {\tr{\Operator{P}_i\Operator{\varXi}\Operator{P}_i^\dagger}}.
             \label{post:4.1}
         \end{equation}
+        The time evolution $\Operator{\varXi}(t)$ of an isolated quantum system is given by an unitary operator
+        $\Operator{U}$ as:
         \begin{equation}
-            \pmb{\Xi}(t)=\mathcal{U}\pmb{\Xi}(t_0)\mathcal{U}^\dagger
+            \Operator{\varXi}(t)=\Operator{U}\Operator{\varXi}(t_0)\Operator{U}^\dagger.
             \label{post:5.1}
         \end{equation}

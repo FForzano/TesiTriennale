@@ -2,6 +2,6 @@
 
 pdflatex Tesi
 pdflatex Tesi-frn
-biber Tesi
+bibtex Tesi
 pdflatex Tesi
 pdflatex Tesi

@@ -1,4 +1,4 @@
-\section{PASS Discrimination}
+\section{Quantum communication systems with PASSs}
     The use of squeezed states instead of coherent states allows us to overcome the limits
     of precedent systems. The representation of a noisy squeezed state is given in 
     \ref{squeezedStates}. This section initially discusses the advantages of using squeezed states 
@@ -17,7 +17,7 @@
 
         \begin{figure}[tbp]
             \begin{center}
-                \includegraphics[width=0.75\textwidth]{fig3.5.pdf}
+                \includegraphics[width=0.9\textwidth]{fig3.5.eps}
                 \caption{MDEP of squeezed state BPSK system. 
                     $N=30$, $\bar{n}=0$, $\theta=\pi$, $p_0=p_1=1/2$}
                 \label{fig:3.5}
@@ -44,9 +44,9 @@
         where
         \begin{equation}
             \begin{split}
-                N_k(\mu,\zeta,\bar{n}) &= tr\{(\pmb{A}^\dagger)^k \pmb{\Xi}_{th}(\mu,\zeta) \pmb{A}^k\}\\
-                                       &= tr\{(\pmb{A}^\dagger)^k \pmb{D}_\mu \pmb{S}_\zeta \pmb{\Xi}_{th}
-                                        \pmb{S}_\zeta^\dagger \pmb{D}_\mu^\dagger \pmb{A}^k\}.
+                N_k(\mu,\zeta,\bar{n}) &= \tr{(\Operator{A}^\dagger)^k \Operator{\varXi}_{\mathrm{th}}(\mu,\zeta) \Operator{A}^k}\\
+                                       &= \tr{(\Operator{A}^\dagger)^k \Operator{D}_\mu \Operator{S}_\zeta \Operator{\varXi}_{\mathrm{th}}
+                                        \Operator{S}_\zeta^\dagger \Operator{D}_\mu^\dagger \Operator{A}^k}.
             \end{split}
         \end{equation}
 
@@ -54,13 +54,13 @@
         The constellation of a quantum OOK system with noisy PASS, is given by:
         \begin{equation}
             \begin{split}
-                \pmb{\Xi}_0 &= \pmb{\Xi}_{th}^{(0)}(0,0)\\
-                \pmb{\Xi}_1 &= \pmb{\Xi}_{th}^{(k)}(\mu,\zeta).
+                \Operator{\varXi}_0 &= \Operator{\varXi}_{\mathrm{th}}^{(0)}(0,0)\\
+                \Operator{\varXi}_1 &= \Operator{\varXi}_{\mathrm{th}}^{(k)}(\mu,\zeta).
             \end{split}
         \end{equation}
-        \begin{figure}[tbp]
+        \begin{figure}[t]
             \begin{center}
-                \includegraphics[width=0.75\textwidth]{fig3.6.eps}
+                \includegraphics[width=0.9\textwidth]{fig3.6.eps}
                 \caption{MDEP of noisy PASS quantum OOK system.\\
                 $N=30$, $\bar{n}=10^{-2}$, $\theta=\pi$ and $p_0=p_1=1/2$.}
                 \label{fig:3.6}
@@ -76,13 +76,13 @@
         Similary to the PACS BPSK, the constellation of PASS BPSK is given by:
         \begin{equation}
             \begin{split}
-                \pmb{\Xi}_0 &= \pmb{\Xi}_{th}^{(k)}(-\mu,\zeta)\\
-                \pmb{\Xi}_1 &= \pmb{\Xi}_{th}^{(k)}(\mu,\zeta).
+                \Operator{\varXi}_0 &= \Operator{\varXi}_{\mathrm{th}}^{(k)}(-\mu,\zeta)\\
+                \Operator{\varXi}_1 &= \Operator{\varXi}_{\mathrm{th}}^{(k)}(\mu,\zeta).
             \end{split}
         \end{equation}
-        \begin{figure}[tbp]
+        \begin{figure}[t]
             \begin{center}
-                \includegraphics[width=0.75\textwidth]{fig3.7.eps}
+                \includegraphics[width=0.9\textwidth]{fig3.7.eps}
                 \caption{MDEP of noisy PASS quantum BPSK system.\\
                 $N=40$, $\bar{n}=10^{-2}$, $\theta=\pi$ and $p_0=p_1=1/2$.}
                 \label{fig:3.7}
@@ -90,7 +90,7 @@
         \end{figure}
         The figure \ref{fig:3.7} shows the effects of the photon addition in a quantum BPSK
         system, in terms of the mean photon number in the system $\bar{E}$, given by the average of 
-        the mean photon number $n_p$ of $\pmb{\Xi}_0$ and $\pmb{\Xi}_1$. The parameters used
+        the mean photon number $n_p$ of $\Operator{\varXi}_0$ and $\Operator{\varXi}_1$. The parameters used
         for the simulation are $N=40$, $\bar{n}=10^{-2}$, $\theta=\pi$ and equiprobable symbols.
         As in PACS case, it is evident that the photon addition, in a BPSK system, has not
         the positive effect that has in an OOK system.

@@ -1,22 +1,22 @@
-\section{PACS Discrimination}
+\section{Quantum communication systems with PACSs}
     The effect of the use of PACS in an OOK communication system was extensively discussed in
     \cite{PACSDisc}. In this section the most important result will be reported and a BPSK
     system will be tested.
 
-    \subsection{Quantum OOK PACS system}
+    \subsection{Quantum OOK}
     The use of PACS in an OOK system can significantly improve the performance. The MDEP, with
     thermal noise, is given by the Helstrom bound \ref{eq:HelstromBound}, where, for an OOK PACS
     system,
     \begin{equation}
-        \pmb{\Xi}_0 =  \pmb{\Xi}_{th} = \pmb{\Xi}_{th}^{(0)}(0)
+        \Operator{\varXi}_0 =  \Operator{\varXi}_{\mathrm{th}} = \Operator{\varXi}_{\mathrm{th}}^{(0)}(0)
     \end{equation}
     \begin{equation*}
-        \pmb{\Xi}_1 =  \pmb{\Xi}_{th}^{(k)}(\mu).
+        \Operator{\varXi}_1 =  \Operator{\varXi}_{\mathrm{th}}^{(k)}(\mu).
     \end{equation*}
     It is useful, in order to evaluate the performance of the system, to introduce the mean number
-    of photon $n_p$ in a quantum state $\pmb{\Xi}$, which is given by:
+    of photon $n_p$ in a quantum state $\Operator{\varXi}$, which is given by:
     \begin{equation}
-        n_p = tr\{\pmb{\Xi}\pmb{A}^\dagger\pmb{A}\}.
+        n_p = \tr{\Operator{\varXi}\Operator{A}^\dagger\Operator{A}}.
         \label{eq:genericnp}
     \end{equation}
     For a photon added coherent state, the equation \ref{eq:genericnp} becomes \cite{PACSDisc}:
@@ -26,7 +26,7 @@
     \end{equation}
     where
     \begin{equation}
-        N_k(\mu,\bar{n}) = tr\{(\pmb{A}^\dagger)^k \pmb{\Xi}_{th}(\mu) \pmb{A}^k\}.
+        N_k(\mu,\bar{n}) = \tr{(\Operator{A}^\dagger)^k \Operator{\varXi}_{\mathrm{th}}(\mu) \Operator{A}^k}.
     \end{equation}
     It is possible to observe that the minimum of $n_p$ is given by:
     \begin{equation}
@@ -34,16 +34,16 @@
         \label{eq:min_np}
     \end{equation}
 
-    \begin{figure}[tbp]
+    \begin{figure}[t]
         \begin{center}
-            \includegraphics[width=0.75\textwidth]{fig3.1.pdf}
+            \includegraphics[width=0.8\textwidth]{fig3.1.pdf}
             \caption{MDEP for PACS QOOK with: $k=0,1,2,3$; $\bar{n}=10^{-2}$; $p_0=p_1=1/2$}
             \label{fig:3.1}
         \end{center}
     \end{figure}
     The MDEP of a quantum OOK system with PACS in function of $n_p$ is represented in the figure
     \ref{fig:3.1}, where in the x-axis there are the mean number of photon $n_p$ in the state 
-    $\pmb{\Xi}_1$ (which corresponds to the mean number of photon in the whole system) and in the 
+    $\Operator{\varXi}_1$ (which corresponds to the mean number of photon in the whole system) and in the 
     y-axes there are the MDEP ($P_e$). The plot was obtained for equiprobable symbols and 
     mean number of thermal photons $\bar{n}=10^{-2}$.  
     The argument of the trace norm $\norm{\cdot}_1$ in the Helstrom bound 
@@ -59,29 +59,27 @@
     \subsection{Quantum BPSK PACS system}
     It can be interesting to assess the effect of photon addition in a quantum BPSK system.
     The constellation is given, for a PACS BPSK, by:
-    \begin{equation}
-        \pmb{\Xi}_0 =  \pmb{\Xi}_{th} = \pmb{\Xi}_{th}^{(k)}(-\mu)
-    \end{equation}
-    \begin{equation*}
-        \pmb{\Xi}_1 =  \pmb{\Xi}_{th}^{(k)}(\mu).
-    \end{equation*}
+    \begin{equation}\begin{split}
+        \Operator{\varXi}_0 &=  \Operator{\varXi}_{\mathrm{th}} = \Operator{\varXi}_{\mathrm{th}}^{(k)}(-\mu)\\
+        \Operator{\Xi}_1 &=  \Operator{\varXi}_{\mathrm{th}}^{(k)}(\mu).
+    \end{split}\end{equation}
     %
     In absence of noise ($\bar{n}=0$), the MDEP is given by formula \ref{eq:HelstromBPure} where
     \begin{equation}
         \begin{split}
-            &\ket{\psi_0}=\ket{-\mu^{(k)}},\\
-            &\ket{\psi_1}=\ket{\mu^{(k)}}.
+            \ket{\psi_0}&=\ket*{-\mu^{(k)}},\\
+            \ket{\psi_1}&=\ket*{\mu^{(k)}}.
         \end{split}
     \end{equation}
     %
     The inner product is given, in closed form, by \cite{PACSDisc}:
     \begin{equation}
-        \braket{-\mu^{(k)}}{\mu^{(k)}} = \frac{L_k(\absolutevalue{\mu}^2)}{L_k(-\absolutevalue{\mu}^2)}
+        \braket*{-\mu^{(k)}}{\mu^{(k)}} = \frac{L_k(\absolutevalue{\mu}^2)}{L_k(-\absolutevalue{\mu}^2)}
         e^{-2\absolutevalue{\mu}^2},
         \label{eq:innerp_nonNoise}
     \end{equation}
     where $L_k(x)$ is the Laguerre polynomial of parameter $k$, evaluate in $x$.
-    \begin{figure}[tbp]
+    \begin{figure}[t]
         \begin{subfigure}{0.5\textwidth}
             \includegraphics[width=\linewidth]{fig3.2a.pdf}
             \caption{$k=1$}
@@ -101,7 +99,7 @@
     The existence of these zeros is not really useful for the design of a quantum communication
     system because their selectivity factors are too high for a phisical implementation. It is, 
     nevertheless, possible to use that in order to evaluate the effect of the thermal noise.
-    \begin{figure}[tbp]
+    \begin{figure}[t]
         \begin{subfigure}{0.5\textwidth}
             \includegraphics[width=\linewidth]{fig3.3a.pdf}
             \caption{$k=1$ \& $\mu = 0.54$}
@@ -120,7 +118,7 @@
     We can shown using the formula \ref{eq:nbar} that $\bar{n}$ in a real cases in near to zero, the 
     plot show the general trend of the MDEP.
 
-    \begin{figure}[tbp]
+    \begin{figure}[t]
         \includegraphics[width=1\textwidth]{fig3.4.eps}
         \caption{BPSK and OOK comparison. \\$N=45$, $\bar{n}=10^{-2}$, $p_0=p_1=1/2$}
         \label{fig:3.4}
@@ -130,7 +128,7 @@
     \begin{equation*}
         \bar{E}=\frac{1}{2} \left(n_{p0}+n_{p1}\right),
     \end{equation*}
-    where $n_{pi}$ is the mean number of photons in the state $\Xi_i$.
+    where $n_{pi}$ is the mean number of photons in the state $\Operator{\varXi}_i$.
     The parameter $\bar{E}$ is equal to $n_p/2$ for the OOK system and the average of the $n_p$ for 
     each state for the BPSK system.
     The plots are given with $\bar{n}= 10^{-2}$, $N=45$ and equiprobable symbols.
