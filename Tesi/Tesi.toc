@@ -31,7 +31,7 @@
 \contentsline {chapter}{\numberline {4}Performance Analysis}{17}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Quantum communication systems with PACSs}{17}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Quantum OOK}{17}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Quantum BPSK PACS system}{19}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.2}Quantum BPSK}{19}{subsection.4.1.2}%
 \contentsline {section}{\numberline {4.2}Quantum communication systems with PASSs}{20}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Squeezed states discrimination}{20}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}PASS discrimination}{21}{subsection.4.2.2}%

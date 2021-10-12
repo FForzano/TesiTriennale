@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.22)  12 OCT 2021 20:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.22)  12 OCT 2021 22:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1057,16 +1057,38 @@ Package pdftex.def Info: ./Pictures/fig3.1.pdf  used on input line 39.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18 <./Pictures/fig3.1.pdf>]
-<./Pictures/fig3.2a.pdf, id=604, 380.85286pt x 299.94058pt>
-File: ./Pictures/fig3.2a.pdf Graphic file (type pdf)
-<use ./Pictures/fig3.2a.pdf>
-Package pdftex.def Info: ./Pictures/fig3.2a.pdf  used on input line 84.
-(pdftex.def)             Requested size: 172.5pt x 135.85074pt.
-<./Pictures/fig3.2b.pdf, id=605, 388.1702pt x 302.55034pt>
-File: ./Pictures/fig3.2b.pdf Graphic file (type pdf)
-<use ./Pictures/fig3.2b.pdf>
-Package pdftex.def Info: ./Pictures/fig3.2b.pdf  used on input line 89.
-(pdftex.def)             Requested size: 172.5pt x 134.45212pt.
+Package epstopdf Info: Source file: <./Pictures/fig3.2a.eps>
+(epstopdf)                    date: 2021-10-12 22:51:30
+(epstopdf)                    size: 27673 bytes
+(epstopdf)             Output file: <./Pictures/fig3.2a-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-10-12 22:51:50
+(epstopdf)                    size: 11509 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Pictures/fig3.2a-eps-con
+verted-to.pdf ./Pictures/fig3.2a.eps>
+(epstopdf)             \includegraphics on input line 84.
+Package epstopdf Info: Output file is already uptodate.
+<./Pictures/fig3.2a-eps-converted-to.pdf, id=604, 421.575pt x 316.18124pt>
+File: ./Pictures/fig3.2a-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Pictures/fig3.2a-eps-converted-to.pdf>
+Package pdftex.def Info: ./Pictures/fig3.2a-eps-converted-to.pdf  used on input
+ line 84.
+(pdftex.def)             Requested size: 172.5pt x 129.37462pt.
+Package epstopdf Info: Source file: <./Pictures/fig3.2b.eps>
+(epstopdf)                    date: 2021-10-12 22:50:56
+(epstopdf)                    size: 39146 bytes
+(epstopdf)             Output file: <./Pictures/fig3.2b-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-10-12 22:51:50
+(epstopdf)                    size: 12006 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Pictures/fig3.2b-eps-con
+verted-to.pdf ./Pictures/fig3.2b.eps>
+(epstopdf)             \includegraphics on input line 89.
+Package epstopdf Info: Output file is already uptodate.
+<./Pictures/fig3.2b-eps-converted-to.pdf, id=605, 421.575pt x 316.18124pt>
+File: ./Pictures/fig3.2b-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Pictures/fig3.2b-eps-converted-to.pdf>
+Package pdftex.def Info: ./Pictures/fig3.2b-eps-converted-to.pdf  used on input
+ line 89.
+(pdftex.def)             Requested size: 172.5pt x 129.37462pt.
 
 Overfull \hbox (2.22168pt too wide) in paragraph at lines 83--92
 []$[]$ $[]$ 
@@ -1103,11 +1125,8 @@ File: ./Pictures/fig3.4-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Pictures/fig3.4-eps-converted-to.pdf  used on input 
 line 122.
 (pdftex.def)             Requested size: 345.0pt x 193.70543pt.
-[19 <./Pictures/fig3.2a.pdf> <./Pictures/fig3.2b.pdf
-
-pdfTeX warning: pdflatex (file ./Pictures/fig3.2b.pdf): PDF inclusion: multiple
- pdfs with page group included in a single page
->]) (./Frame/SectionCH3/PASSDiscrimination.tex
+[19 <./Pictures/fig3.2a-eps-converted-to.pdf> <./Pictures/fig3.2b-eps-converted
+-to.pdf>]) (./Frame/SectionCH3/PASSDiscrimination.tex
 Overfull \hbox (5.14192pt too wide) in paragraph at lines 1--1
 []\T1/cmr/bx/n/14.4 Quantum com-mu-ni-ca-tion sys-tems with PASSs 
  []
@@ -1122,7 +1141,7 @@ Package epstopdf Info: Source file: <./Pictures/fig3.5.eps>
 erted-to.pdf ./Pictures/fig3.5.eps>
 (epstopdf)             \includegraphics on input line 20.
 Package epstopdf Info: Output file is already uptodate.
-<./Pictures/fig3.5-eps-converted-to.pdf, id=637, 421.575pt x 316.18124pt>
+<./Pictures/fig3.5-eps-converted-to.pdf, id=638, 421.575pt x 316.18124pt>
 File: ./Pictures/fig3.5-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Pictures/fig3.5-eps-converted-to.pdf>
 Package pdftex.def Info: ./Pictures/fig3.5-eps-converted-to.pdf  used on input 
@@ -1143,7 +1162,7 @@ Package epstopdf Info: Source file: <./Pictures/fig3.6.eps>
 erted-to.pdf ./Pictures/fig3.6.eps>
 (epstopdf)             \includegraphics on input line 63.
 Package epstopdf Info: Output file is already uptodate.
-<./Pictures/fig3.6-eps-converted-to.pdf, id=660, 429.605pt x 321.2pt>
+<./Pictures/fig3.6-eps-converted-to.pdf, id=661, 429.605pt x 321.2pt>
 File: ./Pictures/fig3.6-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Pictures/fig3.6-eps-converted-to.pdf>
 Package pdftex.def Info: ./Pictures/fig3.6-eps-converted-to.pdf  used on input 
@@ -1160,7 +1179,7 @@ Package epstopdf Info: Source file: <./Pictures/fig3.7.eps>
 erted-to.pdf ./Pictures/fig3.7.eps>
 (epstopdf)             \includegraphics on input line 85.
 Package epstopdf Info: Output file is already uptodate.
-<./Pictures/fig3.7-eps-converted-to.pdf, id=673, 429.605pt x 321.2pt>
+<./Pictures/fig3.7-eps-converted-to.pdf, id=674, 429.605pt x 321.2pt>
 File: ./Pictures/fig3.7-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Pictures/fig3.7-eps-converted-to.pdf>
 Package pdftex.def Info: ./Pictures/fig3.7-eps-converted-to.pdf  used on input 
@@ -1194,11 +1213,11 @@ OK, entering \nonstopmode...
 
  [28] (./Tesi.aux)
 Package rerunfilecheck Info: File `Tesi.out' has not changed.
-(rerunfilecheck)             Checksum: 26B890C6681BBA65C9F009DDA22C914E;4931.
+(rerunfilecheck)             Checksum: B5519727AC2770E2BC3AF8AC8394E566;4865.
  ) 
 Here is how much of TeX's memory you used:
  33947 strings out of 479014
- 759724 string characters out of 5859133
+ 759860 string characters out of 5859133
  1238704 words of memory out of 5000000
  50591 multiletter control sequences out of 15000+600000
  422822 words of font info for 75 fonts, out of 8000000 for 9000
@@ -1231,10 +1250,10 @@ mf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2020/texmf
 ist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2020/texmf-dis
 t/fonts/type1/public/cm-super/sfsl1000.pfb></usr/local/texlive/2020/texmf-dist/
 fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on Tesi.pdf (36 pages, 933093 bytes).
+Output written on Tesi.pdf (36 pages, 927841 bytes).
 PDF statistics:
- 836 PDF objects out of 1000 (max. 8388607)
- 714 compressed objects within 8 object streams
+ 837 PDF objects out of 1000 (max. 8388607)
+ 715 compressed objects within 8 object streams
  187 named destinations out of 1000 (max. 500000)
  328 words of extra memory for PDF output out of 10000 (max. 10000000)
 
