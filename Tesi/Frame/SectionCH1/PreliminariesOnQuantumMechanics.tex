@@ -19,11 +19,15 @@
         separable complex Hilbert space.
         \label{post:1}
     \end{postulate}
-    \begin{observation*}
-        Differently from the classical physics, in quantum mechanics the concept
-        of state of system is introduced. In classical mechanics a system is 
-        described by his observables, like position or four-wheeled.
-    \end{observation*}
+    Every ket-vector $\ket{\psi} \in \Hilbert$ can be represented as a column vector 
+    $\ket{\psi}=\left[ a_1,a_2,\dots,a_N \right]$, where $N$ is the dimension of the 
+    state space $\Hilbert$. The bra-vector $\bra{\psi}$ is the correspondent vector of
+    $\ket{\psi}$ in the dual-space of $\Hilbert$ and can be represented as the 
+    transposed conjugate of $\ket{\psi}$.
+
+    Differently from the classical physics, in quantum mechanics the concept
+    of state of system is introduced. In classical mechanics a system is 
+    described by his observables, like position or four-wheeled.
     
     \begin{postulate}[Observables]
         Every observables of the system is represented by an Hermitian operator 
@@ -32,10 +36,8 @@
         operator $\Operator{M}$.
         \label{post:2}
     \end{postulate}
-    \begin{observation*}
-        The possible outcomes of the measurement are real number because $\Operator{M}$
-        is self-andjoint. 
-    \end{observation*}
+    The possible outcomes of the measurement are real number because $\Operator{M}$
+    is self-andjoint. 
 
     \begin{postulate}[Born's Rule]
         The probability to get the measurement $\lambda_i$ from the observable 
@@ -67,14 +69,12 @@
         \end{equation*}
         \label{post:5}
     \end{postulate}
-    \begin{observation*}[Time dependent Shrodinger Equation]
-        From postulate \ref{post:5}, it is possible to obtain the time dependent Shrodinger Equation:
-        \begin{equation*}
-            i\hbar\partialderivative{}{t}\ket{\psi(t)}=\Operator{H}(t)\ket{\psi(t)}
-        \end{equation*}
-        where $\Operator{H}(t)$ is the Hamiltonian matrix, $\hbar$ is the reduced Planck's constant and $i=\sqrt{-1}$
-        is the immaginary unit.
-    \end{observation*}
+    From postulate \ref{post:5}, it is possible to obtain the \emph{time dependent Shrodinger Equation}:
+    \begin{equation}
+        i\hbar\partialderivative{}{t}\ket{\psi(t)}=\Operator{H}(t)\ket{\psi(t)}
+    \end{equation}
+    where $\Operator{H}(t)$ is the Hamiltonian matrix, $\hbar$ is the reduced Planck's constant and $i=\sqrt{-1}$
+    is the immaginary unit.
 
     \begin{postulate}[Composite System]
         The state space $\Hilbert$ of a system composed of $\Hilbert_1$ and $\Hilbert_2$ is given by

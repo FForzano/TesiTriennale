@@ -21,6 +21,31 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{tesiGuerrini}
+S.~Guerrini, ``Quantum communications: State characterization and system
+  design,'' 2021.
+
+\bibitem{GueChiWinCon:C20}
+S.~Guerrini, M.~Chiani, M.~Z. Win, and A.~Conti, ``Quantum pulse position
+  modulation with photon-added squeezed states,'' in \emph{Proc. IEEE Workshop
+  on Quantum Commun. and Inf. Technol. (QCIT), Global Telecomm. Conf.}, Taipei,
+  Taiwan, Dec. 2020, pp. 1--5.
+
+\bibitem{GueChiWinCon:C19}
+------, ``Quantum pulse position modulation with photon-added coherent
+  states,'' in \emph{Proc. IEEE Workshop on Quantum Commun. and Inf. Technol.
+  (QCIT), Global Telecomm. Conf.}, Waikoloa, HI, USA, Dec. 2019, pp. 1--5.
+
+\bibitem{GueChiCon:C18}
+S.~Guerrini, M.~Chiani, and A.~Conti, ``Secure key throughput of intermittent
+  trusted-relay {QKD} protocols,'' in \emph{Proc. IEEE Workshop on Quantum
+  Commun. and Inf. Technol. (QCIT), Global Telecomm. Conf.}, Abu Dhabi, UAE,
+  Dec. 2018, pp. 1--5.
+
+\bibitem{ChiConWin:J20}
+M.~Chiani, A.~Conti, and M.~Z. Win, ``Piggybacking on quantum streams,''
+  \emph{Phys. Rev. A}, vol. 102, p. 012410, Jul. 2020.
+
 \bibitem{quantumMec_Dirac}
 P.~Dirac, \emph{The Principles of Quantum Mechanics.}\hskip 1em plus 0.5em
   minus 0.4em\relax Oxford University Press, 1981.
@@ -37,10 +62,6 @@ C.~Weedbrook, S.~Pirandola, R.~Garc\`ia-Patr\`on, N.~J. Cerf, T.~C. Ralph,
 \bibitem{Wigner}
 E.~Wigner, ``On the quantum correction for thermodynamic equilibrium,''
   \emph{Phys.Rev.}, vol.~40, no.~5, p. 749, 1932.
-
-\bibitem{tesiGuerrini}
-S.~Guerrini, ``Quantum communications: State characterization and system
-  design,'' 2021.
 
 \bibitem{Gaussian1}
 S.~L. Braunstein and P.~van Loock, ``Quantum information with continuous
@@ -96,7 +117,9 @@ P.~Marian and T.~A. Marian, ``Squeezed states with thermal noise. i. photon
 
 \bibitem{PACSDisc}
 S.~Guerrini, M.~Z. Win, M.~Chiani, and A.~Conti, ``Quantum discrimination of
-  noisy photon-added coherent states,'' vol.~1, no.~2, pp. 469--479, aug 2020.
+  noisy photon-added coherent states,'' \emph{IEEE J. Sel. Areas Inf. Theory},
+  vol.~1, no.~2, pp. 469--479, Aug. 2020, special issue on {\em Quantum
+  Information Science}.
 
 \bibitem{helstrom1}
 C.~W. Helstrom, ``Detection theory and quantum mechanics,'' \emph{Inf.

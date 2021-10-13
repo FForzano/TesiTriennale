@@ -8,19 +8,19 @@
     \subsection{Hilbert space}
         Let consider a single-mode bosonic continuous-variable system, corresponding to a single
         mode radiation of electromagnetic field, i.e. a single mode quantum harmonic oscillator.
-        Its space of states is an infinite dimensional Hilbert space $\Hilbert$, to whom correspond
+        Its space of states is an infinite dimensional Hilbert space $\Hilbert$ in which it is possible to define
         a pair of bosonic field operators $\{ \Operator{A},\Operator{A}^{\dagger}\}$ called annihilation
-        and creation operators \cite{ContinuousVar}.
-        The space of state $\Hilbert$ is infinite dimensional because it is spanned by a countable
-        basis $\{\ket{n}\}_{n=0}^\infty$ called Fock basis. This basis is composed of the
-        eigenstates of the number operator $\pmb{N}$ defined as
+        and creation operators \cite{ContinuousVar} satisfying the canonical commutation relation 
+        $\commutator{\Operator{A}}{\Operator{A}^\dagger}= \Operator{I}$.
+
+        In this space $\Hilbert$ it is possible to define a number operator $\Operator{N}$, defined as
         \begin{equation}
-            \pmb{N}=\pmb{A}^\dagger \pmb{A},
+            \pmb{N}=\pmb{A}^\dagger \pmb{A}.
         \end{equation}
-        i.e. 
-        \begin{equation*}
-            \pmb{N}\ket{n}=n\ket{n}.
-        \end{equation*}
+        The eigenstates of $\Operator{N}$, i.e. the vector $\ket{n}$ for which
+        $\pmb{N}\ket{n}=n\ket{n}$,
+        are countable and form a countable basis of $\Hilbert$ called
+        Fock basis: $\{\ket{n}\}_{n=0}^\infty$.
 
         The action over this states of the bosonic operators is determinated by \cite{ContinuousVar}
         \begin{equation}

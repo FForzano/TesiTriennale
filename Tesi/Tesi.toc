@@ -2,39 +2,41 @@
 \babel@toc {italian}{}
 \babel@toc {english}{}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Quantum Communication}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Objectives}{2}{section.1.2}%
 \contentsline {chapter}{\numberline {2}Continuous Variables States}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Preliminaries on quantum mechanics}{3}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Postulates}{3}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}The density operator}{4}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.2}The density operator}{5}{subsection.2.1.2}%
 \contentsline {paragraph}{Density operator}{5}{section*.4}%
-\contentsline {section}{\numberline {2.2}Continuous-Variables Quantum Systems}{5}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Hilbert space}{5}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.2}Continuous-Variables Quantum Systems}{6}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Hilbert space}{6}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Phase space}{6}{subsection.2.2.2}%
 \contentsline {section}{\numberline {2.3}Gaussian States}{7}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Coherent state}{7}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}Coherent state}{8}{subsection.2.3.1}%
 \contentsline {paragraph}{Noisy coherent states}{8}{section*.5}%
-\contentsline {subsection}{\numberline {2.3.2}Squeezed state}{8}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.2}Squeezed state}{9}{subsection.2.3.2}%
 \contentsline {paragraph}{Noisy squeezed states}{9}{section*.6}%
-\contentsline {section}{\numberline {2.4}Non-Gaussian States}{9}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Photon added states}{9}{subsection.2.4.1}%
-\contentsline {paragraph}{Photon added coherent states}{10}{section*.7}%
-\contentsline {paragraph}{Photon added squeezed states}{11}{section*.9}%
-\contentsline {subsection}{\numberline {2.4.2}Photon subtracted states}{11}{subsection.2.4.2}%
-\contentsline {chapter}{\numberline {3}Quantum Communication Systems}{13}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Quantum Communication System}{13}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Quantum Modulations}{13}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}OOK modulations}{14}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}BPSK modulations}{14}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Quantum Receiver}{14}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Binary case}{15}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Optimal binary receiver}{15}{subsection.3.3.2}%
-\contentsline {chapter}{\numberline {4}Performance Analysis}{17}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Quantum communication systems with PACSs}{17}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Quantum OOK}{17}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Quantum BPSK}{19}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Quantum communication systems with PASSs}{20}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Squeezed states discrimination}{20}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}PASS discrimination}{21}{subsection.4.2.2}%
-\contentsline {paragraph}{OOK PASS system}{21}{section*.18}%
-\contentsline {paragraph}{BPSK PASS system}{22}{section*.20}%
-\contentsline {chapter}{\numberline {5}Conclusion}{25}{chapter.5}%
+\contentsline {section}{\numberline {2.4}Non-Gaussian States}{10}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Photon added states}{10}{subsection.2.4.1}%
+\contentsline {paragraph}{Photon added coherent states}{11}{section*.7}%
+\contentsline {paragraph}{Photon added squeezed states}{12}{section*.9}%
+\contentsline {subsection}{\numberline {2.4.2}Photon subtracted states}{13}{subsection.2.4.2}%
+\contentsline {chapter}{\numberline {3}Quantum Communication Systems}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Quantum Communication System}{15}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Quantum Modulations}{16}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}OOK modulations}{16}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}BPSK modulations}{17}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Quantum Receiver}{17}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Binary case}{18}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Optimal binary receiver}{18}{subsection.3.3.2}%
+\contentsline {chapter}{\numberline {4}Performance Analysis}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Quantum communication systems with PACSs}{21}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Quantum OOK}{21}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Quantum BPSK}{23}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Quantum communication systems with PASSs}{24}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Squeezed states discrimination}{24}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}PASS discrimination}{25}{subsection.4.2.2}%
+\contentsline {paragraph}{OOK PASS system}{26}{section*.18}%
+\contentsline {paragraph}{BPSK PASS system}{26}{section*.20}%
+\contentsline {chapter}{\numberline {5}Conclusion}{29}{chapter.5}%
