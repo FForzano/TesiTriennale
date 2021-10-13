@@ -37,14 +37,20 @@
     \begin{figure}[t]
         \begin{center}
             \includegraphics[width=0.8\textwidth]{fig3.1.pdf}
-            \caption{MDEP for PACS QOOK with: $k=0,1,2,3$; $\bar{n}=10^{-2}$; $p_0=p_1=1/2$}
+            \caption{MDEP for PACS QOOK as function of $\bar{n}_p$ with: $k=0,1,2,3$; $\bar{n}=10^{-2}$; $p_0=p_1=1/2$}
             \label{fig:3.1}
         \end{center}
     \end{figure}
-    The MDEP of a quantum OOK system with PACS in function of $n_p$ is represented in the figure
-    \ref{fig:3.1}, where in the x-axis there are the mean number of photon $n_p$ in the state 
-    $\Operator{\varXi}_1$ (which corresponds to the mean number of photon in the whole system) and in the 
-    y-axes there are the MDEP ($P_e$). The plot was obtained for equiprobable symbols and 
+    The MDEP of a quantum OOK system with PACS in function of $\bar{n}_p$ is represented in the figure
+    \ref{fig:3.1}. The parameter $\bar{n}_p$ represents the mean number of photons in the system and it is 
+    defined as
+    \begin{equation*}
+        \bar{n}_p=\frac{1}{2} \left(n_{p0}+n_{p1}\right)
+    \end{equation*}
+    where $n_{pi}$ is the mean number of photons in the state $\Operator{\varXi}_i$.
+    The parameter $\bar{n}_p$ is equal to $n_p/2$ for OOK systems and to the average of the $n_p$ for 
+    each state for the BPSK system.
+    In the y-axes there are the MDEP ($P_e$). The plot was obtained for equiprobable symbols and 
     mean number of thermal photons $\bar{n}=10^{-2}$.  
     The argument of the trace norm $\norm{\cdot}_1$ in the Helstrom bound 
     \ref{eq:HelstromBound}, is an operator in an infinite dimensional Hilbert space; for the 
@@ -59,18 +65,18 @@
     \subsection{Quantum BPSK}
     It can be interesting to assess the effect of photon addition in a quantum BPSK system.
     The constellation is given, for a PACS BPSK, by:
-    \begin{equation}\begin{split}
-        \Operator{\varXi}_0 &=  \Operator{\varXi}_{\mathrm{th}} = \Operator{\varXi}_{\mathrm{th}}^{(k)}(-\mu)\\
+    \begin{subequations}\begin{align}
+        \Operator{\varXi}_0 &=  \Operator{\varXi}_{\mathrm{th}}^{(k)}(-\mu)\\
         \Operator{\Xi}_1 &=  \Operator{\varXi}_{\mathrm{th}}^{(k)}(\mu).
-    \end{split}\end{equation}
+    \end{align}\end{subequations}
     %
     In absence of noise ($\bar{n}=0$), the MDEP is given by formula \ref{eq:HelstromBPure} where
-    \begin{equation}
-        \begin{split}
+    \begin{subequations}
+        \begin{align}
             \ket{\psi_0}&=\ket*{-\mu^{(k)}},\\
             \ket{\psi_1}&=\ket*{\mu^{(k)}}.
-        \end{split}
-    \end{equation}
+        \end{align}
+    \end{subequations}
     %
     The inner product is given, in closed form, by \cite{PACSDisc}:
     \begin{equation}
@@ -89,7 +95,7 @@
             \includegraphics[width=\linewidth]{fig3.2b.eps}
             \caption{$k=2$}
         \end{subfigure}
-        \caption{MDEP of quantum BPSK in absence of noise, $N=30$.}
+        \caption{MDEP of quantum BPSK as function of $n_p$, in absence of noise with $N=30$.}
         \label{fig:3.2}
     \end{figure}
     In figure \ref{fig:3.2} the MDEP in absence of noise, for QBPSK with PACS, is plotted for
@@ -102,12 +108,12 @@
     \begin{figure}[t]
         \begin{subfigure}{0.5\textwidth}
             \includegraphics[width=\linewidth]{fig3.3a.pdf}
-            \caption{$k=1$ \& $\mu = 0.54$}
+            \caption{$k=1$ and $\mu = 0.54$}
         \end{subfigure}
         %\hspace*{fill}
         \begin{subfigure}{0.5\textwidth}
             \includegraphics[width=\linewidth]{fig3.3b.pdf}
-            \caption{$k=2$ \& $\mu = 1.58$}
+            \caption{$k=2$ and $\mu = 1.58$}
         \end{subfigure}
         \caption{Thermal noise effect, in corrispondence of MDEP zeros ($N=40$).}
         \label{fig:3.3}
@@ -115,24 +121,19 @@
     In figure \ref{fig:3.3}, the sluggish performance due to the thermal noise is clear. The plot
     shows the trend of MDEP, for zeros value of $\mu$, in function of $\bar{n}$; the used approximation
     is $N=30$. The MDEP in presence of noise is given using the expression \ref{eq:HelstromBound}.
-    We can shown using the formula \ref{eq:nbar} that $\bar{n}$ in a real cases in near to zero, the 
+    We can shown, using the formula \ref{eq:nbar}, that $\bar{n}$ in a real cases in near to zero, the 
     plot show the general trend of the MDEP.
 
     \begin{figure}[t]
         \includegraphics[width=1\textwidth]{fig3.4.eps}
-        \caption{BPSK and OOK comparison. \\$N=45$, $\bar{n}=10^{-2}$, $p_0=p_1=1/2$}
+        \caption{BPSK and OOK comparison in terms of MDEP as function of $\bar{n}_p$. \\$N=45$, $\bar{n}=10^{-2}$, $p_0=p_1=1/2$}
         \label{fig:3.4}
     \end{figure}
-    The comparison between a quantum OOK system and a quantum BPSK system is given in figure 
-    \ref{fig:3.4}, in function of the mean number of photons in the system $\bar{E}$:
-    \begin{equation*}
-        \bar{E}=\frac{1}{2} \left(n_{p0}+n_{p1}\right),
-    \end{equation*}
-    where $n_{pi}$ is the mean number of photons in the state $\Operator{\varXi}_i$.
-    The parameter $\bar{E}$ is equal to $n_p/2$ for the OOK system and the average of the $n_p$ for 
-    each state for the BPSK system.
+    
+    The figure \ref{fig:3.4} show a comparison between a QBPSK system and a QOOK system in terms of 
+    MDEP as function of $\bar{n}_p$, i.e. the mean number of photons in the system. 
     The plots are given with $\bar{n}= 10^{-2}$, $N=45$ and equiprobable symbols.
-    The obtained result is really intresting: the quantum BPSK has a sluggish performance due two 
-    the photon addition process. At an equal level of energy $\bar{E}$, for PACS systems, it is
+    The obtained result is really intresting: the quantum BPSK system has a sluggish performance due two 
+    the photon addition process. At an equal level of energy $\bar{n}_p$, for PACS systems, it is
     possible to find an OOK configuration that maximizes the performance.
     

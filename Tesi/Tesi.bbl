@@ -21,6 +21,10 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{shannon}
+C.~E. Shannon, ``A mathematical theory of communication,'' \emph{The Bell
+  System Technical Journal}, vol.~27, no.~3, pp. 379--423, 1948.
+
 \bibitem{tesiGuerrini}
 S.~Guerrini, ``Quantum communications: State characterization and system
   design,'' 2021.
@@ -46,6 +50,12 @@ S.~Guerrini, M.~Chiani, and A.~Conti, ``Secure key throughput of intermittent
 M.~Chiani, A.~Conti, and M.~Z. Win, ``Piggybacking on quantum streams,''
   \emph{Phys. Rev. A}, vol. 102, p. 012410, Jul. 2020.
 
+\bibitem{PACSDisc}
+S.~Guerrini, M.~Z. Win, M.~Chiani, and A.~Conti, ``Quantum discrimination of
+  noisy photon-added coherent states,'' \emph{IEEE J. Sel. Areas Inf. Theory},
+  vol.~1, no.~2, pp. 469--479, Aug. 2020, special issue on {\em Quantum
+  Information Science}.
+
 \bibitem{quantumMec_Dirac}
 P.~Dirac, \emph{The Principles of Quantum Mechanics.}\hskip 1em plus 0.5em
   minus 0.4em\relax Oxford University Press, 1981.
@@ -55,98 +65,116 @@ J.~V. Neumann, \emph{Mathematical foundations of quantum mechanics.}\hskip 1em
   plus 0.5em minus 0.4em\relax Princeton University Press, 1995.
 
 \bibitem{ContinuousVar}
-C.~Weedbrook, S.~Pirandola, R.~Garc\`ia-Patr\`on, N.~J. Cerf, T.~C. Ralph,
-  J.~H. Shapiro, and S.~Lloyd, ``Gaussian quantum information,'' \emph{Reviews
-  of modern physics}, vol.~84, Apr.-Jun. 2012.
+\BIBentryALTinterwordspacing
+C.~Weedbrook, S.~Pirandola, R.~Garc\'{\i}a-Patr\'on, N.~J. Cerf, T.~C. Ralph,
+  J.~H. Shapiro, and S.~Lloyd, ``Gaussian quantum information,'' \emph{Rev.
+  Mod. Phys.}, vol.~84, pp. 621--669, May 2012. [Online]. Available:
+  \url{https://link.aps.org/doi/10.1103/RevModPhys.84.621}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Wigner}
+\BIBentryALTinterwordspacing
 E.~Wigner, ``On the quantum correction for thermodynamic equilibrium,''
-  \emph{Phys.Rev.}, vol.~40, no.~5, p. 749, 1932.
+  \emph{Phys. Rev.}, vol.~40, pp. 749--759, Jun 1932. [Online]. Available:
+  \url{https://link.aps.org/doi/10.1103/PhysRev.40.749}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Gaussian1}
+\BIBentryALTinterwordspacing
 S.~L. Braunstein and P.~van Loock, ``Quantum information with continuous
-  variables,'' \emph{Rev. Mod. Phys.}, vol.~77, p. 513–577, Jun. 2005.
+  variables,'' \emph{Reviews of Modern Physics}, vol.~77, no.~2, p. 513–577,
+  Jun 2005. [Online]. Available:
+  \url{http://dx.doi.org/10.1103/RevModPhys.77.513}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Gaussian2}
 S.~O. A.~Ferraro and M.~G.~A. Paris, \emph{Gaussian States in Continuous
   Variable Quantum Information}.\hskip 1em plus 0.5em minus 0.4em\relax Napoli,
   Italy: Biliopolis, 2005.
 
-\bibitem{Gaussian3}
-C.~Weedbrook, S.~Pirandola, R.~Garcı́a-Patrón, N.~J. Cerf, T.~C. Ralph,
-  J.~H.Shapiro, and S.~Lloyd, ``Gaussian quantum information,'' \emph{Rev. Mod.
-  Phys.}, vol.~84, p. 621–669, May 2012.
-
 \bibitem{Gaussian4}
-S.~R. G.~Adesso and A.~R. Lee, ``Continuous variable quantum information:
-  Gaussian states and beyond,'' \emph{Open Syst. Inf. Dyn.}, vol.~21, 2014.
+\BIBentryALTinterwordspacing
+G.~Adesso, S.~Ragy, and A.~R. Lee, ``Continuous variable quantum information:
+  Gaussian states and beyond,'' \emph{Open Systems & Information Dynamics},
+  vol.~21, no. 01n02, p. 1440001, Mar 2014. [Online]. Available:
+  \url{http://dx.doi.org/10.1142/S1230161214400010}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Gaussian5}
 A.~Serafini, \emph{Quantum Continuous Variables: A Primer of Theoretical
-  Methods.}\hskip 1em plus 0.5em minus 0.4em\relax Boca Raton, FL: CRC Press,
-  2017.
+  Methods}, 07 2017.
 
 \bibitem{CohSt_Glauber}
+\BIBentryALTinterwordspacing
 R.~J. Glauber, ``The quantum theory of optical coherence,'' \emph{Phys. Rev.},
-  vol. 130, p. 2529–2539, Jun. 1963.
+  vol. 130, pp. 2529--2539, Jun 1963. [Online]. Available:
+  \url{https://link.aps.org/doi/10.1103/PhysRev.130.2529}
+\BIBentrySTDinterwordspacing
 
 \bibitem{CohSt_Glauber2}
+\BIBentryALTinterwordspacing
 ------, ``Coherent and incoherent states of the radiation field,'' \emph{Phys.
-  Rev.}, vol. 131, p. 2766–2788, Sep. 1963.
+  Rev.}, vol. 131, pp. 2766--2788, Sep 1963. [Online]. Available:
+  \url{https://link.aps.org/doi/10.1103/PhysRev.131.2766}
+\BIBentrySTDinterwordspacing
 
 \bibitem{QuantumNoise}
 C.~W. Gardiner and P.~Zoller, \emph{Quantum noise}, 3rd~ed.\hskip 1em plus
   0.5em minus 0.4em\relax Berlin: Springer-Verlag, 2004.
 
 \bibitem{Dowling}
-J.~P. Dowling, \emph{Schrödinger’s Killer App: Race to Build the World’s
-  First Quantum Computer}.\hskip 1em plus 0.5em minus 0.4em\relax Boca Raton,
-  FL: CRC Press, 2013.
+J.~Dowling, \emph{Schrodinger's Killer App: Race to Build the World's First
+  Quantum Computer}, 05 2013.
 
 \bibitem{YuenRadField}
+\BIBentryALTinterwordspacing
 H.~P. Yuen, ``Two-photon coherent states of the radiation field,'' \emph{Phys.
-  Rev. A}, vol.~13, p. 2226–2243, Jun. 1976.
-
-\bibitem{QMnoiseInterf}
-C.~M. Caves, ``Quantum-mechanical noise in an interferometer,'' \emph{Phys.
-  Rev. D}, vol.~23, p. 1693–1708, Apr. 1981.
+  Rev. A}, vol.~13, pp. 2226--2243, Jun 1976. [Online]. Available:
+  \url{https://link.aps.org/doi/10.1103/PhysRevA.13.2226}
+\BIBentrySTDinterwordspacing
 
 \bibitem{MarMar_1993}
-P.~Marian and T.~A. Marian, ``Squeezed states with thermal noise. i. photon
-  number statistics,'' \emph{Phy. Rev. A}, vol.~47, no.~5, May 1993.
-
-\bibitem{PACSDisc}
-S.~Guerrini, M.~Z. Win, M.~Chiani, and A.~Conti, ``Quantum discrimination of
-  noisy photon-added coherent states,'' \emph{IEEE J. Sel. Areas Inf. Theory},
-  vol.~1, no.~2, pp. 469--479, Aug. 2020, special issue on {\em Quantum
-  Information Science}.
+\BIBentryALTinterwordspacing
+P.~Marian and T.~A. Marian, ``Squeezed states with thermal noise. i.
+  photon-number statistics,'' \emph{Phys. Rev. A}, vol.~47, pp. 4474--4486, May
+  1993. [Online]. Available:
+  \url{https://link.aps.org/doi/10.1103/PhysRevA.47.4474}
+\BIBentrySTDinterwordspacing
 
 \bibitem{helstrom1}
 C.~W. Helstrom, ``Detection theory and quantum mechanics,'' \emph{Inf.
   Control}, vol.~10, no.~3, p. 254–291, 1967.
 
 \bibitem{helstrom2}
-------, ``Fundamental limitations on the detectability of electromagnetic
-  signals,'' \emph{Int. J. Theor. Phys.}, vol.~1, no.~1, pp. 37--50, May 1968.
+C.~W. {Helstrom}, ``{Fundamental limitations on the detectability of
+  electromagnetic signals},'' \emph{International Journal of Theoretical
+  Physics}, vol.~1, no.~1, pp. 37--50, May 1968.
 
 \bibitem{coherentComm1}
-R.~Yoshitani, ``On the detectabillity limit of coherent optical signals
-  inthermal radiation,'' \emph{J. Stat. Phys.}, vol.~2, no.~4, pp. 347--378,
-  Dec. 1970.
+R.~{Yoshitani}, ``{On the detectabillity limit of coherent optical signals in
+  thermal radiation},'' \emph{Journal of Statistical Physics}, vol.~2, no.~4,
+  pp. 347--378, Dec. 1970.
 
 \bibitem{coherentComm2}
-M.~Takeoka and M.~Sasaki, ``Discrimination of the binary coherentsignal,''
-  \emph{Phys. Rev. A}, vol.~78, no. 022320, Aug. 2008.
+\BIBentryALTinterwordspacing
+M.~Takeoka and M.~Sasaki, ``Discrimination of the binary coherent signal:
+  Gaussian-operation limit and simple non-gaussian near-optimal receivers,''
+  \emph{Physical Review A}, vol.~78, no.~2, Aug 2008. [Online]. Available:
+  \url{http://dx.doi.org/10.1103/PhysRevA.78.022320}
+\BIBentrySTDinterwordspacing
 
 \bibitem{coherentComm3}
-N.~D. Pozza and G.~Pierobon, ``Optimality of square-root measurements in
-  quantum state discrimination,'' \emph{Phys. Rev. A}, vol.~91, no. 042334,
-  Apr. 2015.
+\BIBentryALTinterwordspacing
+N.~Dalla~Pozza and G.~Pierobon, ``Optimality of square-root measurements in
+  quantum state discrimination,'' \emph{Phys. Rev. A}, vol.~91, p. 042334, Apr
+  2015. [Online]. Available:
+  \url{https://link.aps.org/doi/10.1103/PhysRevA.91.042334}
+\BIBentrySTDinterwordspacing
 
 \bibitem{coherentComm4}
 R.~Yuan, M.~Zhao, S.~Han, and J.~Cheng, ``Kennedy receiver using threshold
   detection and optimized displacement under thermal noise,'' \emph{IEEE
-  Commun. Lett.}, vol.~24, no.~6, pp. 1313--1317, Jun. 2020.
+  Communications Letters}, vol.~24, no.~6, pp. 1313--1317, 2020.
 
 \bibitem{helstrom3}
 C.~W. Helstrom, \emph{Quantum Detection and Estimation Theory}.\hskip 1em plus

@@ -8,52 +8,55 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: bibliography.bib
-Warning--I didn't find a database entry for "PAPACSDisc"
+Warning--I didn't find a database entry for "Gaussian3"
+Warning--I didn't find a database entry for "QMnoiseInterf"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--empty journal in tesiGuerrini
+Warning--missing publisher in Gaussian5
+Warning--missing publisher in Dowling
 
 Done.
-You've used 30 entries,
+You've used 29 entries,
             4087 wiz_defined-function locations,
-            1012 strings with 11265 characters,
-and the built_in function-call counts, 17678 in all, are:
-= -- 1528
-> -- 315
-< -- 83
-+ -- 160
-- -- 65
-* -- 750
-:= -- 2791
-add.period$ -- 60
-call.type$ -- 30
-change.case$ -- 24
-chr.to.int$ -- 120
-cite$ -- 31
-duplicate$ -- 1461
-empty$ -- 1538
-format.name$ -- 80
-if$ -- 4188
+            1033 strings with 12033 characters,
+and the built_in function-call counts, 19682 in all, are:
+= -- 1676
+> -- 353
+< -- 148
++ -- 198
+- -- 59
+* -- 917
+:= -- 3087
+add.period$ -- 56
+call.type$ -- 29
+change.case$ -- 23
+chr.to.int$ -- 309
+cite$ -- 32
+duplicate$ -- 1469
+empty$ -- 1619
+format.name$ -- 73
+if$ -- 4610
 int.to.chr$ -- 0
-int.to.str$ -- 30
-missing$ -- 238
-newline$ -- 113
-num.names$ -- 30
-pop$ -- 533
+int.to.str$ -- 29
+missing$ -- 232
+newline$ -- 130
+num.names$ -- 29
+pop$ -- 495
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1491
+skip$ -- 1587
 stack$ -- 0
-substring$ -- 452
-swap$ -- 1095
-text.length$ -- 43
+substring$ -- 806
+swap$ -- 1196
+text.length$ -- 45
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 30
-warning$ -- 1
-while$ -- 61
-width$ -- 32
-write$ -- 297
-(There were 2 warnings)
+type$ -- 29
+warning$ -- 3
+while$ -- 83
+width$ -- 31
+write$ -- 321
+(There were 5 warnings)

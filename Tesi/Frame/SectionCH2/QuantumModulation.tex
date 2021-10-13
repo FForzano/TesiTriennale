@@ -4,10 +4,15 @@
     quantum state of the electromagnetic field, so it can be transmitted on the communication 
     channel.
 
-    It is possible to think about the quantum transmitter as in figure \ref{fig:2.1}. The bit source
-    emits a bit sequence $a[n]$, the serial-parallel converter parallelizes a group of $l$-bit (where
-    if $L$ is the number of quantum states, $l=\log_2(L)$) and sends them to the quantum modulator.
-    This latter associates one quantum state to every group of bit. The operation of quantum state 
+    %It is possible to think about the quantum transmitter as in figure \ref{fig:2.1}. The bit source
+    %emits a bit sequence $\msf{a}[n]$, the serial-parallel converter parallelizes a group of $l$-bit (where
+    %if $L$ is the number of quantum states, $l=\log_2(L)$) and sends them to the quantum modulator.
+    %This latter associates one quantum state to every group of bit. The operation of quantum state 
+    %creation, in real cases, is affected by noise.
+    It is possible to think about the quantum transmitter as a device composed by a bit source 
+    and a quantum modulator. The bit source
+    emits a bit sequence $\msf{a}[n]$ and sends them to the quantum modulator which associates 
+    one quantum state to every bit or group of bit. The operation of quantum state 
     creation, in real cases, is affected by noise.
 
     The sequence of operations is very close to a classical transmitter: the main difference is that
@@ -41,11 +46,11 @@
         \end{split}\end{equation}
 
     \subsection{BPSK modulations}
-        \begin{figure}[t]
-            \includegraphics[width=1\textwidth]{fig2.1.pdf}
-            \caption{Block diagram of a quantum transmitter.}
-            \label{fig:2.1}
-        \end{figure}
+        %\begin{figure}[t]
+        %    \includegraphics[width=1\textwidth]{fig2.1.pdf}
+        %    \caption{Block diagram of a quantum transmitter.}
+        %    \label{fig:2.1}
+        %\end{figure}
         BPSK quantum systems are implemented using two states with opposite amplitude, like
         \begin{equation}\begin{split}
             \Operator{\varXi}_0 &= \Operator{\varXi}_{\mathrm{th}}(-\mu)\\

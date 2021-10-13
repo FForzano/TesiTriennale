@@ -17,12 +17,12 @@
     We remark that if $\Vector{\mu} \in \mathbb{R}^2$ is the 
     displacement vector and $\Operator{C}_0$ is the covariance matrix, the augmented displacement vector
     and covariance matrix are given by the following transformation:
-    \begin{equation}
-        \begin{split}
+    \begin{subequations}
+        \begin{align}
             \check{\Vector{\mu}} &= \frac{1}{\sqrt{2}} \Operator{J} \Vector{\mu}\\
             \check{\Operator{C}}_0 &= \frac{1}{2} \Operator{J} \Operator{C}_0 \Operator{J}^H
-        \end{split}
-    \end{equation}
+        \end{align}
+    \end{subequations}
     where
     \begin{equation*}
         \Operator{J} = 
@@ -161,18 +161,18 @@
             +\frac{1}{2}[B(C^*)^2+B^*C^2]}{(1+A)^2-\absolutevalue{B}^2}}
         \end{equation}
         and
-        \begin{equation}
-            \begin{aligned}
+        \begin{subequations}
+            \begin{align}
             \tilde{A} &= \frac{A(1+A)-\absolutevalue{B}^2}{(1+A)^2-\absolutevalue{B}^2}\\
             \tilde{B} &= \frac{B}{(1+A)^2-\absolutevalue{B}^2}\\
             \tilde{C} &= \frac{(1+A)C+BC^*}{(1+A)^2-\absolutevalue{B}^2}.
-            \end{aligned}
-        \end{equation}
+            \end{align}
+        \end{subequations}
         The parameter $A,B$ and $C$ are defined as:
-        \begin{equation}
-            \begin{split}
+        \begin{subequations}
+            \begin{align}
             A&=\bar{n}+(2\bar{n}+1)(\sinh(r))^2\\
             B&=-(2\bar{n}+1)e^{i\phi}\sinh(r)\cosh(r)\\
             C&=\mu.
-            \end{split}
-        \end{equation}
+            \end{align}
+        \end{subequations}

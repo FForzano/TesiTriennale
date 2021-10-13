@@ -2,8 +2,6 @@
 \babel@toc {italian}{}
 \babel@toc {english}{}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Quantum Communication}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Objectives}{2}{section.1.2}%
 \contentsline {chapter}{\numberline {2}Continuous Variables States}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Preliminaries on quantum mechanics}{3}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Postulates}{3}{subsection.2.1.1}%
@@ -28,15 +26,15 @@
 \contentsline {subsection}{\numberline {3.2.1}OOK modulations}{16}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}BPSK modulations}{17}{subsection.3.2.2}%
 \contentsline {section}{\numberline {3.3}Quantum Receiver}{17}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Binary case}{18}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.1}Binary case}{17}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Optimal binary receiver}{18}{subsection.3.3.2}%
 \contentsline {chapter}{\numberline {4}Performance Analysis}{21}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Quantum communication systems with PACSs}{21}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Quantum OOK}{21}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Quantum BPSK}{23}{subsection.4.1.2}%
 \contentsline {section}{\numberline {4.2}Quantum communication systems with PASSs}{24}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Squeezed states discrimination}{24}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.1}Squeezed states discrimination}{25}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}PASS discrimination}{25}{subsection.4.2.2}%
-\contentsline {paragraph}{OOK PASS system}{26}{section*.18}%
-\contentsline {paragraph}{BPSK PASS system}{26}{section*.20}%
+\contentsline {paragraph}{OOK PASS system}{26}{section*.17}%
+\contentsline {paragraph}{BPSK PASS system}{26}{section*.19}%
 \contentsline {chapter}{\numberline {5}Conclusion}{29}{chapter.5}%
