@@ -28,7 +28,7 @@ function plotSSMDEP()
                 Pe(i) = NaN;
             else
                 current_mu = np2mu(current_np,setNoisySS(0,current_r,theta,n_th),0,5,maxErr,N);
-                Xi0 = setNoisySS(-current_mu,current_r,theta,n_th);
+                Xi0 = setNoisySS(0,0,theta,n_th);
                 Xi1 = setNoisySS(current_mu,current_r,theta,n_th);
 
                 Pe(i) = MDEP(p0,Xi0,p1,Xi1,N);

@@ -1,0 +1,53 @@
+\section{Quantum communication systems with squeezed states}
+    In this section we assess the effect of squeezing on the performance in absence of photon 
+    addition and thermal noise. The representation of squeezed states are given in \ref{squeezedStates}.
+    As for PACS systems, it can be useful to define the mean 
+    number of photon $n_p$ in a squeezed state, which is given by
+    \begin{equation}
+        n_p(\mu,r) = \absolutevalue{\mu}^2 + \left(\sinh{r}\right)^2;
+    \end{equation}
+    where $\mu$ is the amplitude of the starter coherent state and the squeezing factor
+    is $\zeta = r e^{i\theta}$. The minimum value of $n_p$ is given by $n_p(0,r) = \sinh{r}^2$.
+
+    \subsection{Quantum OOK}
+    \begin{figure}[t]
+        \input{Pictures/fig3.5.0.tex}
+        \caption{MDEP of OOK squeezed states system as function of $\bar{n}_p$ without thermal 
+        noise, $N=45$, $\theta=\pi$ and equiprobable symbols.}
+        \label{fig:OOK_SS}
+    \end{figure}
+    A quantum OOK system with squeezed states is a system with the following constellation
+    \begin{subequations}
+        \begin{align}
+            \Operator{\varXi}_0 &= \Operator{\varXi}(0,0)\\
+            \Operator{\varXi}_1 &= \Operator{\varXi}(\mu,\zeta)
+        \end{align}
+    \end{subequations}
+    where $\Operator{\varXi}_{\mathrm{th}}(\mu,\zeta)$ is the squeezed state with amplitude $\mu$
+    and squeezing parameter $\zeta$.
+
+    The MDEP as function of $\bar{n}_p$,
+    i.e the mean number of photon in the system,  is plotted in figure \ref{fig:OOK_SS} with:
+    $\theta=\pi$, $N=45$, equiprobable symbols and $\bar{n}=0$.
+    It can be noticed that the optimal configuration of $r$ depends on the energy in the 
+    system. For low energy levels the squeezing has not a positive effect.
+    \subsection{Quantum BPSK}
+    The effect of the squeezing in a BPSK system is similar to that in the OOK. The constellation
+    of this type of system is given by
+    \begin{subequations}
+        \begin{align}
+            \Operator{\varXi}_0 &= \Operator{\varXi}(-\mu,\zeta)\\
+            \Operator{\varXi}_1 &= \Operator{\varXi}(\mu,\zeta).
+        \end{align}
+    \end{subequations}
+    Figure \ref{fig:3.5} shows the MDEP of the system as function of $\bar{n}_p$
+    with $\theta=\pi$, $N=45$, equiprobable symbols and $\bar{n}=0$.
+
+    \begin{figure}[t]
+        \begin{center}
+            \includegraphics[width=0.8\textwidth]{fig3.5.eps}
+            \caption{MDEP of squeezed state BPSK system as function of $\bar{n}_p$. 
+                $N=30$, $\bar{n}=0$, $\theta=\pi$, $p_0=p_1=1/2$}
+            \label{fig:3.5}
+        \end{center}     
+    \end{figure}

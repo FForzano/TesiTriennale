@@ -1,10 +1,10 @@
 function plotNoiseEffect(N,p0,p1)
     Pe = [];
     n_th = [0:0.005:0.5];
-    np_zero = 1.52;
+    np_zero = 2.26;
     delta = 1E-08;
     index = 1;
-    k=1;
+    k=2;
     
     mu = np2mu(np_zero,setNoisyPACS(0,k,0),0,5,delta,N);
     

@@ -1,10 +1,10 @@
 function plotWignerPACS()
 
-    mu = 1.5;
+    mu = 4;
     k=2;
 
-    x = repmat([-1:0.05:3],length([-1:0.05:3]),1);
-    y = repmat([-2:0.05:2],length([-2:0.05:2]),1)';
+    x = repmat([-1:0.1:3],length([-1:0.1:3]),1);
+    y = repmat([-2:0.1:2],length([-2:0.1:2]),1)';
 
     alpha = x+1i*y;
 

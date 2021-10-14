@@ -9,7 +9,7 @@ function plotNoNoiseComparison(N,p0,p1,n_th)
     
     hold on;
     index = 0;
-    for k = [1]
+    for k = [2]
         index = 1;
         Pe_noisy = [];
         Pe_noNoisy = [];

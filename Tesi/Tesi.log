@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.22)  14 OCT 2021 12:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.22)  14 OCT 2021 22:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1223,32 +1223,32 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
  (./Tesi.aux)
 \openout1 = `Tesi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 67.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 69.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 6
-7.
+9.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    ... okay on input line 69.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1285,8 +1285,8 @@ LaTeX Font Info:    ... okay on input line 67.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \it@ocap on input line 67.
-LaTeX Info: Redefining \it@ccap on input line 67.
+LaTeX Info: Redefining \it@ocap on input line 69.
+LaTeX Info: Redefining \it@ccap on input line 69.
 (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count327
@@ -1309,7 +1309,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 67.
+Package hyperref Info: Link coloring OFF on input line 69.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1323,9 +1323,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count333
 )
-LaTeX Info: Redefining \ref on input line 67.
-LaTeX Info: Redefining \pageref on input line 67.
-LaTeX Info: Redefining \nameref on input line 67.
+LaTeX Info: Redefining \ref on input line 69.
+LaTeX Info: Redefining \pageref on input line 69.
+LaTeX Info: Redefining \nameref on input line 69.
  (./Tesi.out) (./Tesi.out)
 \@outlinefile=\write5
 \openout5 = `Tesi.out'.
@@ -1337,7 +1337,7 @@ Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.17}).
 
 (./Frame/Frontespizio.tex
-<Tesi-frn.pdf, id=127, 597.50829pt x 845.0471pt>
+<Tesi-frn.pdf, id=123, 597.50829pt x 845.0471pt>
 File: Tesi-frn.pdf Graphic file (type pdf)
 <use Tesi-frn.pdf>
 Package pdftex.def Info: Tesi-frn.pdf  used on input line 3.
@@ -1391,8 +1391,13 @@ put line 15.
  [3]
 Package hyperref Info: bookmark level for unknown definition defaults to 0 on i
 nput line 92.
- [4])
-(./Frame/SectionCH1/ContinuousVariablesQuantumSystems.tex [5]
+
+Overfull \hbox (27.22844pt too wide) has occurred while \output is active
+\T1/cmr/m/n/10 4 \T1/cmr/m/sl/10 CHAPTER 2.  ELEMENTS OF QUANTUM INFORMATION WI
+TH CONTINUOUS VARIABLES
+ []
+
+[4]) (./Frame/SectionCH1/ContinuousVariablesQuantumSystems.tex [5]
 Overfull \hbox (10.6398pt too wide) in paragraph at lines 54--56
 []\T1/cmr/m/it/10 The s-order char-ac-ter-is-tic func-tion $\OML/cmm/m/it/10 ^^
 _\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^X; s\OT1/cmr/m/n/10 )$\T1/cmr/m/it/10 ,
@@ -1404,9 +1409,14 @@ Overfull \hbox (29.8453pt too wide) in paragraph at lines 73--75
 10 W\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ; s\OT1/cmr/m/n/10 )$\T1/cmr/m/it/10 ,
  []
 
-) (./Frame/SectionCH1/GaussianStates.tex [6] [7]pdfTeX warning (ext4): destinat
-ion with the same identifier (name{equation.2.3.1}) has been already used, dupl
-icate ignored
+) (./Frame/SectionCH1/GaussianStates.tex
+Overfull \hbox (27.22844pt too wide) has occurred while \output is active
+\T1/cmr/m/n/10 6 \T1/cmr/m/sl/10 CHAPTER 2.  ELEMENTS OF QUANTUM INFORMATION WI
+TH CONTINUOUS VARIABLES
+ []
+
+[6] [7]pdfTeX warning (ext4): destination with the same identifier (name{equati
+on.2.3.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.169             \end{align}
@@ -1426,31 +1436,34 @@ dentifier (name{equation.2.3.2}) has been already used, duplicate ignored
                    \relax 
 l.177             \end{align}
                              ) (./Frame/SectionCH1/NonGaussianStates.tex
+Overfull \hbox (27.22844pt too wide) has occurred while \output is active
+\T1/cmr/m/n/10 8 \T1/cmr/m/sl/10 CHAPTER 2.  ELEMENTS OF QUANTUM INFORMATION WI
+TH CONTINUOUS VARIABLES
+ []
+
 [8pdfTeX warning (ext4): destination with the same identifier (name{equation.2.
 3.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.6 
-    ]
+    ] (./Pictures/fig2.1a.tex)
+Overfull \hbox (16.18353pt too wide) in paragraph at lines 1742--66
+[][] 
+ []
 
-pdfTeX warning: pdflatex (file ./Pictures/WigCohState.pdf): PDF inclusion: foun
-d PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/WigCohState.pdf, id=391, 392.26549pt x 289.75253pt>
-File: Pictures/WigCohState.pdf Graphic file (type pdf)
-<use Pictures/WigCohState.pdf>
-Package pdftex.def Info: Pictures/WigCohState.pdf  used on input line 63.
-(pdftex.def)             Requested size: 202.1591pt x 149.33253pt.
+(./Pictures/fig2.1b.tex) [9]
+Overfull \hbox (32.22722pt too wide) has occurred while \output is active
+\T1/cmr/m/n/10 10 \T1/cmr/m/sl/10 CHAPTER 2.  ELEMENTS OF QUANTUM INFORMATION W
+ITH CONTINUOUS VARIABLES
+ []
 
+[10])) (./Frame/Chapter2.tex [11]
+Overfull \hbox (32.22722pt too wide) has occurred while \output is active
+\T1/cmr/m/n/10 12 \T1/cmr/m/sl/10 CHAPTER 2.  ELEMENTS OF QUANTUM INFORMATION W
+ITH CONTINUOUS VARIABLES
+ []
 
-pdfTeX warning: pdflatex (file ./Pictures/WigPACS.pdf): PDF inclusion: found PD
-F version <1.7>, but at most version <1.5> allowed
-<Pictures/WigPACS.pdf, id=392, 397.6456pt x 286.90186pt>
-File: Pictures/WigPACS.pdf Graphic file (type pdf)
-<use Pictures/WigPACS.pdf>
-Package pdftex.def Info: Pictures/WigPACS.pdf  used on input line 67.
-(pdftex.def)             Requested size: 202.1591pt x 145.85834pt.
-[9] [10 <./Pictures/WigCohState.pdf> <./Pictures/WigPACS.pdf>]))
-(./Frame/Chapter2.tex [11] [12
+[12
 
 ]
 Chapter 3.
@@ -1458,244 +1471,204 @@ Chapter 3.
 
 pdfTeX warning: pdflatex (file ./Pictures/fig3.0.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<./Pictures/fig3.0.pdf, id=442, 560.90547pt x 59.09726pt>
+<./Pictures/fig3.0.pdf, id=424, 560.90547pt x 59.09726pt>
 File: ./Pictures/fig3.0.pdf Graphic file (type pdf)
 <use ./Pictures/fig3.0.pdf>
 Package pdftex.def Info: ./Pictures/fig3.0.pdf  used on input line 4.
 (pdftex.def)             Requested size: 412.56499pt x 43.46977pt.
 ) (./Frame/SectionCH2/QuantumModulation.tex [13])
-(./Frame/SectionCH2/QuantumDiscriminator.tex [14 <./Pictures/fig3.0.pdf>]
+(./Frame/SectionCH2/QuantumDiscriminator.tex
+Overfull \hbox (13.83003pt too wide) has occurred while \output is active
+\T1/cmr/m/n/10 14 \T1/cmr/m/sl/10 CHAPTER 3.  QUANTUM COMMUNICATION SYSTEMS WIT
+H NON-GAUSSIAN STATES
+ []
+
+[14pdfTeX warning (ext4): destination with the same identifier (name{equation.3
+.2.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.17     \end{equation}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{equation.3.2.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.17     \end{equation}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{equation.3.2.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.17     \end{equation}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{equation.3.2.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.17     \end{equation}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{equation.3.2.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.17     \end{equation}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{equation.3.2.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.17     \end{equation}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{equation.3.2.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.17     \end{equation}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{equation.3.2.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.17     \end{equation}
+                        <./Pictures/fig3.0.pdf>]
 
 pdfTeX warning: pdflatex (file ./Pictures/fig2.1.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<./Pictures/fig2.1.pdf, id=513, 317.06018pt x 228.57828pt>
+<./Pictures/fig2.1.pdf, id=496, 317.06018pt x 228.57828pt>
 File: ./Pictures/fig2.1.pdf Graphic file (type pdf)
 <use ./Pictures/fig2.1.pdf>
 Package pdftex.def Info: ./Pictures/fig2.1.pdf  used on input line 56.
-(pdftex.def)             Requested size: 309.42374pt x 223.09137pt.
-[15 <./Pictures/fig2.1.pdf>])) (./Frame/Chapter3.tex [16]
+(pdftex.def)             Requested size: 226.91199pt x 163.59267pt.
+[15 <./Pictures/fig2.1.pdf>])) (./Frame/Chapter3.tex
+Overfull \hbox (13.83003pt too wide) has occurred while \output is active
+\T1/cmr/m/n/10 16 \T1/cmr/m/sl/10 CHAPTER 3.  QUANTUM COMMUNICATION SYSTEMS WIT
+H NON-GAUSSIAN STATES
+ []
+
+[16]
 Chapter 4.
-(./Frame/SectionCH3/PACSDiscrimination.tex
-Package epstopdf Info: Source file: <./Pictures/fig3.1.eps>
-(epstopdf)                    date: 2021-10-14 08:53:28
-(epstopdf)                    size: 43973 bytes
-(epstopdf)             Output file: <./Pictures/fig3.1-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-10-14 08:53:47
-(epstopdf)                    size: 13883 bytes
-(epstopdf)             Command: <repstopdf --outfile=./Pictures/fig3.1-eps-conv
-erted-to.pdf ./Pictures/fig3.1.eps>
-(epstopdf)             \includegraphics on input line 39.
-Package epstopdf Info: Output file is already uptodate.
-<./Pictures/fig3.1-eps-converted-to.pdf, id=602, 489.83pt x 369.38pt>
-File: ./Pictures/fig3.1-eps-converted-to.pdf Graphic file (type pdf)
-<use ./Pictures/fig3.1-eps-converted-to.pdf>
-Package pdftex.def Info: ./Pictures/fig3.1-eps-converted-to.pdf  used on input 
-line 39.
-(pdftex.def)             Requested size: 330.05324pt x 248.89801pt.
- [17
+(./Frame/SectionCH3/PACSDiscrimination.tex (./Pictures/fig3.1.tex
+Package pgfplots info on input line 33: Using 'lua backend=false' for axis: ymo
+de=log unsupported (yet).
+) [17
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{equation.4.1
 .1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.71     \end{align}
+l.72     \end{align}
                     \end{subequations}pdfTeX warning (ext4): destination with t
 he same identifier (name{equation.4.1.2}) has been already used, duplicate igno
 red
 <to be read again> 
                    \relax 
-l.71     \end{align}
+l.72     \end{align}
                     \end{subequations}pdfTeX warning (ext4): destination with t
 he same identifier (name{equation.4.1.1}) has been already used, duplicate igno
 red
 <to be read again> 
                    \relax 
-l.78         \end{align}
+l.79         \end{align}
                         pdfTeX warning (ext4): destination with the same identi
 fier (name{equation.4.1.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.78         \end{align}
-                         [18 <./Pictures/fig3.1-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <./Pictures/fig3.2a.eps>
-(epstopdf)                    date: 2021-10-12 22:51:30
-(epstopdf)                    size: 27673 bytes
-(epstopdf)             Output file: <./Pictures/fig3.2a-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-10-12 22:51:50
-(epstopdf)                    size: 11509 bytes
-(epstopdf)             Command: <repstopdf --outfile=./Pictures/fig3.2a-eps-con
-verted-to.pdf ./Pictures/fig3.2a.eps>
-(epstopdf)             \includegraphics on input line 90.
-Package epstopdf Info: Output file is already uptodate.
-<./Pictures/fig3.2a-eps-converted-to.pdf, id=630, 421.575pt x 316.18124pt>
-File: ./Pictures/fig3.2a-eps-converted-to.pdf Graphic file (type pdf)
-<use ./Pictures/fig3.2a-eps-converted-to.pdf>
-Package pdftex.def Info: ./Pictures/fig3.2a-eps-converted-to.pdf  used on input
- line 90.
-(pdftex.def)             Requested size: 206.28249pt x 154.71306pt.
-Package epstopdf Info: Source file: <./Pictures/fig3.2b.eps>
-(epstopdf)                    date: 2021-10-12 22:50:56
-(epstopdf)                    size: 39146 bytes
-(epstopdf)             Output file: <./Pictures/fig3.2b-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-10-12 22:51:50
-(epstopdf)                    size: 12006 bytes
-(epstopdf)             Command: <repstopdf --outfile=./Pictures/fig3.2b-eps-con
-verted-to.pdf ./Pictures/fig3.2b.eps>
-(epstopdf)             \includegraphics on input line 95.
-Package epstopdf Info: Output file is already uptodate.
-<./Pictures/fig3.2b-eps-converted-to.pdf, id=631, 421.575pt x 316.18124pt>
-File: ./Pictures/fig3.2b-eps-converted-to.pdf Graphic file (type pdf)
-<use ./Pictures/fig3.2b-eps-converted-to.pdf>
-Package pdftex.def Info: ./Pictures/fig3.2b-eps-converted-to.pdf  used on input
- line 95.
-(pdftex.def)             Requested size: 206.28249pt x 154.71306pt.
+l.79         \end{align}
+                         [18] (./Pictures/fig3.2a.tex
+Package pgfplots info on input line 28: Using 'lua backend=false' for axis: ymo
+de=log unsupported (yet).
+)
+Overfull \hbox (3.85822pt too wide) in paragraph at lines 551--93
+[][] 
+ []
 
-Overfull \hbox (2.22166pt too wide) in paragraph at lines 89--98
+(./Pictures/fig3.2b.tex
+Package pgfplots info on input line 28: Using 'lua backend=false' for axis: ymo
+de=log unsupported (yet).
+)
+Overfull \hbox (3.85822pt too wide) in paragraph at lines 551--99
+[][] 
+ []
+
+
+Overfull \hbox (2.22166pt too wide) in paragraph at lines 90--101
 []$[]$ $[]$ 
  []
 
-Package epstopdf Info: Source file: <./Pictures/fig3.3a.eps>
-(epstopdf)                    date: 2021-10-14 10:49:13
-(epstopdf)                    size: 22732 bytes
-(epstopdf)             Output file: <./Pictures/fig3.3a-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-10-14 10:49:26
-(epstopdf)                    size: 8129 bytes
-(epstopdf)             Command: <repstopdf --outfile=./Pictures/fig3.3a-eps-con
-verted-to.pdf ./Pictures/fig3.3a.eps>
-(epstopdf)             \includegraphics on input line 110.
-Package epstopdf Info: Output file is already uptodate.
-<./Pictures/fig3.3a-eps-converted-to.pdf, id=634, 421.575pt x 316.18124pt>
-File: ./Pictures/fig3.3a-eps-converted-to.pdf Graphic file (type pdf)
-<use ./Pictures/fig3.3a-eps-converted-to.pdf>
-Package pdftex.def Info: ./Pictures/fig3.3a-eps-converted-to.pdf  used on input
- line 110.
-(pdftex.def)             Requested size: 206.28249pt x 154.71306pt.
-Package epstopdf Info: Source file: <./Pictures/fig3.3b.eps>
-(epstopdf)                    date: 2021-10-14 10:43:06
-(epstopdf)                    size: 27315 bytes
-(epstopdf)             Output file: <./Pictures/fig3.3b-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-10-14 10:46:47
-(epstopdf)                    size: 8476 bytes
-(epstopdf)             Command: <repstopdf --outfile=./Pictures/fig3.3b-eps-con
-verted-to.pdf ./Pictures/fig3.3b.eps>
-(epstopdf)             \includegraphics on input line 115.
-Package epstopdf Info: Output file is already uptodate.
-<./Pictures/fig3.3b-eps-converted-to.pdf, id=635, 421.575pt x 316.18124pt>
-File: ./Pictures/fig3.3b-eps-converted-to.pdf Graphic file (type pdf)
-<use ./Pictures/fig3.3b-eps-converted-to.pdf>
-Package pdftex.def Info: ./Pictures/fig3.3b-eps-converted-to.pdf  used on input
- line 115.
-(pdftex.def)             Requested size: 206.28249pt x 154.71306pt.
+(./Pictures/fig3.3a.tex
+Package pgfplots info on input line 27: Using 'lua backend=false' for axis: ymo
+de=log unsupported (yet).
 
-Overfull \hbox (2.22166pt too wide) in paragraph at lines 109--118
+NOTE: coordinate (0,0) has been dropped because it is unbounded (in y). (see al
+so unbounded coords=jump). 
+)
+Overfull \hbox (5.24496pt too wide) in paragraph at lines 149--115
+[][] 
+ []
+
+(./Pictures/fig3.3b.tex
+Package pgfplots info on input line 27: Using 'lua backend=false' for axis: ymo
+de=log unsupported (yet).
+
+NOTE: coordinate (0,0) has been dropped because it is unbounded (in y). (see al
+so unbounded coords=jump). 
+)
+Overfull \hbox (5.24496pt too wide) in paragraph at lines 149--121
+[][] 
+ []
+
+
+Overfull \hbox (2.22166pt too wide) in paragraph at lines 112--123
 []$[]$ $[]$ 
  []
 
-Package epstopdf Info: Source file: <./Pictures/fig3.4.eps>
-(epstopdf)                    date: 2021-10-14 10:29:49
-(epstopdf)                    size: 78912 bytes
-(epstopdf)             Output file: <./Pictures/fig3.4-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-10-14 10:29:59
-(epstopdf)                    size: 23882 bytes
-(epstopdf)             Command: <repstopdf --outfile=./Pictures/fig3.4-eps-conv
-erted-to.pdf ./Pictures/fig3.4.eps>
-(epstopdf)             \includegraphics on input line 128.
-Package epstopdf Info: Output file is already uptodate.
-<./Pictures/fig3.4-eps-converted-to.pdf, id=639, 604.2575pt x 339.2675pt>
-File: ./Pictures/fig3.4-eps-converted-to.pdf Graphic file (type pdf)
-<use ./Pictures/fig3.4-eps-converted-to.pdf>
-Package pdftex.def Info: ./Pictures/fig3.4-eps-converted-to.pdf  used on input 
-line 128.
-(pdftex.def)             Requested size: 412.56499pt x 231.64102pt.
-[19 <./Pictures/fig3.2a-eps-converted-to.pdf> <./Pictures/fig3.2b-eps-converted
--to.pdf> <./Pictures/fig3.3a-eps-converted-to.pdf> <./Pictures/fig3.3b-eps-conv
-erted-to.pdf>]) (./Frame/SectionCH3/PASSDiscrimination.tex [20 <./Pictures/fig3
-.4-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <./Pictures/fig3.5.eps>
-(epstopdf)                    date: 2021-10-14 09:42:17
-(epstopdf)                    size: 48198 bytes
-(epstopdf)             Output file: <./Pictures/fig3.5-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-10-14 09:42:24
-(epstopdf)                    size: 14730 bytes
-(epstopdf)             Command: <repstopdf --outfile=./Pictures/fig3.5-eps-conv
-erted-to.pdf ./Pictures/fig3.5.eps>
-(epstopdf)             \includegraphics on input line 55.
-Package epstopdf Info: Output file is already uptodate.
-<./Pictures/fig3.5-eps-converted-to.pdf, id=684, 429.605pt x 321.2pt>
-File: ./Pictures/fig3.5-eps-converted-to.pdf Graphic file (type pdf)
-<use ./Pictures/fig3.5-eps-converted-to.pdf>
-Package pdftex.def Info: ./Pictures/fig3.5-eps-converted-to.pdf  used on input 
-line 55.
-(pdftex.def)             Requested size: 330.05324pt x 246.77094pt.
-Package epstopdf Info: Source file: <./Pictures/fig3.7.eps>
-(epstopdf)                    date: 2021-10-14 10:25:12
-(epstopdf)                    size: 26434 bytes
-(epstopdf)             Output file: <./Pictures/fig3.7-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-10-14 10:29:59
-(epstopdf)                    size: 10698 bytes
-(epstopdf)             Command: <repstopdf --outfile=./Pictures/fig3.7-eps-conv
-erted-to.pdf ./Pictures/fig3.7.eps>
-(epstopdf)             \includegraphics on input line 84.
-Package epstopdf Info: Output file is already uptodate.
-<./Pictures/fig3.7-eps-converted-to.pdf, id=687, 421.575pt x 316.18124pt>
-File: ./Pictures/fig3.7-eps-converted-to.pdf Graphic file (type pdf)
-<use ./Pictures/fig3.7-eps-converted-to.pdf>
-Package pdftex.def Info: ./Pictures/fig3.7-eps-converted-to.pdf  used on input 
-line 84.
-(pdftex.def)             Requested size: 330.05324pt x 247.54185pt.
-Package epstopdf Info: Source file: <./Pictures/fig3.6.eps>
-(epstopdf)                    date: 2021-10-14 10:20:35
-(epstopdf)                    size: 70495 bytes
-(epstopdf)             Output file: <./Pictures/fig3.6-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-10-14 10:20:45
-(epstopdf)                    size: 22258 bytes
-(epstopdf)             Command: <repstopdf --outfile=./Pictures/fig3.6-eps-conv
-erted-to.pdf ./Pictures/fig3.6.eps>
-(epstopdf)             \includegraphics on input line 92.
-Package epstopdf Info: Output file is already uptodate.
-<./Pictures/fig3.6-eps-converted-to.pdf, id=688, 421.575pt x 316.18124pt>
-File: ./Pictures/fig3.6-eps-converted-to.pdf Graphic file (type pdf)
-<use ./Pictures/fig3.6-eps-converted-to.pdf>
-Package pdftex.def Info: ./Pictures/fig3.6-eps-converted-to.pdf  used on input 
-line 92.
-(pdftex.def)             Requested size: 330.05324pt x 247.54185pt.
-)) (./Frame/Conclusion.tex [21pdfTeX warning (ext4): destination with the same 
-identifier (name{equation.4.2.1}) has been already used, duplicate ignored
+(./Pictures/fig3.4.tex
+Package pgfplots info on input line 35: Using 'lua backend=false' for axis: ymo
+de=log unsupported (yet).
+)
+Overfull \hbox (10.61006pt too wide) in paragraph at lines 261--135
+[][] 
+ []
+
+[19]) (./Frame/SectionCH3/PASSDiscrimination.tex [20] (./Pictures/fig3.6.tex
+Package pgfplots info on input line 36: Using 'lua backend=false' for axis: ymo
+de=log unsupported (yet).
+)
+(./Pictures/fig3.7.tex
+Package pgfplots info on input line 38: Using 'lua backend=false' for axis: ymo
+de=log unsupported (yet).
+
+NOTE: coordinate (9.39394214003978,0) has been dropped because it is unbounded 
+(in y). (see also unbounded coords=jump). 
+))) (./Frame/Conclusion.tex [21pdfTeX warning (ext4): destination with the same
+ identifier (name{equation.4.2.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.2 
-    pdfTeX warning (ext4): destination with the same identifier (name{equation.
-4.2.2}) has been already used, duplicate ignored
+l.3 \chapter
+            {Conclusion}pdfTeX warning (ext4): destination with the same identi
+fier (name{equation.4.2.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.2 
-     <./Pictures/fig3.5-eps-converted-to.pdf>] [22 <./Pictures/fig3.7-eps-conve
-rted-to.pdf>] [23 <./Pictures/fig3.6-eps-converted-to.pdf>] [24
+l.3 \chapter
+            {Conclusion}] [22]
+Chapter 5.
+) (./Tesi.bbl [23
+
+] [24
 
 ]
-Chapter 5.
-) (./Tesi.bbl [25] [26
-
-] [27]
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
-)
+[25])
 \tf@thm=\write7
 \openout7 = `Tesi.thm'.
 
- [28] (./Tesi.aux)
+ [26] (./Tesi.aux)
 Package rerunfilecheck Info: File `Tesi.out' has not changed.
-(rerunfilecheck)             Checksum: B5519727AC2770E2BC3AF8AC8394E566;4865.
+(rerunfilecheck)             Checksum: 78CF45952FD2787F58E90165AC922003;4903.
  ) 
 Here is how much of TeX's memory you used:
- 34937 strings out of 479014
- 773528 string characters out of 5859133
- 1255067 words of memory out of 5000000
- 51542 multiletter control sequences out of 15000+600000
+ 39107 strings out of 479014
+ 865062 string characters out of 5859133
+ 3406491 words of memory out of 5000000
+ 55700 multiletter control sequences out of 15000+600000
  430293 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,23n,103p,723b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 102i,23n,107p,8930b,9500s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.
 pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.p
@@ -1729,10 +1702,10 @@ xmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2020/texm
 f-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2020/texmf-
 dist/fonts/type1/public/cm-super/sfsl1000.pfb></usr/local/texlive/2020/texmf-di
 st/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on Tesi.pdf (36 pages, 907239 bytes).
+Output written on Tesi.pdf (34 pages, 813965 bytes).
 PDF statistics:
- 903 PDF objects out of 1000 (max. 8388607)
- 775 compressed objects within 8 object streams
- 200 named destinations out of 1000 (max. 500000)
- 323 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 805 PDF objects out of 1000 (max. 8388607)
+ 701 compressed objects within 8 object streams
+ 194 named destinations out of 1000 (max. 500000)
+ 260 words of extra memory for PDF output out of 10000 (max. 10000000)
 

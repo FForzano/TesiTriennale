@@ -11,6 +11,7 @@
         \begin{equation}
             \Operator{\varXi}^{(1)}=\frac{\Operator{A}^\dagger\Operator{\varXi}\Operator{A}}
             {\tr{\Operator{A}^\dagger\Operator{\varXi}\Operator{A}}}.
+            \label{eq:photonAddedState}
         \end{equation}
         The name \emph{photon addition} could lead to believe that the mean photon number of the 
         photon added state is icreased by one compared to the previous non photon added state.
@@ -33,7 +34,7 @@
         \begin{equation*}
             \bra{n}\tilde{\Operator{\varXi}}^{(k)}\ket{m}=
             \begin{cases}
-                \sqrt{\frac{n!m!}{(n-k)!(m-k)!}}\bra*{n-k}\pmb{\Xi}\ket*{m-k}\mbox{\ if\ }n,m \geq k\\
+                \sqrt{\frac{n!m!}{(n-k)!(m-k)!}}\bra*{n-k}\Operator{\varXi}\ket*{m-k}\mbox{\ if\ }n,m \geq k\\
                 0\mbox{\ otherwise}.
             \end{cases}
         \end{equation*}
@@ -60,11 +61,13 @@
         \begin{figure}[t]
             \begin{center}
                 \begin{subfigure}{0.49\textwidth}
-                    \includegraphics[width=\linewidth]{Pictures/WigCohState.pdf}
+                    %\includegraphics[width=\linewidth]{Pictures/WigCohState.pdf}
+                    \input{Pictures/fig2.1a.tex}
                     \caption{Coherent state}
                 \end{subfigure}
                 \begin{subfigure}{0.49\textwidth}
-                    \includegraphics[width=\linewidth]{Pictures/WigPACS.pdf}
+                    %\includegraphics[width=\linewidth]{Pictures/WigPACS.pdf}
+                    \input{Pictures/fig2.1b.tex}
                     \caption{PACS}
                 \end{subfigure}
                 \caption{Comparison between the Wigner W-function of a coherent state and 
@@ -105,6 +108,7 @@
         where $W_{\mathrm{th}}(\alpha)$ is the Wigner W-function of a noisy coherent state \ref{WignerNCS}.
         
         \paragraph{Photon added squeezed states}\mbox{}\\
+        \label{PASSs}
         Let $\Operator{\varXi}$ be a squeezed state of amplitude $\mu$ and squeezing parameter $\zeta$,
         with $\mu,\zeta \in \mathbb{C}$:
         \begin{equation*}
