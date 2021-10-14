@@ -2,12 +2,12 @@ function plotPASSMDEP()
     theta = pi;
     mu_start = 0;
     mu_delta = 0.1;
-    np_max = 6;
+    np_max = 8;
     r = [0 0.01 0.1 0.2 0.5];
     %r=0.01;
     n_th = 1E-2;
     p0=0.5; p1=0.5;
-    N = 40;
+    N = 50;
     errMax = 1E-3;
     
     % plot configuration
@@ -61,7 +61,7 @@ function plotPASSMDEP()
             
             current_line = line(plot_number);
             current_color = colors(plot_number);
-            plot(np,Pe,strcat(current_line,current_color),'LineWidth',1);
+            plot(np./2,Pe,strcat(current_line,current_color),'LineWidth',1);
             plot_number = plot_number+1;
             
 %             current_line = line(plot_number);
@@ -74,7 +74,7 @@ function plotPASSMDEP()
     
     
     
-    xlabel('$n_p$','Interpreter','Latex')
+    xlabel('$\bar{n}_p$','Interpreter','Latex')
     ylabel('$P_e$','Interpreter','Latex')
     set(gca, 'YScale', 'log')
     legend('r = 0 & k = 0',...

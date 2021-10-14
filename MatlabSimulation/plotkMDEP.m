@@ -18,7 +18,7 @@ function plotkMDEP(N,p0,p1,n_th)
             end
         end
         
-        for np = [k:10]
+        for np = [k:20]
             Xi0 = setNoisyPACS(0,0,n_th);
             
             mu = np2mu(np,setNoisyPACS(0,k,n_th),0,5,delta,N);
@@ -28,10 +28,10 @@ function plotkMDEP(N,p0,p1,n_th)
             %Pe(np+1) = DEPnoNoisy(p0,Xi0,p1,Xi1);
         end
         
-        plot([0:10],Pe,strcat('-',symbols(k+1)));
+        plot([0:0.5:10],Pe,strcat('-',symbols(k+1)));
     end
     
-        xlabel('$n_p$','Interpreter','Latex')
+        xlabel('$\bar{n}_p$','Interpreter','Latex')
         ylabel('$P_e$','Interpreter','Latex')
         set(gca, 'YScale', 'log')
         legend('k = 0', 'k = 1', 'k = 2', 'k = 3')

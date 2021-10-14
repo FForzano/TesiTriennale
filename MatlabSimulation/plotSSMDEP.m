@@ -1,12 +1,17 @@
 function plotSSMDEP()
     theta = pi;
     np = [0:0.1:4];
+    marks = [0:0.5:4];
     r = [0 0.01 0.1 0.2 0.5];
     N = 45;
 
     n_th = 0;
     p0=0.5; p1=0.5;
     maxErr = 1E-6;
+    
+    plotNumber = 1;
+    symbols = ['o' 's' '^' 'd' 'p'];
+    colors = ['r','g','b','m','c'];
     
     figure;
     hold on;
@@ -37,7 +42,9 @@ function plotSSMDEP()
             i = i+1;
         end
         
-        plot(np,Pe);
+        plot(np,Pe,strcat(colors(plotNumber),'-'));
+        plot(marks,Pe(1:5:4),strcat(colors(plotNumber),symbols(plotNumber)));
+        plotNumber = plotNumber+1;
 %         plot(np,Pe_p);
         
         %xlabel('mu')
@@ -49,7 +56,7 @@ function plotSSMDEP()
     
     
     
-    xlabel('$\bar{E}$','Interpreter','Latex')
+    xlabel('$\bar{n}_p$','Interpreter','Latex')
     ylabel('$P_e$','Interpreter','Latex')
     set(gca, 'YScale', 'log')
     legend('r = 0','r = 0.01','r = 0.1','r = 0.2','r = 0.5')

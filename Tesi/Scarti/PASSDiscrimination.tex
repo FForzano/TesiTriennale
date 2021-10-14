@@ -41,12 +41,33 @@
                                         \Operator{S}_\zeta^\dagger \Operator{D}_\mu^\dagger \Operator{A}^k}.
             \end{split}
         \end{equation}
+        
+        \begin{figure}[t]
+            \includegraphics[width=1\textwidth]{fig3.4.eps}
+            \caption{BPSK and OOK comparison in terms of MDEP as function of $\bar{n}_p$. \\$N=45$, $\bar{n}=10^{-2}$, $p_0=p_1=1/2$}
+            \label{fig:3.4}
+        \end{figure}
 
         \paragraph{OOK PASS system}\mbox{}\\
         The constellation of a quantum OOK system with noisy PASS, is given by:
         \begin{subequations}
             \begin{align}
                 \Operator{\varXi}_0 &= \Operator{\varXi}_{\mathrm{th}}^{(0)}(0,0)\\
+                \Operator{\varXi}_1 &= \Operator{\varXi}_{\mathrm{th}}^{(k)}(\mu,\zeta).
+            \end{align}
+        \end{subequations}
+        
+        In figure \ref{fig:3.6}, the MDEP of a quantum OOK noisy PASS system is plotted in function
+        of the mean number of photon $\bar{n}_p$ in the system. For the simulation are used $N=30$, $\bar{n}=10^{-2}$, $\theta=\pi$ and
+        equiprobable symbols.
+        It can be noticed that the photon addition significantly improves the performance of the system,
+        at least for the plotted energy level.
+        
+        \paragraph{BPSK PASS system}\mbox{}\\
+        Similary to the PACS BPSK, the constellation of PASS BPSK is given by:
+        \begin{subequations}
+            \begin{align}
+                \Operator{\varXi}_0 &= \Operator{\varXi}_{\mathrm{th}}^{(k)}(-\mu,\zeta)\\
                 \Operator{\varXi}_1 &= \Operator{\varXi}_{\mathrm{th}}^{(k)}(\mu,\zeta).
             \end{align}
         \end{subequations}
@@ -58,21 +79,6 @@
                 \label{fig:3.5}
             \end{center}     
         \end{figure}
-        In figure \ref{fig:3.6}, the MDEP of a quantum OOK noisy PASS system is plotted in function
-        of the mean number of photon $\bar{n}_p$ in the system. For the simulation are used $N=30$, $\bar{n}=10^{-2}$, $\theta=\pi$ and
-        equiprobable symbols.
-        It can be noticed that the photon addition significantly improves the performance of the system,
-        at least for the plotted energy level.
-
-        \paragraph{BPSK PASS system}\mbox{}\\
-        Similary to the PACS BPSK, the constellation of PASS BPSK is given by:
-        \begin{subequations}
-            \begin{align}
-                \Operator{\varXi}_0 &= \Operator{\varXi}_{\mathrm{th}}^{(k)}(-\mu,\zeta)\\
-                \Operator{\varXi}_1 &= \Operator{\varXi}_{\mathrm{th}}^{(k)}(\mu,\zeta).
-            \end{align}
-        \end{subequations}
-        
         The figure \ref{fig:3.7} shows the effects of the photon addition in a quantum BPSK
         system, in terms of the mean photon number in the system $\bar{n}_p$, given by the average of 
         the mean photon number $n_p$ of $\Operator{\varXi}_0$ and $\Operator{\varXi}_1$. The parameters used

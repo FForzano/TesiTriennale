@@ -105,6 +105,19 @@
     The existence of these zeros is not really useful for the design of a quantum communication
     system because their selectivity factors are too high for a phisical implementation. It is, 
     nevertheless, possible to use that in order to evaluate the effect of the thermal noise.
+    
+    In figure \ref{fig:3.3}, the sluggish performance due to the thermal noise is clear. The plot
+    shows the trend of MDEP, for zeros value of $\mu$, in function of $\bar{n}$; the used approximation
+    is $N=30$. The MDEP in presence of noise is given using the expression \ref{eq:HelstromBound}.
+    We can shown, using the formula \ref{eq:nbar}, that $\bar{n}$ in a real cases in near to zero, the 
+    plot show the general trend of the MDEP.
+    
+    The figure \ref{fig:3.4} show a comparison between a QBPSK system and a QOOK system in terms of 
+    MDEP as function of $\bar{n}_p$, i.e. the mean number of photons in the system. 
+    The plots are given with $\bar{n}= 10^{-2}$, $N=45$ and equiprobable symbols.
+    The obtained result is really intresting: the quantum BPSK system has a sluggish performance due two 
+    the photon addition process. At an equal level of energy $\bar{n}_p$, for PACS systems, it is
+    possible to find an OOK configuration that maximizes the performance.
     \begin{figure}[t]
         \begin{subfigure}{0.5\textwidth}
             \includegraphics[width=\linewidth]{fig3.3a.eps}
@@ -118,22 +131,4 @@
         \caption{MDEP in corrispondence of MDEP zeros as function of $\bar{n}$ ($N=40$).}
         \label{fig:3.3}
     \end{figure}
-    In figure \ref{fig:3.3}, the sluggish performance due to the thermal noise is clear. The plot
-    shows the trend of MDEP, for zeros value of $\mu$, in function of $\bar{n}$; the used approximation
-    is $N=30$. The MDEP in presence of noise is given using the expression \ref{eq:HelstromBound}.
-    We can shown, using the formula \ref{eq:nbar}, that $\bar{n}$ in a real cases in near to zero, the 
-    plot show the general trend of the MDEP.
-
-    \begin{figure}[t]
-        \includegraphics[width=1\textwidth]{fig3.4.eps}
-        \caption{BPSK and OOK comparison in terms of MDEP as function of $\bar{n}_p$. \\$N=45$, $\bar{n}=10^{-2}$, $p_0=p_1=1/2$}
-        \label{fig:3.4}
-    \end{figure}
-    
-    The figure \ref{fig:3.4} show a comparison between a QBPSK system and a QOOK system in terms of 
-    MDEP as function of $\bar{n}_p$, i.e. the mean number of photons in the system. 
-    The plots are given with $\bar{n}= 10^{-2}$, $N=45$ and equiprobable symbols.
-    The obtained result is really intresting: the quantum BPSK system has a sluggish performance due two 
-    the photon addition process. At an equal level of energy $\bar{n}_p$, for PACS systems, it is
-    possible to find an OOK configuration that maximizes the performance.
     

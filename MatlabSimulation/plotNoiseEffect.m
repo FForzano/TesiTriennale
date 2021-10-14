@@ -1,6 +1,6 @@
 function plotNoiseEffect(N,p0,p1)
     Pe = [];
-    n_th = [0:0.01:0.5];
+    n_th = [0:0.005:0.5];
     np_zero = 1.52;
     delta = 1E-08;
     index = 1;
@@ -15,7 +15,7 @@ function plotNoiseEffect(N,p0,p1)
         Pe(index) = MDEP(p0,Xi0,p1,Xi1,N);
         index = index+1;
     end
-    
+    Pe(1)=0
     figure;
     plot(n_th,Pe)
     set(gca, 'YScale', 'log')

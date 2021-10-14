@@ -44,7 +44,7 @@ function plotkMDEP_BPSK(N,p0,p1,n_th)
         plot([0:0.5:10],Pe_BPSK,strcat(colors(k+1),'-',symbols(k+1)));
     end
     
-        xlabel('$\bar{E}$','Interpreter','Latex')
+        xlabel('$\bar{n}_p$','Interpreter','Latex')
         ylabel('$P_e$','Interpreter','Latex')
         set(gca, 'YScale', 'log')
         legend('OOK: k = 0','BPSK: k = 0','OOK: k = 1','BPSK: k = 1', ...

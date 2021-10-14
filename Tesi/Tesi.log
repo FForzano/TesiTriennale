@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.22)  13 OCT 2021 22:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.22)  14 OCT 2021 11:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -24,33 +24,59 @@ File: bk10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
+(/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count188
+\Gm@cntv=\count189
+\c@Gm@tempcnt=\count190
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks16
+)
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2020/08/01 v1.3d Input encoding file
-\inpenc@prehook=\toks15
-\inpenc@posthook=\toks16
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2021/03/03 3.55 The Babel package
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2021/03/03 3.55 Babel common definitions
-\babel@savecnt=\count188
-\U@D=\dimen139
+\babel@savecnt=\count191
+\U@D=\dimen147
 \l@babelnohyphens=\language86
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 )
-\bbl@dirlevel=\count189
+\bbl@dirlevel=\count192
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/babel-italian/italian.ldf
 Language: italian 2020/05/21 v.1.4.04 Italian support for the babel system
-\it@lettering=\count190
-\it@doublequoteactive=\count191
-\it@ISOcompliance=\count192
+\it@lettering=\count193
+\it@doublequoteactive=\count194
+\it@ISOcompliance=\count195
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
@@ -63,22 +89,17 @@ Package babel Info: \l@newzealand = using hyphenrules for ukenglish
 ))
 (/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count193
+\etb@tempcnta=\count196
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
-
-(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
-)
-\csq@reset=\count194
-\csq@gtype=\count195
-\csq@glevel=\count196
-\csq@qlevel=\count197
-\csq@maxlvl=\count198
-\csq@tshold=\count199
-\csq@ltx@everypar=\toks18
+\csq@reset=\count197
+\csq@gtype=\count198
+\csq@glevel=\count199
+\csq@qlevel=\count266
+\csq@maxlvl=\count267
+\csq@tshold=\count268
+\csq@ltx@everypar=\toks19
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
@@ -94,7 +115,7 @@ Package: frontespizio 2011/09/21 1.4a (Enrico Gregorio)
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
-\AP@output=\toks19
+\AP@output=\toks20
 \AP@partial=\box47
 \AP@footins=\box48
 )
@@ -115,8 +136,8 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen140
-\Gin@req@width=\dimen141
+\Gin@req@height=\dimen148
+\Gin@req@width=\dimen149
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
@@ -129,14 +150,11 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 (/usr/local/texlive/2020/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
-\@envbody=\toks20
+\@envbody=\toks21
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
-
-(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
-))
+)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
@@ -182,9 +200,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen142
-\Hy@linkcounter=\count266
-\Hy@pagecounter=\count267
+\@linkdim=\dimen150
+\Hy@linkcounter=\count269
+\Hy@pagecounter=\count270
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
@@ -200,7 +218,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count268
+\Hy@SavedSpaceFactor=\count271
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
@@ -214,14 +232,14 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count269
+\c@Hy@tempcnt=\count272
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen143
+\XeTeXLinkMargin=\dimen151
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -230,9 +248,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count270
-\Field@Width=\dimen144
-\Fld@charsize=\dimen145
+\Fld@menulength=\count273
+\Field@Width=\dimen152
+\Fld@charsize=\dimen153
 Package hyperref Info: Hyper figures OFF on input line 6075.
 Package hyperref Info: Link nesting OFF on input line 6080.
 Package hyperref Info: Hyper index ON on input line 6083.
@@ -242,9 +260,9 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6100.
 Package hyperref Info: PDF/A mode OFF on input line 6105.
 LaTeX Info: Redefining \ref on input line 6145.
 LaTeX Info: Redefining \pageref on input line 6149.
-\Hy@abspage=\count271
-\c@Item=\count272
-\c@Hfootnote=\count273
+\Hy@abspage=\count274
+\c@Item=\count275
+\c@Hfootnote=\count276
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -256,8 +274,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-\Fld@listcount=\count274
-\c@bookmark@seq@number=\count275
+\Fld@listcount=\count277
+\c@bookmark@seq@number=\count278
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -277,21 +295,21 @@ Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen146
-\captionmargin@=\dimen147
-\captionwidth=\dimen148
-\caption@tempdima=\dimen149
-\caption@indent=\dimen150
-\caption@parindent=\dimen151
-\caption@hangindent=\dimen152
+\captionmargin=\dimen154
+\captionmargin@=\dimen155
+\captionwidth=\dimen156
+\caption@tempdima=\dimen157
+\caption@indent=\dimen158
+\caption@parindent=\dimen159
+\caption@hangindent=\dimen160
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count276
-\c@continuedfloat=\count277
+\c@caption@flags=\count279
+\c@continuedfloat=\count280
 Package caption Info: hyperref package is loaded.
 )
-\c@subfigure=\count278
-\c@subtable=\count279
+\c@subfigure=\count281
+\c@subtable=\count282
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/09/23 v2.17i AMS math features
@@ -303,51 +321,51 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks21
-\ex@=\dimen153
+\@emptytoks=\toks22
+\ex@=\dimen161
 ))
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen154
+\pmbraise@=\dimen162
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count280
+\inf@bad=\count283
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count281
-\leftroot@=\count282
+\uproot@=\count284
+\leftroot@=\count285
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count283
-\DOTSCASE@=\count284
+\classnum@=\count286
+\DOTSCASE@=\count287
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
 \Mathstrutbox@=\box49
 \strutbox@=\box50
-\big@size=\dimen155
+\big@size=\dimen163
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count285
-\c@MaxMatrixCols=\count286
+\macc@depth=\count288
+\c@MaxMatrixCols=\count289
 \dotsspace@=\muskip17
-\c@parentequation=\count287
-\dspbrk@lvl=\count288
-\tag@help=\toks22
-\row@=\count289
-\column@=\count290
-\maxfields@=\count291
-\andhelp@=\toks23
-\eqnshift@=\dimen156
-\alignsep@=\dimen157
-\tagshift@=\dimen158
-\tagwidth@=\dimen159
-\totwidth@=\dimen160
-\lineht@=\dimen161
-\@envbody=\toks24
+\c@parentequation=\count290
+\dspbrk@lvl=\count291
+\tag@help=\toks23
+\row@=\count292
+\column@=\count293
+\maxfields@=\count294
+\andhelp@=\toks24
+\eqnshift@=\dimen164
+\alignsep@=\dimen165
+\tagshift@=\dimen166
+\tagwidth@=\dimen167
+\totwidth@=\dimen168
+\lineht@=\dimen169
+\@envbody=\toks25
 \multlinegap=\skip51
 \multlinetaggap=\skip52
-\mathdisplay@stack=\toks25
+\mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
@@ -368,34 +386,34 @@ Package: ntheorem 2011/08/15 1.33
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\theorem@style=\toks26
-\theorem@@style=\toks27
-\theorembodyfont=\toks28
-\theoremnumbering=\toks29
+\theorem@style=\toks27
+\theorem@@style=\toks28
+\theorembodyfont=\toks29
+\theoremnumbering=\toks30
 \theorempreskipamount=\skip53
 \theorempostskipamount=\skip54
 \theoremframepreskipamount=\skip55
 \theoremframepostskipamount=\skip56
 \theoreminframepreskipamount=\skip57
 \theoreminframepostskipamount=\skip58
-\theorem@preskip=\toks30
-\theorem@postskip=\toks31
-\theorem@framepreskip=\toks32
-\theorem@framepostskip=\toks33
-\theorem@inframepreskip=\toks34
-\theorem@inframepostskip=\toks35
-\theoremindent=\dimen162
-\theorem@indent=\dimen163
-\theoremrightindent=\dimen164
-\theorem@rightindent=\dimen165
-\theoremheaderfont=\toks36
-\theoremseparator=\toks37
-\theoremprework=\toks38
-\theorempostwork=\toks39
-\theoremsymbol=\toks40
-\qedsymbol=\toks41
-\theoremkeyword=\toks42
-\qedsymbol=\toks43
+\theorem@preskip=\toks31
+\theorem@postskip=\toks32
+\theorem@framepreskip=\toks33
+\theorem@framepostskip=\toks34
+\theorem@inframepreskip=\toks35
+\theorem@inframepostskip=\toks36
+\theoremindent=\dimen170
+\theorem@indent=\dimen171
+\theoremrightindent=\dimen172
+\theorem@rightindent=\dimen173
+\theoremheaderfont=\toks37
+\theoremseparator=\toks38
+\theoremprework=\toks39
+\theorempostwork=\toks40
+\theoremsymbol=\toks41
+\qedsymbol=\toks42
+\theoremkeyword=\toks43
+\qedsymbol=\toks44
 \thm@topsep=\skip59
 \thm@topsepadd=\skip60
 )
@@ -408,7 +426,7 @@ Package: expl3 2021-02-18 L3 programming layer (loader)
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count292
+\l__color_backend_stack_int=\count295
 \l__pdf_internal_box=\box51
 ))
 (/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-
@@ -422,11 +440,11 @@ Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 209.
 )
-\c@postulate=\count293
-\c@observation*=\count294
-\c@definition=\count295
+\c@postulate=\count296
+\c@observation*=\count297
+\c@definition=\count298
 LaTeX Font Info:    Overwriting math alphabet `\mathsfbr' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 45.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 47.
 Now handling font encoding LGR ...
 ... processing UTF-8 mapping file for font encoding LGR
 
@@ -783,7 +801,7 @@ File: lgrenc.dfu 2019/07/11 1.7 UTF-8 support for Greek
 )
 \symsfgreek=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `sfgreek' in version `bold'
-(Font)                  LGR/cmss/m/n --> LGR/cmss/bx/n on input line 51.
+(Font)                  LGR/cmss/m/n --> LGR/cmss/bx/n on input line 53.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/pgfplots/pgfplots.sty
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
@@ -793,9 +811,9 @@ Package: pgfplots 2020/02/29 v1.17 Data Visualization (1.17)
 (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks44
-\pgfutil@tempdima=\dimen166
-\pgfutil@tempdimb=\dimen167
+\pgfutil@everybye=\toks45
+\pgfutil@tempdima=\dimen174
+\pgfutil@tempdimb=\dimen175
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
 sts.tex))
@@ -812,33 +830,33 @@ Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks45
-\pgfkeys@temptoks=\toks46
+\pgfkeys@pathtoks=\toks46
+\pgfkeys@temptoks=\toks47
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
 ode.tex
-\pgfkeys@tmptoks=\toks47
+\pgfkeys@tmptoks=\toks48
 ))
-\pgf@x=\dimen168
-\pgf@y=\dimen169
-\pgf@xa=\dimen170
-\pgf@ya=\dimen171
-\pgf@xb=\dimen172
-\pgf@yb=\dimen173
-\pgf@xc=\dimen174
-\pgf@yc=\dimen175
-\pgf@xd=\dimen176
-\pgf@yd=\dimen177
+\pgf@x=\dimen176
+\pgf@y=\dimen177
+\pgf@xa=\dimen178
+\pgf@ya=\dimen179
+\pgf@xb=\dimen180
+\pgf@yb=\dimen181
+\pgf@xc=\dimen182
+\pgf@yc=\dimen183
+\pgf@xd=\dimen184
+\pgf@yd=\dimen185
 \w@pgf@writea=\write4
 \r@pgf@reada=\read3
-\c@pgf@counta=\count296
-\c@pgf@countb=\count297
-\c@pgf@countc=\count298
-\c@pgf@countd=\count299
-\t@pgf@toka=\toks48
-\t@pgf@tokb=\toks49
-\t@pgf@tokc=\toks50
-\pgf@sys@id@count=\count300
+\c@pgf@counta=\count299
+\c@pgf@countb=\count300
+\c@pgf@countc=\count301
+\c@pgf@countd=\count302
+\t@pgf@toka=\toks49
+\t@pgf@tokb=\toks50
+\t@pgf@tokc=\toks51
+\pgf@sys@id@count=\count303
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
@@ -856,8 +874,8 @@ File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfsyssoftpath@smallbuffer@items=\count301
-\pgfsyssoftpath@bigbuffer@items=\count302
+\pgfsyssoftpath@smallbuffer@items=\count304
+\pgfsyssoftpath@bigbuffer@items=\count305
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -885,12 +903,12 @@ Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen178
-\pgfmath@count=\count303
+\pgfmath@dimen=\dimen186
+\pgfmath@count=\count306
 \pgfmath@box=\box53
-\pgfmath@toks=\toks51
-\pgfmath@stack@operand=\toks52
-\pgfmath@stack@operation=\toks53
+\pgfmath@toks=\toks52
+\pgfmath@stack@operand=\toks53
+\pgfmath@stack@operation=\toks54
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex
@@ -911,37 +929,37 @@ code.tex)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count304
+\c@pgfmathroundto@lastzeros=\count307
 )) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
 File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@picminx=\dimen179
-\pgf@picmaxx=\dimen180
-\pgf@picminy=\dimen181
-\pgf@picmaxy=\dimen182
-\pgf@pathminx=\dimen183
-\pgf@pathmaxx=\dimen184
-\pgf@pathminy=\dimen185
-\pgf@pathmaxy=\dimen186
-\pgf@xx=\dimen187
-\pgf@xy=\dimen188
-\pgf@yx=\dimen189
-\pgf@yy=\dimen190
-\pgf@zx=\dimen191
-\pgf@zy=\dimen192
+\pgf@picminx=\dimen187
+\pgf@picmaxx=\dimen188
+\pgf@picminy=\dimen189
+\pgf@picmaxy=\dimen190
+\pgf@pathminx=\dimen191
+\pgf@pathmaxx=\dimen192
+\pgf@pathminy=\dimen193
+\pgf@pathmaxy=\dimen194
+\pgf@xx=\dimen195
+\pgf@xy=\dimen196
+\pgf@yx=\dimen197
+\pgf@yy=\dimen198
+\pgf@zx=\dimen199
+\pgf@zy=\dimen256
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
 ruct.code.tex
 File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@path@lastx=\dimen193
-\pgf@path@lasty=\dimen194
+\pgf@path@lastx=\dimen257
+\pgf@path@lasty=\dimen258
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
 .code.tex
 File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@shorten@end@additional=\dimen195
-\pgf@shorten@start@additional=\dimen196
+\pgf@shorten@end@additional=\dimen259
+\pgf@shorten@start@additional=\dimen260
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
@@ -949,19 +967,19 @@ File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfpic=\box54
 \pgf@hbox=\box55
 \pgf@layerbox@main=\box56
-\pgf@picture@serial@count=\count305
+\pgf@picture@serial@count=\count308
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
 File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgflinewidth=\dimen197
+\pgflinewidth=\dimen261
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
 ations.code.tex
 File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@pt@x=\dimen198
-\pgf@pt@y=\dimen199
-\pgf@pt@temp=\dimen256
+\pgf@pt@x=\dimen262
+\pgf@pt@y=\dimen263
+\pgf@pt@temp=\dimen264
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
 e.tex
@@ -978,14 +996,14 @@ File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
 de.tex
 File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfarrowsep=\dimen257
+\pgfarrowsep=\dimen265
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
 e.tex
 File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@max=\dimen258
-\pgf@sys@shading@range@num=\count306
-\pgf@shadingcount=\count307
+\pgf@max=\dimen266
+\pgf@sys@shading@range@num=\count309
+\pgf@shadingcount=\count310
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -1024,8 +1042,8 @@ File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -0-65.sty
 Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@nodesepstart=\dimen259
-\pgf@nodesepend=\dimen260
+\pgf@nodesepstart=\dimen267
+\pgf@nodesepend=\dimen268
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
@@ -1040,10 +1058,10 @@ Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
 Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen261
-\pgffor@skip=\dimen262
-\pgffor@stack=\toks54
-\pgffor@toks=\toks55
+\pgffor@iter=\dimen269
+\pgffor@skip=\dimen270
+\pgffor@stack=\toks55
+\pgffor@toks=\toks56
 ))
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -1052,34 +1070,34 @@ Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@plot@mark@count=\count308
-\pgfplotmarksize=\dimen263
+\pgf@plot@mark@count=\count311
+\pgfplotmarksize=\dimen271
 )
-\tikz@lastx=\dimen264
-\tikz@lasty=\dimen265
-\tikz@lastxsaved=\dimen266
-\tikz@lastysaved=\dimen267
-\tikz@lastmovetox=\dimen268
-\tikz@lastmovetoy=\dimen269
-\tikzleveldistance=\dimen270
-\tikzsiblingdistance=\dimen271
+\tikz@lastx=\dimen272
+\tikz@lasty=\dimen273
+\tikz@lastxsaved=\dimen274
+\tikz@lastysaved=\dimen275
+\tikz@lastmovetox=\dimen276
+\tikz@lastmovetoy=\dimen277
+\tikzleveldistance=\dimen278
+\tikzsiblingdistance=\dimen279
 \tikz@figbox=\box59
 \tikz@figbox@bg=\box60
 \tikz@tempbox=\box61
 \tikz@tempbox@bg=\box62
-\tikztreelevel=\count309
-\tikznumberofchildren=\count310
-\tikznumberofcurrentchild=\count311
-\tikz@fig@count=\count312
+\tikztreelevel=\count312
+\tikznumberofchildren=\count313
+\tikznumberofcurrentchild=\count314
+\tikz@fig@count=\count315
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfmatrixcurrentrow=\count313
-\pgfmatrixcurrentcolumn=\count314
-\pgf@matrix@numberofcolumns=\count315
+\pgfmatrixcurrentrow=\count316
+\pgfmatrixcurrentcolumn=\count317
+\pgf@matrix@numberofcolumns=\count318
 )
-\tikz@expandcount=\count316
+\tikz@expandcount=\count319
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -1087,12 +1105,12 @@ File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )))
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks56
-\t@pgfplots@tokb=\toks57
-\t@pgfplots@tokc=\toks58
-\pgfplots@tmpa=\dimen272
-\c@pgfplots@coordindex=\count317
-\c@pgfplots@scanlineindex=\count318
+\t@pgfplots@toka=\toks57
+\t@pgfplots@tokb=\toks58
+\t@pgfplots@tokc=\toks59
+\pgfplots@tmpa=\dimen280
+\c@pgfplots@coordindex=\count320
+\c@pgfplots@scanlineindex=\count321
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric
 .code.tex))
@@ -1110,14 +1128,14 @@ liststructure.code.tex)
 liststructureext.code.tex)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
 array.code.tex
-\c@pgfplotsarray@tmp=\count319
+\c@pgfplotsarray@tmp=\count322
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
 matrix.code.tex)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable
 shared.code.tex
-\c@pgfplotstable@counta=\count320
-\t@pgfplotstable@a=\toks59
+\c@pgfplotstable@counta=\count323
+\t@pgfplotstable@a=\toks60
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
 deque.code.tex)
@@ -1129,7 +1147,7 @@ ta.code.tex))
 .code.tex)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplot
 s.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count321
+\c@pgfplotslibrarysurf@no=\count324
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots
 .surfshading.pgfsys-pdftex.def)))
@@ -1161,14 +1179,14 @@ x)
 s/tikzlibrarydecorations.code.tex
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
 s.code.tex
-\pgfdecoratedcompleteddistance=\dimen273
-\pgfdecoratedremainingdistance=\dimen274
-\pgfdecoratedinputsegmentcompleteddistance=\dimen275
-\pgfdecoratedinputsegmentremainingdistance=\dimen276
-\pgf@decorate@distancetomove=\dimen277
-\pgf@decorate@repeatstate=\count322
-\pgfdecorationsegmentamplitude=\dimen278
-\pgfdecorationsegmentlength=\dimen279
+\pgfdecoratedcompleteddistance=\dimen281
+\pgfdecoratedremainingdistance=\dimen282
+\pgfdecoratedinputsegmentcompleteddistance=\dimen283
+\pgfdecoratedinputsegmentremainingdistance=\dimen284
+\pgf@decorate@distancetomove=\dimen285
+\pgf@decorate@repeatstate=\count325
+\pgfdecorationsegmentamplitude=\dimen286
+\pgfdecorationsegmentlength=\dimen287
 )
 \tikz@lib@dec@box=\box63
 )
@@ -1180,13 +1198,13 @@ brarydecorations.pathmorphing.code.tex))
 s/tikzlibrarydecorations.pathreplacing.code.tex
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
 brarydecorations.pathreplacing.code.tex))
-\pgfplots@numplots=\count323
-\pgfplots@xmin@reg=\dimen280
-\pgfplots@xmax@reg=\dimen281
-\pgfplots@ymin@reg=\dimen282
-\pgfplots@ymax@reg=\dimen283
-\pgfplots@zmin@reg=\dimen284
-\pgfplots@zmax@reg=\dimen285
+\pgfplots@numplots=\count326
+\pgfplots@xmin@reg=\dimen288
+\pgfplots@xmax@reg=\dimen289
+\pgfplots@ymin@reg=\dimen290
+\pgfplots@ymax@reg=\dimen291
+\pgfplots@zmin@reg=\dimen292
+\pgfplots@zmax@reg=\dimen293
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibraryplotmarks.code.tex
@@ -1205,48 +1223,83 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
  (./Tesi.aux)
 \openout1 = `Tesi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 67.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 6
-5.
+7.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Info: Redefining \it@ocap on input line 65.
-LaTeX Info: Redefining \it@ccap on input line 65.
+LaTeX Font Info:    ... okay on input line 67.
 
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* bindingoffset: 14.22636pt
+* modes: twoside 
+* h-part:(L,W,R)=(85.35826pt, 412.56499pt, 85.35826pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=412.56499pt
+* \textheight=702.78308pt
+* \oddsidemargin=27.31464pt
+* \evensidemargin=13.08827pt
+* \topmargin=-31.2056pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=115.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \it@ocap on input line 67.
+LaTeX Info: Redefining \it@ccap on input line 67.
 (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count324
-\scratchdimen=\dimen286
+\scratchcounter=\count327
+\scratchdimen=\dimen294
 \scratchbox=\box64
-\nofMPsegments=\count325
-\nofMParguments=\count326
-\everyMPshowfont=\toks60
-\MPscratchCnt=\count327
-\MPscratchDim=\dimen287
-\MPnumerator=\count328
-\makeMPintoPDFobject=\count329
-\everyMPtoPDFconversion=\toks61
+\nofMPsegments=\count328
+\nofMParguments=\count329
+\everyMPshowfont=\toks61
+\MPscratchCnt=\count330
+\MPscratchDim=\dimen295
+\MPnumerator=\count331
+\makeMPintoPDFobject=\count332
+\everyMPtoPDFconversion=\toks62
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1256,7 +1309,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 65.
+Package hyperref Info: Link coloring OFF on input line 67.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1268,11 +1321,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count330
+\c@section@level=\count333
 )
-LaTeX Info: Redefining \ref on input line 65.
-LaTeX Info: Redefining \pageref on input line 65.
-LaTeX Info: Redefining \nameref on input line 65.
+LaTeX Info: Redefining \ref on input line 67.
+LaTeX Info: Redefining \pageref on input line 67.
+LaTeX Info: Redefining \nameref on input line 67.
  (./Tesi.out) (./Tesi.out)
 \@outlinefile=\write5
 \openout5 = `Tesi.out'.
@@ -1317,58 +1370,43 @@ LaTeX Font Info:    Trying to load font information for LGR+cmss on input line
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/cbfonts-fd/lgrcmss.fd
 File: lgrcmss.fd 2017/07/29 v1.2 Greek European Computer Sans Serif
-) [7])
+))
 \tf@toc=\write6
 \openout6 = `Tesi.toc'.
 
+ [7]
+[8
 
-[8] (./Frame/Introduction.tex
+] (./Frame/Introduction.tex
 Chapter 1.
 ) (./Frame/Chapter1.tex [1
 
+] [2
 
-] [2]
+]
 Chapter 2.
 (./Frame/SectionCH1/PreliminariesOnQuantumMechanics.tex
 Package hyperref Info: bookmark level for unknown postulate defaults to 0 on in
 put line 15.
-
-Overfull \hbox (21.97583pt too wide) in paragraph at lines 22--27
-\T1/cmr/m/n/10 Every ket-vector $[] \OMS/cmsy/m/n/10 2 H$ \T1/cmr/m/n/10 can be
- rep-re-sented as a col-umn vec-tor $[] \OT1/cmr/m/n/10 = []$\T1/cmr/m/n/10 ,
- []
-
-[3
-
-]
-Overfull \hbox (1.67712pt too wide) in paragraph at lines 65--67
-[]\T1/cmr/m/it/10 The time evo-lu-tion $[]$ of an iso-lated quan-
- []
-
-[4]
+ [3]
 Package hyperref Info: bookmark level for unknown definition defaults to 0 on i
 nput line 92.
-) (./Frame/SectionCH1/ContinuousVariablesQuantumSystems.tex [5] [6]
-Overfull \hbox (5.10858pt too wide) in paragraph at lines 73--75
-[]\T1/cmr/m/it/10 The s-order quasi-probability
+ [4])
+(./Frame/SectionCH1/ContinuousVariablesQuantumSystems.tex [5]
+Overfull \hbox (10.6398pt too wide) in paragraph at lines 54--56
+[]\T1/cmr/m/it/10 The s-order char-ac-ter-is-tic func-tion $\OML/cmm/m/it/10 ^^
+_\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^X; s\OT1/cmr/m/n/10 )$\T1/cmr/m/it/10 ,
  []
 
-) (./Frame/SectionCH1/GaussianStates.tex
 
-LaTeX Warning: Citation `Gaussian3' on page 7 undefined on input line 4.
-
-
-Overfull \hbox (1.09604pt too wide) in paragraph at lines 3--5
-\T1/cmr/m/n/10 Gaussian quan-tum states are an im-por-tant class of quan-tum st
-ates of continuous-
+Overfull \hbox (29.8453pt too wide) in paragraph at lines 73--75
+[]\T1/cmr/m/it/10 The s-order quasi-probability dis-tri-bu-tion $\OML/cmm/m/it/
+10 W\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ; s\OT1/cmr/m/n/10 )$\T1/cmr/m/it/10 ,
  []
 
-[7] [8]
-
-LaTeX Warning: Citation `QMnoiseInterf' on page 9 undefined on input line 112.
-
-[9]pdfTeX warning (ext4): destination with the same identifier (name{equation.2
-.3.1}) has been already used, duplicate ignored
+) (./Frame/SectionCH1/GaussianStates.tex [6] [7]pdfTeX warning (ext4): destinat
+ion with the same identifier (name{equation.2.3.1}) has been already used, dupl
+icate ignored
 <to be read again> 
                    \relax 
 l.169             \end{align}
@@ -1388,36 +1426,31 @@ dentifier (name{equation.2.3.2}) has been already used, duplicate ignored
                    \relax 
 l.177             \end{align}
                              ) (./Frame/SectionCH1/NonGaussianStates.tex
-[10pdfTeX warning (ext4): destination with the same identifier (name{equation.2
-.3.3}) has been already used, duplicate ignored
+[8pdfTeX warning (ext4): destination with the same identifier (name{equation.2.
+3.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.21 
-     ]
+l.6 
+    ]
 
 pdfTeX warning: pdflatex (file ./Pictures/WigCohState.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/WigCohState.pdf, id=397, 392.26549pt x 289.75253pt>
+<Pictures/WigCohState.pdf, id=391, 392.26549pt x 289.75253pt>
 File: Pictures/WigCohState.pdf Graphic file (type pdf)
 <use Pictures/WigCohState.pdf>
 Package pdftex.def Info: Pictures/WigCohState.pdf  used on input line 63.
-(pdftex.def)             Requested size: 169.0519pt x 124.87411pt.
+(pdftex.def)             Requested size: 202.1591pt x 149.33253pt.
 
 
 pdfTeX warning: pdflatex (file ./Pictures/WigPACS.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<Pictures/WigPACS.pdf, id=398, 397.6456pt x 286.90186pt>
+<Pictures/WigPACS.pdf, id=392, 397.6456pt x 286.90186pt>
 File: Pictures/WigPACS.pdf Graphic file (type pdf)
 <use Pictures/WigPACS.pdf>
 Package pdftex.def Info: Pictures/WigPACS.pdf  used on input line 67.
-(pdftex.def)             Requested size: 169.0519pt x 121.96889pt.
-
-Overfull \hbox (1.16838pt too wide) detected at line 98
-\OML/cmm/m/it/10 c[] \OT1/cmr/m/n/10 = [][][][]\OML/cmm/m/it/10 v[] [][] []:
- []
-
-[11] [12 <./Pictures/WigCohState.pdf> <./Pictures/WigPACS.pdf>]))
-(./Frame/Chapter2.tex [13] [14
+(pdftex.def)             Requested size: 202.1591pt x 145.85834pt.
+[9] [10 <./Pictures/WigCohState.pdf> <./Pictures/WigPACS.pdf>]))
+(./Frame/Chapter2.tex [11] [12
 
 ]
 Chapter 3.
@@ -1425,42 +1458,44 @@ Chapter 3.
 
 pdfTeX warning: pdflatex (file ./Pictures/fig3.0.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<./Pictures/fig3.0.pdf, id=447, 559.88168pt x 59.01047pt>
+<./Pictures/fig3.0.pdf, id=442, 560.90547pt x 59.09726pt>
 File: ./Pictures/fig3.0.pdf Graphic file (type pdf)
 <use ./Pictures/fig3.0.pdf>
 Package pdftex.def Info: ./Pictures/fig3.0.pdf  used on input line 4.
-(pdftex.def)             Requested size: 345.0pt x 36.3619pt.
-) (./Frame/SectionCH2/QuantumModulation.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+(pdftex.def)             Requested size: 412.56499pt x 43.46977pt.
+) (./Frame/SectionCH2/QuantumModulation.tex [13])
+(./Frame/SectionCH2/QuantumDiscriminator.tex [14 <./Pictures/fig3.0.pdf>]
 
- [15]
-[16 <./Pictures/fig3.0.pdf>]) (./Frame/SectionCH2/QuantumDiscriminator.tex
-[17]
-
-pdfTeX warning: pdflatex (file ./Pictures/fig2.2.pdf): PDF inclusion: found PDF
+pdfTeX warning: pdflatex (file ./Pictures/fig2.1.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<./Pictures/fig2.2.pdf, id=513, 380.45135pt x 257.56226pt>
-File: ./Pictures/fig2.2.pdf Graphic file (type pdf)
-<use ./Pictures/fig2.2.pdf>
-Package pdftex.def Info: ./Pictures/fig2.2.pdf  used on input line 56.
-(pdftex.def)             Requested size: 258.75pt x 175.17537pt.
-[18 <./Pictures/fig2.2.pdf>])) (./Frame/Chapter3.tex [19] [20
-
-]
+<./Pictures/fig2.1.pdf, id=513, 317.06018pt x 228.57828pt>
+File: ./Pictures/fig2.1.pdf Graphic file (type pdf)
+<use ./Pictures/fig2.1.pdf>
+Package pdftex.def Info: ./Pictures/fig2.1.pdf  used on input line 56.
+(pdftex.def)             Requested size: 309.42374pt x 223.09137pt.
+[15 <./Pictures/fig2.1.pdf>])) (./Frame/Chapter3.tex [16]
 Chapter 4.
 (./Frame/SectionCH3/PACSDiscrimination.tex
-Overfull \hbox (7.34138pt too wide) in paragraph at lines 1--1
-[]\T1/cmr/bx/n/14.4 Quantum com-mu-ni-ca-tion sys-tems with PACSs 
- []
+Package epstopdf Info: Source file: <./Pictures/fig3.1.eps>
+(epstopdf)                    date: 2021-10-14 08:53:28
+(epstopdf)                    size: 43973 bytes
+(epstopdf)             Output file: <./Pictures/fig3.1-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-10-14 08:53:47
+(epstopdf)                    size: 13883 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Pictures/fig3.1-eps-conv
+erted-to.pdf ./Pictures/fig3.1.eps>
+(epstopdf)             \includegraphics on input line 39.
+Package epstopdf Info: Output file is already uptodate.
+<./Pictures/fig3.1-eps-converted-to.pdf, id=602, 489.83pt x 369.38pt>
+File: ./Pictures/fig3.1-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Pictures/fig3.1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Pictures/fig3.1-eps-converted-to.pdf  used on input 
+line 39.
+(pdftex.def)             Requested size: 330.05324pt x 248.89801pt.
+ [17
 
-[21]
-<./Pictures/fig3.1.pdf, id=590, 398.02704pt x 326.7708pt>
-File: ./Pictures/fig3.1.pdf Graphic file (type pdf)
-<use ./Pictures/fig3.1.pdf>
-Package pdftex.def Info: ./Pictures/fig3.1.pdf  used on input line 39.
-(pdftex.def)             Requested size: 276.00105pt x 226.60393pt.
- [22 <./Pictures/fig3.1.pdf>]pdfTeX warning (ext4): destination with the same i
-dentifier (name{equation.4.1.1}) has been already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{equation.4.1
+.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.71     \end{align}
@@ -1481,7 +1516,7 @@ fier (name{equation.4.1.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.78         \end{align}
-                        
+                         [18 <./Pictures/fig3.1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./Pictures/fig3.2a.eps>
 (epstopdf)                    date: 2021-10-12 22:51:30
 (epstopdf)                    size: 27673 bytes
@@ -1492,12 +1527,12 @@ Package epstopdf Info: Source file: <./Pictures/fig3.2a.eps>
 verted-to.pdf ./Pictures/fig3.2a.eps>
 (epstopdf)             \includegraphics on input line 90.
 Package epstopdf Info: Output file is already uptodate.
-<./Pictures/fig3.2a-eps-converted-to.pdf, id=612, 421.575pt x 316.18124pt>
+<./Pictures/fig3.2a-eps-converted-to.pdf, id=630, 421.575pt x 316.18124pt>
 File: ./Pictures/fig3.2a-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Pictures/fig3.2a-eps-converted-to.pdf>
 Package pdftex.def Info: ./Pictures/fig3.2a-eps-converted-to.pdf  used on input
  line 90.
-(pdftex.def)             Requested size: 172.5pt x 129.37462pt.
+(pdftex.def)             Requested size: 206.28249pt x 154.71306pt.
 Package epstopdf Info: Source file: <./Pictures/fig3.2b.eps>
 (epstopdf)                    date: 2021-10-12 22:50:56
 (epstopdf)                    size: 39146 bytes
@@ -1508,115 +1543,124 @@ Package epstopdf Info: Source file: <./Pictures/fig3.2b.eps>
 verted-to.pdf ./Pictures/fig3.2b.eps>
 (epstopdf)             \includegraphics on input line 95.
 Package epstopdf Info: Output file is already uptodate.
-<./Pictures/fig3.2b-eps-converted-to.pdf, id=613, 421.575pt x 316.18124pt>
+<./Pictures/fig3.2b-eps-converted-to.pdf, id=631, 421.575pt x 316.18124pt>
 File: ./Pictures/fig3.2b-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Pictures/fig3.2b-eps-converted-to.pdf>
 Package pdftex.def Info: ./Pictures/fig3.2b-eps-converted-to.pdf  used on input
  line 95.
-(pdftex.def)             Requested size: 172.5pt x 129.37462pt.
+(pdftex.def)             Requested size: 206.28249pt x 154.71306pt.
 
-Overfull \hbox (2.22168pt too wide) in paragraph at lines 89--98
+Overfull \hbox (2.22166pt too wide) in paragraph at lines 89--98
 []$[]$ $[]$ 
  []
 
-<./Pictures/fig3.3a.pdf, id=616, 403.2365pt x 330.23375pt>
-File: ./Pictures/fig3.3a.pdf Graphic file (type pdf)
-<use ./Pictures/fig3.3a.pdf>
-Package pdftex.def Info: ./Pictures/fig3.3a.pdf  used on input line 110.
-(pdftex.def)             Requested size: 172.5pt x 141.26709pt.
-<./Pictures/fig3.3b.pdf, id=617, 417.3994pt x 323.99042pt>
-File: ./Pictures/fig3.3b.pdf Graphic file (type pdf)
-<use ./Pictures/fig3.3b.pdf>
-Package pdftex.def Info: ./Pictures/fig3.3b.pdf  used on input line 115.
-(pdftex.def)             Requested size: 172.5pt x 133.89487pt.
+Package epstopdf Info: Source file: <./Pictures/fig3.3a.eps>
+(epstopdf)                    date: 2021-10-14 10:49:13
+(epstopdf)                    size: 22732 bytes
+(epstopdf)             Output file: <./Pictures/fig3.3a-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-10-14 10:49:26
+(epstopdf)                    size: 8129 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Pictures/fig3.3a-eps-con
+verted-to.pdf ./Pictures/fig3.3a.eps>
+(epstopdf)             \includegraphics on input line 110.
+Package epstopdf Info: Output file is already uptodate.
+<./Pictures/fig3.3a-eps-converted-to.pdf, id=634, 421.575pt x 316.18124pt>
+File: ./Pictures/fig3.3a-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Pictures/fig3.3a-eps-converted-to.pdf>
+Package pdftex.def Info: ./Pictures/fig3.3a-eps-converted-to.pdf  used on input
+ line 110.
+(pdftex.def)             Requested size: 206.28249pt x 154.71306pt.
+Package epstopdf Info: Source file: <./Pictures/fig3.3b.eps>
+(epstopdf)                    date: 2021-10-14 10:43:06
+(epstopdf)                    size: 27315 bytes
+(epstopdf)             Output file: <./Pictures/fig3.3b-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-10-14 10:46:47
+(epstopdf)                    size: 8476 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Pictures/fig3.3b-eps-con
+verted-to.pdf ./Pictures/fig3.3b.eps>
+(epstopdf)             \includegraphics on input line 115.
+Package epstopdf Info: Output file is already uptodate.
+<./Pictures/fig3.3b-eps-converted-to.pdf, id=635, 421.575pt x 316.18124pt>
+File: ./Pictures/fig3.3b-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Pictures/fig3.3b-eps-converted-to.pdf>
+Package pdftex.def Info: ./Pictures/fig3.3b-eps-converted-to.pdf  used on input
+ line 115.
+(pdftex.def)             Requested size: 206.28249pt x 154.71306pt.
 
-Overfull \hbox (2.22168pt too wide) in paragraph at lines 109--118
+Overfull \hbox (2.22166pt too wide) in paragraph at lines 109--118
 []$[]$ $[]$ 
  []
 
-[23 <./Pictures/fig3.2a-eps-converted-to.pdf> <./Pictures/fig3.2b-eps-converted
--to.pdf>]
 Package epstopdf Info: Source file: <./Pictures/fig3.4.eps>
-(epstopdf)                    date: 2021-10-11 20:24:01
-(epstopdf)                    size: 76500 bytes
+(epstopdf)                    date: 2021-10-14 10:29:49
+(epstopdf)                    size: 78912 bytes
 (epstopdf)             Output file: <./Pictures/fig3.4-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-10-11 20:25:44
-(epstopdf)                    size: 23061 bytes
+(epstopdf)                    date: 2021-10-14 10:29:59
+(epstopdf)                    size: 23882 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Pictures/fig3.4-eps-conv
 erted-to.pdf ./Pictures/fig3.4.eps>
 (epstopdf)             \includegraphics on input line 128.
 Package epstopdf Info: Output file is already uptodate.
-<./Pictures/fig3.4-eps-converted-to.pdf, id=642, 604.2575pt x 339.2675pt>
+<./Pictures/fig3.4-eps-converted-to.pdf, id=639, 604.2575pt x 339.2675pt>
 File: ./Pictures/fig3.4-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Pictures/fig3.4-eps-converted-to.pdf>
 Package pdftex.def Info: ./Pictures/fig3.4-eps-converted-to.pdf  used on input 
 line 128.
-(pdftex.def)             Requested size: 345.0pt x 193.70543pt.
-) (./Frame/SectionCH3/PASSDiscrimination.tex
-Overfull \hbox (5.14192pt too wide) in paragraph at lines 1--1
-[]\T1/cmr/bx/n/14.4 Quantum com-mu-ni-ca-tion sys-tems with PASSs 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [24 <./Pictures/fig3.3a.pdf> <./Pictures/fig3.3b.pdf
-
-pdfTeX warning: pdflatex (file ./Pictures/fig3.3b.pdf): PDF inclusion: multiple
- pdfs with page group included in a single page
->]
+(pdftex.def)             Requested size: 412.56499pt x 231.64102pt.
+[19 <./Pictures/fig3.2a-eps-converted-to.pdf> <./Pictures/fig3.2b-eps-converted
+-to.pdf> <./Pictures/fig3.3a-eps-converted-to.pdf> <./Pictures/fig3.3b-eps-conv
+erted-to.pdf>]) (./Frame/SectionCH3/PASSDiscrimination.tex [20 <./Pictures/fig3
+.4-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./Pictures/fig3.5.eps>
-(epstopdf)                    date: 2021-10-12 10:50:40
-(epstopdf)                    size: 23639 bytes
+(epstopdf)                    date: 2021-10-14 09:42:17
+(epstopdf)                    size: 48198 bytes
 (epstopdf)             Output file: <./Pictures/fig3.5-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-10-12 10:50:54
-(epstopdf)                    size: 8816 bytes
+(epstopdf)                    date: 2021-10-14 09:42:24
+(epstopdf)                    size: 14730 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Pictures/fig3.5-eps-conv
 erted-to.pdf ./Pictures/fig3.5.eps>
-(epstopdf)             \includegraphics on input line 20.
+(epstopdf)             \includegraphics on input line 55.
 Package epstopdf Info: Output file is already uptodate.
-<./Pictures/fig3.5-eps-converted-to.pdf, id=663, 421.575pt x 316.18124pt>
+<./Pictures/fig3.5-eps-converted-to.pdf, id=684, 429.605pt x 321.2pt>
 File: ./Pictures/fig3.5-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Pictures/fig3.5-eps-converted-to.pdf>
 Package pdftex.def Info: ./Pictures/fig3.5-eps-converted-to.pdf  used on input 
-line 20.
-(pdftex.def)             Requested size: 310.4979pt x 232.87527pt.
- [25 <./Pictures/fig3.4-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <./Pictures/fig3.6.eps>
-(epstopdf)                    date: 2021-10-11 22:48:06
-(epstopdf)                    size: 64642 bytes
-(epstopdf)             Output file: <./Pictures/fig3.6-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-10-11 22:48:32
-(epstopdf)                    size: 20476 bytes
-(epstopdf)             Command: <repstopdf --outfile=./Pictures/fig3.6-eps-conv
-erted-to.pdf ./Pictures/fig3.6.eps>
-(epstopdf)             \includegraphics on input line 63.
-Package epstopdf Info: Output file is already uptodate.
-<./Pictures/fig3.6-eps-converted-to.pdf, id=677, 429.605pt x 321.2pt>
-File: ./Pictures/fig3.6-eps-converted-to.pdf Graphic file (type pdf)
-<use ./Pictures/fig3.6-eps-converted-to.pdf>
-Package pdftex.def Info: ./Pictures/fig3.6-eps-converted-to.pdf  used on input 
-line 63.
-(pdftex.def)             Requested size: 310.4979pt x 232.15092pt.
+line 55.
+(pdftex.def)             Requested size: 330.05324pt x 246.77094pt.
 Package epstopdf Info: Source file: <./Pictures/fig3.7.eps>
-(epstopdf)                    date: 2021-10-11 22:10:24
-(epstopdf)                    size: 56748 bytes
+(epstopdf)                    date: 2021-10-14 10:25:12
+(epstopdf)                    size: 26434 bytes
 (epstopdf)             Output file: <./Pictures/fig3.7-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-10-11 22:10:48
-(epstopdf)                    size: 18466 bytes
+(epstopdf)                    date: 2021-10-14 10:29:59
+(epstopdf)                    size: 10698 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Pictures/fig3.7-eps-conv
 erted-to.pdf ./Pictures/fig3.7.eps>
-(epstopdf)             \includegraphics on input line 85.
+(epstopdf)             \includegraphics on input line 84.
 Package epstopdf Info: Output file is already uptodate.
-<./Pictures/fig3.7-eps-converted-to.pdf, id=679, 429.605pt x 321.2pt>
+<./Pictures/fig3.7-eps-converted-to.pdf, id=687, 421.575pt x 316.18124pt>
 File: ./Pictures/fig3.7-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Pictures/fig3.7-eps-converted-to.pdf>
 Package pdftex.def Info: ./Pictures/fig3.7-eps-converted-to.pdf  used on input 
-line 85.
-(pdftex.def)             Requested size: 310.4979pt x 232.15092pt.
-)) (./Frame/Conclusion.tex
-[26pdfTeX warning (ext4): destination with the same identifier (name{equation.4
-.2.1}) has been already used, duplicate ignored
+line 84.
+(pdftex.def)             Requested size: 330.05324pt x 247.54185pt.
+Package epstopdf Info: Source file: <./Pictures/fig3.6.eps>
+(epstopdf)                    date: 2021-10-14 10:20:35
+(epstopdf)                    size: 70495 bytes
+(epstopdf)             Output file: <./Pictures/fig3.6-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-10-14 10:20:45
+(epstopdf)                    size: 22258 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Pictures/fig3.6-eps-conv
+erted-to.pdf ./Pictures/fig3.6.eps>
+(epstopdf)             \includegraphics on input line 92.
+Package epstopdf Info: Output file is already uptodate.
+<./Pictures/fig3.6-eps-converted-to.pdf, id=688, 421.575pt x 316.18124pt>
+File: ./Pictures/fig3.6-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Pictures/fig3.6-eps-converted-to.pdf>
+Package pdftex.def Info: ./Pictures/fig3.6-eps-converted-to.pdf  used on input 
+line 92.
+(pdftex.def)             Requested size: 330.05324pt x 247.54185pt.
+)) (./Frame/Conclusion.tex [21pdfTeX warning (ext4): destination with the same 
+identifier (name{equation.4.2.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.2 
@@ -1625,37 +1669,30 @@ l.2
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.2 
-     <./Pictures/fig3.5-eps-converted-to.pdf>] [27 <./Pictures/fig3.6-eps-conve
-rted-to.pdf>] [28 <./Pictures/fig3.7-eps-converted-to.pdf>]
+     <./Pictures/fig3.5-eps-converted-to.pdf>] [22 <./Pictures/fig3.7-eps-conve
+rted-to.pdf>] [23 <./Pictures/fig3.6-eps-converted-to.pdf>] [24
+
+]
 Chapter 5.
-) (./Tesi.bbl [29
+) (./Tesi.bbl [25] [26
 
-] [30
-
-] [31]
-! Misplaced alignment tab character &.
-<argument> Open Systems &
-                          Information Dynamics
-l.98 ...\emph{Open Systems & Information Dynamics}
-                                                  ,
-? r
-OK, entering \nonstopmode...
-[32])
+] [27]
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `English'. Using the pattern for
+** the default language instead.
+)
 \tf@thm=\write7
 \openout7 = `Tesi.thm'.
 
- [33] (./Tesi.aux)
-
-LaTeX Warning: There were undefined references.
-
+ [28] (./Tesi.aux)
 Package rerunfilecheck Info: File `Tesi.out' has not changed.
 (rerunfilecheck)             Checksum: B5519727AC2770E2BC3AF8AC8394E566;4865.
  ) 
 Here is how much of TeX's memory you used:
- 34478 strings out of 479014
- 766514 string characters out of 5859133
- 1238981 words of memory out of 5000000
- 51084 multiletter control sequences out of 15000+600000
+ 34937 strings out of 479014
+ 773534 string characters out of 5859133
+ 1255067 words of memory out of 5000000
+ 51542 multiletter control sequences out of 15000+600000
  430293 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,23n,103p,723b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1692,10 +1729,10 @@ xmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2020/texm
 f-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2020/texmf-
 dist/fonts/type1/public/cm-super/sfsl1000.pfb></usr/local/texlive/2020/texmf-di
 st/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on Tesi.pdf (41 pages, 874848 bytes).
+Output written on Tesi.pdf (36 pages, 906169 bytes).
 PDF statistics:
- 887 PDF objects out of 1000 (max. 8388607)
- 761 compressed objects within 8 object streams
- 204 named destinations out of 1000 (max. 500000)
+ 902 PDF objects out of 1000 (max. 8388607)
+ 774 compressed objects within 8 object streams
+ 200 named destinations out of 1000 (max. 500000)
  323 words of extra memory for PDF output out of 10000 (max. 10000000)
 
