@@ -1,0 +1,72 @@
+\documentclass{beamer}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{physics}
+
+\newcommand{\Hilbert}{\mathcal{H}}
+
+%\usetheme[titlepagelogo=Pictures/logo.png,
+%          language=english,
+%          bullet=square,
+%          color=blue,
+%          coding=utf8, % occhio solo a questo, se non funziona usa pure latin1
+%          secondsupervisor=false,
+%          assistantsupervisor=true,
+%         ]{TorinoTh}
+
+\usetheme{Ferrara}
+
+\author[Federico Forzano]{
+                        {\scriptsize Supervisor:}\hspace{60mm}{\scriptsize Candidate:}\\
+                        Chiar.mo~Prof.~Andrea Conti \hspace{25mm} Federico Forzano\\
+                        {\scriptsize Co-Supervisor:}\\
+                        Dott.~Ing.~Stefano Guerrini
+                        }
+
+\title{On the Design of Quantum Communication Systems with non-Gaussian States}
+
+\date{}
+
+\begin{document}
+        
+    
+    \input{Frame/TitleFrame.tex}
+
+    % Capitolo 1: Quantum Mechanics Abstract
+    %\input{Frame/Postulates.tex}
+    %\input{Frame/QuantizedElectromagneticField.tex}
+    %\input{Frame/FockStates.tex}
+    %\input{Frame/WignerFunction.tex}
+    %\input{Frame/ElectromagneticFieldStates.tex}
+
+    \section{Motivation}
+    \input{Frame/Motivation.tex}
+    \begin{frame}{Contents}
+        \tableofcontents
+    \end{frame}
+
+    % Capitolo 2: Quantum Communication
+    \section{Quantum Communication System}
+    \input{Frame/QuantumCommSystem.tex}
+    \subsection{Quantum modulator}
+    \input{Frame/QuantumModulation.tex}
+    \input{Frame/ElectromagneticFieldStates.tex}
+    \subsection{Quantum receiver}
+    \input{Frame/QuantumDiscriminator.tex}
+
+    % Capitolo 3: Discrimination of Photon Added States
+    \section{Performance Analysys}
+    \subsection{PACS system performance}
+    \input{Frame/PACSEvaluation}
+    \subsection{Noise effect}
+    \input{Frame/NoiseEffect.tex}
+    \subsection{Squeezed state system performance}
+    \input{Frame/SSEvaluation.tex}
+    \subsection{PASS system performance}
+    \input{Frame/PASSEvaluation.tex}
+
+    \section{Conclusion}
+    \input{Frame/Conclusion.tex}
+\end{document}

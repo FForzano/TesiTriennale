@@ -1,0 +1,74 @@
+\begin{frame}
+    \frametitle{Quantum Mechanics Abstract}
+    \framesubtitle{Postulates}
+
+    \begin{block}{Postulate 1: State Representation}
+        The state of an isolated quantum system is represented by a complex unitary 
+        vector in an Hilbert space:
+        \begin{equation*}
+            \ket{\psi} \in \Hilbert
+        \end{equation*}
+    \end{block}
+    %
+    \begin{block}{Postulate 2: Observables}
+        Every observables of the system is represented by an Hermitian operator
+        acting on the state space:
+        \begin{equation*}
+            \mathcal{M}:\Hilbert\to\Hilbert
+        \end{equation*}
+    \end{block}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Quantum Mechanics Abstract}
+    \framesubtitle{Postulates}
+
+    \begin{block}{Postulate 3: Born's Rule}
+        The probability to get the measurement $\lambda_i$ from the observable 
+        $\mathcal{M}$ in the system in state $\ket{\psi}$ is:
+        \begin{equation*}
+            %\mathbb{P}(\lambda_i)=\braket{\psi}{\lambda_i}\braket{\lambda_i}{\psi}
+            \mathbb{P}(\lambda_i)=\bra{\psi}\mathcal{P}_i\ket{\psi}
+        \end{equation*}
+    \end{block}
+    %
+    \begin{block}{Postulate 4: Wavefunction Collapse}
+        The state after measurement of $\lambda_i$ is $\mathcal{P}_i\ket{\psi}$ (with the
+        necessary normalization):
+        \begin{equation*}
+            \ket{\psi'}=\frac{\mathcal{P}_i\ket{\psi}}{\bra{\psi}\mathcal{P}_i\ket{\psi}}.
+        \end{equation*}
+    \end{block}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Quantum Mechanics Abstract}
+    \framesubtitle{Postulates}
+
+    \begin{block}{Postulate 5: Time Evolution}
+        The time evolution of an isolated quantum system is given by an unitary operator
+        $\mathcal{U}$:
+        \begin{equation*}
+            \ket{\psi(t)}=\mathcal{U}(t_0,t)\ket{\psi(t_0)}.
+        \end{equation*}
+    \end{block}
+    %
+    \begin{block}{Postulate 6: Composite System}
+        The state space of a system composed of $\Hilbert_1$ and $\Hilbert_2$ is given by
+        \begin{equation*}
+            \Hilbert=\Hilbert_1\otimes\Hilbert_2.
+        \end{equation*}
+    \end{block}
+\end{frame}
+
+\begin{frame}{Quantum Mechanics Abstract}{Density Operator}
+    \begin{alertblock}{Density operator}
+        The state of quantum system is described by a linear operator $\pmb{\Xi}$, called density
+        operator such that:
+        \begin{equation*}\begin{split}
+            \pmb{\Xi}&:\Hilbert\to\Hilbert;\\
+            &\pmb{\Xi}^\dagger=\pmb{\Xi};\\
+            tr&\{\pmb{\Xi}\}=1.
+        \end{split}\end{equation*}
+    \end{alertblock}
+\end{frame}

@@ -1,0 +1,103 @@
+\section{Quantum communication systems with PASSs}
+    The use of squeezed states instead of coherent states allows us to overcome the limits
+    of precedent systems. The representation of a noisy squeezed state is given in 
+    \ref{squeezedStates}. This section initially discusses the advantages of using squeezed states 
+    without photon addition; then it evaluates the effect of the photon addition
+    in quantum OOK and BPSK systems.
+
+    \subsection{Squeezed states discrimination}
+        At first, we assess the effect of squeezing on the performance in absence of photon 
+        addition and thermal noise. As for PACS systems, it can be useful to define the mean 
+        number of photon $n_p$ in a squeezed state, which is given by
+        \begin{equation}
+            n_p(\mu,r) = \absolutevalue{\mu}^2 + \left(\sinh{r}\right)^2;
+        \end{equation}
+        where $\mu$ is the amplitude of the starter coherent state and the squeezing factor
+        is $\zeta = r e^{i\theta}$. The minimum value of $n_p$ is given by $n_p(0,r) = \sinh{r}^2$.
+
+        For a quantum squeezed states BPSK system, the MDEP, obtained with the Helstrom bound 
+        \ref{eq:HelstromBound}, is plotted in figure \ref{fig:3.5} in function of $\bar{n}_p$,
+        i.e the mean number of photon in the system (given by the average of $n_p$ for each state), with:
+        $\theta=\pi$, $N=30$, equiprobable symbols and $\bar{n}=0$.
+
+        It can be noticed that the optimal configuration of $r$ depends on the energy in the 
+        system. For low energy levels the squeezing has not a positive effect.
+
+    \subsection{PASS discrimination}
+        We are analyzing now the performance of a noisy photon added squeezed state system (PASS)
+        \ref{PAS}, in OOK and BPSK configuration. The MDEP is found again with the Helstrom bound
+        \ref{eq:HelstromBound}.
+        As for the other systems, it is useful to define the mean number of photons $n_p$ for noisy 
+        photon added squeezed states, that is given by:
+        \begin{equation}
+            n_p(\mu,\zeta,\bar{n}) = \frac{N_{k+1}(\mu,\zeta,\bar{n})}{N_k(\mu,\zeta,\bar{n})}-1,
+            \label{eq:np_PASS}
+        \end{equation}
+        where
+        \begin{equation}
+            \begin{split}
+                N_k(\mu,\zeta,\bar{n}) &= \tr{(\Operator{A}^\dagger)^k \Operator{\varXi}_{\mathrm{th}}(\mu,\zeta) \Operator{A}^k}\\
+                                       &= \tr{(\Operator{A}^\dagger)^k \Operator{D}_\mu \Operator{S}_\zeta \Operator{\varXi}_{\mathrm{th}}
+                                        \Operator{S}_\zeta^\dagger \Operator{D}_\mu^\dagger \Operator{A}^k}.
+            \end{split}
+        \end{equation}
+        
+        \begin{figure}[t]
+            \includegraphics[width=1\textwidth]{fig3.4.eps}
+            \caption{BPSK and OOK comparison in terms of MDEP as function of $\bar{n}_p$. \\$N=45$, $\bar{n}=10^{-2}$, $p_0=p_1=1/2$}
+            \label{fig:3.4}
+        \end{figure}
+
+        \paragraph{OOK PASS system}\mbox{}\\
+        The constellation of a quantum OOK system with noisy PASS, is given by:
+        \begin{subequations}
+            \begin{align}
+                \Operator{\varXi}_0 &= \Operator{\varXi}_{\mathrm{th}}^{(0)}(0,0)\\
+                \Operator{\varXi}_1 &= \Operator{\varXi}_{\mathrm{th}}^{(k)}(\mu,\zeta).
+            \end{align}
+        \end{subequations}
+        
+        In figure \ref{fig:3.6}, the MDEP of a quantum OOK noisy PASS system is plotted in function
+        of the mean number of photon $\bar{n}_p$ in the system. For the simulation are used $N=30$, $\bar{n}=10^{-2}$, $\theta=\pi$ and
+        equiprobable symbols.
+        It can be noticed that the photon addition significantly improves the performance of the system,
+        at least for the plotted energy level.
+        
+        \paragraph{BPSK PASS system}\mbox{}\\
+        Similary to the PACS BPSK, the constellation of PASS BPSK is given by:
+        \begin{subequations}
+            \begin{align}
+                \Operator{\varXi}_0 &= \Operator{\varXi}_{\mathrm{th}}^{(k)}(-\mu,\zeta)\\
+                \Operator{\varXi}_1 &= \Operator{\varXi}_{\mathrm{th}}^{(k)}(\mu,\zeta).
+            \end{align}
+        \end{subequations}
+        \begin{figure}[t]
+            \begin{center}
+                \includegraphics[width=0.8\textwidth]{fig3.5.eps}
+                \caption{MDEP of squeezed state BPSK system as function of $\bar{n}_p$. 
+                    $N=30$, $\bar{n}=0$, $\theta=\pi$, $p_0=p_1=1/2$}
+                \label{fig:3.5}
+            \end{center}     
+        \end{figure}
+        The figure \ref{fig:3.7} shows the effects of the photon addition in a quantum BPSK
+        system, in terms of the mean photon number in the system $\bar{n}_p$, given by the average of 
+        the mean photon number $n_p$ of $\Operator{\varXi}_0$ and $\Operator{\varXi}_1$. The parameters used
+        for the simulation are $N=40$, $\bar{n}=10^{-2}$, $\theta=\pi$ and equiprobable symbols.
+        As in PACS case, it is evident that the photon addition, in a BPSK system, has not
+        the positive effect that has in an OOK system.
+        \begin{figure}[t]
+            \begin{center}
+                \includegraphics[width=0.8\textwidth]{fig3.7.eps}
+                \caption{MDEP of noisy PASS quantum BPSK system as function of $\bar{n}_p$ with
+                $N=40$, $\bar{n}=10^{-2}$, $\theta=\pi$ and $p_0=p_1=1/2$.}
+                \label{fig:3.7}
+            \end{center}
+        \end{figure}
+        \begin{figure}[t]
+            \begin{center}
+                \includegraphics[width=0.8\textwidth]{fig3.6.eps}
+                \caption{MDEP of noisy PASS quantum OOK system as function of $\bar{n}_p$.\\
+                $N=30$, $\bar{n}=10^{-2}$, $\theta=\pi$ and $p_0=p_1=1/2$.}
+                \label{fig:3.6}
+            \end{center}
+        \end{figure}

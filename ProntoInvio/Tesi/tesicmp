@@ -1,0 +1,7 @@
+#! /bin/bash
+
+pdflatex Tesi
+pdflatex Tesi-frn
+bibtex Tesi
+pdflatex Tesi
+pdflatex Tesi

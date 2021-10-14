@@ -1,0 +1,138 @@
+\section{Preliminaries on quantum mechanics}
+    For understand the important results about the communication with continuos
+    states, it is essential to give a brief introduction about the main aspects 
+    of quantum mechanics theory.
+    This theory is based on a solid mathematic framework presented in this section.
+    It is impossible to discuss about quantum mechanics without its mathematical 
+    formalism.
+    
+    \subsection{Postulates}
+    Like every phisics theory, quantum mechanics is builded from few 
+    essential postulates.
+    In this section are briefly introduced the six Dirac-Von Newman 
+    postulates of Quantum Mechanics \cite{quantumMec_Dirac,quantumMec_Neumann}.
+
+    \begin{postulate}[State Representation]
+        The state of an isolated quantum system is represented by a complex unitary 
+        vector $\ket{\psi}$ in an Hilbert space $\Hilbert$.
+        The space of possible states of the system is called state space and it is a
+        separable complex Hilbert space.
+        \label{post:1}
+    \end{postulate}
+    Every ket-vector $\ket{\psi} \in \Hilbert$ can be represented as a column vector 
+    $\ket{\psi}=\left[ a_1,a_2,\dots,a_N \right]$, where $N$ is the dimension of the 
+    state space $\Hilbert$. The bra-vector $\bra{\psi}$ is the correspondent vector of
+    $\ket{\psi}$ in the dual-space of $\Hilbert$ and can be represented as the 
+    transposed conjugate of $\ket{\psi}$.
+
+    Differently from the classical physics, in quantum mechanics the concept
+    of state of system is introduced. In classical mechanics a system is 
+    described by his observables, like position or four-wheeled.
+    
+    \begin{postulate}[Observables]
+        Every observables of the system is represented by an Hermitian operator 
+        $\Operator{M}:\Hilbert\to\Hilbert$ acting on the state space.
+        The outcomes of the measurement can only be one of the eigenvalue of the 
+        operator $\Operator{M}$.
+        \label{post:2}
+    \end{postulate}
+    The possible outcomes of the measurement are real number because $\Operator{M}$
+    is self-andjoint. 
+
+    \begin{postulate}[Born's Rule]
+        The probability to get the measurement $\lambda_i$ from the observable 
+        $\Operator{M}$ in the system in state $\ket{\psi}$ is:
+        \begin{equation*}
+            %\mathbb{P}(\lambda_i)=\braket{\psi}{\lambda_i}\braket{\lambda_i}{\psi}
+            \mathbb{P}(\lambda_i)=\bra{\psi}\Operator{P}_i\ket{\psi}
+        \end{equation*}
+        where $\bra{\psi}$ is the correspondent vector of $\ket{\psi}$ in the 
+        dual space of $\Hilbert$ and where $\Operator{P}_i$ is the projection operator
+        of $\lambda_i$ in the correspondent space.
+        \label{post:3}
+    \end{postulate}
+
+    \begin{postulate}[Wavefunction Collapse]
+        The state $\ket{\psi'}$ after measurement of $\lambda_i$ is $\Operator{P}_i\ket{\psi}$ (with the
+        necessary normalization):
+        \begin{equation*}
+            \ket{\psi'}=\frac{\Operator{P}_i\ket{\psi}}{\bra{\psi}\Operator{P}_i\ket{\psi}}.
+        \end{equation*}
+        \label{post:4}
+    \end{postulate}
+
+    \begin{postulate}[Time Evolution]
+        The time evolution $\ket{\psi(t)}$ of an isolated quantum system is given by an unitary operator
+        $\Operator{U}$:
+        \begin{equation*}
+            \ket{\psi(t)}=\Operator{U}(t_0,t)\ket{\psi(t_0)}.
+        \end{equation*}
+        \label{post:5}
+    \end{postulate}
+    From postulate \ref{post:5}, it is possible to obtain the \emph{time dependent Shrodinger Equation}:
+    \begin{equation}
+        i\hbar\partialderivative{}{t}\ket{\psi(t)}=\Operator{H}(t)\ket{\psi(t)}
+    \end{equation}
+    where $\Operator{H}(t)$ is the Hamiltonian matrix, $\hbar$ is the reduced Planck's constant and $i=\sqrt{-1}$
+    is the immaginary unit.
+
+    \begin{postulate}[Composite System]
+        The state space $\Hilbert$ of a system composed of $\Hilbert_1$ and $\Hilbert_2$ is given by
+        \begin{equation*}
+            \Hilbert=\Hilbert_1\otimes\Hilbert_2.
+        \end{equation*}
+        \label{post:6}
+    \end{postulate}
+
+    \subsection{The density operator}
+    \label{TheDensOp}
+    The last postulate \ref{post:6} has very important consequences for composite system. It is possible
+    to describe two tipes of combined systems:
+
+    \begin{definition}[Product states]
+        A state $\ket{\psi}\in\Hilbert$ with $\Hilbert=\Hilbert_1\otimes\Hilbert_2$ is a
+        pure state if exists $\ket{\psi_1}\in\Hilbert_1$ and $\ket{\psi_2}\in\Hilbert_2$
+        such that:
+        \begin{equation*}
+            \ket{\psi}=\ket{\psi_1}\otimes\ket{\psi_2}.
+        \end{equation*}
+        \label{def:1}
+    \end{definition}
+    A product state represents two systems which do not interact; an operation on one of 
+    them does not perturb the other.
+
+    \begin{definition}[Entengled states]
+        A system that is not in a product state (\ref{def:1}), is in an entengled state. 
+        \label{def:2}
+    \end{definition}
+    When a system is in an entengled state it is not possible to characterize the two subsystems
+    with the states vector, although the state vector of the composite system is known.
+
+    \paragraph{Density operator}\mbox{}\\
+        For a more general treatment, the following representation of states is given:
+        \begin{definition}
+            The state of quantum system is described by a linear operator $\Operator{\varXi}:\Hilbert\to\Hilbert$, 
+            called density operator such that 
+            $\Operator{\varXi}^\dagger=\Operator{\varXi}$ and $\tr{\Operator{\varXi}}=1$.
+            \label{def:3}
+        \end{definition}
+        According to the definition \ref{def:3}, the postulates \ref{post:3}, \ref{post:4},
+        \ref{post:5} can be reformulate as following.\par
+        The probability to get the measurement $\lambda_i$ from the observable 
+        $\Operator{M}$ in the system in state $\Operator{\varXi}$ is:
+        \begin{equation}
+            \mathbb{P}(\lambda_i)=\tr{\Operator{\varXi}\Operator{P}_i}.
+            \label{post:3.1}
+        \end{equation}
+        The state $\Operator{\varXi'}$ after measurement of $\lambda_i$ is give by:
+        \begin{equation}
+            \Operator{\varXi'}=\frac{\Operator{P}_i\Operator{\varXi}\Operator{P}_i^\dagger}
+            {\tr{\Operator{P}_i\Operator{\varXi}\Operator{P}_i^\dagger}}.
+            \label{post:4.1}
+        \end{equation}
+        The time evolution $\Operator{\varXi}(t)$ of an isolated quantum system is given by an unitary operator
+        $\Operator{U}$ as:
+        \begin{equation}
+            \Operator{\varXi}(t)=\Operator{U}\Operator{\varXi}(t_0)\Operator{U}^\dagger.
+            \label{post:5.1}
+        \end{equation}

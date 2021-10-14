@@ -1,0 +1,82 @@
+\section{Continuous-Variables Quantum Systems}
+    A quantum system is called a continuous-variable system
+    when it has an infinite-dimensional Hilbert space described
+    by observables with continuous eigenspectra \cite{ContinuousVar}.
+    Continuous-variables systems play a very important role in communications. this
+    section presents the key aspects for the representation of this systems.
+            
+    \subsection{Hilbert space}
+        Let consider a single-mode bosonic continuous-variable system, corresponding to a single
+        mode radiation of electromagnetic field, i.e. a single mode quantum harmonic oscillator.
+        Its space of states is an infinite dimensional Hilbert space $\Hilbert$ in which it is possible to define
+        a pair of bosonic field operators $\{ \Operator{A},\Operator{A}^{\dagger}\}$ called annihilation
+        and creation operators \cite{ContinuousVar} satisfying the canonical commutation relation 
+        $\commutator{\Operator{A}}{\Operator{A}^\dagger}= \Operator{I}$.
+
+        In this space $\Hilbert$ it is possible to define a number operator $\Operator{N}$, defined as
+        \begin{equation}
+            \pmb{N}=\pmb{A}^\dagger \pmb{A}.
+        \end{equation}
+        The eigenstates of $\Operator{N}$, i.e. the vector $\ket{n}$ for which
+        $\pmb{N}\ket{n}=n\ket{n}$,
+        are countable and form a countable basis of $\Hilbert$ called
+        Fock basis: $\{\ket{n}\}_{n=0}^\infty$.
+
+        The action over this states of the bosonic operators is determinated by \cite{ContinuousVar}
+        \begin{equation}
+            \pmb{A}\ket{0}=0;\ \ \pmb{A}\ket{n}=\sqrt{n}\ket{n-1}\ \ (for\ n \geq 1),
+        \end{equation}
+        and
+        \begin{equation*}
+            \pmb{A}^\dagger\ket{n}=\sqrt{n+1}\ket{n+1}\ \ (for\ n \geq 0).
+        \end{equation*}
+        Every quantum state $\Operator{\varXi}:\Hilbert\to\Hilbert$ can be represented as:
+        \begin{equation}
+            \Operator{\varXi}=\sum_{n,m} c_{n,m} \ket{n}\bra{m}
+            \label{eq:FockRep}
+        \end{equation}
+        where
+        \begin{equation}
+            c_{n,m}=\bra{n}\Operator{\varXi}\ket{m}.
+        \end{equation}
+        This representation is called Fock Representation.
+        
+    \subsection{Phase space}
+        As seen before in \ref{TheDensOp}, a quantum system can be completely
+        described by a density operator $\Operator{\varXi}$ defined in an infinite-dimensional Hilbert space
+        $\Hilbert$, and this operator can be expressed by the Fock representation (\ref{eq:FockRep}).
+        Sometimes, however, it is convenient to give another representation of state $\pmb{\Xi}$ by
+        means of a complex function introduced by Wigner \cite{Wigner}: the quasi-probability 
+        distribution. In this thesis, this representation will be introduced and it will be used to
+        classify the possible states.
+
+        \begin{definition}[Quantum characteristic function]
+            The s-order characteristic function $\mathcal{\chi}(\xi,s)$, with $\xi,s\in\mathbb{C}$,
+            associated to the quantum state $\Operator{\Xi}$ is defined as:
+            \begin{equation}
+                \mathcal{\chi}(\xi,s)=\exp{\frac{s}{2}\absolutevalue{\xi}^2}
+                \tr{\Operator{\Xi}\Operator{D}_\xi}
+            \end{equation}
+            where $\Operator{D}_\xi$ is  the displacement operator of parameter $\xi$, defined as:
+            \begin{equation}
+                \Operator{D}_\xi=\exp{\xi\Operator{A}^\dagger-\xi^*\Operator{A}}.
+            \end{equation}
+        \end{definition}
+        The quantum characteristic function is the Fourier-Weyl transform of the density operator 
+        associated to the state $\Operator{\varXi}$. We can notice that, in contrast to classical 
+        probability theory, there is an infinite number of quantum characteristic functions, 
+        indexed by the parameter $s \in \mathbb{C}$, representing the same quantum state.
+
+        The quasi-probability function is obtained as the inverse Fourirer transform of the 
+        quantum characteristic function.
+        \begin{definition}[Quasi-probability distribution]
+            The s-order quasi-probability distribution $W(\alpha,s)$, with $s\in\mathbb{C}$,
+            associated to the quantum state $\Operator{\varXi}$ is given by:
+            \begin{equation*}
+                W(\alpha,s)=\frac{1}{\pi^2}\int_{\mathbb{R}^2} 
+                \mathcal{\chi}(\xi,s)e^{\alpha\xi^*-\alpha^*\xi}d\xi^2.
+            \end{equation*}
+
+        \end{definition}
+        The quasi-probability distribution, for $s=0$ ($W(\alpha)=W(\alpha,0)$) is called 
+        Wigner W-function.
