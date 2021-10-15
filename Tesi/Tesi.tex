@@ -6,7 +6,7 @@
     a4paper,
     titlepage
     ]{book}
-
+\let\MakeUppercase\relax
 \linespread{1.2}
 \usepackage{geometry}
 \geometry{a4paper, twoside, top=2.5cm, bottom=2.5cm, left=3cm, right=3cm, bindingoffset=0.5cm}
@@ -17,14 +17,6 @@
 \usepackage{csquotes}
 \usepackage{frontespizio}
 
-% Ref and bibliography
-\usepackage{hyperref}
-%\usepackage[backend=bibtex,
-%            style=numeric,
-%            sorting=none]{biblatex}
-%\addbibresource{./bibliography.bib}
-
-
 % Image
 %\usepackage{graphicx}
 \usepackage{subcaption}
@@ -32,11 +24,10 @@
 % Specific language
 \usepackage{amsmath}
 \usepackage{amssymb}
-\usepackage{ntheorem}
+%\usepackage{ntheorem}
 \usepackage{physics}
 \usepackage{bm}
 \newtheorem{postulate}{Postulate}
-\newtheorem*{observation*}{\textbf{Observation}}
 \newtheorem{definition}{\textbf{Definition}}
 
 \newcommand{\Hilbert}{\mathcal{H}}
@@ -55,6 +46,12 @@
 \DeclareMathSymbol{\sUpsilon}{\mathalpha}{sfgreek}{`U}
 %%%%%%%%%%
 
+% Ref and bibliography
+\usepackage{hyperref}
+%\usepackage[backend=bibtex,
+%            style=numeric,
+%            sorting=none]{biblatex}
+%\addbibresource{./bibliography.bib}
 
 \usepackage{pgfplots}
 % and optionally (as of Pgfplots 1.3):
