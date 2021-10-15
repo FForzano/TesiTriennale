@@ -1,0 +1,158 @@
+% This file was created by matlab2tikz.
+%
+%The latest updates can be retrieved from
+%  http://www.mathworks.com/matlabcentral/fileexchange/22022-matlab2tikz-matlab2tikz
+%where you can also make suggestions and rate matlab2tikz.
+%
+\definecolor{mycolor1}{rgb}{0.00000,0.44700,0.74100}%
+\definecolor{mycolor2}{rgb}{0.85000,0.32500,0.09800}%
+\definecolor{mycolor3}{rgb}{0.92900,0.69400,0.12500}%
+\definecolor{mycolor4}{rgb}{0.49400,0.18400,0.55600}%
+%
+\begin{tikzpicture}
+\begin{axis}[%
+  width=4.521in*0.75,
+  height=3.566in*0.75,
+  at={(0.758in,0.481in)},
+scale only axis,
+unbounded coords=jump,
+xmin=0,
+xmax=10,
+xlabel style={font=\color{white!15!black}},
+xlabel={$\bar{n}_p$},
+ymode=log,
+ymin=1e-11,
+ymax=1e0,
+yminorticks=true,
+ylabel style={font=\color{white!15!black}},
+ylabel={$\breve{P}_e$},
+axis background/.style={fill=white},
+%axis x line*=bottom,
+%axis y line*=left,
+legend style={at={(0.01,0.01)}, anchor=south west, legend cell align=left, align=left, draw=white!15!black}
+]
+\addplot [color=mycolor1, line width=1.0pt, mark=o, mark options={solid, mycolor1}, mark repeat={4}]
+  table[row sep=crcr]{%
+0	0.5\\
+0.5	0.108700458264773\\
+1	0.0390589952204486\\
+1.5	0.0149211944183797\\
+2	0.00585810811660969\\
+2.5	0.00234016700918788\\
+3	0.000947208632045338\\
+3.5	0.000387493710183651\\
+4	0.000159914030711417\\
+4.5	6.64741461101626e-05\\
+5	2.77991876821981e-05\\
+5.5	1.16842832866837e-05\\
+6	4.93215909780353e-06\\
+6.5	2.08982945676395e-06\\
+7	8.88612131100253e-07\\
+7.5	3.79192264921002e-07\\
+8	1.62439465989372e-07\\
+8.5	6.98919122021913e-08\\
+9	3.02206709656971e-08\\
+9.5	1.31382953405534e-08\\
+10	5.74554720467191e-09\\
+};
+\addlegendentry{$k = 0$}
+
+\addplot [color=mycolor2, line width=1.0pt, mark=square, mark options={solid, mycolor2},mark repeat={4}]
+  table[row sep=crcr]{%
+0	nan\\
+0.5	0.00495049504950484\\
+1	0.00326586474485635\\
+1.5	0.00129261012790083\\
+2	0.000482962413068555\\
+2.5	0.000182311367178389\\
+3	7.00429974659356e-05\\
+3.5	2.73706279001473e-05\\
+4	1.0858752113041e-05\\
+4.5	4.36492362687613e-06\\
+5	1.77429661629702e-06\\
+5.5	7.2806225398514e-07\\
+6	3.01146871883873e-07\\
+6.5	1.25430517805558e-07\\
+7	5.25760247560569e-08\\
+7.5	2.21744258510626e-08\\
+8	9.41026234713149e-09\\
+8.5	4.01790212212205e-09\\
+9	1.72544134535713e-09\\
+9.5	7.44933115193191e-10\\
+10	3.23308935179512e-10\\
+};
+\addlegendentry{$k = 1$}
+
+\addplot [color=mycolor3, line width=1.0pt, mark=triangle, mark options={solid, mycolor3},mark repeat={4}]
+  table[row sep=crcr]{%
+0	nan\\
+0.5	nan\\
+1	4.90148024704373e-05\\
+1.5	4.69619801757304e-05\\
+2	2.81400977715229e-05\\
+2.5	1.21516986146819e-05\\
+3	4.80779254996566e-06\\
+3.5	1.87442312044039e-06\\
+4	7.3327408445234e-07\\
+4.5	2.89379331441797e-07\\
+5	1.1537747546253e-07\\
+5.5	4.64728403537507e-08\\
+6	1.88977288262393e-08\\
+6.5	7.75273512054753e-09\\
+7	3.20750448423723e-09\\
+7.5	1.33800148738317e-09\\
+8	5.62493496225613e-10\\
+8.5	2.3806545623728e-10\\
+9	1.01301078636595e-10\\
+9.5	4.33071356553683e-11\\
+10	1.86188842121737e-11\\
+};
+\addlegendentry{$k = 2$}
+
+\addplot [color=mycolor4, line width=1.0pt, mark=diamond, mark options={solid, mycolor4},mark repeat={4}]
+  table[row sep=crcr]{%
+0	nan\\
+0.5	nan\\
+1	nan\\
+1.5	4.85295073904268e-07\\
+2	4.85188186960528e-07\\
+2.5	4.18524906453666e-07\\
+3	2.37374074840702e-07\\
+3.5	1.07056314813114e-07\\
+4	4.441501411101e-08\\
+4.5	1.79385633014562e-08\\
+5	7.1959126435317e-09\\
+5.5	2.89084600701983e-09\\
+6	1.16757170598447e-09\\
+6.5	4.75056216586722e-10\\
+7	1.94958549304403e-10\\
+7.5	8.07277023007202e-11\\
+8	3.36927152844169e-11\\
+8.5	1.41446854229343e-11\\
+9	5.96345195447157e-12\\
+9.5	2.52742271555917e-12\\
+10	1.08146824828736e-12\\
+};
+\addlegendentry{$k = 3$}
+
+\end{axis}
+
+%\begin{axis}[%
+%width=6.875in*0.65,
+%height=5.177in*0.65,
+%at={(0in,0in)},
+%scale only axis,
+%xmin=0,
+%xmax=1,
+%xlabel style={font=\color{white!15!black}},
+%ymin=0,
+%ymax=1,
+%yminorticks=true,
+%ylabel style={font=\color{white!15!black}},
+%axis line style={draw=none},
+%ticks=none,
+%axis x line*=bottom,
+%axis y line*=left
+%]
+%\end{axis}
+\end{tikzpicture}%

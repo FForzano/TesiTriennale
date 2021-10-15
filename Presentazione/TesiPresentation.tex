@@ -3,9 +3,33 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 
+\usepackage{bm}
+%\usepackage{math}
 \usepackage{physics}
 
+\usepackage{pgfplots}
+% and optionally (as of Pgfplots 1.3):
+\pgfplotsset{compat=newest}
+\pgfplotsset{plot coordinates/math parser=false}
+\newlength\figureheight
+\newlength\figurewidth
+\usepackage{environ}
+
 \newcommand{\Hilbert}{\mathcal{H}}
+\newcommand{\Vector}[1]{\bm{\MakeLowercase{#1}}}
+\newcommand{\Operator}[1]{\bm{\MakeUppercase{#1}}}
+%%%%%%%%%%
+\DeclareMathAlphabet{\mathsfbr}{OT1}{cmss}{m}{n}%for math sans serif (cmss)
+\SetMathAlphabet{\mathsfbr}{bold}{OT1}{cmss}{bx}{n}%for math sans serif (cmss)
+\DeclareRobustCommand{\msf}[1]{%
+  \ifcat\noexpand#1\relax\msfgreek{#1}\else\mathsfbr{#1}\fi%for math sans serif (cmss)
+}
+\DeclareFontEncoding{LGR}{}{} % or load \usepackage{textgreek}
+\DeclareSymbolFont{sfgreek}{LGR}{cmss}{m}{n}
+\SetSymbolFont{sfgreek}{bold}{LGR}{cmss}{bx}{n}
+\DeclareMathSymbol{\sXi}{\mathalpha}{sfgreek}{`X}
+\DeclareMathSymbol{\sUpsilon}{\mathalpha}{sfgreek}{`U}
+%%%%%%%%%%
 
 %\usetheme[titlepagelogo=Pictures/logo.png,
 %          language=english,
