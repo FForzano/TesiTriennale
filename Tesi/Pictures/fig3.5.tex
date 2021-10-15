@@ -13,9 +13,9 @@
 \begin{tikzpicture}
 
 \begin{axis}[%
-width=4.602in*0.7,
-height=3.617in*0.7,
-at={(0.772in,0.488in)},
+width=4.521in*0.75,
+height=3.566in*0.75,
+at={(0.758in,0.481in)},
 scale only axis,
 unbounded coords=jump,
 xmin=0,
@@ -27,11 +27,11 @@ ymin=1e-14,
 ymax=1,
 yminorticks=true,
 ylabel style={font=\color{white!15!black}},
-ylabel={$P_e$},
+ylabel={$\breve{P}_e$},
 axis background/.style={fill=white},
-axis x line*=bottom,
-axis y line*=left,
-legend style={at={(0,0)}, anchor=south west, legend cell align=left, align=left, draw=white!15!black}
+%axis x line*=bottom,
+%axis y line*=left,
+legend style={at={(0.01,0.01)}, anchor=south west, legend cell align=left, align=left, draw=white!15!black}
 ]
 \addplot [color=mycolor1, line width=1.0pt, mark=o, mark options={solid, mycolor1}, mark repeat={12}]
   table[row sep=crcr]{%
@@ -97,75 +97,9 @@ legend style={at={(0,0)}, anchor=south west, legend cell align=left, align=left,
 5.9	1.87610911872582e-06\\
 6	1.53602182534351e-06\\
 };
-\addlegendentry{r = 0}
+\addlegendentry{$r = 0$}
 
 \addplot [color=mycolor2, line width=1.0pt, mark=square, mark options={solid, mycolor2}, mark repeat={12}]
-  table[row sep=crcr]{%
-0	nan\\
-0.1	0.285384730399874\\
-0.2	0.210689427589639\\
-0.3	0.161777909175322\\
-0.4	0.126605591806441\\
-0.5	0.100209555121272\\
-0.6	0.0799110816214625\\
-0.7	0.0640579392955963\\
-0.8	0.0515456333045833\\
-0.9	0.0415956163871193\\
-1	0.0336388963703997\\
-1.1	0.0272500755834632\\
-1.2	0.0221034685358382\\
-1.3	0.0179476223469574\\
-1.4	0.0145850823056448\\
-1.5	0.0118603292716668\\
-1.6	0.00964964889410247\\
-1.7	0.00785436609664353\\
-1.8	0.00639528103065568\\
-1.9	0.00520869659653456\\
-2	0.00424318733661139\\
-2.1	0.00345728267523659\\
-2.2	0.0028173621733017\\
-2.3	0.00229616576838299\\
-2.4	0.00187156088565621\\
-2.5	0.00152560869850882\\
-2.6	0.0012436658424142\\
-2.7	0.00101389304306304\\
-2.8	0.000826603033357909\\
-2.9	0.000673935936456371\\
-3	0.00054947811307765\\
-3.1	0.000448014515359918\\
-3.2	0.000365294341859612\\
-3.3	0.000297851370744007\\
-3.4	0.000242863287014505\\
-3.5	0.000198028575768117\\
-3.6	0.000161473027965209\\
-3.7	0.000131666140895381\\
-3.8	0.000107361399509842\\
-3.9	8.75438435886666e-05\\
-4	7.13850170852015e-05\\
-4.1	5.82086286475825e-05\\
-4.2	4.74643647291328e-05\\
-4.3	3.87034684476983e-05\\
-4.4	3.15597642202015e-05\\
-4.5	2.57347559318166e-05\\
-4.6	2.09846265820657e-05\\
-4.7	1.71114586580146e-05\\
-4.8	1.39531648718494e-05\\
-4.9	1.13778034773748e-05\\
-5	9.27775123749086e-06\\
-5.1	7.56535751966769e-06\\
-5.2	6.16899561722839e-06\\
-5.3	5.03039927379767e-06\\
-5.4	4.10191566646567e-06\\
-5.5	3.34482333114172e-06\\
-5.6	2.72746895979559e-06\\
-5.7	2.22406304256628e-06\\
-5.8	1.81355586392762e-06\\
-5.9	1.47882610490591e-06\\
-6	1.20587801633043e-06\\
-};
-\addlegendentry{r = 0.01}
-
-\addplot [color=mycolor3, line width=1.0pt, mark=triangle, mark options={solid, mycolor3}, mark repeat={12}]
   table[row sep=crcr]{%
 0	nan\\
 0.1	0.289415146931883\\
@@ -229,9 +163,9 @@ legend style={at={(0,0)}, anchor=south west, legend cell align=left, align=left,
 5.9	1.44523230938276e-07\\
 6	1.13200048557083e-07\\
 };
-\addlegendentry{r = 0.1}
+\addlegendentry{$r = 0.1$}
 
-\addplot [color=mycolor4, line width=1.0pt, mark=diamond, mark options={solid, mycolor4}, mark repeat={12}]
+\addplot [color=mycolor3, line width=1.0pt, mark=triangle, mark options={solid, mycolor3}, mark repeat={12}]
   table[row sep=crcr]{%
 0	nan\\
 0.1	0.382834761043565\\
@@ -295,9 +229,9 @@ legend style={at={(0,0)}, anchor=south west, legend cell align=left, align=left,
 5.9	7.20903126083527e-09\\
 6	5.34931965390228e-09\\
 };
-\addlegendentry{r = 0.2}
+\addlegendentry{$r = 0.2$}
 
-\addplot [color=mycolor5, line width=1.0pt, mark=x, mark options={solid, mycolor5}, mark repeat={12}]
+\addplot [color=mycolor4, line width=1.0pt, mark=diamond, mark options={solid, mycolor4}, mark repeat={12}]
   table[row sep=crcr]{%
 0	nan\\
 0.1	nan\\
@@ -361,7 +295,7 @@ legend style={at={(0,0)}, anchor=south west, legend cell align=left, align=left,
 5.9	5.61217738948017e-14\\
 6	3.26405569239796e-14\\
 };
-\addlegendentry{r = 0.5}
+\addlegendentry{$r = 0.5$}
 
 \end{axis}
 \end{tikzpicture}%

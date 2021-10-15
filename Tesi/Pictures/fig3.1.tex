@@ -11,9 +11,9 @@
 %
 \begin{tikzpicture}
 \begin{axis}[%
-width=5.328in*0.65,
-height=4.219in*0.65,
-at={(0.894in,0.569in)},
+  width=4.521in*0.75,
+  height=3.566in*0.75,
+  at={(0.758in,0.481in)},
 scale only axis,
 unbounded coords=jump,
 xmin=0,
@@ -21,14 +21,14 @@ xmax=10,
 xlabel style={font=\color{white!15!black}},
 xlabel={$\bar{n}_p$},
 ymode=log,
-ymin=1e-12,
-ymax=1,
+ymin=1e-11,
+ymax=1e0,
 yminorticks=true,
 ylabel style={font=\color{white!15!black}},
-ylabel={$P_e$},
+ylabel={$\breve{P}_e$},
 axis background/.style={fill=white},
-axis x line*=bottom,
-axis y line*=left,
+%axis x line*=bottom,
+%axis y line*=left,
 legend style={legend cell align=left, align=left, draw=white!15!black}
 ]
 \addplot [color=mycolor1, line width=1.0pt, mark=o, mark options={solid, mycolor1}, mark repeat={4}]
@@ -55,7 +55,7 @@ legend style={legend cell align=left, align=left, draw=white!15!black}
 9.5	1.31382953405534e-08\\
 10	5.74554720467191e-09\\
 };
-\addlegendentry{k = 0}
+\addlegendentry{$k = 0$}
 
 \addplot [color=mycolor2, line width=1.0pt, mark=square, mark options={solid, mycolor2},mark repeat={4}]
   table[row sep=crcr]{%
@@ -81,7 +81,7 @@ legend style={legend cell align=left, align=left, draw=white!15!black}
 9.5	7.44933115193191e-10\\
 10	3.23308935179512e-10\\
 };
-\addlegendentry{k = 1}
+\addlegendentry{$k = 1$}
 
 \addplot [color=mycolor3, line width=1.0pt, mark=triangle, mark options={solid, mycolor3},mark repeat={4}]
   table[row sep=crcr]{%
@@ -107,7 +107,7 @@ legend style={legend cell align=left, align=left, draw=white!15!black}
 9.5	4.33071356553683e-11\\
 10	1.86188842121737e-11\\
 };
-\addlegendentry{k = 2}
+\addlegendentry{$k = 2$}
 
 \addplot [color=mycolor4, line width=1.0pt, mark=diamond, mark options={solid, mycolor4},mark repeat={4}]
   table[row sep=crcr]{%
@@ -133,23 +133,26 @@ legend style={legend cell align=left, align=left, draw=white!15!black}
 9.5	2.52742271555917e-12\\
 10	1.08146824828736e-12\\
 };
-\addlegendentry{k = 3}
+\addlegendentry{$k = 3$}
 
 \end{axis}
 
-\begin{axis}[%
-width=6.875in*0.65,
-height=5.177in*0.65,
-at={(0in,0in)},
-scale only axis,
-xmin=0,
-xmax=1,
-ymin=0,
-ymax=1,
-axis line style={draw=none},
-ticks=none,
-axis x line*=bottom,
-axis y line*=left
-]
-\end{axis}
+%\begin{axis}[%
+%width=6.875in*0.65,
+%height=5.177in*0.65,
+%at={(0in,0in)},
+%scale only axis,
+%xmin=0,
+%xmax=1,
+%xlabel style={font=\color{white!15!black}},
+%ymin=0,
+%ymax=1,
+%yminorticks=true,
+%ylabel style={font=\color{white!15!black}},
+%axis line style={draw=none},
+%ticks=none,
+%axis x line*=bottom,
+%axis y line*=left
+%]
+%\end{axis}
 \end{tikzpicture}%

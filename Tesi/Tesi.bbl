@@ -82,12 +82,13 @@ E.~Wigner, ``On the quantum correction for thermodynamic equilibrium,''
 
 \bibitem{Gaussian1}
 S.~L. Braunstein and P.~van Loock, ``Quantum information with continuous
-  variables,'' \emph{Reviews of Modern Physics}, vol.~77, no.~2, p. 513–577,
-  Jun 2005.
+  variables,'' \emph{Rev. Mod. Phys.}, vol.~77, no.~2, p. 513–577, Jun 2005.
 
 \bibitem{Gaussian2}
-A.~Ferraro, S.~Olivares, and M.~Paris, \emph{Gaussian states in continuous
-  variable quantum information}, 05 2005.
+A.~Ferraro, S.~Olivares, and M.~Paris,
+  \emph{\BIBforeignlanguage{English}{Gaussian states in continuous variable
+  quantum information}}, ser. Napoli Series on physics and Astrophysics.\hskip
+  1em plus 0.5em minus 0.4em\relax Bibliopolis, 2005.
 
 \bibitem{Gaussian4}
 G.~Adesso, S.~Ragy, and A.~R. Lee, ``Continuous variable quantum information:
@@ -103,13 +104,12 @@ R.~J. Glauber, ``The quantum theory of optical coherence,'' \emph{Phys. Rev.},
   vol. 130, pp. 2529--2539, Jun 1963.
 
 \bibitem{CohSt_Glauber2}
-------, ``Coherent and incoherent states of the radiation field,''
-  \emph{Physical Review (U.S.) Superseded in part by Phys. Rev. A, Phys. Rev.
-  B: Solid State, Phys. Rev. C, and Phys. Rev. D}, vol. 131, 9 1963.
+------, ``Coherent and incoherent states of the radiation field,'' \emph{Phys.
+  Rev.}, vol. 131, 9 1963.
 
 \bibitem{QuantumNoise}
-C.~W. Gardiner and P.~Zoller, \emph{Quantum Noise}, 2nd~ed., H.~Haken,
-  Ed.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2000.
+C.~W. Gardiner and P.~Zoller, \emph{Quantum Noise}, 2nd~ed.\hskip 1em plus
+  0.5em minus 0.4em\relax Springer, 2000.
 
 \bibitem{Dowling}
 J.~Dowling, \emph{Schrodinger's Killer App: Race to Build the World's First
@@ -139,13 +139,13 @@ C.~W. {Helstrom}, ``{Fundamental limitations on the detectability of
 
 \bibitem{coherentComm1}
 R.~{Yoshitani}, ``{On the detectabillity limit of coherent optical signals in
-  thermal radiation},'' \emph{Journal of Statistical Physics}, vol.~2, no.~4,
-  pp. 347--378, Dec. 1970.
+  thermal radiation},'' \emph{J. Stat. Phys.}, vol.~2, no.~4, pp. 347--378,
+  Dec. 1970.
 
 \bibitem{coherentComm2}
 M.~Takeoka and M.~Sasaki, ``Discrimination of the binary coherent signal:
   Gaussian-operation limit and simple non-gaussian near-optimal receivers,''
-  \emph{Physical Review A}, vol.~78, no.~2, Aug 2008.
+  \emph{Phys. Rev. A}, vol.~78, no.~2, Aug 2008.
 
 \bibitem{coherentComm3}
 N.~Dalla~Pozza and G.~Pierobon, ``Optimality of square-root measurements in

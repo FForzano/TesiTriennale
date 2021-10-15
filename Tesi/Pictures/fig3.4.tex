@@ -13,9 +13,9 @@
 \begin{tikzpicture}
 
 \begin{axis}[%
-width=6.483in*0.7,
-height=3.829in*0.7,
-at={(1.087in,0.517in)},
+width=6.038in*0.75,
+height=3.566in*0.75,
+at={(0.758in,0.481in)},
 scale only axis,
 unbounded coords=jump,
 xmin=0,
@@ -27,11 +27,11 @@ ymin=1e-15,
 ymax=1,
 yminorticks=true,
 ylabel style={font=\color{white!15!black}},
-ylabel={$P_e$},
+ylabel={$\breve{P}_e$},
 axis background/.style={fill=white},
-axis x line*=bottom,
-axis y line*=left,
-legend style={at={(0,0)}, anchor=south west, legend cell align=left, align=left, draw=white!15!black}
+%axis x line*=bottom,
+%axis y line*=left,
+legend style={at={(0.01,0.01)}, anchor=south west, legend cell align=left, align=left, draw=white!15!black}
 ]
 \addplot [color=mycolor1, dashed, line width=1.0pt, mark=o, mark options={solid, mycolor1}, mark repeat={4}]
   table[row sep=crcr]{%
@@ -57,7 +57,7 @@ legend style={at={(0,0)}, anchor=south west, legend cell align=left, align=left,
 9.5	1.27148974682356e-08\\
 10	5.4664553994499e-09\\
 };
-\addlegendentry{OOK: k = 0}
+\addlegendentry{OOK: $k = 0$}
 
 \addplot [color=mycolor2, line width=1.0pt, mark=o, mark options={solid, mycolor2}, mark repeat={4}]
   table[row sep=crcr]{%
@@ -83,7 +83,7 @@ legend style={at={(0,0)}, anchor=south west, legend cell align=left, align=left,
 9.5	1.60982338570648e-15\\
 10	0\\
 };
-\addlegendentry{BPSK: k = 0}
+\addlegendentry{BPSK: $k = 0$}
 
 \addplot [color=mycolor3, dashed, line width=1.0pt, mark=square, mark options={solid, mycolor3}, mark repeat={4}]
   table[row sep=crcr]{%
@@ -109,7 +109,7 @@ legend style={at={(0,0)}, anchor=south west, legend cell align=left, align=left,
 9.5	7.15629389080874e-10\\
 10	3.05683645063226e-10\\
 };
-\addlegendentry{OOK: k = 1}
+\addlegendentry{OOK: $k = 1$}
 
 \addplot [color=mycolor3, line width=1.0pt, mark=square, mark options={solid, mycolor3}, mark repeat={4}]
   table[row sep=crcr]{%
@@ -135,7 +135,7 @@ legend style={at={(0,0)}, anchor=south west, legend cell align=left, align=left,
 9.5	3.92685883809918e-13\\
 10	7.91033905045424e-14\\
 };
-\addlegendentry{BPSK: k = 1}
+\addlegendentry{BPSK: $k = 1$}
 
 \addplot [color=mycolor4, dashed, line width=1.0pt, mark=triangle, mark options={solid, mycolor4}, mark repeat={4}]
   table[row sep=crcr]{%
@@ -161,7 +161,7 @@ legend style={at={(0,0)}, anchor=south west, legend cell align=left, align=left,
 9.5	4.14942524784578e-11\\
 10	1.76007541874412e-11\\
 };
-\addlegendentry{OOK: k = 2}
+\addlegendentry{OOK: $k = 2$}
 
 \addplot [color=mycolor4, line width=1.0pt, mark=triangle, mark options={solid, mycolor4}, mark repeat={4}]
   table[row sep=crcr]{%
@@ -187,7 +187,7 @@ legend style={at={(0,0)}, anchor=south west, legend cell align=left, align=left,
 9.5	2.88774559820126e-12\\
 10	8.2261975009601e-13\\
 };
-\addlegendentry{BPSK: k = 2}
+\addlegendentry{BPSK: $k = 2$}
 
 \addplot [color=mycolor5, dashed, line width=1.0pt, mark=diamond, mark options={solid, mycolor5}, mark repeat={4}]
   table[row sep=crcr]{%
@@ -213,7 +213,7 @@ legend style={at={(0,0)}, anchor=south west, legend cell align=left, align=left,
 9.5	2.41978659332176e-12\\
 10	1.02018393732806e-12\\
 };
-\addlegendentry{OOK: k = 3}
+\addlegendentry{OOK: $k = 3$}
 
 \addplot [color=mycolor5, line width=1.0pt, mark=diamond, mark options={solid, mycolor5}, mark repeat={4}]
   table[row sep=crcr]{%
@@ -239,23 +239,23 @@ legend style={at={(0,0)}, anchor=south west, legend cell align=left, align=left,
 9.5	6.03608274474254e-11\\
 10	1.43704492749919e-11\\
 };
-\addlegendentry{BPSK: k = 3}
+\addlegendentry{BPSK: $k = 3$}
 
 \end{axis}
 
-\begin{axis}[%
-width=8.365in*0.7,
-height=4.698in*0.7,
-at={(0in,0in)},
-scale only axis,
-xmin=0,
-xmax=1,
-ymin=0,
-ymax=1,
-axis line style={draw=none},
-ticks=none,
-axis x line*=bottom,
-axis y line*=left
-]
-\end{axis}
+%\begin{axis}[%
+%width=8.365in*0.7,
+%height=4.698in*0.7,
+%at={(0in,0in)},
+%scale only axis,
+%xmin=0,
+%xmax=1,
+%ymin=0,
+%ymax=1,
+%axis line style={draw=none},
+%ticks=none,
+%axis x line*=bottom,
+%axis y line*=left
+%]
+%\end{axis}
 \end{tikzpicture}%

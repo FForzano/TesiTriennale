@@ -7,12 +7,12 @@
     The use of PACS in an OOK system can significantly improve the performance. The MDEP, with
     thermal noise, is given by the Helstrom bound \ref{eq:HelstromBound}, where, for an OOK PACS
     system,
-    \begin{equation}
-        \Operator{\varXi}_0 =  \Operator{\varXi}_{\mathrm{th}}^{(0)}(0)
-    \end{equation}
-    \begin{equation*}
-        \Operator{\varXi}_1 =  \Operator{\varXi}_{\mathrm{th}}^{(k)}(\mu).
-    \end{equation*}
+    \begin{subequations}
+        \begin{align}
+        \Operator{\varXi}_0 &=  \Operator{\varXi}_{\mathrm{th}}^{(0)}(0)\\
+        \Operator{\varXi}_1 &=  \Operator{\varXi}_{\mathrm{th}}^{(k)}(\mu).
+        \end{align}
+    \end{subequations}
     It is useful, in order to evaluate the performance of the system, to introduce the mean number
     of photon $n_p$ in a quantum state $\Operator{\varXi}$, which is given by:
     \begin{equation}
@@ -46,12 +46,12 @@
     \ref{fig:3.1}. The parameter $\bar{n}_p$ represents the mean number of photons in the system and it is 
     defined as
     \begin{equation*}
-        \bar{n}_p=\frac{1}{2} \left(n_{p0}+n_{p1}\right)
+        \bar{n}_p=\frac{1}{2} \left(n_{p_0}+n_{p_1}\right)
     \end{equation*}
-    where $n_{pi}$ is the mean number of photons in the state $\Operator{\varXi}_i$.
+    where $n_{p_i}$ is the mean number of photons in the state $\Operator{\varXi}_i$.
     The parameter $\bar{n}_p$ is equal to $n_p/2$ for OOK systems and to the average of the $n_p$ for 
     each state for the BPSK system.
-    In the y-axes there are the MDEP ($P_e$). The plot was obtained for equiprobable symbols and 
+    In the y-axes there are the MDEP ($\breve{P}_e$). The plot was obtained for equiprobable symbols and 
     mean number of thermal photons $\bar{n}=10^{-2}$.  
     The argument of the trace norm $\norm{\cdot}_1$ in the Helstrom bound 
     \ref{eq:HelstromBound}, is an operator in an infinite dimensional Hilbert space; for the 
@@ -130,10 +130,12 @@
     plot show the general trend of the MDEP.
 
     \begin{figure}[t]
-        %\includegraphics[width=1\textwidth]{fig3.4.eps}
-        \input{Pictures/fig3.4.tex}
-        \caption{BPSK and OOK comparison in terms of MDEP as function of $\bar{n}_p$. \\$N=45$, $\bar{n}=10^{-2}$, $p_0=p_1=1/2$}
-        \label{fig:3.4}
+        \begin{center}
+            %\includegraphics[width=1\textwidth]{fig3.4.eps}
+            \input{Pictures/fig3.4.tex}
+            \caption{BPSK and OOK comparison in terms of MDEP as function of $\bar{n}_p$ with $N=45$, $\bar{n}=10^{-2}$, $p_0=p_1=1/2$}
+            \label{fig:3.4}
+        \end{center}
     \end{figure}
     
     The figure \ref{fig:3.4} show a comparison between a QBPSK system and a QOOK system in terms of 

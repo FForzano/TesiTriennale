@@ -6,11 +6,9 @@
 %
 \definecolor{mycolor1}{rgb}{0.00000,0.44706,0.74118}%
 \definecolor{mycolor2}{rgb}{0.85098,0.32549,0.09804}%
-\definecolor{mycolor3}{rgb}{0.85098,0.32941,0.10196}%
-\definecolor{mycolor4}{rgb}{0.92941,0.69020,0.12941}%
-\definecolor{mycolor5}{rgb}{0.49412,0.18431,0.55686}%
-\definecolor{mycolor6}{rgb}{0.49020,0.18039,0.56078}%
-\definecolor{mycolor7}{rgb}{0.46667,0.67451,0.18824}%
+\definecolor{mycolor3}{rgb}{0.92941,0.69020,0.12941}%
+\definecolor{mycolor4}{rgb}{0.49020,0.18039,0.56078}%
+\definecolor{mycolor5}{rgb}{0.46667,0.67451,0.18824}%
 %
 \begin{tikzpicture}
 
@@ -28,11 +26,11 @@ ymin=1e-07,
 ymax=1,
 yminorticks=true,
 ylabel style={font=\color{white!15!black}},
-ylabel={$P_e$},
+ylabel={$\breve{P}_e$},
 axis background/.style={fill=white},
-axis x line*=bottom,
-axis y line*=left,
-legend style={at={(1.01,0.2)}, anchor=south west, legend cell align=left, align=left, draw=white!15!black}
+%axis x line*=bottom,
+%axis y line*=left,
+legend style={at={(0.01,0.01)}, anchor=south west, legend cell align=left, align=left, draw=white!15!black, legend columns=2}
 ]
 \addplot [color=mycolor1, dashed, line width=1.0pt, mark=o, mark options={solid, mycolor1}, mark repeat={4}]
   table[row sep=crcr]{%
@@ -66,7 +64,7 @@ legend style={at={(1.01,0.2)}, anchor=south west, legend cell align=left, align=
 3.65000000000051	0.000296878649024612\\
 3.92500000000051	0.000182524960914532\\
 };
-\addlegendentry{r = 0 \& k = 0}
+\addlegendentry{$r = 0$, $k = 0$}
 
 \addplot [color=mycolor1, line width=1.0pt, mark=o, mark options={solid, mycolor1}, mark repeat={4}]
   table[row sep=crcr]{%
@@ -96,73 +94,9 @@ legend style={at={(1.01,0.2)}, anchor=south west, legend cell align=left, align=
 3.57903882606496	2.36261622261202e-05\\
 3.81965939805169	1.51315705133603e-05\\
 };
-\addlegendentry{r = 0 \& k = 1}
+\addlegendentry{$r = 0$, $k = 1$}
 
 \addplot [color=mycolor2, dashed, line width=1.0pt, mark=square, mark options={solid, mycolor2}, mark repeat={4}]
-  table[row sep=crcr]{%
-%0.0101020034000452	0.496440221166252\\
-0.0100510017000226	0.450685266879101\\
-0.0250510017000227	0.402323848857672\\
-0.0500510017000227	0.355323831951221\\
-0.0850510017000227	0.310342569240449\\
-0.130051001700023	0.267937053924156\\
-0.185051001700023	0.228561577996887\\
-0.250051001700023	0.192555962356324\\
-0.325051001700022	0.160139898037218\\
-0.410051001700022	0.131413390802683\\
-0.505051001700022	0.106363150238377\\
-0.610051001700022	0.084874304451924\\
-0.725051001700022	0.0667463796210962\\
-0.850051001700022	0.0517121945793499\\
-0.985051001700022	0.0394581777272386\\
-1.13005100170002	0.0296446106224665\\
-1.28505100170002	0.0219244325201435\\
-1.45005100170002	0.0159594874610171\\
-1.62505100170002	0.0114334328178015\\
-1.81005100170002	0.00806091588240215\\
-2.00505100170002	0.00559301485214148\\
-2.21005100170002	0.00381928293290495\\
-2.42505100170002	0.00256698805700845\\
-2.65005100170002	0.0016982819014697\\
-2.88505100170002	0.00110605829688115\\
-3.13005100170002	0.00070919103279321\\
-3.38505100170003	0.000447706522481883\\
-3.65005100170002	0.000278284092734504\\
-3.92505100170002	0.000170317624234251\\
-};
-\addlegendentry{r = 0.01 \& k = 0}
-
-\addplot [color=mycolor3, line width=1.0pt, mark=square, mark options={solid, mycolor2}, mark repeat={4}]
-  table[row sep=crcr]{%
-%1.0203070200328	0.00495049504950934\\
-0.520003993727059	0.00495049504785372\\
-0.549001157710359	0.00495038332939279\\
-0.595633295725975	0.0049392571443127\\
-0.657812406575135	0.00482687502920459\\
-0.733319931015453	0.0045631231538617\\
-0.820163956671601	0.00416202053329034\\
-0.916776798855965	0.00365102850298482\\
-1.02206361072068	0.00308652722310032\\
-1.13535382816234	0.002527430960577\\
-1.25630958280929	0.00201533049463498\\
-1.38482876156695	0.00157141039702463\\
-1.52096193052793	0.00120164880320228\\
-1.66484921648061	0.000902903844066383\\
-1.81667619389296	0.000667431624103765\\
-1.97664507461977	0.000485731323126737\\
-2.14495708856206	0.000348179400141146\\
-2.32180252953073	0.000245890780959823\\
-2.50735578881924	0.000171112861362621\\
-2.70177348530881	0.00011734628488913\\
-2.90519442114697	7.93115435048231e-05\\
-3.11774054123651	5.28340238664105e-05\\
-3.33951838323524	3.46919847475369e-05\\
-3.57062070885033	2.24547493862248e-05\\
-3.81112813837093	1.43275426212064e-05\\
-};
-\addlegendentry{r = 0.01 \& k = 1}
-
-\addplot [color=mycolor4, dashed, line width=1.0pt, mark=triangle, mark options={solid, mycolor4}, mark repeat={4}]
   table[row sep=crcr]{%
 %0.0202340453657284	0.464473627654879\\
 0.0151170226828645	0.437604627349995\\
@@ -194,9 +128,9 @@ legend style={at={(1.01,0.2)}, anchor=south west, legend cell align=left, align=
 3.65511702268287	0.000154957633989594\\
 3.93011702268287	9.10290546821124e-05\\
 };
-\addlegendentry{r = 0.1 \& k = 0}
+\addlegendentry{$r = 0.1$, $k = 0$}
 
-\addplot [color=mycolor4, line width=1.0pt, mark=triangle, mark options={solid, mycolor4}, mark repeat={4}]
+\addplot [color=mycolor2, line width=1.0pt, mark=square, mark options={solid, mycolor2}, mark repeat={4}]
   table[row sep=crcr]{%
 %1.05080244685835	0.00494855515487186\\
 0.534305855441027	0.00493956193944328\\
@@ -225,9 +159,9 @@ legend style={at={(1.01,0.2)}, anchor=south west, legend cell align=left, align=
 3.74713964255157	8.68275836485299e-06\\
 3.99621925419453	5.27284023565944e-06\\
 };
-\addlegendentry{r = 0.1 \& k = 1}
+\addlegendentry{$r = 0.1$, $k = 1$}
 
-\addplot [color=mycolor5, dashed, line width=1.0pt, mark=diamond, mark options={solid, mycolor5}, mark repeat={4}]
+\addplot [color=mycolor3, dashed, line width=1.0pt, mark=triangle, mark options={solid, mycolor3}, mark repeat={4}]
   table[row sep=crcr]{%
 %0.051346909637612	0.429393647208632\\
 0.0306734548188061	0.411688903318411\\
@@ -259,9 +193,9 @@ legend style={at={(1.01,0.2)}, anchor=south west, legend cell align=left, align=
 3.67067345481881	8.07790992743973e-05\\
 3.94567345481881	4.53451833415941e-05\\
 };
-\addlegendentry{r = 0.2 \& k = 0}
+\addlegendentry{$r = 0.2$, $k = 0$}
 
-\addplot [color=mycolor6, line width=1.0pt, mark=diamond, mark options={solid, mycolor5}, mark repeat={4}]
+\addplot [color=mycolor3, line width=1.0pt, mark=triangle, mark options={solid, mycolor3}, mark repeat={4}]
   table[row sep=crcr]{%
 %1.14443400452204	0.00479106599394818\\
 0.579999501304023	0.00475077465542328\\
@@ -290,9 +224,9 @@ legend style={at={(1.01,0.2)}, anchor=south west, legend cell align=left, align=
 3.70195341365423	4.90393868035621e-06\\
 3.9500125478046	2.86426889811731e-06\\
 };
-\addlegendentry{r = 0.2 \& k = 1}
+\addlegendentry{$r = 0.2$, $k = 1$}
 
-\addplot [color=mycolor7, dashed, line width=1.0pt, mark=x, mark options={solid, mycolor7}, mark repeat={4}]
+\addplot [color=mycolor4, dashed, line width=1.0pt, mark=diamond, mark options={solid, mycolor4}, mark repeat={4}]
   table[row sep=crcr]{%
 %0.286971123755774	0.330768077356153\\
 0.148485561877887	0.321870897864741\\
@@ -323,9 +257,9 @@ legend style={at={(1.01,0.2)}, anchor=south west, legend cell align=left, align=
 3.52348556187783	2.45938563666614e-05\\
 3.78848556187779	1.24073309797912e-05\\
 };
-\addlegendentry{r = 0.5 \& k = 0}
+\addlegendentry{$r = 0.5$, $k = 0$}
 
-\addplot [color=mycolor7, line width=1.0pt, mark=x, mark options={solid, mycolor7}, mark repeat={4}]
+\addplot [color=mycolor4, line width=1.0pt, mark=diamond, mark options={solid, mycolor4}, mark repeat={4}]
   table[row sep=crcr]{%
 %1.85306548733767	0.00353641115520514\\
 0.930796962701587	0.00348196426464287\\
@@ -354,23 +288,6 @@ legend style={at={(1.01,0.2)}, anchor=south west, legend cell align=left, align=
 3.7285319812022	8.66931754384126e-07\\
 3.97239894341011	4.5286496330732e-07\\
 };
-\addlegendentry{r = 0.5 \& k = 1}
-
-\end{axis}
-
-\begin{axis}[%
-width=5.833in*0.75,
-height=4.375in*0.75,
-at={(0in,0in)},
-scale only axis,
-xmin=0,
-xmax=1,
-ymin=0,
-ymax=1,
-axis line style={draw=none},
-ticks=none,
-axis x line*=bottom,
-axis y line*=left
-]
+\addlegendentry{$r = 0.5$, $k = 1$}
 \end{axis}
 \end{tikzpicture}%
