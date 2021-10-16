@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.22)  16 OCT 2021 00:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.22)  16 OCT 2021 17:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1370,7 +1370,7 @@ Chapter 3.
 
 pdfTeX warning: pdflatex (file ./Pictures/fig3.0.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<./Pictures/fig3.0.pdf, id=450, 560.90547pt x 59.09726pt>
+<./Pictures/fig3.0.pdf, id=451, 560.90547pt x 59.09726pt>
 File: ./Pictures/fig3.0.pdf Graphic file (type pdf)
 <use ./Pictures/fig3.0.pdf>
 Package pdftex.def Info: ./Pictures/fig3.0.pdf  used on input line 4.
@@ -1380,7 +1380,7 @@ Package pdftex.def Info: ./Pictures/fig3.0.pdf  used on input line 4.
 
 pdfTeX warning: pdflatex (file ./Pictures/fig2.1.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<./Pictures/fig2.1.pdf, id=529, 317.06018pt x 228.57828pt>
+<./Pictures/fig2.1.pdf, id=530, 317.06018pt x 228.57828pt>
 File: ./Pictures/fig2.1.pdf Graphic file (type pdf)
 <use ./Pictures/fig2.1.pdf>
 Package pdftex.def Info: ./Pictures/fig2.1.pdf  used on input line 56.
@@ -1460,13 +1460,13 @@ Chapter 5.
 ** the default language instead.
 [27]) [28] (./Tesi.aux)
 Package rerunfilecheck Info: File `Tesi.out' has not changed.
-(rerunfilecheck)             Checksum: C6F1500F0CFC2A69A02BF6B1B3F87EEF;5593.
+(rerunfilecheck)             Checksum: ABA3DA846B6CB4240E5941654DEFC929;5590.
  ) 
 Here is how much of TeX's memory you used:
- 38798 strings out of 479014
- 860457 string characters out of 5859133
- 3396424 words of memory out of 5000000
- 55356 multiletter control sequences out of 15000+600000
+ 38799 strings out of 479014
+ 860467 string characters out of 5859133
+ 3397546 words of memory out of 5000000
+ 55357 multiletter control sequences out of 15000+600000
  430293 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,23n,107p,8930b,9502s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1503,10 +1503,10 @@ xmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2020/texm
 f-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2020/texmf-
 dist/fonts/type1/public/cm-super/sfsl1000.pfb></usr/local/texlive/2020/texmf-di
 st/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on Tesi.pdf (36 pages, 829248 bytes).
+Output written on Tesi.pdf (36 pages, 829614 bytes).
 PDF statistics:
- 875 PDF objects out of 1000 (max. 8388607)
- 769 compressed objects within 8 object streams
+ 877 PDF objects out of 1000 (max. 8388607)
+ 771 compressed objects within 8 object streams
  229 named destinations out of 1000 (max. 500000)
  292 words of extra memory for PDF output out of 10000 (max. 10000000)
 

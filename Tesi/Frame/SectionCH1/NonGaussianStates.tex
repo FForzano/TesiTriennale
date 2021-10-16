@@ -1,12 +1,12 @@
 \section{Non-Gaussian States} 
     A state that does not fulfill the definition \ref{def:Gaussian} is a non-Gaussian state.
-    An important and useful for communications class of non-Gaussian states, are the photon 
-    added states, examined in this thesis. Lastly will be mentioned another type of non-Gaussian
-    state: the photon subtracted state.
+    An important and useful for communications class of non-Gaussian states, are the photon-added 
+    states, examined in this thesis. Lastly will be mentioned another type of non-Gaussian
+    state: the photon-subtracted state.
     
-    \subsection{Photon added states}
+    \subsection{Photon-added states}
         \label{PAS}
-        The photon added state $\Operator{\varXi}^{(1)}$, obtained from the quantum state $\Operator{\varXi}$,
+        The photon-added state $\Operator{\varXi}^{(1)}$, obtained from the quantum state $\Operator{\varXi}$,
         is given by:
         \begin{equation}
             \Operator{\varXi}^{(1)}=\frac{\Operator{A}^\dagger\Operator{\varXi}\Operator{A}}
@@ -24,6 +24,7 @@
         \begin{equation}
             \Operator{\varXi}^{(k)}=\frac{(\Operator{A}^\dagger)^k\Operator{\varXi}\Operator{A}^k}
             {\tr{(\Operator{A}^\dagger)^k\Operator{\varXi}\Operator{A}^k}}.
+            \label{eq:PAS_k}
         \end{equation}
         The Fock representation of a photon added state, can be obteined as:
         \begin{equation}
@@ -95,7 +96,7 @@
         where
         \begin{equation*}
             c_{n,m}^{(k)}=\frac{(1-v)^{k+1}e^{-(1-v)\absolutevalue{\mu}^2}}{v^k}
-            \sqrt{n!}{m!}\binom{m}{k} v^n \left[\left(1-v\right)\mu^*\right]^{m-n}
+            \sqrt{\frac{n!}{m!}}\binom{m}{k} v^n \left[\left(1-v\right)\mu^*\right]^{m-n}
             \frac{L^{m-n}_{n-k} \left( \frac{-(1-v)\absolutevalue{\mu}^2}{v} \right)}
             {L_k \left( -\absolutevalue{\mu}^2 (1-v) \right)}.
         \end{equation*}
@@ -109,11 +110,13 @@
         
         \paragraph{Photon added squeezed states}\mbox{}\\
         \label{PASSs}
-        Let $\Operator{\varXi}$ be a squeezed state of amplitude $\mu$ and squeezing parameter $\zeta$,
+        Let $\Operator{\varXi}(\mu,\zeta)$ be a squeezed state of amplitude $\mu$ and squeezing parameter $\zeta$,
         with $\mu,\zeta \in \mathbb{C}$:
         \begin{equation*}
-            \Operator{\varXi}=\ket*{\mu,\zeta}\bra*{\mu,\zeta}.
+            \Operator{\varXi}(\mu,\zeta)=\ket*{\mu,\zeta}\bra*{\mu,\zeta}.
         \end{equation*}
+        The correspondent photon-added state is called photon-added squeezed state $\Operator{\varXi}^{(k)}(\mu,\zeta)$ and it is obtained 
+        using the equation \ref{eq:PAS_k} with $\Operator{\varXi}=\Operator{\varXi}(\mu,\zeta)$.
         The Wigner W-function of this state is given by
         \begin{equation}
             W_+^{(k)}(\alpha) = B_+^{(k)}(\alpha) W_s(\alpha),
@@ -122,6 +125,7 @@
         \ref{eq:WignerSS}, and $B_+^{(k)}(\alpha)$ is 
         given in \ref{eq:B_plus}.
         The Wigner function of the PASS, as that of PACS, is not Gaussian.
+        The Fock representation of this state can be obtained using the equation \ref{eq:FR_photonAdded}.
 
         if $\Operator{\varXi}$ is a noisy squeezed state with amplitude $\mu$ and squeezing factor 
         $\zeta$ $(\Operator{\varXi}=\Operator{\varXi}_{\mathrm{th}}(\mu,\zeta))$, the photon added state 

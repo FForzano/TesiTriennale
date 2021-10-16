@@ -16,7 +16,7 @@
 \contentsline {subsection}{\numberline {2.3.2}Squeezed state}{8}{subsection.2.3.2}%
 \contentsline {paragraph}{Noisy squeezed states}{8}{section*.6}%
 \contentsline {section}{\numberline {2.4}Non-Gaussian States}{9}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Photon added states}{9}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.1}Photon-added states}{9}{subsection.2.4.1}%
 \contentsline {paragraph}{Photon added coherent states}{9}{section*.7}%
 \contentsline {paragraph}{Photon added squeezed states}{10}{section*.9}%
 \contentsline {subsection}{\numberline {2.4.2}Photon subtracted states}{11}{subsection.2.4.2}%
