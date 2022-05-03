@@ -22,4 +22,4 @@ highlights how the use of PACSs and PASSs improves the performance.
 You can find the pdf of the Thesis in the parents directory of this repository with the name "Thesis.pdf".
 
 You can find more information about me in my Linkedin account:
-[Linkedin](https://www.linkedin.com/in/federico-forzano-8b24b8239/)
+[Federico Forzano](https://www.linkedin.com/in/federico-forzano-8b24b8239/)
