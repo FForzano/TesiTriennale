@@ -1,6 +1,8 @@
 ./Materiale/**
 ./ProntoInvio/**
+./Presentazione
 ./Presentazione/**
+./Presentazione/*
 ./Thesis/*.txt
 ./Thesis/*.aux
 ./Thesis/*.bbl
@@ -13,4 +15,6 @@
 ./Thesis/*.xml
 ./Thesis/*.thm
 ./Thesis/*.toc
+./Thesis/Scarti
 ./Thesis/Scarti/**
+./Thesis/Scarti/*
