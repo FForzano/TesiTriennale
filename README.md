@@ -1,8 +1,8 @@
 # Bechelor's Degree Thesis
-*Title*:            "On the design of quantum communication systems with non-Gaussian states"
-*Candidate*:        Federico Forzano
-*Supervisor*:       prof. Andrea Conti
-*Co-Supervisor*:    Ing. Stefano Guerrini
+*Title*:            "On the design of quantum communication systems with non-Gaussian states"<br />
+*Candidate*:        Federico Forzano<br />
+*Supervisor*:       prof. Andrea Conti<br />
+*Co-Supervisor*:    Ing. Stefano Guerrini<br />
 
 ## Abstract
 Quantum information science is opening doors to new technologies for the elaboration and
@@ -19,7 +19,7 @@ and binary phase-shifting keying modulation in presence of the thermal noise. Th
 highlights how the use of PACSs and PASSs improves the performance.
 
 ## Where can I find the thesis?
-You can find the pdf of the Thesis in the parents directory of this repository with the name "Thesis.pdf".
+You can find the pdf of the Thesis in the parents directory of this repository with the name "Thesis.pdf".<br />
 
-You can find more information about me in my Linkedin account:
+You can find more information about me in my Linkedin account:<br />
 [Federico Forzano](https://www.linkedin.com/in/federico-forzano-8b24b8239/)
